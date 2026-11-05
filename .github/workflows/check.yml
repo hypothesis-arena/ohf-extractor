@@ -19,22 +19,27 @@ jobs:
           python-version: '3.12'
       - name: Check tracked source language
         run: python tools/check_language.py
-      # Two checkouts, because the kit has to work against both: accepted cards declare
-      # standard_version 1.0, and the release the kit's own rules now depend on is 1.1.4, which is
-      # where `LicenseRef-CC-BY-version-not-stated` is defined. A field added in 1.1 is not demanded
-      # of a 1.0 card - the kit reads `since` from the standard's own field catalogue - and the tests
-      # run against each checkout to keep that honest rather than assumed.
-      #
-      # Not 1.2.0, although it is the current release: the kit has not moved to 1.2, and against a
-      # 1.2 checkout the end-to-end emission test refuses the card it builds (`profile.domain` is a
-      # string at 1.1 and an array at 1.2). Pinning 1.2 here would make that pending work look like a
-      # broken build; it belongs to the form that moves the kit to 1.2, and this file changes with it.
+      # Run the complete suite against all three supported primary checkouts.
       - name: The OHF standard the cards are written for
         run: |
           git clone --depth 1 --branch v1.0.1 \
-            https://github.com/ImmortalAgentAI/open-hypothesis-format.git standard
+            https://github.com/hypothesis-arena/open-hypothesis-format.git standard
           git clone --depth 1 --branch v1.1.4 \
-            https://github.com/ImmortalAgentAI/open-hypothesis-format.git standard-1.1.4
+            https://github.com/hypothesis-arena/open-hypothesis-format.git standard-1.1.4
+          test "$(git -C standard rev-parse HEAD)" = e3cd86c0386ce618187a786ecc78293332d5f462
+          test "$(git -C standard-1.1.4 rev-parse HEAD)" = fc554f691d6cf0092182bb306c769c5e217f6165
+      - name: Check out the active primary OHF 1.4 source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: hypothesis-arena/open-hypothesis-format
+          ref: bf1f582f977c2ac65e5537ebd9f1b1b19ae328d3
+          path: standard-primary-1.4
+          persist-credentials: false
+      - name: Verify the active primary source before running tests
+        run: |
+          test "$(git -C standard-primary-1.4 rev-parse HEAD)" = bf1f582f977c2ac65e5537ebd9f1b1b19ae328d3
+          test "$(git -C standard-primary-1.4 rev-parse HEAD^{tree})" = bac900f8df5c38a3ddd7efe118fce59ee0fd7931
+          git -C standard-primary-1.4 diff --exit-code
       - name: Install
         run: |
           python -m venv .venv
@@ -42,10 +47,17 @@ jobs:
       - name: Tests against the version the cards declare
         env:
           OHF_REPO: ${{ github.workspace }}/standard
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: '1'
         run: .venv/bin/python -m pytest -q scripts/tests
       - name: Tests against the release the kit's rules depend on
         env:
           OHF_REPO: ${{ github.workspace }}/standard-1.1.4
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: '1'
+        run: .venv/bin/python -m pytest -q scripts/tests
+      - name: Full tests against the active OHF 1.4 primary
+        env:
+          OHF_REPO: ${{ github.workspace }}/standard-primary-1.4
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: '1'
         run: .venv/bin/python -m pytest -q scripts/tests
       - name: The rules hash this tree produces
         env:

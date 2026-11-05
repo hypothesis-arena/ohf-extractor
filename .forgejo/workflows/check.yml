@@ -24,9 +24,9 @@ jobs:
       - name: Check out both supported OHF standards
         run: |
           git clone --depth 1 --branch v1.0.1 \
-            https://github.com/ImmortalAgentAI/open-hypothesis-format.git standard
+            https://github.com/hypothesis-arena/open-hypothesis-format.git standard
           git clone --depth 1 --branch v1.1.4 \
-            https://github.com/ImmortalAgentAI/open-hypothesis-format.git standard-1.1.4
+            https://github.com/hypothesis-arena/open-hypothesis-format.git standard-1.1.4
           test "$(git -C standard rev-parse HEAD)" = e3cd86c0386ce618187a786ecc78293332d5f462
           test "$(git -C standard-1.1.4 rev-parse HEAD)" = fc554f691d6cf0092182bb306c769c5e217f6165
       - name: Check out the optional research companion standard
