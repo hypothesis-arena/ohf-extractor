@@ -1,0 +1,14 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "doi": "10.1101/2022.07.12.499088",
+  "is_oa": true,
+  "oa_locations": [
+    {
+      "url": "https://example.org/synthetic-preprint",
+      "url_for_pdf": "https://example.org/synthetic-preprint.pdf",
+      "license": "cc-by-nc-nd",
+      "version": "submittedVersion",
+      "host_type": "repository"
+    }
+  ]
+}

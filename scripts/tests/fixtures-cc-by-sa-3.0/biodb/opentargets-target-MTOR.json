@@ -1,0 +1,325 @@
+{
+ "data": {
+  "target": {
+   "id": "ENSG00000198793",
+   "approvedSymbol": "MTOR",
+   "approvedName": "mechanistic target of rapamycin kinase",
+   "biotype": "protein_coding",
+   "associatedDiseases": {
+    "count": 2545,
+    "rows": [
+     {
+      "score": 0.8288419290938804,
+      "disease": {
+       "id": "EFO_0009050",
+       "name": "Macrocephaly-intellectual disability-neurodevelopmental disorder-small thorax syndrome"
+      }
+     },
+     {
+      "score": 0.824007822653755,
+      "disease": {
+       "id": "MONDO_0011818",
+       "name": "isolated focal cortical dysplasia type II"
+      }
+     },
+     {
+      "score": 0.6930613687447515,
+      "disease": {
+       "id": "MONDO_0100283",
+       "name": "overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes"
+      }
+     },
+     {
+      "score": 0.5610787768863561,
+      "disease": {
+       "id": "MONDO_0005559",
+       "name": "neurodegenerative disease"
+      }
+     },
+     {
+      "score": 0.5248919529953936,
+      "disease": {
+       "id": "MONDO_0005005",
+       "name": "clear cell renal carcinoma"
+      }
+     },
+     {
+      "score": 0.5241279996927086,
+      "disease": {
+       "id": "MONDO_0032908",
+       "name": "CEBALID syndrome"
+      }
+     },
+     {
+      "score": 0.5132242206624508,
+      "disease": {
+       "id": "HP_0001249",
+       "name": "Intellectual disability"
+      }
+     },
+     {
+      "score": 0.5073453458803849,
+      "disease": {
+       "id": "MONDO_0003847",
+       "name": "hereditary disease"
+      }
+     },
+     {
+      "score": 0.4949663052622264,
+      "disease": {
+       "id": "MONDO_0004975",
+       "name": "Alzheimer disease"
+      }
+     },
+     {
+      "score": 0.4896737874354163,
+      "disease": {
+       "id": "MONDO_0005180",
+       "name": "Parkinson disease"
+      }
+     },
+     {
+      "score": 0.47128153519758514,
+      "disease": {
+       "id": "MONDO_0002561",
+       "name": "lysosomal storage disease"
+      }
+     },
+     {
+      "score": 0.45860397164333466,
+      "disease": {
+       "id": "MONDO_0005086",
+       "name": "renal cell carcinoma"
+      }
+     },
+     {
+      "score": 0.43727432423474716,
+      "disease": {
+       "id": "MONDO_0005070",
+       "name": "neoplasm"
+      }
+     },
+     {
+      "score": 0.42876504040682717,
+      "disease": {
+       "id": "MONDO_0005008",
+       "name": "colorectal adenocarcinoma"
+      }
+     },
+     {
+      "score": 0.4128256468310297,
+      "disease": {
+       "id": "MONDO_0017884",
+       "name": "papillary renal cell carcinoma"
+      }
+     },
+     {
+      "score": 0.39966544501325735,
+      "disease": {
+       "id": "EFO_1001471",
+       "name": "Merkel cell skin cancer"
+      }
+     },
+     {
+      "score": 0.39780687097649464,
+      "disease": {
+       "id": "MONDO_0005159",
+       "name": "prostate carcinoma"
+      }
+     },
+     {
+      "score": 0.38988712700387124,
+      "disease": {
+       "id": "MONDO_0005101",
+       "name": "ulcerative colitis"
+      }
+     },
+     {
+      "score": 0.3898754552203121,
+      "disease": {
+       "id": "MONDO_0002529",
+       "name": "skin squamous cell carcinoma"
+      }
+     },
+     {
+      "score": 0.38939638880349514,
+      "disease": {
+       "id": "MONDO_0004995",
+       "name": "cardiovascular disorder"
+      }
+     },
+     {
+      "score": 0.38747656317708884,
+      "disease": {
+       "id": "MONDO_0021163",
+       "name": "kidney neoplasm"
+      }
+     },
+     {
+      "score": 0.3841538639446353,
+      "disease": {
+       "id": "MONDO_0005341",
+       "name": "skin basal cell carcinoma"
+      }
+     },
+     {
+      "score": 0.37998718070507426,
+      "disease": {
+       "id": "MONDO_0007254",
+       "name": "breast cancer"
+      }
+     },
+     {
+      "score": 0.3788997485523692,
+      "disease": {
+       "id": "MONDO_0005028",
+       "name": "esophageal adenocarcinoma"
+      }
+     },
+     {
+      "score": 0.37757847537233985,
+      "disease": {
+       "id": "MONDO_0005012",
+       "name": "cutaneous melanoma"
+      }
+     }
+    ]
+   },
+   "drugAndClinicalCandidates": {
+    "count": 26,
+    "rows": [
+     {
+      "drug": {
+       "id": "CHEMBL75880"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3545248"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3586573"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL592445"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL5095025"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL1801204"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3545096"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL4297181"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL1236962"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3120215"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL2331680"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL2336325"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL1879463"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3545097"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL2141712"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3545366"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL1334033"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL1922094"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL1234354"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL2103839"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL1258517"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL2326966"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3544963"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3586404"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL3393066"
+      }
+     },
+     {
+      "drug": {
+       "id": "CHEMBL571209"
+      }
+     }
+    ]
+   }
+  }
+ }
+}

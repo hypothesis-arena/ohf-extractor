@@ -1,0 +1,18 @@
+{
+ "data": {
+  "drug": {
+   "id": "CHEMBL413",
+   "name": "SIROLIMUS",
+   "mechanismsOfAction": {
+    "rows": [
+     {
+      "actionType": "INHIBITOR"
+     }
+    ]
+   },
+   "indications": {
+    "count": 262
+   }
+  }
+ }
+}

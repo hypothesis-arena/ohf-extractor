@@ -1,0 +1,132 @@
+{
+  "id": "ohf-native-relational@1",
+  "epoch": 2,
+  "standard_version": "1.4",
+  "standard_release": "1.4.2",
+  "target_projection": "ohf-target-projection/1",
+  "checker_binding": "ohf-native-checker-binding/1",
+  "validation_scope": "Validation checks structure and bindings; it does not assess scientific content.",
+  "dependencies": {
+    "schema/hypothesis-1.schema.json": "sha256:ae1769a44c19bb575d2e4c7c903e756386b1831945b3bd788028c71f36c5c951",
+    "schema/native-renderer-selector-1.schema.json": "sha256:4ab7d39f8e9647d44ade4f2f63582951de43c48a674728db97a96398145095e0",
+    "spec/field-catalogue.json": "sha256:8b88dad50daf24a7f17e35e5d24147a7d0b9a68ab7f4134564179cc790138ca1",
+    "tools/check_ledger.py": "sha256:add24440e8c0782ec22e23b5f89c590e0c0208f9964ee45a3069cf6e4dc11720",
+    "tools/validate.py": "sha256:28537b1db90aad1fe8c5d37dbf853e3a7e53419f07124d96f31b87528fb66194",
+    "tools/strict_dates.py": "sha256:a91b4513e3ec302403f00abbd2b15359af4f22c835defd33eb855a54fbb0531c",
+    "tools/strict_json.py": "sha256:c5cf7dfac5aabf599ec1614610a59a8fea426168e4b254f5a2f6adbe1611ed9e",
+    "tools/content_hash.py": "sha256:5e6b2924afba21fcb4200e0e347c930d5c5b7f855475e20fa27b4db862efe91c",
+    "requirements.txt": "sha256:02f81f6e5efad2f600d34f1d7d5713279af533b94f9a722ddd1f59679bbac35e"
+  },
+  "selector": {
+    "keys": [
+      "id",
+      "epoch",
+      "definition_sha256"
+    ],
+    "epoch_identity": "exact integer; boolean or floating representation refuses"
+  },
+  "supported_source": {
+    "documents": 1,
+    "kind": "caller-supplied local JATS",
+    "fetch": false,
+    "locator": "XML .//p[N] (1-based document order)"
+  },
+  "supported_shape": {
+    "core": [
+      "statement",
+      "scope",
+      "kind",
+      "atoms"
+    ],
+    "atom": [
+      "id",
+      "statement",
+      "claim_type",
+      "modality",
+      "role"
+    ],
+    "prediction": [
+      "id",
+      "population",
+      "endpoint",
+      "direction",
+      "horizon",
+      "derives_from_atom_refs"
+    ],
+    "evidence": [
+      "id",
+      "target_ref",
+      "quote",
+      "src",
+      "direction",
+      "indirectness",
+      "sample_size",
+      "endpoint_kind"
+    ],
+    "empty_added_layers": [
+      "mechanism",
+      "provenance",
+      "appendix"
+    ],
+    "domain": [
+      "none"
+    ]
+  },
+  "passage_fields": [
+    "core.statement",
+    "core.scope",
+    "core.kind",
+    "core.atoms[].statement",
+    "core.atoms[].claim_type",
+    "core.atoms[].modality",
+    "core.atoms[].role",
+    "predictions[].population",
+    "predictions[].endpoint",
+    "predictions[].direction",
+    "predictions[].horizon",
+    "evidence.lines[].direction",
+    "evidence.lines[].indirectness",
+    "evidence.lines[].sample_size",
+    "evidence.lines[].endpoint_kind"
+  ],
+  "card_conditions": [
+    "predictions[].derives_from_atom_refs[]",
+    "evidence.lines[].target_ref"
+  ],
+  "complete_value_encodings": {
+    "direction": [
+      "direction",
+      "target_statement",
+      "evidence_conditions",
+      "line_quote"
+    ],
+    "indirectness": [
+      "indirectness",
+      "target_statement",
+      "evidence_conditions",
+      "line_quote"
+    ],
+    "sample_size": [
+      "sample_size",
+      "line_quote"
+    ],
+    "endpoint_kind": [
+      "endpoint_kind",
+      "term",
+      "line_quote",
+      "note when supplied"
+    ]
+  },
+  "refusals": [
+    "missing or unknown profile",
+    "wrong epoch or definition",
+    "unsupported scientific shape",
+    "foreign or ambiguous card references",
+    "changed source passage, condition, term or roster",
+    "missing, stale or unbound proof/history",
+    "ambient or changed schema/validator dependencies"
+  ],
+  "history": "retain all history; choose worst eligible full-value/projection/passage result",
+  "standard_bare_reader": "unsupported for four native complete encodings; shared target digest does not convert value hashes",
+  "implementation": "producer repository"
+}

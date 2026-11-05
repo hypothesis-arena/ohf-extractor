@@ -1,0 +1,54 @@
+name: ohf-extractor checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          fetch-tags: true
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Check tracked source language
+        run: python tools/check_language.py
+      # Two checkouts, because the kit has to work against both: accepted cards declare
+      # standard_version 1.0, and the release the kit's own rules now depend on is 1.1.4, which is
+      # where `LicenseRef-CC-BY-version-not-stated` is defined. A field added in 1.1 is not demanded
+      # of a 1.0 card - the kit reads `since` from the standard's own field catalogue - and the tests
+      # run against each checkout to keep that honest rather than assumed.
+      #
+      # Not 1.2.0, although it is the current release: the kit has not moved to 1.2, and against a
+      # 1.2 checkout the end-to-end emission test refuses the card it builds (`profile.domain` is a
+      # string at 1.1 and an array at 1.2). Pinning 1.2 here would make that pending work look like a
+      # broken build; it belongs to the form that moves the kit to 1.2, and this file changes with it.
+      - name: The OHF standard the cards are written for
+        run: |
+          git clone --depth 1 --branch v1.0.1 \
+            https://github.com/ImmortalAgentAI/open-hypothesis-format.git standard
+          git clone --depth 1 --branch v1.1.4 \
+            https://github.com/ImmortalAgentAI/open-hypothesis-format.git standard-1.1.4
+      - name: Install
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install -r requirements.txt
+      - name: Tests against the version the cards declare
+        env:
+          OHF_REPO: ${{ github.workspace }}/standard
+        run: .venv/bin/python -m pytest -q scripts/tests
+      - name: Tests against the release the kit's rules depend on
+        env:
+          OHF_REPO: ${{ github.workspace }}/standard-1.1.4
+        run: .venv/bin/python -m pytest -q scripts/tests
+      - name: The rules hash this tree produces
+        env:
+          OHF_REPO: ${{ github.workspace }}/standard
+        run: |
+          .venv/bin/python -I -c "import sys; sys.path.insert(0, 'scripts'); import ohfkit; print(ohfkit.rules_hash())"

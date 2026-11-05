@@ -1,0 +1,3375 @@
+{
+ "format": "ohf-entailment-ledger/2",
+ "canonicalisation": "value_sha256: SHA-256 of the UTF-8 bytes of json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':')), value as given to the checker; passage_sha256: SHA-256 of the UTF-8 bytes of the passage text as given to the checker; note_sha256: SHA-256 of the UTF-8 bytes of the note; all written \"sha256:<hex>\"; entries keyed \"<pointer>|<basis>\", each a list of checks in time order",
+ "card_id": "h_imprinting-maternal-offspring-coadaptation",
+ "content_hash": "sha256:fd709d4eeadff7a4b8fa31395d77fd3fe3858d55dd958f16a6d8e9a01da7647d",
+ "entries": {
+  "/added/layers/core/kind|src": [
+   {
+    "value_sha256": "sha256:c77844b220c506315c87428b86045ef6092d31b46eae48060d71790bdf972a06",
+    "passage_sha256": "sha256:615bfc8620f580a4080d2c0433febf6f8c8d6e076003b7f266222ac1a7d6df48",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/scope|src": [
+   {
+    "value_sha256": "sha256:557768f8500b363b54ad50c1eafa4c4e0134cbe21314b4ff9b84f002a264af7e",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:1819f5abafa85ff19d2f89fb6872df216f42bccb1d438101d5a256560cb36744"
+   },
+   {
+    "value_sha256": "sha256:66bc823fd87e98c52d704b648392a70b8977cc7bf604a711180ddb7e124d1cef",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:264f9d2cbf1e569c5a64c3c6fe1bca4c1363347014dc03e34f28fdea267fd5f3"
+   }
+  ],
+  "/added/layers/core/assumptions/0/text|src": [
+   {
+    "value_sha256": "sha256:6d0fb780b75690978784d1c21aa1e90d5c6145ccfe68ceb5fc99d4b33c96d815",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/0/text|basis_quote": [
+   {
+    "value_sha256": "sha256:6d0fb780b75690978784d1c21aa1e90d5c6145ccfe68ceb5fc99d4b33c96d815",
+    "passage_sha256": "sha256:86390f8316ff7256288eab47742f58f04100028bb6404ded45891b8688961921",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/0/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/1/text|src": [
+   {
+    "value_sha256": "sha256:878cf8636df57a55c764f398faf46a55412490a4407623f498948ca2baace9c8",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/1/text|basis_quote": [
+   {
+    "value_sha256": "sha256:878cf8636df57a55c764f398faf46a55412490a4407623f498948ca2baace9c8",
+    "passage_sha256": "sha256:19cc5965c29b5c53f254744426b72a7e7814971214d7210284d46349d3113db2",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/1/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/2/text|src": [
+   {
+    "value_sha256": "sha256:1253972ec5074e25d5fb2ca55a8cfa2e59deb3fd6f52e4cbd5d38f0592276590",
+    "passage_sha256": "sha256:4170f14845d78f0e31bfb9929d6822d595d2303126e05cfabfa38246226f8eff",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/2/text|basis_quote": [
+   {
+    "value_sha256": "sha256:1253972ec5074e25d5fb2ca55a8cfa2e59deb3fd6f52e4cbd5d38f0592276590",
+    "passage_sha256": "sha256:95c14762119cea9fd3507f419e775e9b80215500bd53f474b55a471c6ca4e292",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:0a2680d0b4077f25d34397cbf42fa69490f351fe7870a6d6ff806c7f9bbc0a47"
+   }
+  ],
+  "/added/layers/core/assumptions/2/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:4170f14845d78f0e31bfb9929d6822d595d2303126e05cfabfa38246226f8eff",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/3/text|src": [
+   {
+    "value_sha256": "sha256:9af2a1e777344689a709398ffc9451b69933184ff2c511f2ab90b2a621fa3b25",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/3/text|basis_quote": [
+   {
+    "value_sha256": "sha256:9af2a1e777344689a709398ffc9451b69933184ff2c511f2ab90b2a621fa3b25",
+    "passage_sha256": "sha256:ad170599e5fe7789cf8cc31e4f9f0f0033e51070dd6aec5c92f28ec0fe69e8e8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:01f2affc17f5d2aed5ecf3b4e5be85f2aba78e6f8e6d7de678ec0aa0e85accc4"
+   }
+  ],
+  "/added/layers/core/assumptions/3/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/4/text|src": [
+   {
+    "value_sha256": "sha256:126b6e9cbb555454dceb3f3d153a65968e69e1d48d9cbef0b14ec490d515ba39",
+    "passage_sha256": "sha256:4170f14845d78f0e31bfb9929d6822d595d2303126e05cfabfa38246226f8eff",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:b1f6880bc7111d43447f6917329c774add980881bd0829c9cb3f6147a16d1ce0",
+    "passage_sha256": "sha256:4170f14845d78f0e31bfb9929d6822d595d2303126e05cfabfa38246226f8eff",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:5211ddb944440be040e3a68786863ea13f263d4b18def5563b7ff7fe382de536"
+   }
+  ],
+  "/added/layers/core/assumptions/4/text|basis_quote": [
+   {
+    "value_sha256": "sha256:126b6e9cbb555454dceb3f3d153a65968e69e1d48d9cbef0b14ec490d515ba39",
+    "passage_sha256": "sha256:a392b0be287f8f81e75880171c737fa2688c60dfe647ebeb04181cf9d3efcad7",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:45391148b82299d4b2fa358b924d2106b076731b2dc08cd3afa8a18258b84014"
+   },
+   {
+    "value_sha256": "sha256:b1f6880bc7111d43447f6917329c774add980881bd0829c9cb3f6147a16d1ce0",
+    "passage_sha256": "sha256:a392b0be287f8f81e75880171c737fa2688c60dfe647ebeb04181cf9d3efcad7",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:bb04dcbe3d8bb72fe455405401b2ab78dbcbfcb51c9f884568d6ee90e05326a6"
+   }
+  ],
+  "/added/layers/core/assumptions/4/fundamental|src": [
+   {
+    "value_sha256": "sha256:fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+    "passage_sha256": "sha256:4170f14845d78f0e31bfb9929d6822d595d2303126e05cfabfa38246226f8eff",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/0/statement|src": [
+   {
+    "value_sha256": "sha256:b7085ee52cb5f99544032abfd53765ef2e94bd1a8948bd5373529bec760c1249",
+    "passage_sha256": "sha256:615bfc8620f580a4080d2c0433febf6f8c8d6e076003b7f266222ac1a7d6df48",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:d09b27415308689f3eff6cbd7941d1b4b6eb82c608e653522a00a241bf34d51e",
+    "passage_sha256": "sha256:615bfc8620f580a4080d2c0433febf6f8c8d6e076003b7f266222ac1a7d6df48",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/0/claim_type|src": [
+   {
+    "value_sha256": "sha256:efab766a2594c42a524c953805aefd7ac24a2f574a4e5cd5d9a9842a4c2f4a38",
+    "passage_sha256": "sha256:615bfc8620f580a4080d2c0433febf6f8c8d6e076003b7f266222ac1a7d6df48",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/0/role|src": [
+   {
+    "value_sha256": "sha256:ae6e9157995bdbcae79f0221fc05ca3df41dadbabd1d489c5aaee1a944a9c16d",
+    "passage_sha256": "sha256:615bfc8620f580a4080d2c0433febf6f8c8d6e076003b7f266222ac1a7d6df48",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/0/modality|src": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:615bfc8620f580a4080d2c0433febf6f8c8d6e076003b7f266222ac1a7d6df48",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/0/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:51c603b8abdf526096f86dcd595017e310c64d26f173cd4bee1d0725bd743bed",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/1/statement|src": [
+   {
+    "value_sha256": "sha256:f9224b0c6cbeca1af3f9dbda3bee96e22c2071c098e14d44234a313ecfb3c1a1",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/1/claim_type|src": [
+   {
+    "value_sha256": "sha256:e93809b35d4f6979080670134cc2432e43b8db99118cb92c7816464ed13b7535",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/1/role|src": [
+   {
+    "value_sha256": "sha256:ae6e9157995bdbcae79f0221fc05ca3df41dadbabd1d489c5aaee1a944a9c16d",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/1/modality|src": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/1/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:c8a93e8b4996ab56fee2ff7e764811a56d3324aa50bc415082acb9babe41b9a6",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/2/statement|src": [
+   {
+    "value_sha256": "sha256:6909cb7c6c018457d1f9b1ea5bd8b18a6b4ba9e90b5a8e46498363f220fc8dd7",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/2/claim_type|src": [
+   {
+    "value_sha256": "sha256:e93809b35d4f6979080670134cc2432e43b8db99118cb92c7816464ed13b7535",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/2/role|src": [
+   {
+    "value_sha256": "sha256:ae6e9157995bdbcae79f0221fc05ca3df41dadbabd1d489c5aaee1a944a9c16d",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/2/modality|src": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/2/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:1c1ab3ccab062eadc0926e3d142e50ae47eae05c31ba7a232d9fb32ab2e93858",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/3/statement|src": [
+   {
+    "value_sha256": "sha256:be91e75a6739c22ef6a0c19ea83dd696e24a5200d38396fa946e5efe0a82bf72",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:94e506774e9bfdd461281a4dbfd23bc71ead030c982dd1f646793531744d6611",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/3/claim_type|src": [
+   {
+    "value_sha256": "sha256:c77844b220c506315c87428b86045ef6092d31b46eae48060d71790bdf972a06",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/3/role|src": [
+   {
+    "value_sha256": "sha256:ae6e9157995bdbcae79f0221fc05ca3df41dadbabd1d489c5aaee1a944a9c16d",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/3/modality|src": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/3/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:8be0bbcbf99255e69132d83fb39602535a1e6cbd9aaa68e2ca9a9448fe203a5a",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/4/statement|src": [
+   {
+    "value_sha256": "sha256:3428d5d82f647942665d53bc1bfca075d08c4a826453c0eb18a0c93d05ee638b",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:268afdbd3ce9841850399e19700766439963560ca7f68b950aaaf254b4adca00",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/4/claim_type|src": [
+   {
+    "value_sha256": "sha256:efab766a2594c42a524c953805aefd7ac24a2f574a4e5cd5d9a9842a4c2f4a38",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/4/role|src": [
+   {
+    "value_sha256": "sha256:eeaf048a20e4aa41e6e7f2b91bfbe9356039ad927466737a92ec493ec104816d",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/4/modality|src": [
+   {
+    "value_sha256": "sha256:ff278f96de1e0054fc6dda4d8dd7ceb593b081768618deac8e7725361786fa70",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/4/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:ff278f96de1e0054fc6dda4d8dd7ceb593b081768618deac8e7725361786fa70",
+    "passage_sha256": "sha256:16d88b63c5d33b5e94cd5ab0a0fd3cb5f5ee21242607d69b246ce6d20d221ccc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/5/statement|src": [
+   {
+    "value_sha256": "sha256:3fca093b718ca8bbedaa1c6a490347a0cee23e31b70ababd92499dd73ae613b9",
+    "passage_sha256": "sha256:86dd7c09e86f19831a0937a885f476f929ae2875ef7cd85db65115a4c1578427",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:1ee166a1c2c81c7b4102c184e6e1d21da04d3adc2f17da5892ae7aa61a1ede60",
+    "passage_sha256": "sha256:86dd7c09e86f19831a0937a885f476f929ae2875ef7cd85db65115a4c1578427",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/5/claim_type|src": [
+   {
+    "value_sha256": "sha256:efab766a2594c42a524c953805aefd7ac24a2f574a4e5cd5d9a9842a4c2f4a38",
+    "passage_sha256": "sha256:86dd7c09e86f19831a0937a885f476f929ae2875ef7cd85db65115a4c1578427",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/5/role|src": [
+   {
+    "value_sha256": "sha256:eeaf048a20e4aa41e6e7f2b91bfbe9356039ad927466737a92ec493ec104816d",
+    "passage_sha256": "sha256:86dd7c09e86f19831a0937a885f476f929ae2875ef7cd85db65115a4c1578427",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/5/modality|src": [
+   {
+    "value_sha256": "sha256:ff278f96de1e0054fc6dda4d8dd7ceb593b081768618deac8e7725361786fa70",
+    "passage_sha256": "sha256:86dd7c09e86f19831a0937a885f476f929ae2875ef7cd85db65115a4c1578427",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/5/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:ff278f96de1e0054fc6dda4d8dd7ceb593b081768618deac8e7725361786fa70",
+    "passage_sha256": "sha256:4071657720526e4005d845be0ae751e436ecf590aea03b37c0ae4ca9fc910b5e",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/alternative_explanations|src": [
+   {
+    "value_sha256": "sha256:d205391bab0d8b35c31dcd45c8bf7332800d9dc2fb549176144d29931ac60e6b",
+    "passage_sha256": "sha256:2ed11e7992360ac1d9971165ce6a3d4f3a40effc6e092a1e9b3405bc7dc54f82",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:f5b2b22de50b875ad006e24ec8a7445ecf9948219029cc86262ec92030a1a4c9"
+   },
+   {
+    "value_sha256": "sha256:d7fb107caf5d78bea4c634d5396c8b22562ff25ff9924e2957791f184bad3d46",
+    "passage_sha256": "sha256:2ed11e7992360ac1d9971165ce6a3d4f3a40effc6e092a1e9b3405bc7dc54f82",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:bdd99b18e3d0139c775da1f6b2a5d07c8957d250374b68835a525318f2f544bb"
+   }
+  ],
+  "/added/layers/core/uncertainties|src": [
+   {
+    "value_sha256": "sha256:7bb4a8fab804328d863d59d3bd838800e358f0427c378855f7ab2172a680d3dc",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:7aac4044dcb48753b3d25e605fe46794a3cfd75df4b51ab410c11feebb72da30"
+   },
+   {
+    "value_sha256": "sha256:78be3caa86bd7478a88691ee7799728c665dc3c84f278545047fe055905320f9",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:280383d2b6652bfad9cd50d3b2f2b4363aec72c82f871d507c201c2753b3860a"
+   },
+   {
+    "value_sha256": "sha256:8959f5ddcda26719e2da7d7f6de88c972ac3735a31636081c2375a8c5ce218a7",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:3cb1a47b3699ece90a6474cfd10dc749c5a35eb97043657eafb0056df7c544cd"
+   }
+  ],
+  "/added/layers/core/explains|src": [
+   {
+    "value_sha256": "sha256:b73c698f6265f90e3dbb58ab5484933f3de133a7730814e4ec16fdaea9096ec8",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:d9a78cd3b39640c04de7e067b020e85f93f46743ce04e2b6841293848a1d19c6"
+   },
+   {
+    "value_sha256": "sha256:04ae136a4952925a19757966ca7ff21cee7d49640ab5b0e8ffcef469b818abb3",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:1c2b1c0b5cbcaf9b54c1a6f944353e23417546ceb2178e3645cd61c785208f99"
+   },
+   {
+    "value_sha256": "sha256:bf6635a0c27ac8b356e9302deebf2f58fbd22c873f1435c1812e51a85e826404",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:4d0f07978bf00e711ac1ae0657d464f98019d360a6eb169e2e74dc7cff7b81bb"
+   }
+  ],
+  "/added/layers/core/testability|src": [
+   {
+    "value_sha256": "sha256:b0ab21ccb7eb1f8937daae374f4f04e7702198192f32f7cf95b80f99efd949b8",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:fa766f957338817431437616d1c2f713d5577968b5dec3544c72c2439553ee4a",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:a42ddf10d2bb8d3a98f51862ca7ce02339c61c3cb302d3feeeaba8328ce544e6"
+   },
+   {
+    "value_sha256": "sha256:f7896efd323135c978453405919f51f5809ed69da1305727698c95358070c035",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:c2c0298f4738abcb5577767447c49b233aa1d0f08f5ee945bea4c7821c3b24e8"
+   }
+  ],
+  "/added/layers/predictions/0/system/kind|src": [
+   {
+    "value_sha256": "sha256:8c4255f978cc832b56bc66907dee855afffa6f13c1ff62df2366f4c63b89331b",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/system/taxon|src": [
+   {
+    "value_sha256": "sha256:6ba8023dc850d5e0e36eef2f97ee1ddfc3e6c5e955fec942018c045756cc6e48",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/endpoint|src": [
+   {
+    "value_sha256": "sha256:1e5b39ab6dae6e132f4d3a957cfcce0eb70332ca8c6b56d6a36a01fc75676786",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:3e1dfd9343c9b4843f43ad63794d58846642a80f6247f9973352e9bc8d4daf7c",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/endpoint|basis_quote": [
+   {
+    "value_sha256": "sha256:1e5b39ab6dae6e132f4d3a957cfcce0eb70332ca8c6b56d6a36a01fc75676786",
+    "passage_sha256": "sha256:0516abb18662ad26b4bbe0b0943c83c1dbb9eecce1131491ec71e294a0b2bf8a",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:3e1dfd9343c9b4843f43ad63794d58846642a80f6247f9973352e9bc8d4daf7c",
+    "passage_sha256": "sha256:c10915365becdb2b8207357f4e73d7b6d2231ba74d707d226f9b1c3b4a950e07",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/direction|src": [
+   {
+    "value_sha256": "sha256:0d1406a23466944d4061a87242b343a631370315188b481d3e34cee5073fca12",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:c3088af654ab4d6195a9ef526364ab4c94332ff64ff0b3955353ed84f1decf72",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/form|src": [
+   {
+    "value_sha256": "sha256:432ced8bd4f7363e6ad2e7646783c593eb2bbc2e80c828685c4a923a46112999",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/derives_from_atom_refs|src": [
+   {
+    "value_sha256": "sha256:bddc95a530b5af30d5d654d36fe2fd99471adf53e1e838a90a6887faf385a689",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/epistemic_status|src": [
+   {
+    "value_sha256": "sha256:bcf1564235cdad00eb3ca47331e08aa5e1283d82462ea081edb6d9eaa57206ee",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/system/kind|src": [
+   {
+    "value_sha256": "sha256:8c4255f978cc832b56bc66907dee855afffa6f13c1ff62df2366f4c63b89331b",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/system/taxon|src": [
+   {
+    "value_sha256": "sha256:33a984fcf4c16f1a0ac45ce9a548fd3d117e44db0d9f54cc5c65b0e43d3c5727",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/endpoint|src": [
+   {
+    "value_sha256": "sha256:6edf30905c9d8152d0923df79a2d23ad127514204efc8bbfdcf6d8deeb7f19fa",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/endpoint|basis_quote": [
+   {
+    "value_sha256": "sha256:6edf30905c9d8152d0923df79a2d23ad127514204efc8bbfdcf6d8deeb7f19fa",
+    "passage_sha256": "sha256:f6fb8327f867e02b2b8712f57b140e63aed4738e9f4d633eb7c517c81e0c0af3",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/direction|src": [
+   {
+    "value_sha256": "sha256:828c30342640e15ef510bb368c4ae8abbde32964dd4ce8b7f650b5881ec81cd4",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/form|src": [
+   {
+    "value_sha256": "sha256:12516d2699f2f13a4dd84b3964100305273d6b079f9384db77e882510468ac79",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/derives_from_atom_refs|src": [
+   {
+    "value_sha256": "sha256:fae6fe401598292d4435e4a42c420c7f3a513b48ef83ab1a706b58beb1efd2b8",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:026b8f70eb72cb77c8b81b9816d6603146d9f014ae49386159fd1a97913e24b6",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/epistemic_status|src": [
+   {
+    "value_sha256": "sha256:bcf1564235cdad00eb3ca47331e08aa5e1283d82462ea081edb6d9eaa57206ee",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/2/system/kind|src": [
+   {
+    "value_sha256": "sha256:8c4255f978cc832b56bc66907dee855afffa6f13c1ff62df2366f4c63b89331b",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/2/system/taxon|src": [
+   {
+    "value_sha256": "sha256:21474f51b1088dc8e3370564a99af8a098a468282515af61ae13e7cca819448a",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/2/endpoint|src": [
+   {
+    "value_sha256": "sha256:925bec30e2f03bb138ec76928ce116bc7f54bdbfac752f81c22890f712a566ff",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:00fd6cbd2e066977f1da2b3068ddbdb9de459bbdfaad8890a6ec9eb78d41d3ed",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:8f4555f814656177c85ab7b6fc9d16d60b8fb3afada475108ef06e7a0ad46d43",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:ac501270135f92d2adaf5ccfb765fb39594b5cddd7e258b0c3e6d556be04d303",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/2/endpoint|basis_quote": [
+   {
+    "value_sha256": "sha256:925bec30e2f03bb138ec76928ce116bc7f54bdbfac752f81c22890f712a566ff",
+    "passage_sha256": "sha256:3d1a9fa4a1ebfbe26ae0f4bb240c39662297b7959717b9e562bceab81a796f77",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:00fd6cbd2e066977f1da2b3068ddbdb9de459bbdfaad8890a6ec9eb78d41d3ed",
+    "passage_sha256": "sha256:2c8ccd294a2b0e172abe0c53d88f1d2d404af5e0b2e74cee0ee27b9903b1de34",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:c51641fb546d740606b8b9a6bd6317420f199f79aabe6305e5e6afeaf2657b2d"
+   },
+   {
+    "value_sha256": "sha256:8f4555f814656177c85ab7b6fc9d16d60b8fb3afada475108ef06e7a0ad46d43",
+    "passage_sha256": "sha256:2c8ccd294a2b0e172abe0c53d88f1d2d404af5e0b2e74cee0ee27b9903b1de34",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:8e18784189a5a6ba0b58ffb409abd7dfeb1852b67033e8a95cfce251c7498c2d"
+   },
+   {
+    "value_sha256": "sha256:ac501270135f92d2adaf5ccfb765fb39594b5cddd7e258b0c3e6d556be04d303",
+    "passage_sha256": "sha256:2c8ccd294a2b0e172abe0c53d88f1d2d404af5e0b2e74cee0ee27b9903b1de34",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:a7d60accf2e07c523defe31d4a1d91d6b299451f2c5b02fd58cb76d455227cdd"
+   }
+  ],
+  "/added/layers/predictions/2/direction|src": [
+   {
+    "value_sha256": "sha256:035846c9d10e4f24819bb1e5b3dd7b486a45d195766fdfe0434fdb1d10e947da",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/2/form|src": [
+   {
+    "value_sha256": "sha256:432ced8bd4f7363e6ad2e7646783c593eb2bbc2e80c828685c4a923a46112999",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/2/derives_from_atom_refs|src": [
+   {
+    "value_sha256": "sha256:fae6fe401598292d4435e4a42c420c7f3a513b48ef83ab1a706b58beb1efd2b8",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/2/epistemic_status|src": [
+   {
+    "value_sha256": "sha256:bcf1564235cdad00eb3ca47331e08aa5e1283d82462ea081edb6d9eaa57206ee",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/3/system/kind|src": [
+   {
+    "value_sha256": "sha256:8c4255f978cc832b56bc66907dee855afffa6f13c1ff62df2366f4c63b89331b",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "no",
+    "note_sha256": "sha256:d5dd401a9639d212cea1ba1b57683fa57bad4cc15e1bbfaea826554bc0787a22"
+   },
+   {
+    "value_sha256": "sha256:38565c9e35e7cb6cb6dd8dd5ebade289dd4773ae71a14f097edac7255d2c0f9b",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T21:34:55Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/3/system/taxon|src": [
+   {
+    "value_sha256": "sha256:d527b2b05c5e92d90c098dd5ee4827df5b5d9de51e17c5d7b3df76cb98b6dafc",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/3/endpoint|src": [
+   {
+    "value_sha256": "sha256:1f1098c8b67570f5d85e9fb359d2c0262067a6074f3fcdffc672dcb6adfe8ca3",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/3/endpoint|basis_quote": [
+   {
+    "value_sha256": "sha256:1f1098c8b67570f5d85e9fb359d2c0262067a6074f3fcdffc672dcb6adfe8ca3",
+    "passage_sha256": "sha256:ab9cfa21d46edf6848e867f3e783021a17a03ca46a5020f2d2c04e64b54a6a2b",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/3/direction|src": [
+   {
+    "value_sha256": "sha256:822b42c18e2494aa40390d2f22cd5055ae3d2bd3ce54f10f240a59986f63901b",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:902517714629c30ff6ecda2eff2be0a5e081bd8587da89a704ba2712ac8c0067",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/3/form|src": [
+   {
+    "value_sha256": "sha256:d55f54be05d3f691da088f92e340588ea5faa80cf0a6b4fc4882809cc57ebd1c",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/3/derives_from_atom_refs|src": [
+   {
+    "value_sha256": "sha256:d26c00342bdb2ec7f80b63afed7e678e135e3031d2093ea9d7fa33cdbe7a307e",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:4f15d98230744878d8213eb5e108b50e32fb06d79a4d004278da933eb5cf8403"
+   }
+  ],
+  "/added/layers/predictions/3/epistemic_status|src": [
+   {
+    "value_sha256": "sha256:bcf1564235cdad00eb3ca47331e08aa5e1283d82462ea081edb6d9eaa57206ee",
+    "passage_sha256": "sha256:b8946e4e42c70ef7fa1ab10ae283a3b5ab54e6338e92687c069c11b1eed44ef8",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/0/direction|src": [
+   {
+    "value_sha256": "sha256:15273a48e756e615f2d7d43b09803b168d8cea1a867079e93d2fb39fa877d327",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/0/argument_kind|src": [
+   {
+    "value_sha256": "sha256:07eeabfce552cf81fc0e0601f5cb04a3b8a7d20b8a3c8d0612e3f22257b32817",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/0/study_type|src": [
+   {
+    "value_sha256": "sha256:80fef9657de3bc016c42f95e15b547e93269ab5073cd9bd112e5bb81469b4fbe",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:28cc858730b0078cc62f85b000fc3cf515ad952a9b46db49f243d9a64e8869d2"
+   }
+  ],
+  "/added/layers/evidence/lines/0/study_system|src": [
+   {
+    "value_sha256": "sha256:508efb7d5d14709c8898d61fb179b1cee745dffd67602fc2dc3a51df2b767436",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/0/indirectness|src": [
+   {
+    "value_sha256": "sha256:e3e51849e29eac7e2795a1dbd264b1f3a4ed0458c7537d36ec8dfa75196945ca",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:26a75f764f12e644e68d6596a3d1b78f8c2bffd2291ab1f7d2bec25f1023b8b5",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:a14661c4c76871c4ed68fd5628b9d2f6d465b8269c57c159b25eaf45a29eaf72"
+   }
+  ],
+  "/added/layers/evidence/lines/1/direction|src": [
+   {
+    "value_sha256": "sha256:e6387851704889b413ed2af4197a0cf5f39e0bf65b67832133f6df2139cd559a",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:9e49b26a7b69932948d25ab86bf513af1ea61e83492868601bcbc3b4e8077b74",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/1/argument_kind|src": [
+   {
+    "value_sha256": "sha256:07eeabfce552cf81fc0e0601f5cb04a3b8a7d20b8a3c8d0612e3f22257b32817",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/1/study_type|src": [
+   {
+    "value_sha256": "sha256:f76a833284bcc75cd9a56b1f7551fa9f97e591d7d65da781c00bc7e74461653d",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:c785e76ee9bff0ac25339262ad6377bfb6e4d3dc798c31f19fbc25fee44a321f"
+   }
+  ],
+  "/added/layers/evidence/lines/1/study_system|src": [
+   {
+    "value_sha256": "sha256:508efb7d5d14709c8898d61fb179b1cee745dffd67602fc2dc3a51df2b767436",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/1/indirectness|src": [
+   {
+    "value_sha256": "sha256:ba0435dde0c79fc9a6cc80214b1cbcec6bb2e17c36af6b32b7c05d0fe6479871",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:8194dde837cc3fc6b7e59a2d12f2d63699a98587925a766f8062300690559f3b",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:24f4bcce16b2197aa6a3ea37c771ee5950dba2c32bcb4306f6a015ae06386877"
+   }
+  ],
+  "/added/layers/evidence/lines/2/direction|src": [
+   {
+    "value_sha256": "sha256:072e8612d58dbd5003ebc11b9778c3924823c1a4b5128e4cc54e01b800a90852",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/2/argument_kind|src": [
+   {
+    "value_sha256": "sha256:07eeabfce552cf81fc0e0601f5cb04a3b8a7d20b8a3c8d0612e3f22257b32817",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/2/study_type|src": [
+   {
+    "value_sha256": "sha256:f2a6dea696a90a7db8fef5da3f031dbb20908ecf3fda6d6279d38bef92a1101a",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:c600bed5b684ce7666bcd004747a03848fa9889e3b363941e8447627a700ef35"
+   }
+  ],
+  "/added/layers/evidence/lines/2/study_system|src": [
+   {
+    "value_sha256": "sha256:508efb7d5d14709c8898d61fb179b1cee745dffd67602fc2dc3a51df2b767436",
+    "passage_sha256": "sha256:6b901dc90e0a2d55cebb40ff26a7c25f608c88be0dbd40d2d8368dbd96747450",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/2/indirectness|src": [
+   {
+    "value_sha256": "sha256:756ab9f4e97f9e561638d394e0a53c3638a770e02e0ef0eb3c20dd9aca104db7",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:5438603ca9aef83b776e5d42db7ae0240e9807d4add8fc52ffff9c5ce81779be",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:24f4bcce16b2197aa6a3ea37c771ee5950dba2c32bcb4306f6a015ae06386877"
+   }
+  ],
+  "/added/layers/evidence/lines/3/direction|src": [
+   {
+    "value_sha256": "sha256:dbb2abf8ca3b5ed3e43f014951065730009d060c3017602519011b995138550f",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:6892e3d0b6ecf8df043f7c58d50494fe0f1eaaf10ca6594b51a8b877e35cfe49"
+   },
+   {
+    "value_sha256": "sha256:c09dfc9008c072619bd0a04e52c8fa9ca83865d0cf3c60a09ee6a956b7bc060e",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/3/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/3/study_type|src": [
+   {
+    "value_sha256": "sha256:5055f43b2260d17e5fe4c8d6be35883babe0f486e45c3a94d18e81234fe5d55b",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:74a2f2d56a1c8679a46ccb25f465f3f52750a15e9c8603a10d0c6dc0cb18eae6"
+   },
+   {
+    "value_sha256": "sha256:2369fd2065b339cf506de81dc0c72dfea7b4baeabd1d7ac0fa7fc57846533d9c",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:8289df7daf6b11c5a17a607f2eab5785ac62c197bc0a633ef959ddadd2fef72f"
+   },
+   {
+    "value_sha256": "sha256:530b605a78261065c8871502d092b415ac3bf6076e0fe95578986404a21cf178",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:6897ee217d17fc6a1508cf564fcefe0444f8dc8ec09848cc2f247b300ad26510"
+   },
+   {
+    "value_sha256": "sha256:a5d497eda32d134cef41313c878ec37f080aaf6ff5e2f2a64747c4dd999666d7",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:14:13Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/3/study_system|src": [
+   {
+    "value_sha256": "sha256:cc7635ff2ca8cab7ea5e22a764b15b5544c2b8d76ffda9f32d0cb89d9c1eaee6",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/3/indirectness|src": [
+   {
+    "value_sha256": "sha256:1b883a893f7488598fd72a8f071e269d0175833eae55bfe8579fa7d5da9d598a",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:71ad97fc0cb553222c05e8b0430a328062d82b2ded514ae7982a1ef7ddb67684"
+   },
+   {
+    "value_sha256": "sha256:afc44f3015b5efa065df3c682dd5a2ee71fd42b2b5aa689551efe442ea6b9e3a",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/4/direction|src": [
+   {
+    "value_sha256": "sha256:04ee1943a11b472779b76ac5ea6738380e526c459f07a84fd7a8b8564f6a0819",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:41f70bcef34c7718c24e07c8a05d6be305589feae1f83806a76a81c2aa1a0d3f",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/4/argument_kind|src": [
+   {
+    "value_sha256": "sha256:07eeabfce552cf81fc0e0601f5cb04a3b8a7d20b8a3c8d0612e3f22257b32817",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:24472f7e6f4c05368eef297147d1b0fffe5e6b0c0daef671e1e03d313f0eec5c"
+   }
+  ],
+  "/added/layers/evidence/lines/4/study_type|src": [
+   {
+    "value_sha256": "sha256:14d796e986b78ce8f95d7d59ca688ffb373bc47e83dd9b35bbae00db45cbeda5",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:c4c5f8cbe1925b58da7673cc1d00c4987ec2082447b3e6a141b87ae875d4336b"
+   }
+  ],
+  "/added/layers/evidence/lines/4/study_system|src": [
+   {
+    "value_sha256": "sha256:84cc6ec735ce9980d62ee38851660e843e2964c277b2c8a07586e204480e7018",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/4/indirectness|src": [
+   {
+    "value_sha256": "sha256:2d2335755bc355670cc330691f7a4ad572c0026f224583bcff2e6642829a4fbc",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:836c5fc4613e9869a0b6edaa04f24092dd5bf21c7c9fb0dcd93c0c1a48155f75",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/5/direction|src": [
+   {
+    "value_sha256": "sha256:6da4c3d1e54991977d46f3a5f346414ed2bf750e0dd681f49ae48fff3c68e38a",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:65c36be90fddd678c12b6e3062759ff78145dda61b9174a24c2662a1999d5d7c",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/5/argument_kind|src": [
+   {
+    "value_sha256": "sha256:07eeabfce552cf81fc0e0601f5cb04a3b8a7d20b8a3c8d0612e3f22257b32817",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "no",
+    "note_sha256": "sha256:8bc53a6cbbc0f50991ab796463005dd333a1b1fb41679e9f4f8236538daf6ba6"
+   },
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T21:34:55Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/5/study_type|src": [
+   {
+    "value_sha256": "sha256:52e6d9518568a47db3df8b12af988577eb8c1e0b6c865c6085213bf0ccb0ecaa",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:867418f83f40778b9d7926501c3aae759c44a7668471470e13aa9d3a6a77dcad"
+   },
+   {
+    "value_sha256": "sha256:40894dc2181ef675caf18d6f045436553c7be3a241a7fdda367adec62df0e33d",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:e15e521db0763ebc4863910684227f7025b7b73857459d08e144d2fbd8720524"
+   },
+   {
+    "value_sha256": "sha256:3886f16d46e33c38f4eaa5e518153df2b2f16668a5e04ed2a3a04c63fe391316",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/5/study_system|src": [
+   {
+    "value_sha256": "sha256:b0ddb263d2aa4427b723c75c5a09c7137949589a0bc1118343713de65dfbfaa9",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/5/indirectness|src": [
+   {
+    "value_sha256": "sha256:b62ab4dfc51ce51fe6f62a33fa4cd5198634a6874978bfd3648ace1110c5adad",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:023755fe4331fecb83ab06f4e434cee0b55cc6a83468fbce96c99d403e0dbed3",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/0/items/0|src": [
+   {
+    "value_sha256": "sha256:c543166b7c190b90c4d74695ebb645159a5c283fcecc58a0f3f67eca1ec8a413",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/0/independence_group|src": [
+   {
+    "value_sha256": "sha256:0ce1f516fa1c974bc6d4e6ddc49ae3174d3d14b1ed0649c5bbd8a53bfb7b2791",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:d536c812afe68dfadbc5b8ca72252c0cdcc3607a3fb64c0252642ecb10ed3661",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/1/items/0|src": [
+   {
+    "value_sha256": "sha256:aa0e6ecc69a9c8a723fe97650354cbf6d7d7f425c365db2e2161f367e9ee6a5a",
+    "passage_sha256": "sha256:1aae52ad4a4cecf573ed81c2b52666cac2f9edc14533e2fcb2dab6180b682f46",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/1/independence_group|src": [
+   {
+    "value_sha256": "sha256:0ce1f516fa1c974bc6d4e6ddc49ae3174d3d14b1ed0649c5bbd8a53bfb7b2791",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:d536c812afe68dfadbc5b8ca72252c0cdcc3607a3fb64c0252642ecb10ed3661",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/2/items/0|src": [
+   {
+    "value_sha256": "sha256:e201a1f1e940014836182c1cbc49a462bd23400bae66ae7f0cbf66f4821908ad",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/2/independence_group|src": [
+   {
+    "value_sha256": "sha256:0ce1f516fa1c974bc6d4e6ddc49ae3174d3d14b1ed0649c5bbd8a53bfb7b2791",
+    "passage_sha256": "sha256:6b901dc90e0a2d55cebb40ff26a7c25f608c88be0dbd40d2d8368dbd96747450",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:d536c812afe68dfadbc5b8ca72252c0cdcc3607a3fb64c0252642ecb10ed3661",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/3/items/0|src": [
+   {
+    "value_sha256": "sha256:4c981a614bcc3350e0ea6896e0a1720eeb2a5940cefa8ff472b1a615005128d8",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/3/independence_group|src": [
+   {
+    "value_sha256": "sha256:3b65cb7677bf0ed30b84c6b6d30749815c6a846f673b35c9d34bb3e3dc2ee4e4",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:22f135c74a78cbd1a603ef069dc3eb638bf61d4b7012fc3404f69b46d73e0da8",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/4/items/0|src": [
+   {
+    "value_sha256": "sha256:8b0e0667573c436b81868febac130243b0d475bc074eead8571c72d9f264a020",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:29ade9556309b66b9c02cd86bf33e9e0e333ab5cdb9ac18a837e833c0e350527",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC6121825.xml": "sha256:1a51cb8ef1bbb277c3282a49db55f185dcdbd17d0c108d6e2030d4d956e38d5e"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/4/independence_group|src": [
+   {
+    "value_sha256": "sha256:8563abd9cc4a7fa47b37ea2a2cd57a9d21345cf0e5a88f2a6f164a261266ac67",
+    "passage_sha256": "sha256:8dc9845056ca3bb73130e552a2e0c20631ad98cd17da3e966708d61775fb376f",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:68af34150902634a3f909cbccbc8760145a22518e9d6d6a8326da41fac9a1a81",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC6121825.xml": "sha256:1a51cb8ef1bbb277c3282a49db55f185dcdbd17d0c108d6e2030d4d956e38d5e"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/5/items/0|src": [
+   {
+    "value_sha256": "sha256:300a8a5e713ef51619df0f4ffad13b749314bd04fd19e94d06ea6e1d084c5413",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:ad851533e6e0410e40d44111731f3a05ef2cbbabd1140f8045e39d94ab5bab56",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC13050188.xml": "sha256:b2f2fcc20aa57cfe3322aaf1319aac63a33eee50d42a1074718cdae15fd87fda"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/5/independence_group|src": [
+   {
+    "value_sha256": "sha256:c58259e33b9270e1f116ff3a73eed0239da82353a230a753396e3a2c46846d6f",
+    "passage_sha256": "sha256:c55a614a7fdf526a753af46927aba91981259c399fb764057f6191155e737ab1",
+    "checked_at": "2026-10-23T19:28:15Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:c05e2bbdd163237008024ad9b14857b8c3ed327796d5e553f4b0ba480e2d86b7",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC13050188.xml": "sha256:b2f2fcc20aa57cfe3322aaf1319aac63a33eee50d42a1074718cdae15fd87fda"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/6/items/0|src": [
+   {
+    "value_sha256": "sha256:2e4cce33a66e8aa21fe88b48f37e33f7b7bfefdd9ebbafb41c9782c309ac3490",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T19:45:19Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:18482b64837b0f89c6246e4b4fa6df25dc5d87d2e18c2894e52e0f161d0bcdf0",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC13202214.xml": "sha256:853f7a3f4ef6fdcc553a1acfd08c8792f36f5aa4b8e4548f30db5cce5f6177d8"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/6/independence_group|src": [
+   {
+    "value_sha256": "sha256:5ddc0b51a9761b0a568d93817be4a9598f5803e87df3b887768be94e46374d35",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T19:45:19Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:6df082fcf60d0506865201fd890b7bc9576a1f08450bad80cd77c048d8b75b92",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC13202214.xml": "sha256:853f7a3f4ef6fdcc553a1acfd08c8792f36f5aa4b8e4548f30db5cce5f6177d8"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/7/items/0|src": [
+   {
+    "value_sha256": "sha256:9c64780f7cfbce5370cdd5f2b2fcaba0711541dac4709e820c34644f2026b953",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T19:45:19Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:99641ec83f51636354b08858fdc099e9c89f2ce1b7027373ad79d8a4d43ac99d",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC7195362.xml": "sha256:db4e74820c033d42b8dd192d6f4d028d44040949f1c9c0532d95810c36a40faa"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/7/independence_group|src": [
+   {
+    "value_sha256": "sha256:7a256ee9fb399523c89766e5e24ac710190435248794924c9a0fd1297ebf7f19",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T19:45:19Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:71142dcbd3152e0db36d99edc1fd6764e876a734b43fe051c97f46519b5787c8",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC7195362.xml": "sha256:db4e74820c033d42b8dd192d6f4d028d44040949f1c9c0532d95810c36a40faa"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/8/items/0|src": [
+   {
+    "value_sha256": "sha256:43a5faf98158b684bbfe18bae8b602a2d589afc74fd8552655255438e8188416",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T19:45:19Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:18482b64837b0f89c6246e4b4fa6df25dc5d87d2e18c2894e52e0f161d0bcdf0",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC13202214.xml": "sha256:853f7a3f4ef6fdcc553a1acfd08c8792f36f5aa4b8e4548f30db5cce5f6177d8"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/8/independence_group|src": [
+   {
+    "value_sha256": "sha256:5ddc0b51a9761b0a568d93817be4a9598f5803e87df3b887768be94e46374d35",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T19:45:19Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:6df082fcf60d0506865201fd890b7bc9576a1f08450bad80cd77c048d8b75b92",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC13202214.xml": "sha256:853f7a3f4ef6fdcc553a1acfd08c8792f36f5aa4b8e4548f30db5cce5f6177d8"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/9/items/0|src": [
+   {
+    "value_sha256": "sha256:b9a0dd7c1a5ddbc8cffd86ea115aea49513f42f38afab3f6db56ead6f4c0f5a5",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T19:45:19Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:1cf2f79ba9db60022ef040f8ea4100eff6bd05326434aa25d9106d026b1cd8df",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC11428813.xml": "sha256:b12ba2d8cbf0dc59e9668ea19b23ec6b63a3c78616940953ebcfe86409c0a55e"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/9/independence_group|src": [
+   {
+    "value_sha256": "sha256:92e16328508f028392c4067fb64567a5bd8508493c5142e919e833c8c6e74ab0",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T19:45:19Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:3e87f63e75880544814d8771bfcf40382e26bfc28dd17effd1dc97f2c35c216d",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC11428813.xml": "sha256:b12ba2d8cbf0dc59e9668ea19b23ec6b63a3c78616940953ebcfe86409c0a55e"
+    }
+   }
+  ],
+  "/added/layers/core/assumptions/5/text|src": [
+   {
+    "value_sha256": "sha256:e287e160fe35f77d9ddde06c0e49203cda91481c674783a2b525a5f3c971dffe",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/5/text|basis_quote": [
+   {
+    "value_sha256": "sha256:e287e160fe35f77d9ddde06c0e49203cda91481c674783a2b525a5f3c971dffe",
+    "passage_sha256": "sha256:a11d21d7f64e4ec924b2f1fdd57a957649652ecad8e9a63914fd974336360b91",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:14a591806a2e6d7f7fd9562ba1c2af399af74dd4601c08481503327eb843b42d"
+   }
+  ],
+  "/added/layers/core/assumptions/5/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/6/text|src": [
+   {
+    "value_sha256": "sha256:06fc2a0af07eca5ffcced38c22538ab4ab44520c1016df1b437fb5d615d0a1e5",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/6/text|basis_quote": [
+   {
+    "value_sha256": "sha256:06fc2a0af07eca5ffcced38c22538ab4ab44520c1016df1b437fb5d615d0a1e5",
+    "passage_sha256": "sha256:e7934fd37cf44ece5bc99361bb5967cb25bea771cc25c69f59d3b6578802f09f",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:f7a77c87234af6a679699a3c366b818a156f2f2aecd879e2f4e1e2bf645efb15"
+   }
+  ],
+  "/added/layers/core/assumptions/6/fundamental|src": [
+   {
+    "value_sha256": "sha256:fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/7/text|src": [
+   {
+    "value_sha256": "sha256:b307ae24176149419ef8595683e36d12c256c43154eb50f2f01188b0f61b4158",
+    "passage_sha256": "sha256:4170f14845d78f0e31bfb9929d6822d595d2303126e05cfabfa38246226f8eff",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/7/text|basis_quote": [
+   {
+    "value_sha256": "sha256:b307ae24176149419ef8595683e36d12c256c43154eb50f2f01188b0f61b4158",
+    "passage_sha256": "sha256:b8b4cf70459852843d9d67c829315c10cdd4062eeda77a26ac001c85f57275ec",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:18819c86023137e1cc9ee9cd9d3e5ef829a19f226d0dab4966468fa8b7de6ecf"
+   }
+  ],
+  "/added/layers/core/assumptions/7/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:4170f14845d78f0e31bfb9929d6822d595d2303126e05cfabfa38246226f8eff",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/8/text|src": [
+   {
+    "value_sha256": "sha256:d33e677758578413969fbb52d27049ffce12000ef6b6265910d0ca70f2721335",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/8/text|basis_quote": [
+   {
+    "value_sha256": "sha256:d33e677758578413969fbb52d27049ffce12000ef6b6265910d0ca70f2721335",
+    "passage_sha256": "sha256:ce308dc4bff1e1a6a38b0f6e6414bc727be5caff4b89757e35fc946a2112b6ad",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/8/fundamental|src": [
+   {
+    "value_sha256": "sha256:fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/9/text|src": [
+   {
+    "value_sha256": "sha256:f4200ed633f59ab91b515bc8c36be10247275edda6f0c7239ab76e21e6cfe15b",
+    "passage_sha256": "sha256:d8825a06116b0118c88493365f96d33c1a5f55b2a1653c002eddc751b8c608dd",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/9/text|basis_quote": [
+   {
+    "value_sha256": "sha256:f4200ed633f59ab91b515bc8c36be10247275edda6f0c7239ab76e21e6cfe15b",
+    "passage_sha256": "sha256:a0a52f2aa39c911b2ae90c0d650ccb8dda2afc91aca24852b34dc4e64d08c1f8",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:8e9b9c283ea375c8e8d3b3abb9b8785ec003b3d9d541c7646417d0f64ec62ec7"
+   }
+  ],
+  "/added/layers/core/assumptions/9/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:d8825a06116b0118c88493365f96d33c1a5f55b2a1653c002eddc751b8c608dd",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/6/statement|src": [
+   {
+    "value_sha256": "sha256:9e9bcf5b770db741f7d35494eca8d944a8239a970c864e2dce781cc55ceb7d12",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/6/claim_type|src": [
+   {
+    "value_sha256": "sha256:e93809b35d4f6979080670134cc2432e43b8db99118cb92c7816464ed13b7535",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/6/role|src": [
+   {
+    "value_sha256": "sha256:ae6e9157995bdbcae79f0221fc05ca3df41dadbabd1d489c5aaee1a944a9c16d",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/6/modality|src": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:0c0767b91f75a3a3bbc6cf3996522c1f10c9b28485b8a2b2de8b976f3dffe240",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:439a9e713e283f602ca924921f29cc68b9f993efdbaa3343364399922ab70ae2"
+   }
+  ],
+  "/added/layers/core/atoms/6/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:c4f148907abc22e4a0567fbeb0c2d396dad41d4d55051e9e4b7c0afa66b46508",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:378a59e4662931c116f128e7b9858b7f7ad7be2d9f0acd4dece3065b643df183"
+   },
+   {
+    "value_sha256": "sha256:0c0767b91f75a3a3bbc6cf3996522c1f10c9b28485b8a2b2de8b976f3dffe240",
+    "passage_sha256": "sha256:c4f148907abc22e4a0567fbeb0c2d396dad41d4d55051e9e4b7c0afa66b46508",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:13f526b1820b872000055e9104a12e187965fe05f1a0372d612929fcca7c40cb"
+   }
+  ],
+  "/added/layers/core/atoms/7/statement|src": [
+   {
+    "value_sha256": "sha256:ee1e9120ed8f9433792ea9d6fbaca01f487fb2b47ac388ad1c8b47b924ec7a29",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/7/claim_type|src": [
+   {
+    "value_sha256": "sha256:e93809b35d4f6979080670134cc2432e43b8db99118cb92c7816464ed13b7535",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/7/role|src": [
+   {
+    "value_sha256": "sha256:ae6e9157995bdbcae79f0221fc05ca3df41dadbabd1d489c5aaee1a944a9c16d",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/7/modality|src": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:bc7dac91000ad205ec55a9a21f6fd6ffb40957fa6c0453852607f3c049a87227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/7/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:a665cb22c185a9f0ef3a611a6830e5294683e0363d1912ed5ae4747f973d2a74",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/8/statement|src": [
+   {
+    "value_sha256": "sha256:8b45bfbb85e1cbf17fffdab912cfb4b49cb7591156a4d9a433a8358cd1766422",
+    "passage_sha256": "sha256:6622fdd63bc68e1e1baae0950623e2c93c679f12217ad27e679ab1bf2eaab48b",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:9ef0b8e8a47b954466a556bce612139c0321ddcb02844befa75397e26be6b23b"
+   },
+   {
+    "value_sha256": "sha256:bc3fd6a1e622864a194981fbd754bcbd3387e062b72126e48bab5ce97043a0d5",
+    "passage_sha256": "sha256:6622fdd63bc68e1e1baae0950623e2c93c679f12217ad27e679ab1bf2eaab48b",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/8/claim_type|src": [
+   {
+    "value_sha256": "sha256:e93809b35d4f6979080670134cc2432e43b8db99118cb92c7816464ed13b7535",
+    "passage_sha256": "sha256:6622fdd63bc68e1e1baae0950623e2c93c679f12217ad27e679ab1bf2eaab48b",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/8/role|src": [
+   {
+    "value_sha256": "sha256:ae6e9157995bdbcae79f0221fc05ca3df41dadbabd1d489c5aaee1a944a9c16d",
+    "passage_sha256": "sha256:6622fdd63bc68e1e1baae0950623e2c93c679f12217ad27e679ab1bf2eaab48b",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/8/modality|src": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:6622fdd63bc68e1e1baae0950623e2c93c679f12217ad27e679ab1bf2eaab48b",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/8/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:8f3abc17e29a3b700641400d9f9caf446c9766d2cedbee89e09de8003043dc3b",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/role|src": [
+   {
+    "value_sha256": "sha256:b93122022a0dba21936317283287ed6c3dd0b363aad3eb6928401a4ff638886c",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/system/kind|src": [
+   {
+    "value_sha256": "sha256:8c4255f978cc832b56bc66907dee855afffa6f13c1ff62df2366f4c63b89331b",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/system/taxon|src": [
+   {
+    "value_sha256": "sha256:dff4c9319cc4d3cc5effbf7c281f1f602670256d807a8620cd7cf6710b3adddb",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/endpoint|src": [
+   {
+    "value_sha256": "sha256:4955ebf5712c42b34f2f1826f3e772163cc33e01fd9becb0447a035f60daf3b9",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/endpoint|basis_quote": [
+   {
+    "value_sha256": "sha256:4955ebf5712c42b34f2f1826f3e772163cc33e01fd9becb0447a035f60daf3b9",
+    "passage_sha256": "sha256:2b54a8cda634f2150064e4cc73766b19dda152c33aef0b68db4f6994e33221ea",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/direction|src": [
+   {
+    "value_sha256": "sha256:747fdea8786a6005542c3e014ff4f4c4e7fb15a06b74458496406eb3cc1e2553",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:e953694961961a7e7240cd629cc95355e995fb8380cda946c7602635e88bec68"
+   },
+   {
+    "value_sha256": "sha256:81dd368650233e4de724b45cbde23a3deee2e5cd3d2d9627fe9c138c5abbd676",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:6745fb1d72e3608f00649b2ff49857a4aef8dfe3c135b965a71ee5970c04e2dd"
+   },
+   {
+    "value_sha256": "sha256:6f6f7ff5a276261bc359c2a6f3c26b73e7672a02d4a70382c3d2f833660cefc8",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:14:13Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/form|src": [
+   {
+    "value_sha256": "sha256:432ced8bd4f7363e6ad2e7646783c593eb2bbc2e80c828685c4a923a46112999",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/derives_from_atom_refs|src": [
+   {
+    "value_sha256": "sha256:fae6fe401598292d4435e4a42c420c7f3a513b48ef83ab1a706b58beb1efd2b8",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/epistemic_status|src": [
+   {
+    "value_sha256": "sha256:bcf1564235cdad00eb3ca47331e08aa5e1283d82462ea081edb6d9eaa57206ee",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/4/also_expected_under|src": [
+   {
+    "value_sha256": "sha256:dac2ed0ef8c0fca6c90c64521e20a1ae2f2bd96709ca342c3911e9e91b112413",
+    "passage_sha256": "sha256:90a4874f96743fd0e26f899e13a86c284f27c6193893ab6461e008ba1d84d227",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/6/direction|src": [
+   {
+    "value_sha256": "sha256:e772e5cd057664cd0cb7279af2b302a5c68af9e39b2644634759e15fc08a025d",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/6/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/6/study_type|src": [
+   {
+    "value_sha256": "sha256:beafb82c38264e6e50592601aef017f3c7143dd51526293741e42af5f60735d3",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:c2f225b7bb8e32052532d55aa740214d7f286ad619e27c265d4b9aa20d35cd70"
+   },
+   {
+    "value_sha256": "sha256:de2b71123f224e167f678e08c9d73a4ba60039a73f6402b12e07df53e31dbead",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:f87a2636bfd78e26405826b0d31c306cc6ed576ffcb895abfd9281c97c6971a7"
+   },
+   {
+    "value_sha256": "sha256:420457e0a049531c04f97847bdc015dcbbf6ff20ccb75d5ed141cc95c7d82061",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T20:14:13Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:261f8f6313b453fbdf263af4fbb9e55077649c349a86df491bcd372030144a49",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:df23e120b44072af5fd75601b61388f65dfad8428aea8ff7b6f2b631d960e1a8",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:1bd68714b7a6450d6130163f7ea9a9a72a69e22898ec39bbc59747c9428c5654",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/6/study_system|src": [
+   {
+    "value_sha256": "sha256:cc7635ff2ca8cab7ea5e22a764b15b5544c2b8d76ffda9f32d0cb89d9c1eaee6",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "no",
+    "note_sha256": "sha256:6d955375c4f7fc5cf3165d7fb4280f957c318fc564f72df4a07b5d85bf9c26ee"
+   },
+   {
+    "value_sha256": "sha256:881ffb5e40193369eb9911abf2f1aac455842293568e7aee7bc63db32b42765c",
+    "passage_sha256": "sha256:d615ec7ea58b7c95c45014efc50518bf27b67f2211cf4007e48dd4dabee285b7",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/6/indirectness|src": [
+   {
+    "value_sha256": "sha256:25f85a8750053692d4a09cd2e6a8a382a93eb9d444ab19e671d7541fe5dec5ba",
+    "passage_sha256": "sha256:b365177e690187c01b899b3c00d1bc191c8fc6d77b199d9c34be5285018a947d",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:0d35d22197672411d2b379f889f1f53b91254bb0196bb32d416cd138f2e158d5"
+   }
+  ],
+  "/added/layers/evidence/lines/7/direction|src": [
+   {
+    "value_sha256": "sha256:8aebf57a7618f37ba956699183bdacba6d73b0f0d917df2db98fbf1f7ccfd58b",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/7/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/7/study_type|src": [
+   {
+    "value_sha256": "sha256:81b7402ec14e48bd268d45317e40ada4d6d0710430469716c64df685066680f0",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:1379f100ecba5ce7ced2397a78d289d8da20bea1e1f9fccafd284bfbc42a59a2"
+   },
+   {
+    "value_sha256": "sha256:c8dfead2a22fbdf96a5b2aadb74856ab34d907d64a08536b182e7e619d289b92",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:274012022df4f93a373d1c2ed9e17e57d7ad251aeef27ed01419186f775d6b04"
+   },
+   {
+    "value_sha256": "sha256:a3787a93e894ad5c9271b4e7d62def88b16863e00015516b8beee35bacef4c02",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T20:14:13Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/7/study_system|src": [
+   {
+    "value_sha256": "sha256:cc7635ff2ca8cab7ea5e22a764b15b5544c2b8d76ffda9f32d0cb89d9c1eaee6",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/7/indirectness|src": [
+   {
+    "value_sha256": "sha256:3045a0d49d2a020704cbcafaa0a9ea25d2089b15d63df10621911a0135f6400a",
+    "passage_sha256": "sha256:8d3d32efb8ff43215714e34c6f32ea380dc1a1474dd035d95c1e9ef8c333c3ac",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/8/direction|src": [
+   {
+    "value_sha256": "sha256:f11673f4e6881ecf4cc4d01f1a645ff20ef2adb23a5bd608e27b4f7f5366abb6",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/8/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/8/study_type|src": [
+   {
+    "value_sha256": "sha256:711867078e2986e7a31292d48799726a9c31a841bc520ecba6373f1849041722",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:2613987c8c6d92c7d4e89c576fa9095b91635533814d206e8ac4922d36e82105",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:316432d95e1d54399fdc66d638930e45b8347afe9901a9abd9d265f313c437b1",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/8/study_system|src": [
+   {
+    "value_sha256": "sha256:cc7635ff2ca8cab7ea5e22a764b15b5544c2b8d76ffda9f32d0cb89d9c1eaee6",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:0832c18ca44bc4660f741a57d45a213051cbf2fd81d5dffd947a23e12e9bb96b"
+   },
+   {
+    "value_sha256": "sha256:881ffb5e40193369eb9911abf2f1aac455842293568e7aee7bc63db32b42765c",
+    "passage_sha256": "sha256:d615ec7ea58b7c95c45014efc50518bf27b67f2211cf4007e48dd4dabee285b7",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/8/indirectness|src": [
+   {
+    "value_sha256": "sha256:eceae9533bcc2e98d6fcb6be8152e0118e9198c97ae724855aa50b77dd6f5beb",
+    "passage_sha256": "sha256:26c83cc1e7e7465c9ed23a8ccb92636887d782ffd00a3b5daacb980520cb5df8",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/9/direction|src": [
+   {
+    "value_sha256": "sha256:652cc436d80700de7d555d72baf994bbd640780be51c8d26374d51c6fd58a152",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:c7f5206c063a36d51055e726000eed5a50665fd2ee7423bf4e4c93bc6dc588e3"
+   },
+   {
+    "value_sha256": "sha256:e3cf748414e5b4ab36d47767778d060ae11d45b0540e2d81aa832e8b25dac982",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/9/argument_kind|src": [
+   {
+    "value_sha256": "sha256:07eeabfce552cf81fc0e0601f5cb04a3b8a7d20b8a3c8d0612e3f22257b32817",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:0a5902ccb94addf95088a45383a4608fcb2bdb3df9ac00b5201a51cb0f4cd1ac"
+   },
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "no",
+    "note_sha256": "sha256:2047093658108d1e343cc285fff533f141570a4b7a3ff585de4635ca4fadd90a"
+   }
+  ],
+  "/added/layers/evidence/lines/9/study_type|src": [
+   {
+    "value_sha256": "sha256:e9582dab1f8eac9358a09bfb061532420fe61c514c48d3e26571ed4b809bf323",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:45f84918be83e9149d3caabef923a3385e6c4717a1839c18d7e7be63b6af4b40"
+   },
+   {
+    "value_sha256": "sha256:0dc25af631cf3a165c7d76754ab6dc2adf53256fb23ebd2a07df2f41b4464bc2",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T20:12:17Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:97c7f33590ed4eb9de18f0781cadc520dbe2cd601ae77a7afaad0f28a27da764",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/9/study_system|src": [
+   {
+    "value_sha256": "sha256:84cc6ec735ce9980d62ee38851660e843e2964c277b2c8a07586e204480e7018",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/9/indirectness|src": [
+   {
+    "value_sha256": "sha256:e77ae203043b1b7f7dc92b2a8e7b97b7cd8e5091e20fc229582a772108c0148f",
+    "passage_sha256": "sha256:0956dbee44d8953fd8d08baeb4918d3446ce8309cb7307e943f319d52c9b62c1",
+    "checked_at": "2026-10-23T20:00:27Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:bbd6d3ea7e311921d3a70e03ac1191e64da47b82651f425d6cc09eb6ef998532"
+   }
+  ],
+  "/added/layers/evidence/lines/10/items/0|src": [
+   {
+    "value_sha256": "sha256:49754afcfd375eedd858984a73b4a718021af0cc5da480edd304767e7ffd932c",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:26:35Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/10/independence_group|src": [
+   {
+    "value_sha256": "sha256:4f94d9d5d49920571a66b26e75c04809e051bb432769d6cf01b546f94dc8b853",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:26:35Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:caedd5a15112343c01ff62acd63b44e98c764c2f660f48d305436b898bd66caf",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/11/items/0|src": [
+   {
+    "value_sha256": "sha256:75aa7d24a16d9b22c9093a97b1286c7a8354dfdcf057523cc9c053cef08f2d5c",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:26:35Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/11/independence_group|src": [
+   {
+    "value_sha256": "sha256:f31a803de7aaeeec3fdc9ac703d628649776d92e2168112ad1caca2b5b8786d5",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:26:35Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:cf4e02782ef064ebd2fcb43cdab1368dfef97ed3112fbceef325246a67797e71",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/core/assumptions/10/text|src": [
+   {
+    "value_sha256": "sha256:4f65abc78b1b854445af675637591fa85bddedbabe36a9d11e474533dcbc0fdb",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/10/text|basis_quote": [
+   {
+    "value_sha256": "sha256:4f65abc78b1b854445af675637591fa85bddedbabe36a9d11e474533dcbc0fdb",
+    "passage_sha256": "sha256:a0c478b92bc1392c7efebc34e41a938209c85c1e4952721e8a19ff37ec382078",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:caf8a0429ccea6023612424bc297612d9a61502437df48316f82f23714b63aaa"
+   }
+  ],
+  "/added/layers/core/assumptions/10/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:02257ad1516a944f25ec6c5537b7bf2b7ccf90507c255af25e8caf3387e58c65",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/11/text|src": [
+   {
+    "value_sha256": "sha256:86af3ad7d38c6aac739e959debc2ec18beaff01c217484b73aeac95b430309be",
+    "passage_sha256": "sha256:6b901dc90e0a2d55cebb40ff26a7c25f608c88be0dbd40d2d8368dbd96747450",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/11/text|basis_quote": [
+   {
+    "value_sha256": "sha256:86af3ad7d38c6aac739e959debc2ec18beaff01c217484b73aeac95b430309be",
+    "passage_sha256": "sha256:511bb31b8a42039796a7e974515d329581d15f303b4336465af819726740fe91",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/11/fundamental|src": [
+   {
+    "value_sha256": "sha256:b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+    "passage_sha256": "sha256:6b901dc90e0a2d55cebb40ff26a7c25f608c88be0dbd40d2d8368dbd96747450",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/9/statement|src": [
+   {
+    "value_sha256": "sha256:8d52811a04592f67b0db8d8f431acd7e71a1a5d97f2ddb55de648566b6d7707d",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/9/claim_type|src": [
+   {
+    "value_sha256": "sha256:e93809b35d4f6979080670134cc2432e43b8db99118cb92c7816464ed13b7535",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/9/role|src": [
+   {
+    "value_sha256": "sha256:eeaf048a20e4aa41e6e7f2b91bfbe9356039ad927466737a92ec493ec104816d",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/9/modality|src": [
+   {
+    "value_sha256": "sha256:0c0767b91f75a3a3bbc6cf3996522c1f10c9b28485b8a2b2de8b976f3dffe240",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:903151040430d778d696291719cc9bbbc16133a2942edbf58f71bf4e7a2284e8"
+   },
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/9/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0c0767b91f75a3a3bbc6cf3996522c1f10c9b28485b8a2b2de8b976f3dffe240",
+    "passage_sha256": "sha256:a038a703c3740a07639fca9e6f8c31986953e21ecae4299c2ad87676a1679e96",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:a70d70bb376ee8206095ea8cdd4ca59555ee92aeaaaf5865252dc2cf37d31c08"
+   },
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:a038a703c3740a07639fca9e6f8c31986953e21ecae4299c2ad87676a1679e96",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/10/statement|src": [
+   {
+    "value_sha256": "sha256:5f3414627732e9443c29aab1c0f098cfb73c79babf0fc3fe24eb94aba9dd06be",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/10/claim_type|src": [
+   {
+    "value_sha256": "sha256:e93809b35d4f6979080670134cc2432e43b8db99118cb92c7816464ed13b7535",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:80c94f1552db0b8c182d6c3bf615737ab2e43b67a107acaa453514e3c4d55e7c"
+   },
+   {
+    "value_sha256": "sha256:181e34c40cbced9fab372c07227b816873415541afc2859f0e6e6c56424f0fa3",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:b65675af6de99bb5117dee4309b2fcab61d626a02bd1858c5a9983b57ccefe6b"
+   },
+   {
+    "value_sha256": "sha256:e4e36336db9c0f6f20a9f326970de25b3fd32d48ed2f857e436582d856d7e297",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:39:52Z",
+    "verdict": "no",
+    "note_sha256": "sha256:9070a6713aafdf0668fc1c17a9722437445997713292e4182d18a59d6bede680"
+   }
+  ],
+  "/added/layers/core/atoms/10/role|src": [
+   {
+    "value_sha256": "sha256:eeaf048a20e4aa41e6e7f2b91bfbe9356039ad927466737a92ec493ec104816d",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/10/modality|src": [
+   {
+    "value_sha256": "sha256:0c0767b91f75a3a3bbc6cf3996522c1f10c9b28485b8a2b2de8b976f3dffe240",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:eb934a309c524f4196da0ce33f6d232c4b9688989f17540cb748d8329491c737"
+   },
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/10/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0c0767b91f75a3a3bbc6cf3996522c1f10c9b28485b8a2b2de8b976f3dffe240",
+    "passage_sha256": "sha256:4cc66ed7d792100f5223207194328e41d0cbcb9808572ec64735966ed11f64ad",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:64257e0b797d5accf69a6d97451454ca2d188a509192e1136954911cddc61cac"
+   },
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:4cc66ed7d792100f5223207194328e41d0cbcb9808572ec64735966ed11f64ad",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/0/discrimination|src": [
+   {
+    "value_sha256": "sha256:ec109d66b0e82ab98ada5f28fa8bf34dda5beff3f384e5f1a5f8bc2c3ba63a3c",
+    "passage_sha256": "sha256:3b16ddf5241f58f2d074b2a1ec911fa630665a355546f768026540b11cdef617",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/effect_modifiers/0|src": [
+   {
+    "value_sha256": "sha256:6dd3964a2a785c9c021f725b57b5c23f4b9475e69778fc40b5c42fbbf727f0aa",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:a46389ee55a16e852bd5c2ebec37bd60487b5d5a45a0ec57f104b3321f932b56"
+   },
+   {
+    "value_sha256": "sha256:f8e373f968b760ff6590e67782fd15f1068d85e2d68f0cc0c7d4579bbb89bde7",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/1/effect_modifiers/1|src": [
+   {
+    "value_sha256": "sha256:4f5ac24dcdafff5fffb813e266754582d59a11852f4a637ea004b427f0a12562",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:0fa1747c660de5b71bb13204b7a2a5c3e5413d51b22ff00202494a675bd62d0c"
+   },
+   {
+    "value_sha256": "sha256:ee0a5c603d40d23111a0c95497166040333a1af1363c57efd3194ffe57dca062",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/10/direction|src": [
+   {
+    "value_sha256": "sha256:8a49ffa7d1e92584ad27003ceafbb0f8c4cab023b0f2008de784635016ad1c89",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:9959a1550a94891ba5dac970263dd8569fb832917d7c28a33a8eea455cdeca08"
+   }
+  ],
+  "/added/layers/evidence/lines/10/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/10/study_type|src": [
+   {
+    "value_sha256": "sha256:943d7eb73572c92bd5c32a885998ea36952ee5223a4882a377864a0889ec5ac8",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/10/study_system|src": [
+   {
+    "value_sha256": "sha256:2adec16bc7b1e505781a5f60fbf5b2e89dce01ef0e075ff3c30668bcc5c8f660",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/10/indirectness|src": [
+   {
+    "value_sha256": "sha256:730eb86c64ca454a30b26de793701c3499c8d726ff78244cc8f8c8b8c7cb3280",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/11/direction|src": [
+   {
+    "value_sha256": "sha256:80bfdb7fe7f42ae54d74f022504e89d248b5360593c15452d99f87ce05da0a00",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:b4d26e1f8a18470dc93ee3421cb3d4f192cdda08cec191b260eabd124a0e7ba7"
+   }
+  ],
+  "/added/layers/evidence/lines/11/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/11/study_type|src": [
+   {
+    "value_sha256": "sha256:9baed8add3a43c0cd391d2923a00e6ec7af1f5eb301ec17fb09dd50c20595055",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/11/study_system|src": [
+   {
+    "value_sha256": "sha256:64f26a2a237a166611986f88b249393800e8445ee589b8caf8497c794ab58399",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/11/indirectness|src": [
+   {
+    "value_sha256": "sha256:aae1227863e3181089260e539dbebe894ef4b645281d310fdc5c91222a6d35ba",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T20:34:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/12/items/0|src": [
+   {
+    "value_sha256": "sha256:7b738e8f28b55f4dbe5bfb883c3c4ef38332354059b4dc438f9d0b2359d843ab",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:34:06Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:ce3cd62e5cd1465fd8c341adb0d19001542391a80cfa685a6c83bef185956a2d",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC4871489.xml": "sha256:ea239467e5d04f4c3e440a130e4b14870040edd8c41529d5c5c70da66e4628b2"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/12/independence_group|src": [
+   {
+    "value_sha256": "sha256:96c1a42c4bcabaa443dd9aeb5a5db992351642eb3eba88ed2c0f6db620fec367",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:34:06Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:7742c2fbebb11fc961355b8b7d1c71bec5f34158a74fc0177f47bca2d0f436f7",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC4871489.xml": "sha256:ea239467e5d04f4c3e440a130e4b14870040edd8c41529d5c5c70da66e4628b2"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/12/direction|src": [
+   {
+    "value_sha256": "sha256:64f7cde5d2baa59f0e1895b430577337f27050b91301de19ba1c267a6fe5c4fc",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:27e9c61fd6b3ad561d6a943e2c70afb56157647ac715ad920a3d64be75a069cd"
+   },
+   {
+    "value_sha256": "sha256:f0914f5c84559f0806311942f45517c3d6ddbbfc96139bde8afb583bfaab9689",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:39:52Z",
+    "verdict": "no",
+    "note_sha256": "sha256:4157eba42211a5bb388e0454b07bb6a2c55529ddad524b0ebecd19ff4054c7a6"
+   }
+  ],
+  "/added/layers/evidence/lines/12/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/12/study_type|src": [
+   {
+    "value_sha256": "sha256:32cd7e636ce8f347302d5560c7af88d472e2ddd782cde1c53886d8522bed339a",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:c36056869435fa750b9ef8cd216c56b92b175eaea3d263b4fcb695658f976a90"
+   },
+   {
+    "value_sha256": "sha256:1958ac3641116455df626e3df0ae49bcf61c724da8958c3a2d4d980cb8019209",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:39:52Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:322b0a9a683c25e24ebc630a4dfc7109123980713408aff3318de5c568e2d6dd",
+    "passage_sha256": "sha256:47f7435797fe80180c47fda2af806cfe57f3eb371ca5ea63fd8032f3be1742b1",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/12/study_system|src": [
+   {
+    "value_sha256": "sha256:64f26a2a237a166611986f88b249393800e8445ee589b8caf8497c794ab58399",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/12/indirectness|src": [
+   {
+    "value_sha256": "sha256:0ed7f730c999491dab97b5c2be769a95d266ded927f6e956a6b8e871c469bdc7",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:37:08Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:5308fb41ff640dfa9342401d5c2a0de6a91706ac04e843f7642183845ea2ea42"
+   },
+   {
+    "value_sha256": "sha256:d76a275b1abb90927099c1ae3008667bee9c4aeeb3e6ba8cf604eb831d724ec0",
+    "passage_sha256": "sha256:aad8e5725d890ecc1191cab78ae0b8ccd1ee47257fe3279d2845e16632cbbe46",
+    "checked_at": "2026-10-23T20:39:52Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:4ae9a07bb6569f51e4f19cef13f7c841bde3619513495ecd030b7f1c368ccc4e"
+   }
+  ],
+  "/added/layers/evidence/lines/13/items/0|src": [
+   {
+    "value_sha256": "sha256:49754afcfd375eedd858984a73b4a718021af0cc5da480edd304767e7ffd932c",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:53:39Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/13/independence_group|src": [
+   {
+    "value_sha256": "sha256:eedcd50573f5d110f24072bfa83356ce2587cb6f9aac71a942e3e32116bd2865",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T20:53:39Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:f6dda2f152ddff5023d33577032dfb9c043b6578b1e1a5f67c2188ed31dc7a63",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/14/items/0|src": [
+   {
+    "value_sha256": "sha256:8ef39764b97418c0035ef94699d8ea12faf33c59c8723146dd19c013709aeed0",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T20:58:46Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:c326ba32bbf30676afb41d0f8d5d53a7529b0120036c58a9ca98d9a340c27fe6",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC2525684.xml": "sha256:096743418e585caca6e2b809bcb8b749a1a98defd37208dd52551655a437f95f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/14/independence_group|src": [
+   {
+    "value_sha256": "sha256:fbdaffa654f74fb210ee536813357eaf3155a3cb7db556450c947a4e90c24b76",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T20:58:46Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:f6bb72af6bbcbe6dd6232299204f097b90a0fc3761f802bdcd078d6eb4975eac",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC2525684.xml": "sha256:096743418e585caca6e2b809bcb8b749a1a98defd37208dd52551655a437f95f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/15/items/0|src": [
+   {
+    "value_sha256": "sha256:377de01f2c139ee912fd483301b2b6245e5547abded8fdec0649625718bc3e93",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T20:58:46Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:d177631376d01243b000cebad914cff550d678bedea315f054762b3786e710f0",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC8136510.xml": "sha256:42877cb67868673556f76ed5276e235339136acd7437ddbdc39344900c0b0b19"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/15/independence_group|src": [
+   {
+    "value_sha256": "sha256:61848c8f7ec9a9810d4a2723a215213d4a75a63fd24a9f3f9427fb7e0bc9b69c",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T20:58:46Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:50aedf1516f9b63329b272ea034c1ab9d1fb9d993f0ac77ebc80837cb7a07503",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC8136510.xml": "sha256:42877cb67868673556f76ed5276e235339136acd7437ddbdc39344900c0b0b19"
+    }
+   }
+  ],
+  "/added/layers/core/assumptions/12/text|src": [
+   {
+    "value_sha256": "sha256:30481468365a45a995a3be8a544ea987db2f3dc3e85d744b21c1ef4a48269915",
+    "passage_sha256": "sha256:aa46d4c5fc6b578c7c666aa2fff6dd29a59630388aa856ef9f8cf86ff5b02017",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:9901a48eb9d7e0e043a00bf38631eab091eb9040d471ff9f2a04d9e458f37435",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/12/text|basis_quote": [
+   {
+    "value_sha256": "sha256:30481468365a45a995a3be8a544ea987db2f3dc3e85d744b21c1ef4a48269915",
+    "passage_sha256": "sha256:690041395efa94d11fd079d4e15f539e5afee5cd93211bd3d82f006c7b9efd4b",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:b70d23e10331c81ce2bbbdf6a30eb607f81899e16a71c5ce3b3e8659991c25c4"
+   },
+   {
+    "value_sha256": "sha256:9901a48eb9d7e0e043a00bf38631eab091eb9040d471ff9f2a04d9e458f37435",
+    "passage_sha256": "sha256:7c351fbc7ec119a352d1477c0af186809a9ae3383a9859168b5da26657654cbc",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/11/statement|src": [
+   {
+    "value_sha256": "sha256:0481fee26eeadebfbaaaf77f90bafdffd0044f2ee85eb812a92670bf084be357",
+    "passage_sha256": "sha256:fd2e92b78658fe2b688647d0f0aa1c38ab82d1c0dd292af73ebd13cf9c55aeed",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/11/claim_type|src": [
+   {
+    "value_sha256": "sha256:3b5e0d35ca27048231d70458d966438dab7874440f7065dda43b1ca819f01778",
+    "passage_sha256": "sha256:fd2e92b78658fe2b688647d0f0aa1c38ab82d1c0dd292af73ebd13cf9c55aeed",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/11/role|src": [
+   {
+    "value_sha256": "sha256:eeaf048a20e4aa41e6e7f2b91bfbe9356039ad927466737a92ec493ec104816d",
+    "passage_sha256": "sha256:fd2e92b78658fe2b688647d0f0aa1c38ab82d1c0dd292af73ebd13cf9c55aeed",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/11/modality|src": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:fd2e92b78658fe2b688647d0f0aa1c38ab82d1c0dd292af73ebd13cf9c55aeed",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/atoms/11/modality|basis_quote": [
+   {
+    "value_sha256": "sha256:0f7260489b423de82db821800bee640cb34033fd7a1cb0a2feb82f305c65f135",
+    "passage_sha256": "sha256:85512c78c434cc1964ce5db3ea72660c5f0ee9c8d2d324716d45e16d8239fc32",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/predictions/2/also_expected_under|src": [
+   {
+    "value_sha256": "sha256:b90f1b96135db1132fd8badadd5d463f91ddd0679f0b9d026d0887aa6ee89115",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:08c592b48e391772b9fbd5662acd2e6b6ac6c23db1929fbc8502d98f3d4b79db"
+   }
+  ],
+  "/added/layers/evidence/lines/13/direction|src": [
+   {
+    "value_sha256": "sha256:b1c0d16fd1c28fe79234a99f4e03b41c3be1a84d189d64fea81770071e0b1d21",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:950c394d3a4166bbe6f43767cf92f2256f420aefb0e86ffdcc51511c0834e313"
+   }
+  ],
+  "/added/layers/evidence/lines/13/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/13/study_type|src": [
+   {
+    "value_sha256": "sha256:8c44e5dbd6278573b6ba2bbad601d48504e9360b7d03e45cd2020227aa152e3d",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:8bce96caf69b6579820f9353745ff6f321f6f66f5b3b21f7263b775e44042966"
+   },
+   {
+    "value_sha256": "sha256:dda10a9ae9642f12926071374c7bf41a9809489619f53c3f82a35c57f7bd0f2b",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:03:57Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/13/study_system|src": [
+   {
+    "value_sha256": "sha256:eaae072597eb66683cb45f4b94921cd376ef16d2729dbcf641ee3fb8fc9585ad",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/13/indirectness|src": [
+   {
+    "value_sha256": "sha256:7c506ac928a3e0cda916cdbd2b99027e33b3810e3a3a84fc1bbed5bf66211bb2",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/14/direction|src": [
+   {
+    "value_sha256": "sha256:a4a474474304949c60e8854250e9af6329e6ca2e27d233444fcb00839a9383f7",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:1ee504e75ffc0164a9888c67a5530829abb287eac3693e02cfdd9dfbdd6145bd",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/14/argument_kind|src": [
+   {
+    "value_sha256": "sha256:07eeabfce552cf81fc0e0601f5cb04a3b8a7d20b8a3c8d0612e3f22257b32817",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/14/study_type|src": [
+   {
+    "value_sha256": "sha256:0f31dacb31d33d42853963e3ecde1f6fe9c1adf248901fba1f5d2d286456cc8f",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:6188499fd1e7e0e3480e1988bc56980327a8f47e8ee92f28ae8705137479bb27",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:066f8b179dbb2f4413332a4dd8c58a79d3c06d60b76bd4e9aebfbe1cdc4529d4"
+   },
+   {
+    "value_sha256": "sha256:b9e9423068fa92acad6b4c4f7c56d5629732b152e42ccf8c8588addce7b9b104",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:29:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/14/study_system|src": [
+   {
+    "value_sha256": "sha256:1b39c837fe6a9feb4ff53a528541d34b2779ec16de1a91db6e24a62232af60ae",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/14/indirectness|src": [
+   {
+    "value_sha256": "sha256:759ad91c2f92a72f98b09ff778d68ea0020ae806a73ab170e280a358b5f97945",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:7436468870bd9f0a1a2a95731247da3a000035c694b9e3003009a3e27edf0f0c",
+    "passage_sha256": "sha256:e565c1e79bac419f0e72a420a256add87ce55373dff91a690364918ef11ae938",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/15/direction|src": [
+   {
+    "value_sha256": "sha256:4983c2601048bdc9a7d33cd70c4ead353a4090ac3f3674495392ccca1e7e6899",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/15/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/15/study_type|src": [
+   {
+    "value_sha256": "sha256:be6a4f70f8a19bd41c291e9c53005b496eb56b388bf37bd5196f181b5dd1cd84",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/15/study_system|src": [
+   {
+    "value_sha256": "sha256:30756159407a2ab749a1cb622fe5cfffa721107d73705aaf6e3795c4b89efaed",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:46787010c0f838078cd51abbb6306b2f553a3468bafc4baf90dd30f27c8e7d7c"
+   },
+   {
+    "value_sha256": "sha256:f2d95a95af2ab2d2c80bb2e389b8bd7655406b15123b45e9cf00c77ec383d7b0",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:03:57Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:0567c3c123dc16823f404a1d56638101da85c1bc8e3547bbdb4f0420fe1f803f",
+    "passage_sha256": "sha256:14c0d90fb140c956510cd326ccda9072be2044e3479ad88d25bb232baedc4003",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/15/indirectness|src": [
+   {
+    "value_sha256": "sha256:5f8e56a68e46632a20ab7d410c23975d4a51e605b5d94d3a28ad083948342005",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:02:38Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:cbc82b8072ecf4ec2eebf0b3e7269bd7cb9b57e24fb70521b58a1c07cb3123ba"
+   },
+   {
+    "value_sha256": "sha256:4a2f722257474cd6a690af407f2187e2280b0353cb530560c81363e417ccfa2b",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:03:57Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:3cf49b33cfa99f0da074da6b9f61f7912fe04e4d94f4fb20208777128f0cc219"
+   },
+   {
+    "value_sha256": "sha256:4a2f722257474cd6a690af407f2187e2280b0353cb530560c81363e417ccfa2b",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:4a2f722257474cd6a690af407f2187e2280b0353cb530560c81363e417ccfa2b",
+    "passage_sha256": "sha256:915bc424ebb9c89d80d8d30ab001053f5a188f6739fbc4269f67a4ffa0436faf",
+    "checked_at": "2026-10-23T21:29:05Z",
+    "verdict": "entails"
+   },
+   {
+    "value_sha256": "sha256:4a2f722257474cd6a690af407f2187e2280b0353cb530560c81363e417ccfa2b",
+    "passage_sha256": "sha256:14c0d90fb140c956510cd326ccda9072be2044e3479ad88d25bb232baedc4003",
+    "checked_at": "2026-10-23T21:31:30Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:4664d911fd33a713fa27737a445775f5a7f199b58a4b4632e09e8507efd30871"
+   }
+  ],
+  "/added/layers/evidence/lines/16/items/0|src": [
+   {
+    "value_sha256": "sha256:49754afcfd375eedd858984a73b4a718021af0cc5da480edd304767e7ffd932c",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:23:26Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/16/independence_group|src": [
+   {
+    "value_sha256": "sha256:16c3ba4d4a397eed516cc56d17792134971495a7d9a87f06dc1688d4fa7a6bbd",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:23:26Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:b5f34177ed12df34dfd2e415674c9dfcfd735f669b3b6b37cad063d9dae19e60",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/17/items/0|src": [
+   {
+    "value_sha256": "sha256:49754afcfd375eedd858984a73b4a718021af0cc5da480edd304767e7ffd932c",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:23:26Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/17/independence_group|src": [
+   {
+    "value_sha256": "sha256:33b61f094699508fe3f09cefae0d19fc14e0389570e25cc967cad8a3b14dbc6d",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:23:26Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:f25381483f312bf0cb67dbb0161104de910d0ad636516fa45cfff02fd16ceb85",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC1635750.xml": "sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/18/items/0|src": [
+   {
+    "value_sha256": "sha256:b1018a0340d056b62536e49d587f7c2143a8048f75fffebd21c029a921cc85ec",
+    "passage_sha256": "sha256:17c15ef3ac5fa2b328bf5253988408e0aba29a3f9f9427c634bc23b8b64a04e9",
+    "checked_at": "2026-10-23T21:23:26Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:966a33462c1ad00e7b45a6439867092eaea268d99c711766fab16d23ef5a09e0",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC3170258.xml": "sha256:b0238d3da8fd0f5a29d43308240b2dfd8e9dbc10cd0d0e9d396f7847bfb336a7"
+    }
+   }
+  ],
+  "/added/layers/evidence/lines/18/independence_group|src": [
+   {
+    "value_sha256": "sha256:d432a19a739fbadc121886cd5759c5ec73ab4ffc122819f9b7ff789addcd6c55",
+    "passage_sha256": "sha256:17c15ef3ac5fa2b328bf5253988408e0aba29a3f9f9427c634bc23b8b64a04e9",
+    "checked_at": "2026-10-23T21:23:26Z",
+    "verdict": "entails",
+    "note_sha256": "sha256:fe29fe1eb2c38694106eaa6306db9590b6ff2222725296ebaef906583c0d3994",
+    "resolver": {
+     "name": "ohf-reference-resolution",
+     "version": "2.0.0"
+    },
+    "resolver_inputs": {
+     "PMC3170258.xml": "sha256:b0238d3da8fd0f5a29d43308240b2dfd8e9dbc10cd0d0e9d396f7847bfb336a7"
+    }
+   }
+  ],
+  "/added/layers/core/assumptions/12/fundamental|src": [
+   {
+    "value_sha256": "sha256:fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+    "passage_sha256": "sha256:83fe100a92022b0d3534bb567444b84794ae1bf5859cc00cc0d151005863aabc",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "no",
+    "note_sha256": "sha256:ebe9c62e5cf796f8e3b4a4c5edeb62cb53645f5370619f3a7eab258f2daa9617"
+   }
+  ],
+  "/added/layers/core/assumptions/13/text|src": [
+   {
+    "value_sha256": "sha256:30481468365a45a995a3be8a544ea987db2f3dc3e85d744b21c1ef4a48269915",
+    "passage_sha256": "sha256:aa46d4c5fc6b578c7c666aa2fff6dd29a59630388aa856ef9f8cf86ff5b02017",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/core/assumptions/13/text|basis_quote": [
+   {
+    "value_sha256": "sha256:30481468365a45a995a3be8a544ea987db2f3dc3e85d744b21c1ef4a48269915",
+    "passage_sha256": "sha256:690041395efa94d11fd079d4e15f539e5afee5cd93211bd3d82f006c7b9efd4b",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:27e55198e08df2ce3ead3e417417bd6a5b6d8d28038d47bd35e37af34a3f3a05"
+   }
+  ],
+  "/added/layers/mechanism/summary|src": [
+   {
+    "value_sha256": "sha256:bdc4d4114d4cc59d253c59f51fcde7cec290daf098279b2656cf0597c52515d1",
+    "passage_sha256": "sha256:3bfcbac243676af16871bdb67f90946315b23ac5506813b144c4049a3daec106",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/mechanism/summary|basis_quote": [
+   {
+    "value_sha256": "sha256:bdc4d4114d4cc59d253c59f51fcde7cec290daf098279b2656cf0597c52515d1",
+    "passage_sha256": "sha256:d4253886e3e139f5fc783109556c3684ec70f034a6551806aed6404066fe8a65",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/16/direction|src": [
+   {
+    "value_sha256": "sha256:2fc3e40477864b0448decd3eab99cdc5ece1143f56039aaa6ad9654a7760a541",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/16/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/16/study_type|src": [
+   {
+    "value_sha256": "sha256:470d57b0d623698f2b1392a5f4bd1ba4a8084d61e1568a224a6098d87b8804bd",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/16/study_system|src": [
+   {
+    "value_sha256": "sha256:64f26a2a237a166611986f88b249393800e8445ee589b8caf8497c794ab58399",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/16/indirectness|src": [
+   {
+    "value_sha256": "sha256:f6ecaeab549c77115b2d19c13d3665c5d71b21b720015015cc91c66d16fdb101",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/17/direction|src": [
+   {
+    "value_sha256": "sha256:dc42c3b0022a11ee890f5885320e0de41d377840b9a943e69ebd2f2e010e53ef",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/17/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/17/study_type|src": [
+   {
+    "value_sha256": "sha256:ddad33610c59c70b83bd90792da1f8aa9a24ed44178dc1cda95eefea2bf32b54",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/17/study_system|src": [
+   {
+    "value_sha256": "sha256:4517aa898cebecadaa6938f6d1ce97baf573a3d2130ef9a340f34846ddf5a563",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/17/indirectness|src": [
+   {
+    "value_sha256": "sha256:968ae4efbb9a1a35e8c84a50af14a897c2828f93611e55f4e7d005c6c3866615",
+    "passage_sha256": "sha256:e07fb85c8c34520147a76432eab37ea7d71d0fe580ca1d2bd516d814b9e947cd",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/18/direction|src": [
+   {
+    "value_sha256": "sha256:50523f836b06c3cbd5f81c1ac22d549e0caa840e5e27ceef8bc4cf2201bd8b35",
+    "passage_sha256": "sha256:17c15ef3ac5fa2b328bf5253988408e0aba29a3f9f9427c634bc23b8b64a04e9",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "no",
+    "note_sha256": "sha256:9a08ebcd3b6ad2e87e8f2b6b2c8eb23f03875cb9c0092688fe23cbaecc6079e9"
+   },
+   {
+    "value_sha256": "sha256:41b1533800061e2d40df0d3d8fff232202b9d2f2bec12370a2574c93dd57af6d",
+    "passage_sha256": "sha256:17c15ef3ac5fa2b328bf5253988408e0aba29a3f9f9427c634bc23b8b64a04e9",
+    "checked_at": "2026-10-23T21:29:05Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/18/argument_kind|src": [
+   {
+    "value_sha256": "sha256:3c72f782db03fc3e7594e23b188226af6442a648c6d6a0cdfc89688bbe8e2f9b",
+    "passage_sha256": "sha256:17c15ef3ac5fa2b328bf5253988408e0aba29a3f9f9427c634bc23b8b64a04e9",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/18/study_type|src": [
+   {
+    "value_sha256": "sha256:5c8225f0ccf7268bcdf329ce53fec4c8d14020024021c0e2cd376590c9b2a6c1",
+    "passage_sha256": "sha256:14870b59a2bed87f4bc8188c61aa543ccf51f48bbfa0cad81cec357f52defc30",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "no",
+    "note_sha256": "sha256:a176a4cb2f470ad7ee28b85d008fd35ca85a9433ad296e366bca51455e908b49"
+   },
+   {
+    "value_sha256": "sha256:b96550e1cd11cd373cc6ce88508e165d83cc2f8d645833e7b098e6fe9774a0ce",
+    "passage_sha256": "sha256:14870b59a2bed87f4bc8188c61aa543ccf51f48bbfa0cad81cec357f52defc30",
+    "checked_at": "2026-10-23T21:29:05Z",
+    "verdict": "partial",
+    "note_sha256": "sha256:740bf0769a0d46e17aa10dfd6561924c96604b2f049636156ae83f585acef291"
+   }
+  ],
+  "/added/layers/evidence/lines/18/study_system|src": [
+   {
+    "value_sha256": "sha256:542b9c0053adb6c33995b41a6d7e3d9c5087620353d403da80adab8aa7fad3d4",
+    "passage_sha256": "sha256:17c15ef3ac5fa2b328bf5253988408e0aba29a3f9f9427c634bc23b8b64a04e9",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/evidence/lines/18/indirectness|src": [
+   {
+    "value_sha256": "sha256:94be76736a4080b5a6d3625f50b7c85c6440a18ba1f688c8827fa89cd3e231b6",
+    "passage_sha256": "sha256:17c15ef3ac5fa2b328bf5253988408e0aba29a3f9f9427c634bc23b8b64a04e9",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/profile/transfer_scope|src": [
+   {
+    "value_sha256": "sha256:3569104bc2ff1e6b6516b7fe7067b67b51ce3f5a80538f10965b447c78015e79",
+    "passage_sha256": "sha256:f581ecfd9b3a3bf3d3282639e96f03b67d820652b30faaca663086df7f5dffbb",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ],
+  "/added/layers/profile/transfer_scope|basis_quote": [
+   {
+    "value_sha256": "sha256:3569104bc2ff1e6b6516b7fe7067b67b51ce3f5a80538f10965b447c78015e79",
+    "passage_sha256": "sha256:65c0e1c9c0f66f093b843be3d721307ab205a9e94a67791b4a5690979615fa2a",
+    "checked_at": "2026-10-23T21:27:22Z",
+    "verdict": "entails"
+   }
+  ]
+ },
+ "notes": {
+  "sha256:1819f5abafa85ff19d2f89fb6872df216f42bccb1d438101d5a256560cb36744": "The passage gives the population, the parent-of-origin distinction and the non-imprinted maternal trait, but not the fitness interaction between maternal and offspring genotype, the condition s > 0, or the restriction to positive degrees of imprinting.",
+  "sha256:0a2680d0b4077f25d34397cbf42fa69490f351fe7870a6d6ff806c7f9bbc0a47": "The quotation stops before the reason given in the value, that negative values would mismatch the coadapted traits.",
+  "sha256:01f2affc17f5d2aed5ecf3b4e5be85f2aba78e6f8e6d7de678ec0aa0e85accc4": "The quotation asserts s > 0 but does not say that s is the interaction effect between maternal and offspring genotype on offspring fitness.",
+  "sha256:45391148b82299d4b2fa358b924d2106b076731b2dc08cd3afa8a18258b84014": "The quotation covers the cis/trans point but not the claim that under trans control the degree of imprinting equals the frequency of an allele at a second locus.",
+  "sha256:f5b2b22de50b875ad006e24ec8a7445ecf9948219029cc86262ec92030a1a4c9": "The passage supports the content of both rival theories, but not the unresolved_reasons: it does not mention resource-transfer loci or Igf2r, does not say the kinship theory was left untested against the authors' own, and does not mention any placental prediction of the intralocus sexual conflict hypothesis.",
+  "sha256:7aac4044dcb48753b3d25e605fe46794a3cfd75df4b51ab410c11feebb72da30": "The passage supports the erosion-of-variation uncertainty but says nothing about gene targeting being the main source of evidence or about its limited insight, so the second uncertainty is unsupported.",
+  "sha256:d9a78cd3b39640c04de7e067b020e85f93f46743ce04e2b6841293848a1d19c6": "The passage reports the mouse placental pattern and the predicted overabundance as findings of cited work and gives no grounds for the status 'contested'.",
+  "sha256:d5dd401a9639d212cea1ba1b57683fa57bad4cc15e1bbfaea826554bc0787a22": "The passage frames this test as analyses within a species, giving no grounds for a clade-level system.",
+  "sha256:4f15d98230744878d8213eb5e108b50e32fb06d79a4d004278da933eb5cf8403": "The passage concerns coadaptation but says nothing about the maternal-offspring genetic covariance named by the second reference.",
+  "sha256:28cc858730b0078cc62f85b000fc3cf515ad952a9b46db49f243d9a64e8869d2": "The passage refers only to 'this equation' and Equation 3; it does not say the result is a partial derivative of population mean fitness with respect to the degree of imprinting.",
+  "sha256:c785e76ee9bff0ac25339262ad6377bfb6e4d3dc798c31f19fbc25fee44a321f": "The passage shows the covariance at complete and at no imprinting but does not identify the model as the single-locus one.",
+  "sha256:c600bed5b684ce7666bcd004747a03848fa9889e3b363941e8447627a700ef35": "The partial derivative the passage mentions is with respect to the level of linkage disequilibrium, not with respect to the degree of imprinting.",
+  "sha256:6892e3d0b6ecf8df043f7c58d50494fe0f1eaaf10ca6594b51a8b877e35cfe49": "The passage supports the placental half of the target statement only; it says nothing about early seed development.",
+  "sha256:74a2f2d56a1c8679a46ccb25f465f3f52750a15e9c8603a10d0c6dc0cb18eae6": "The passage states that all known such genes are maternally expressed and cites references 27 and 28, but gives no count.",
+  "sha256:71ad97fc0cb553222c05e8b0430a328062d82b2ded514ae7982a1ef7ddb67684": "The passage bears on the placental part of the target statement only; early seed development does not appear in it.",
+  "sha256:24472f7e6f4c05368eef297147d1b0fffe5e6b0c0daef671e1e03d313f0eec5c": "The passage reports the theory's reach and a reason attributed to earlier work rather than presenting a derivation.",
+  "sha256:c4c5f8cbe1925b58da7673cc1d00c4987ec2082447b3e6a141b87ae875d4336b": "The passage shows the statement of reach and the generalisation to all relatives, but does not say the paper is a later one by an author of the theory.",
+  "sha256:8bc53a6cbbc0f50991ab796463005dd333a1b1fb41679e9f4f8236538daf6ba6": "The passage presents the point as something that 'has been shown' in cited work, giving no grounds to classify the line as a derivation.",
+  "sha256:867418f83f40778b9d7926501c3aae759c44a7668471470e13aa9d3a6a77dcad": "The passage reports that the two effects can mimic one another but does not attribute the statement to a quantitative-genetic model of indirect genetic effects.",
+  "sha256:4af2a08e7c30f0f8501d54097152c93700f0abeea0d9f6cb2aa9f34ad909af46": "The item names ('PMC1635750.xml', sha256:1d601342f65a026c11e1f19c5f8490313a289727f5432f273e09cbc9b416499f), which is the digest of the saved source of that name and the digest this card records for the converted article. What the source states is decided by the line's own value records.",
+  "sha256:d536c812afe68dfadbc5b8ca72252c0cdcc3607a3fb64c0252642ecb10ed3661": "The group 'g_wolf_hager_model' holds the lines e_variation_derivation, e_covariance_derivation, e_ld_derivation, all resting on PMC1635750.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:22f135c74a78cbd1a603ef069dc3eb638bf61d4b7012fc3404f69b46d73e0da8": "The group 'g_placental_imprinting_counts' holds the lines e_placental_maternal, all resting on PMC1635750.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:29ade9556309b66b9c02cd86bf33e9e0e333ab5cdb9ac18a837e833c0e350527": "The item names ('PMC6121825.xml', sha256:1a51cb8ef1bbb277c3282a49db55f185dcdbd17d0c108d6e2030d4d956e38d5e), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:68af34150902634a3f909cbccbc8760145a22518e9d6d6a8326da41fac9a1a81": "The group 'g_obrien_wolf_2017' holds the lines e_obrien_scope, all resting on PMC6121825.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:ad851533e6e0410e40d44111731f3a05ef2cbbabd1140f8045e39d94ab5bab56": "The item names ('PMC13050188.xml', sha256:b2f2fcc20aa57cfe3322aaf1319aac63a33eee50d42a1074718cdae15fd87fda), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:c05e2bbdd163237008024ad9b14857b8c3ed327796d5e553f4b0ba480e2d86b7": "The group 'g_hemani_2026' holds the lines e_mimicry_confound, all resting on PMC13050188.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:18482b64837b0f89c6246e4b4fa6df25dc5d87d2e18c2894e52e0f161d0bcdf0": "The item names ('PMC13202214.xml', sha256:853f7a3f4ef6fdcc553a1acfd08c8792f36f5aa4b8e4548f30db5cce5f6177d8), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:6df082fcf60d0506865201fd890b7bc9576a1f08450bad80cd77c048d8b75b92": "The group 'g_rodriguez_caro_2026' holds the lines e_placental_equal, e_interface_absent, all resting on PMC13202214.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:99641ec83f51636354b08858fdc099e9c89f2ce1b7027373ad79d8a4d43ac99d": "The item names ('PMC7195362.xml', sha256:db4e74820c033d42b8dd192d6f4d028d44040949f1c9c0532d95810c36a40faa), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:71142dcbd3152e0db36d99edc1fd6764e876a734b43fe051c97f46519b5787c8": "The group 'g_inoue_2020' holds the lines e_placenta_paternal, all resting on PMC7195362.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:1cf2f79ba9db60022ef040f8ea4100eff6bd05326434aa25d9106d026b1cd8df": "The item names ('PMC11428813.xml', sha256:b12ba2d8cbf0dc59e9668ea19b23ec6b63a3c78616940953ebcfe86409c0a55e), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:3e87f63e75880544814d8771bfcf40382e26bfc28dd17effd1dc97f2c35c216d": "The group 'g_schuff_2024' holds the lines e_peg_unexplained, all resting on PMC11428813.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:264f9d2cbf1e569c5a64c3c6fe1bca4c1363347014dc03e34f28fdea267fd5f3": "The passage gives the population, heterozygote and additivity assumptions but not the fitness interaction with s > 0, the restriction to positive imprinting, the hemizygous-equals-homozygote equivalence, Hardy-Weinberg proportions with equal allele frequencies, or the two-locus disequilibrium clause.",
+  "sha256:5211ddb944440be040e3a68786863ea13f263d4b18def5563b7ff7fe382de536": "The passage does not say that the unpublished-data support is the same as for the maternal trait.",
+  "sha256:bb04dcbe3d8bb72fe455405401b2ab78dbcbfcb51c9f884568d6ee90e05326a6": "The quote supports only the no-assumption-about-cis-or-trans-control clause, not the equivalence of the degree of imprinting to an allele frequency at a second locus or the unpublished-data attribution.",
+  "sha256:14a591806a2e6d7f7fd9562ba1c2af399af74dd4601c08481503327eb843b42d": "The quote does not say that both types of heterozygous mother are assumed to be equivalent.",
+  "sha256:f7a77c87234af6a679699a3c366b818a156f2f2aecd879e2f4e1e2bf645efb15": "The quote does not contain the authors' justification that the assumption is reasonable because imprinting can be tissue- and stage-specific.",
+  "sha256:18819c86023137e1cc9ee9cd9d3e5ef829a19f226d0dab4966468fa8b7de6ecf": "The quote gives the assumption but not the four offspring phenotypic values, so it does not support the claim about their symmetry in the degree of imprinting.",
+  "sha256:8e9b9c283ea375c8e8d3b3abb9b8785ec003b3d9d541c7646417d0f64ec62ec7": "The quote does not state that the maternal-offspring genotype frequencies were derived under the assumption of a standard random-mating population.",
+  "sha256:378a59e4662931c116f128e7b9858b7f7ad7be2d9f0acd4dece3065b643df183": "The quote asserts the claim and cites other work, but does not present it as something this article shows or demonstrates.",
+  "sha256:9ef0b8e8a47b954466a556bce612139c0321ddcb02844befa75397e26be6b23b": "The passage says the two models have the same effect on coadaptation but says nothing about population mean fitness or about the covariance being the channel for it.",
+  "sha256:280383d2b6652bfad9cd50d3b2f2b4363aec72c82f871d507c201c2753b3860a": "The passage supports only the erosion-of-variation item; it says nothing about gene-targeting evidence, about the cost of monoallelic expression or the advantage of diploidy, or about selection building the two-locus disequilibrium.",
+  "sha256:1c2b1c0b5cbcaf9b54c1a6f944353e23417546ceb2178e3645cd61c785208f99": "The passage gives no date for the count of known placenta-exclusive imprinted genes, does not mention early seed development, and gives no grounds for the status 'contested'.",
+  "sha256:a42ddf10d2bb8d3a98f51862ca7ce02339c61c3cb302d3feeeaba8328ce544e6": "The passage does not mention Ashbrook and Hager 2013, PMC3639422 or its licence, nor the claim that the competing hypotheses cannot readily be tested against each other.",
+  "sha256:c51641fb546d740606b8b9a6bd6317420f199f79aabe6305e5e6afeaf2657b2d": "The quote covers only the interest in father-as-caregiver systems, not the expected expression of the paternal allele at the coadapted loci.",
+  "sha256:e953694961961a7e7240cd629cc95355e995fb8380cda946c7602635e88bec68": "The passage hedges that imprinting 'may occur' in such systems rather than that it is found there, and it does not say that a conflict-based account expects none.",
+  "sha256:a14661c4c76871c4ed68fd5628b9d2f6d465b8269c57c159b25eaf45a29eaf72": "The quote and target statement match the passage, but the passage names no system or endpoint outside the model itself, so it gives no grounds for grading system indirectness 'serious' and endpoint indirectness 'some'.",
+  "sha256:24f4bcce16b2197aa6a3ea37c771ee5950dba2c32bcb4306f6a015ae06386877": "The quote and target statement match the passage, but the passage describes only the model's own derivation and so gives no grounds for the 'serious' and 'some' indirectness grades.",
+  "sha256:8289df7daf6b11c5a17a607f2eab5785ac62c197bc0a633ef959ddadd2fef72f": "The passage does not date the count to 2006 and says nothing about later work on placenta-specific imprinting reversing it.",
+  "sha256:e15e521db0763ebc4863910684227f7025b7b73857459d08e144d2fbd8720524": "The passage credits the statement to Hager et al. 2008 but does not say it comes from a quantitative-genetic model of indirect genetic effects, and says nothing about shared authorship with the article the card converts.",
+  "sha256:c2f225b7bb8e32052532d55aa740214d7f286ad619e27c265d4b9aa20d35cd70": "The passage names neither mouse, nor placenta, nor functional regions of it; it supports only the allele-specific expression analysis against the 38 previously validated autosomal genes.",
+  "sha256:6d955375c4f7fc5cf3165d7fb4280f957c318fc564f72df4a07b5d85bf9c26ee": "The passage identifies no species and no tissue, so it does not support 'mouse placenta'.",
+  "sha256:0d35d22197672411d2b379f889f1f53b91254bb0196bb32d416cd138f2e158d5": "The quote matches the passage, but the passage identifies no species or tissue, so the 'system: some' grade cannot be checked against it.",
+  "sha256:1379f100ecba5ce7ced2397a78d289d8da20bea1e1f9fccafd284bfbc42a59a2": "The passage does not say the three genes are placenta-specific, only that they are paternally expressed in normal placentas.",
+  "sha256:0832c18ca44bc4660f741a57d45a213051cbf2fd81d5dffd947a23e12e9bb96b": "The passage says rodent placenta and rodent embryonic placental cells, not mouse.",
+  "sha256:c7f5206c063a36d51055e726000eed5a50665fd2ee7423bf4e4c93bc6dc588e3": "The passage faults the coadaptation theory for leaving paternally expressed genes unexplained while endorsing it for maternally expressed genes, which is a limit on its scope rather than a dispute of the target statement.",
+  "sha256:0a5902ccb94addf95088a45383a4608fcb2bdb3df9ac00b5201a51cb0f4cd1ac": "The passage argues in prose about what each theory can explain; it contains no derivation from stated premises.",
+  "sha256:45f84918be83e9149d3caabef923a3385e6c4717a1839c18d7e7be63b6af4b40": "The passage does not identify its source as a review, does not say that references [35,36] are this article and a later general coadaptation theory, and does not indicate that the predominance of paternally expressed genes in humans is referenced to a database.",
+  "sha256:bbd6d3ea7e311921d3a70e03ac1191e64da47b82651f425d6cc09eb6ef998532": "The line is a theoretical objection with no biological system or measured endpoint named in the passage, so the 'system: some' and 'endpoint: some' grades cannot be checked against it.",
+  "sha256:439a9e713e283f602ca924921f29cc68b9f993efdbaa3343364399922ab70ae2": "The passage asserts the mechanism without hedging (\"will always be nonzero\", \"Equation 6 also shows that imprinting facilitates\"), so it does not support the weaker \"likely\" certainty.",
+  "sha256:13f526b1820b872000055e9104a12e187965fe05f1a0372d612929fcca7c40cb": "The quoted sentence states the claim as invariable (\"will always be nonzero\"), so a \"likely\" modality drops certainty the passage has.",
+  "sha256:6745fb1d72e3608f00649b2ff49857a4aef8dfe3c135b965a71ee5970c04e2dd": "The passage limits the suggestion to systems that lack conflict over maternal investment *but* in which coadapted maternal-offspring traits have potentially large fitness effects, and the value drops that second condition.",
+  "sha256:6897ee217d17fc6a1508cf564fcefe0444f8dc8ec09848cc2f247b300ad26510": "The passage gives no count or number of such genes; it states that all of them are expressed from the maternal allele only, attributing that to [27,28].",
+  "sha256:f87a2636bfd78e26405826b0d31c306cc6ed576ffcb895abfd9281c97c6971a7": "The passage describes a transcriptome-wide parent-of-origin expression result of 56 autosomal genes (38 previously validated plus 18 novel), not an analysis read against the 38 validated genes, and it never calls the method an allele-specific expression analysis.",
+  "sha256:274012022df4f93a373d1c2ed9e17e57d7ad251aeef27ed01419186f775d6b04": "The normal-versus-SCNT expression contrast for the three genes is credited to earlier work (refs 14,16), while the experiments reported in the passage compare placental weight and histology of maternal-KO SCNT placentas with IVF-derived ones rather than measuring expression in normal versus cloned placentas.",
+  "sha256:2047093658108d1e343cc285fff533f141570a4b7a3ff585de4635ca4fadd90a": "The passage offers a theoretical critique of what the competing explanations can and cannot account for, citing others' observations, and reports no data, measurement or empirical test of its own.",
+  "sha256:caedd5a15112343c01ff62acd63b44e98c764c2f660f48d305436b898bd66caf": "The group 'g_coadaptation_correlations' holds the lines e_coadapt_correlations, all resting on PMC1635750.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:cf4e02782ef064ebd2fcb43cdab1368dfef97ed3112fbceef325246a67797e71": "The group 'g_maternal_effect_experiments' holds the lines e_embryo_transfer, all resting on PMC1635750.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:caf8a0429ccea6023612424bc297612d9a61502437df48316f82f23714b63aaa": "The quote gives an autosomal two-allele locus but does not say it belongs to the single-locus model.",
+  "sha256:903151040430d778d696291719cc9bbbc16133a2942edbf58f71bf4e7a2284e8": "The passage asserts the two modes of achieving coadaptation flatly and hedges only the facilitation of adaptive fit, so it does not support grading the claim as merely likely.",
+  "sha256:a70d70bb376ee8206095ea8cdd4ca59555ee92aeaaaf5865252dc2cf37d31c08": "The quote states the two modes as given rather than as likely, so the hedge is not in it.",
+  "sha256:80c94f1552db0b8c182d6c3bf615737ab2e43b67a107acaa453514e3c4d55e7c": "The passage's words for this claim state what the strength of selection depends on, not that the model suffices to produce imprinting; the sufficiency wording belongs to a different sentence about genetic variation.",
+  "sha256:eb934a309c524f4196da0ce33f6d232c4b9688989f17540cb748d8329491c737": "The passage says the strength of selection \"will depend on\" these quantities without hedging, so it does not support a likely grading.",
+  "sha256:64257e0b797d5accf69a6d97451454ca2d188a509192e1136954911cddc61cac": "The quoted sentence is an unhedged statement of dependence, so it does not support a likely grading.",
+  "sha256:bdd99b18e3d0139c775da1f6b2a5d07c8957d250374b68835a525318f2f544bb": "The two hypothesis texts are supported, but the passage does not mention resource transfer, Igf2r, or any claim that the intralocus sexual conflict hypothesis may make no specific prediction about imprinting in the placenta.",
+  "sha256:a46389ee55a16e852bd5c2ebec37bd60487b5d5a45a0ec57f104b3321f932b56": "The passage says the strength of selection depends on the strength of these effects but does not state the direction that larger effects mean stronger selection.",
+  "sha256:0fa1747c660de5b71bb13204b7a2a5c3e5413d51b22ff00202494a675bd62d0c": "The passage lists the intensity of selection as something the strength of selection depends on without stating that more intense selection means stronger selection for imprinting.",
+  "sha256:9959a1550a94891ba5dac970263dd8569fb832917d7c28a33a8eea455cdeca08": "The passage presents the great tit result as support for coadaptation of maternal and offspring traits and says nothing about imprinting or sole expression of the maternally inherited copy.",
+  "sha256:b4d26e1f8a18470dc93ee3421cb3d4f192cdda08cec191b260eabd124a0e7ba7": "The passage offers the mouse embryo transfer result as support for the model's assumption that maternal and offspring genotypes interact, not for anything about sole expression of the maternally inherited copy.",
+  "sha256:ce3cd62e5cd1465fd8c341adb0d19001542391a80cfa685a6c83bef185956a2d": "The item names ('PMC4871489.xml', sha256:ea239467e5d04f4c3e440a130e4b14870040edd8c41529d5c5c70da66e4628b2), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:7742c2fbebb11fc961355b8b7d1c71bec5f34158a74fc0177f47bca2d0f436f7": "The group 'g_denizot_2016' holds the lines e_peg3_behaviour, all resting on PMC4871489.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:b65675af6de99bb5117dee4309b2fcab61d626a02bd1858c5a9983b57ccefe6b": "The passage states only that the strength of selection \"will depend on\" ao, am and s, never printing the equation's form, sign or magnitude, so it does not support a quantitative law beyond an unquantified dependence.",
+  "sha256:27e9c61fd6b3ad561d6a943e2c70afb56157647ac715ad920a3d64be75a069cd": "The passage withdraws support from the coadaptation theory via a paternally expressed gene's effect on maternal behaviour and milk ejection, and says nothing about sole expression of the maternally inherited copy, adaptive integration of the two genomes or offspring fitness, so it does not support \"disputes\" against that target statement.",
+  "sha256:c36056869435fa750b9ef8cd216c56b92b175eaea3d263b4fcb695658f976a90": "The passage reports only that Pw1/Peg3 mutant females show intact maternal behaviours and no milk-ejection defects; it does not say a new mutant allele was made, nor does it support the appended judgement about what this card's prediction concerns.",
+  "sha256:5308fb41ff640dfa9342401d5c2a0de6a91706ac04e843f7642183845ea2ea42": "The passage gives no grounds for rating intervention and comparison indirectness as \"none\", since the reported intervention is loss of a paternally expressed gene while the target statement concerns selection on sole expression of the maternally inherited copy, and no comparison group is named.",
+  "sha256:9070a6713aafdf0668fc1c17a9722437445997713292e4182d18a59d6bede680": "The passage states an analytical, model-derived result about when selection favours imprinting (and the dependence of selection strength on ao, am and s), which gives no grounds for classifying the claim as an association.",
+  "sha256:4157eba42211a5bb388e0454b07bb6a2c55529ddad524b0ebecd19ff4054c7a6": "The passage expressly frames the quoted finding as withdrawing the \"strong support\" previously given to the coadaptation theory that the target statement asserts, so it does not support a neutral direction.",
+  "sha256:4ae9a07bb6569f51e4f19cef13f7c841bde3619513495ecd030b7f1c368ccc4e": "The passage grounds serious distance for endpoint (maternal behaviour and milk ejection versus selection and offspring fitness) and intervention (a gene mutation versus natural selection on imprinting), but it never states the species or system of the described mutant experiment and its finding rests on an implied mutant-versus-normal contrast, so neither \"some\" for system nor \"not_applicable\" for comparison is supported.",
+  "sha256:f6dda2f152ddff5023d33577032dfb9c043b6578b1e1a5f67c2188ed31dc7a63": "The group 'g_birth_weight_selection' holds the lines e_birth_weight, all resting on PMC1635750.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:c326ba32bbf30676afb41d0f8d5d53a7529b0120036c58a9ca98d9a340c27fe6": "The item names ('PMC2525684.xml', sha256:096743418e585caca6e2b809bcb8b749a1a98defd37208dd52551655a437f95f), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:f6bb72af6bbcbe6dd6232299204f097b90a0fc3761f802bdcd078d6eb4975eac": "The group 'g_ubeda_2008' holds the lines e_kinship_reversal, all resting on PMC2525684.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:d177631376d01243b000cebad914cff550d678bedea315f054762b3786e710f0": "The item names ('PMC8136510.xml', sha256:42877cb67868673556f76ed5276e235339136acd7437ddbdc39344900c0b0b19), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:50aedf1516f9b63329b272ea034c1ab9d1fb9d993f0ac77ebc80837cb7a07503": "The group 'g_de_la_filia_2021' holds the lines e_mealybug_parent_of_origin, all resting on PMC8136510.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:b70d23e10331c81ce2bbbdf6a30eb607f81899e16a71c5ce3b3e8659991c25c4": "The quotation gives only the offspring/parental relation; it does not say that d is the single parameter used for linkage disequilibrium, nor that the loss is at the recombination rate between the two loci.",
+  "sha256:4d0f07978bf00e711ac1ae0657d464f98019d360a6eb169e2e74dc7cff7b81bb": "The passage dates nothing to 2006, says nothing about early seed development, and gives no grounds for calling the observation contested.",
+  "sha256:8e18784189a5a6ba0b58ffb409abd7dfeb1852b67033e8a95cfce251c7498c2d": "The quotation mentions only that it would be interesting to investigate father-as-caregiver systems; it does not mention expression of the paternal allele or the loci of the coadapted interaction.",
+  "sha256:08c592b48e391772b9fbd5662acd2e6b6ac6c23db1929fbc8502d98f3d4b79db": "The passage derives reversed imprint direction only for the kinship theory extended with paternal care and only under stated inequalities, not for the original formulation stated as the alternative, which it describes as allowing one direction of imprint per kind of gene.",
+  "sha256:950c394d3a4166bbe6f43767cf92f2256f420aefb0e86ffdcc51511c0834e313": "The birth-weight finding bears, in the passage, only on selection not favouring ever-increasing maternal investment and on coadaptation of traits; the passage says nothing about sole expression of the maternally inherited copy, so it does not support the target statement as written.",
+  "sha256:8bce96caf69b6579820f9353745ff6f321f6f66f5b3b21f7263b775e44042966": "The passage hedges the theoretical step as this situation \"may lead to\" selection favouring coadaptation, a hedge the value drops.",
+  "sha256:46787010c0f838078cd51abbb6306b2f553a3468bafc4baf90dd30f27c8e7d7c": "The passage says the study shows parent-of-origin expression in an insect and describes paternal genome elimination taxa in general, but never states that the insect studied is one with paternal genome elimination.",
+  "sha256:cbc82b8072ecf4ec2eebf0b3e7269bd7cb9b57e24fb70521b58a1c07cb3123ba": "The passage grounds a larger system gap than \"some\", since it describes the insect's PGE setting as one with potential conflict between maternally and paternally inherited alleles rather than the conflict-free systems the target statement names, and its endpoint is genome-wide parent-of-origin expression in males, which the passage never relates to coadapted maternal-offspring traits.",
+  "sha256:3cf49b33cfa99f0da074da6b9f61f7912fe04e4d94f4fb20208777128f0cc219": "The passage grounds the serious endpoint grade and the two not_applicable grades, but it says nothing about maternal investment or coadapted maternal-offspring traits in this insect, so it gives no basis for grading the system distance as serious rather than some.",
+  "sha256:b5f34177ed12df34dfd2e415674c9dfcfd735f669b3b6b37cad063d9dae19e60": "The group 'g_maternal_strain_provisioning' holds the lines e_maternal_strain, all resting on PMC1635750.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:f25381483f312bf0cb67dbb0161104de910d0ad636516fa45cfff02fd16ceb85": "The group 'g_oviposition_coadaptation' holds the lines e_oviposition_coadaptation, all resting on PMC1635750.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:966a33462c1ad00e7b45a6439867092eaea268d99c711766fab16d23ef5a09e0": "The item names ('PMC3170258.xml', sha256:b0238d3da8fd0f5a29d43308240b2dfd8e9dbc10cd0d0e9d396f7847bfb336a7), which is the digest of the saved source of that name. What the source states is decided by the line's own value records.",
+  "sha256:fe29fe1eb2c38694106eaa6306db9590b6ff2222725296ebaef906583c0d3994": "The group 'g_suzuki_2011' holds the lines e_marsupial_incidence, all resting on PMC3170258.xml. Resolved against the cited artifacts, not against a passage.",
+  "sha256:ebe9c62e5cf796f8e3b4a4c5edeb62cb53645f5370619f3a7eab258f2daa9617": "The passage gives no grounds for marking the assumption as not fundamental; it presents the result that imprinting is favoured as holding only where the genetic variation assumed here exists.",
+  "sha256:27e55198e08df2ce3ead3e417417bd6a5b6d8d28038d47bd35e37af34a3f3a05": "The quote states only the offspring-generation relation; it does not say that linkage disequilibrium is measured by the single parameter d, nor that r is the recombination rate between the two loci.",
+  "sha256:3cb1a47b3699ece90a6474cfd10dc749c5a35eb97043657eafb0056df7c544cd": "The passage supports only the first uncertainty (erosion of variation answered by observed variation in natural populations); it says nothing about gene-targeting evidence, calls for direct tests, monoallelic expression exposing recessive deleterious mutations, the advantage of diploidy, mean fitness, or the paradox framing.",
+  "sha256:c2c0298f4738abcb5577767447c49b233aa1d0f08f5ee945bea4c7821c3b24e8": "The passage supports the in-principle testability, the two kinds of analysis called for, and the cheapest test, but not the cited second work (Ashbrook and Hager 2013, PMC3639422, CC BY 3.0), its claim that competing hypotheses cannot readily be tested against each other, the quoted sentence about current methodology of assaying gene expression levels, or mouse intercrosses and recombinant inbred lines, on which the `unclear` in-practice rating rests.",
+  "sha256:a7d60accf2e07c523defe31d4a1d91d6b299451f2c5b02fd58cb76d455227cdd": "The quote supports only that the authors find it interesting to investigate systems with paternal primary care; it does not mention expectation of paternal-allele expression, the loci of the coadapted interaction, or the fitness consequences of paternal-offspring coadaptation.",
+  "sha256:066f8b179dbb2f4413332a4dd8c58a79d3c06d60b76bd4e9aebfbe1cdc4529d4": "The passage does not say that the stated inequalities are between costs borne by each parent: the resource-inhibitor case is given in B terms rather than C terms, and the passage defines neither symbol.",
+  "sha256:9a08ebcd3b6ad2e87e8f2b6b2c8eb23f03875cb9c0092688fe23cbaecc6079e9": "The passage says nothing about how much maternal-offspring interaction bears on offspring fitness in marsupials versus mice and humans, so the lower count of imprinted orthologues gives no grounds for a finding that runs against the prediction.",
+  "sha256:a176a4cb2f470ad7ee28b85d008fd35ca85a9433ad296e366bca51455e908b49": "The passage runs the other way and is hedged - imprinting of the domain \"might have contributed\" to complex placentation and lengthened gestation by reducing gene dosage - and it offers no explanation of how imprinting was acquired and no contrast with the impact of maternal-offspring interaction on offspring fitness.",
+  "sha256:740bf0769a0d46e17aa10dfd6561924c96604b2f049636156ae83f585acef291": "The passage reports PHLDA2 expression and the lack of imprinting in the tammar together with the hedged account of the eutherian KCNQ1 acquisition, but it gives no count of imprinted orthologues.",
+  "sha256:4664d911fd33a713fa27737a445775f5a7f199b58a4b4632e09e8507efd30871": "The passage grounds an endpoint gap (it describes measuring allele-specific expression in mealybug males, not imprinting at loci affecting coadapted traits) and shows a design with no treatment arm, but it says nothing about opportunity for conflict over maternal investment or coadapted maternal-offspring traits, so it cannot ground the degree \"serious\" for system, and it only poses paternal silencing as the question rather than supporting the line_quote's finding that maternally inherited chromosomes are the main contributors to male transcriptomic activity."
+ }
+}

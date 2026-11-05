@@ -1,0 +1,48 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "meta": {
+    "count": 3
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W40324092",
+      "doi": "https://doi.org/10.0000/synthetic-compton",
+      "ids": {
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/40324092"
+      },
+      "title": "Invented OpenAlex token",
+      "publication_year": 2025,
+      "publication_date": "2025-02-26",
+      "type": "article",
+      "primary_location": {
+        "license": "cc-by"
+      }
+    },
+    {
+      "id": "https://openalex.org/W37664965",
+      "doi": "https://doi.org/10.0000/synthetic-openalex-extra",
+      "ids": {
+        "pmid": "https://pubmed.ncbi.nlm.nih.gov/37664965"
+      },
+      "title": "Invented OpenAlex token",
+      "publication_year": 2025,
+      "publication_date": "2025-02-26",
+      "type": "article",
+      "primary_location": {
+        "license": "cc-by"
+      }
+    },
+    {
+      "id": "https://openalex.org/W99000000",
+      "doi": "https://doi.org/10.3389/fevo.2025.1489294",
+      "ids": {},
+      "title": "Invented OpenAlex token",
+      "publication_year": 2025,
+      "publication_date": "2025-02-26",
+      "type": "article",
+      "primary_location": {
+        "license": "cc-by"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "format": "ohf-ci-standard-matrix/1",
+  "active_primary": [
+    {
+      "commit": "e3cd86c0386ce618187a786ecc78293332d5f462",
+      "checkout": "standard"
+    },
+    {
+      "commit": "fc554f691d6cf0092182bb306c769c5e217f6165",
+      "checkout": "standard-1.1.4"
+    },
+    {
+      "commit": "bf1f582f977c2ac65e5537ebd9f1b1b19ae328d3",
+      "checkout": "standard-primary-1.4",
+      "tree": "bac900f8df5c38a3ddd7efe118fce59ee0fd7931"
+    }
+  ],
+  "secondary": {
+    "record": "references/research-standard.json",
+    "sha256": "15c27b4997dcbe39eed917c4cc7a211d92068e41c7c814eb1081c67462efc5da",
+    "commit": "0b6f5ef1003f696220d8bb0b8316260825e4a10c",
+    "tree": "22fdde400cd18e29f268c886fdb2f0c63d27b3da",
+    "checkout": "standard-research"
+  },
+  "native_dependency_records": [
+    {
+      "record": "references/native-profile-dependencies.json",
+      "sha256": "a4ca3178b58b737ddfc45b4cbcd1ea418ef07aabd79779db73820001024d172a",
+      "commit": "a06646fd5d43058a59dc8282d94e22c1988b2953",
+      "role": "historical"
+    },
+    {
+      "record": "references/native-profile-dependencies-2.json",
+      "sha256": "237579bd8d1c248a41f0ee39ead9dcdb10647bb7aaaab1102a8bb2e0990bad61",
+      "commit": "805b4ead5c9828cabe1b0fb2cd2342de67767851",
+      "role": "historical"
+    },
+    {
+      "record": "references/native-profile-dependencies-3.json",
+      "sha256": "d90dee02f5623ea203df2ca92efc2fba73d502afb73f73678a3b0215e625bc35",
+      "commit": "5c67cb4653b7a13d68a383db844b3ab5344d93ca",
+      "role": "historical"
+    },
+    {
+      "record": "references/native-profile-dependencies-4.json",
+      "sha256": "f130de4169f95e28aa15e81861301f1c7aa473cf2ec16a382806b91f7e665edf",
+      "commit": "bf1f582f977c2ac65e5537ebd9f1b1b19ae328d3",
+      "role": "active-primary"
+    }
+  ]
+}

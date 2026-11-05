@@ -1,0 +1,123 @@
+{
+  "schema": "ohf-extractor-language-allowlist/1",
+  "inventory": {
+    "sha256": "c59560c6014d4788a29ebddf10881bd0df8b4ba9ac12a832b356da6952d03e08",
+    "base_commit": "0beb254c45fdff1e868201589887e2269b9c143f",
+    "rows": [
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172
+    ]
+  },
+  "classification_plan_sha256": "d6ee10caeab6f90eef9f58ae99c2acaa0f646c19dcb46637fef40929fb76d46a",
+  "entries": [
+    {
+      "path": "references/search.md",
+      "class": "synthetic-fixture",
+      "inventory_row_id": "rows/166",
+      "source_sha256": "7f39cb196e897830f612ab1c59168a61a93c9aa6dbaa71377cfe7ff4f3e66d1b",
+      "units": [
+        {
+          "sha256": "e02e03b9874f52500b9f1b105ce6ed2ad6761b1a4859eeafaa24021dbfb96c67",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "scripts/ohfkit.py",
+      "class": "runtime-source-language-matching",
+      "inventory_row_id": "rows/167",
+      "source_sha256": "9b3db8de686f8a36e96e6be165921f6cd1909a53b7bc80d7330c033894a348e9",
+      "units": [
+        {
+          "sha256": "4d1f5ba1e77e0a80230ad575dc39056b58fce38bf0340d4b99b0d04924432fd6",
+          "count": 1
+        },
+        {
+          "sha256": "a81a7110abc14d7f583cb6a509487396e43250d7d86be17a29459ca68a55e579",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "scripts/search.py",
+      "class": "runtime-source-language-matching",
+      "inventory_row_id": "rows/168",
+      "source_sha256": "9b102c7326241d0443da6fa37960945d2e8dcacfdada69183f65ccc99e8f76a2",
+      "units": [
+        {
+          "sha256": "124e0f6eb60704aada9d8b196e0ec649476fc230b7fbc8e9b5938858498dc45f",
+          "count": 1
+        },
+        {
+          "sha256": "dd840ae9b3bdd057ac5499db6c20614463694cafe9970f614be50f96da85d5e4",
+          "count": 1
+        },
+        {
+          "sha256": "de8a52a5839b9d06866f8a6c144c6514a5e5640275820c85de7e519a1253438c",
+          "count": 1
+        },
+        {
+          "sha256": "f093b5ac2fac3fcc4574595cacc1a50f304a3c5a418d6821d954e278497b44bc",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "scripts/tests/test_entities.py",
+      "class": "synthetic-fixture",
+      "inventory_row_id": "rows/169",
+      "source_sha256": "ec56724e6b26a5e8b9bea3069c37a08375dfc09f576179f7a4a8c20753322c51",
+      "units": [
+        {
+          "sha256": "c35517aa46c87daaf668f9d7ee96536f2527a45e6acc439581bd88a92e482284",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "scripts/tests/test_research_contribution.py",
+      "class": "synthetic-fixture",
+      "inventory_row_id": "rows/170",
+      "source_sha256": "ac7ef8098e1e6600dd81fe52a3ba48b2f9b5d784e5dd7793c560102f88d6a088",
+      "units": [
+        {
+          "sha256": "3ce4b843061cd7659ed0a4653e998c22c3f398b3aedf3a13139f1110ac7ad16b",
+          "count": 1
+        },
+        {
+          "sha256": "6137e9a26fb0fbd6b733989e8cd92986014f4bb10cf225096bdf3cbb58f6de43",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "scripts/tests/test_search.py",
+      "class": "synthetic-fixture",
+      "inventory_row_id": "rows/171",
+      "source_sha256": "77043141c887d2e680e70b4a773939e667393a40b9adf65cf5919781e5982a0d",
+      "units": [
+        {
+          "sha256": "4cbcb8bcabd6247940b8ecb5f12a1c4fc06a5417e91ef19da0255bdfd6995f61",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "scripts/tests/test_submitted.py",
+      "class": "synthetic-fixture",
+      "inventory_row_id": "rows/172",
+      "source_sha256": "d006a920beb058258e9282efd82fbb40585eb84659de7b317202c66f2f72ffd1",
+      "units": [
+        {
+          "sha256": "4de8e913760ed0dd08d5b155f6dc7f993670990714c4c727a2a9a49634abf30b",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

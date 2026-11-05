@@ -1,0 +1,285 @@
+{
+ "numberOfHits": 5,
+ "results": [
+  {
+   "id": "GO:0031929",
+   "isObsolete": false,
+   "name": "TOR signaling",
+   "definition": {
+    "text": "The series of molecular signals mediated by TOR (Target of rapamycin) proteins, members of the phosphoinositide (PI) 3-kinase related kinase (PIKK) family that act as serine/threonine kinases in response to nutrient availability or growth factors.",
+    "xrefs": [
+     {
+      "dbCode": "PMID",
+      "dbId": "12372295"
+     }
+    ]
+   },
+   "comment": "Note that this term should not be confused with 'torso signaling pathway ; GO:0008293', although torso is abbreviated 'tor'.",
+   "synonyms": [
+    {
+     "name": "target of rapamycin signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "target of rapamycin signalling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "TOR signaling cascade",
+     "type": "related"
+    },
+    {
+     "name": "TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "TOR signalling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "TOR signal transduction",
+     "type": "exact"
+    }
+   ],
+   "children": [
+    {
+     "id": "GO:0032007",
+     "relation": "negatively_regulates"
+    },
+    {
+     "id": "GO:0038202",
+     "relation": "is_a"
+    },
+    {
+     "id": "GO:0038203",
+     "relation": "is_a"
+    },
+    {
+     "id": "GO:0032006",
+     "relation": "regulates"
+    },
+    {
+     "id": "GO:0032008",
+     "relation": "positively_regulates"
+    }
+   ],
+   "aspect": "biological_process",
+   "usage": "Unrestricted"
+  },
+  {
+   "id": "GO:0038201",
+   "isObsolete": false,
+   "name": "TOR complex",
+   "definition": {
+    "text": "A protein complex that contains at least TOR (target of rapamycin) in complex with other signaling components. Mediates the phosphorylation and activation of downstream signaling components including PKB (AKT) or S6K.",
+    "xrefs": [
+     {
+      "dbCode": "Wikipedia",
+      "dbId": "MTORC1"
+     },
+     {
+      "dbCode": "Wikipedia",
+      "dbId": "MTORC2"
+     }
+    ]
+   },
+   "synonyms": [
+    {
+     "name": "mTOR complex",
+     "type": "narrow"
+    },
+    {
+     "name": "target of rapamycin complex",
+     "type": "exact"
+    },
+    {
+     "name": "TOR signaling complex",
+     "type": "exact"
+    }
+   ],
+   "children": [
+    {
+     "id": "GO:0031932",
+     "relation": "is_a"
+    },
+    {
+     "id": "GO:0031931",
+     "relation": "is_a"
+    }
+   ],
+   "aspect": "cellular_component",
+   "usage": "Unrestricted"
+  },
+  {
+   "id": "GO:0032007",
+   "isObsolete": false,
+   "name": "negative regulation of TOR signaling",
+   "definition": {
+    "text": "Any process that stops, prevents, or reduces the frequency, rate or extent of TOR signaling."
+   },
+   "synonyms": [
+    {
+     "name": "down regulation of TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "down-regulation of TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "downregulation of TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "inhibition of TOR signaling pathway",
+     "type": "narrow"
+    },
+    {
+     "name": "negative regulation of target of rapamycin signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "negative regulation of target of rapamycin signalling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "negative regulation of TOR signaling cascade",
+     "type": "related"
+    },
+    {
+     "name": "negative regulation of TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "negative regulation of TOR signalling pathway",
+     "type": "exact"
+    }
+   ],
+   "children": [
+    {
+     "id": "GO:1903940",
+     "relation": "is_a"
+    },
+    {
+     "id": "GO:1904262",
+     "relation": "is_a"
+    }
+   ],
+   "aspect": "biological_process",
+   "usage": "Unrestricted"
+  },
+  {
+   "id": "GO:0032008",
+   "isObsolete": false,
+   "name": "positive regulation of TOR signaling",
+   "definition": {
+    "text": "Any process that activates or increases the frequency, rate or extent of TOR signaling."
+   },
+   "synonyms": [
+    {
+     "name": "activation of TOR signaling pathway",
+     "type": "narrow"
+    },
+    {
+     "name": "positive regulation of target of rapamycin signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "positive regulation of target of rapamycin signalling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "positive regulation of TOR signaling cascade",
+     "type": "related"
+    },
+    {
+     "name": "positive regulation of TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "positive regulation of TOR signalling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "stimulation of TOR signaling pathway",
+     "type": "narrow"
+    },
+    {
+     "name": "up regulation of TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "up-regulation of TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "upregulation of TOR signaling pathway",
+     "type": "exact"
+    }
+   ],
+   "children": [
+    {
+     "id": "GO:1904515",
+     "relation": "is_a"
+    },
+    {
+     "id": "GO:1904263",
+     "relation": "is_a"
+    }
+   ],
+   "aspect": "biological_process",
+   "usage": "Unrestricted"
+  },
+  {
+   "id": "GO:0032006",
+   "isObsolete": false,
+   "name": "regulation of TOR signaling",
+   "definition": {
+    "text": "Any process that modulates the frequency, rate or extent of TOR signaling."
+   },
+   "synonyms": [
+    {
+     "name": "regulation of target of rapamycin signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "regulation of target of rapamycin signalling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "regulation of TOR signaling cascade",
+     "type": "related"
+    },
+    {
+     "name": "regulation of TOR signaling pathway",
+     "type": "exact"
+    },
+    {
+     "name": "regulation of TOR signalling pathway",
+     "type": "exact"
+    }
+   ],
+   "children": [
+    {
+     "id": "GO:1903432",
+     "relation": "is_a"
+    },
+    {
+     "id": "GO:1903939",
+     "relation": "is_a"
+    },
+    {
+     "id": "GO:0032007",
+     "relation": "is_a"
+    },
+    {
+     "id": "GO:0032008",
+     "relation": "is_a"
+    }
+   ],
+   "aspect": "biological_process",
+   "usage": "Unrestricted"
+  }
+ ],
+ "pageInfo": null
+}

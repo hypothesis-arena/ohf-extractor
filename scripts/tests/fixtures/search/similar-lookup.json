@@ -1,0 +1,38 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 2,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "99030001",
+        "pmid": "99030001",
+        "title": "Invented citation token 99030001",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2025-02-01",
+        "license": "cc by"
+      },
+      {
+        "source": "MED",
+        "id": "99030002",
+        "pmid": "99030002",
+        "title": "Invented citation token 99030002",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2025-02-01",
+        "license": "cc by"
+      }
+    ]
+  }
+}

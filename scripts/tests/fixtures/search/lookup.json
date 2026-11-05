@@ -1,0 +1,109 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 7,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "39993196",
+        "pmid": "39993196",
+        "title": "Invented citation token 39993196",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.1073/pnas.2422861122",
+        "license": "cc by",
+        "pmcid": "PMC11892590"
+      },
+      {
+        "source": "MED",
+        "id": "40163737",
+        "pmid": "40163737",
+        "title": "Invented citation token 40163737",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Commentary"
+          ]
+        },
+        "doi": "10.1073/pnas.2502696122",
+        "license": "cc by",
+        "pmcid": "PMC12002202"
+      },
+      {
+        "source": "MED",
+        "id": "99010003",
+        "pmid": "99010003",
+        "title": "Invented citation token 99010003",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.0000/synthetic-dujon",
+        "license": "cc by",
+        "pmcid": "PMC12308236"
+      },
+      {
+        "source": "MED",
+        "id": "40324092",
+        "pmid": "40324092",
+        "title": "Invented citation token 40324092",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Letter"
+          ]
+        },
+        "doi": "10.0000/synthetic-compton",
+        "license": "cc by"
+      },
+      {
+        "source": "MED",
+        "id": "40324086",
+        "pmid": "40324086",
+        "title": "Invented citation token 40324086",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Reply"
+          ]
+        },
+        "doi": "10.0000/synthetic-reply",
+        "license": "cc by"
+      },
+      {
+        "source": "MED",
+        "id": "35102282",
+        "pmid": "35102282",
+        "title": "Invented citation token 35102282",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Comment"
+          ]
+        },
+        "doi": "10.0000/synthetic-comment",
+        "license": "cc by"
+      },
+      {
+        "source": "MED",
+        "id": "37664965",
+        "pmid": "37664965",
+        "title": "Invented citation token 37664965",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.0000/synthetic-openalex-extra",
+        "license": "cc by"
+      }
+    ]
+  }
+}

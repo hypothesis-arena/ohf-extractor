@@ -1,0 +1,103 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "name/sirolimus/cids/JSON": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[5284616]}}"
+  ],
+  "name/sirolimus/cids/JSON?cids_type=parent": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[5284616]}}"
+  ],
+  "name/Rapamycin/cids/JSON": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[5284616]}}"
+  ],
+  "name/Rapamycin/cids/JSON?cids_type=parent": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[5284616]}}"
+  ],
+  "name/rapamycin/cids/JSON": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[5284616]}}"
+  ],
+  "name/rapamycin/cids/JSON?cids_type=parent": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[5284616]}}"
+  ],
+  "name/Promethazine/cids/JSON": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[4927]}}"
+  ],
+  "name/Promethazine/cids/JSON?cids_type=parent": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[4927]}}"
+  ],
+  "name/promethazine/cids/JSON": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[4927]}}"
+  ],
+  "name/promethazine/cids/JSON?cids_type=parent": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[4927]}}"
+  ],
+  "name/Promethazine%20hydrochloride/cids/JSON": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[6014]}}"
+  ],
+  "name/Promethazine%20hydrochloride/cids/JSON?cids_type=parent": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[4927]}}"
+  ],
+  "name/Zinc%20acetate/cids/JSON": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[11192]}}"
+  ],
+  "name/Zinc%20acetate/cids/JSON?cids_type=parent": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[176]}}"
+  ],
+  "name/acetic%20acid/cids/JSON": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[176]}}"
+  ],
+  "name/acetic%20acid/cids/JSON?cids_type=parent": [
+    200,
+    "{\"IdentifierList\":{\"CID\":[176]}}"
+  ],
+  "name/notacompoundxyz/cids/JSON": [
+    404,
+    "{\"Fault\":{\"Message\":\"invented missing compound\"}}"
+  ],
+  "cid/5284616/property/Title,InChIKey,MolecularFormula/JSON": [
+    200,
+    "{\"PropertyTable\":{\"Properties\":[{\"CID\":5284616,\"Title\":\"Sirolimus\",\"InChIKey\":\"QFJCIRLUMZQUOT-HPLJOQBZSA-N\",\"MolecularFormula\":\"C2H4\"}]}}"
+  ],
+  "cid/5284616/synonyms/JSON": [
+    200,
+    "{\"InformationList\":{\"Information\":[{\"CID\":5284616,\"Synonym\":[\"Sirolimus\",\"rapamycin\",\"Rapamycin\",\"Synthetic synonym\",\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"]}]}}"
+  ],
+  "cid/4927/property/Title,InChIKey,MolecularFormula/JSON": [
+    200,
+    "{\"PropertyTable\":{\"Properties\":[{\"CID\":4927,\"Title\":\"Promethazine\",\"InChIKey\":\"SYNTHETIC-PARENT\",\"MolecularFormula\":\"C2H4\"}]}}"
+  ],
+  "cid/4927/synonyms/JSON": [
+    200,
+    "{\"InformationList\":{\"Information\":[{\"CID\":4927,\"Synonym\":[\"Promethazine\"]}]}}"
+  ],
+  "cid/176/property/Title,InChIKey,MolecularFormula/JSON": [
+    200,
+    "{\"PropertyTable\":{\"Properties\":[{\"CID\":176,\"Title\":\"Acetic acid\",\"InChIKey\":\"SYNTHETIC-ACID\",\"MolecularFormula\":\"C2H4\"}]}}"
+  ],
+  "cid/176/synonyms/JSON": [
+    200,
+    "{\"InformationList\":{\"Information\":[{\"CID\":176,\"Synonym\":[\"Acetic acid\"]}]}}"
+  ],
+  "cid/11192/property/Title,InChIKey,MolecularFormula/JSON": [
+    200,
+    "{\"PropertyTable\":{\"Properties\":[{\"CID\":11192,\"Title\":\"Zinc acetate\",\"InChIKey\":\"SYNTHETIC-METAL\",\"MolecularFormula\":\"C2H4\"}]}}"
+  ],
+  "cid/11192/synonyms/JSON": [
+    200,
+    "{\"InformationList\":{\"Information\":[{\"CID\":11192,\"Synonym\":[\"Zinc acetate\"]}]}}"
+  ]
+}

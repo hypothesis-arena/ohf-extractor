@@ -1,0 +1,63 @@
+{
+ "_note": "synthetic Europe PMC core search response for the known-result tests; titles and abstracts are invented",
+ "hitCount": 4,
+ "resultList": {
+  "result": [
+   {
+    "id": "1001",
+    "source": "MED",
+    "pmid": "1001",
+    "doi": "10.9999/test.1",
+    "title": "A replication of the low-pH conversion of somatic cells",
+    "abstractText": "<h4>Background</h4>We repeated the published protocol. Exposure of somatic cells to low pH did not produce pluripotent cells in any of 133 attempts. The primary outcome was prespecified. All 133 planned attempts were completed. A second series stopped early for lack of funding. A third series was stopped for futility at an interim analysis. The study was underpowered for small effects. Cultures were randomised to low pH or a control buffer. An observational series of archived lines was also reviewed. In the second series the 95% interval excluded no effect.",
+    "firstPublicationDate": "2016-06-13",
+    "pubYear": "2016",
+    "license": "cc by",
+    "pubTypeList": {
+     "pubType": [
+      "research-article"
+     ]
+    }
+   },
+   {
+    "id": "1002",
+    "source": "MED",
+    "pmid": "1002",
+    "doi": "10.9999/test.2",
+    "title": "Stress and pluripotency: a perspective",
+    "abstractText": "We discuss whether stress can induce pluripotency.",
+    "firstPublicationDate": "2014-08-06",
+    "pubYear": "2014",
+    "pubTypeList": {
+     "pubType": [
+      "review"
+     ]
+    }
+   },
+   {
+    "id": "1003",
+    "source": "MED",
+    "pmid": "1003",
+    "title": "An article with no abstract",
+    "firstPublicationDate": "2014-02-20",
+    "pubYear": "2014"
+   },
+   {
+    "id": "1004",
+    "source": "MED",
+    "pmid": "1004",
+    "doi": "10.9999/test.4",
+    "title": "Low pH turns fibroblasts into pluripotent cells",
+    "abstractText": "Fibroblasts exposed to low pH became pluripotent cells in 24 of 30 cultures. The primary outcome was prespecified. Enrolment of the planned 30 cultures was completed. The 95% interval excluded the null. The trial was underpowered for secondary outcomes. In a controlled laboratory experiment, fibroblasts were exposed to low pH. A matched observational cohort was followed. An extension series was stopped early for efficacy.",
+    "firstPublicationDate": "2017-03-01",
+    "pubYear": "2017",
+    "license": "cc by",
+    "pubTypeList": {
+     "pubType": [
+      "research-article"
+     ]
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 2,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "99040001",
+        "pmid": "99040001",
+        "title": "Invented lysosome reference token",
+        "pubYear": "2018",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.1016/j.isci.2018.05.016",
+        "journalInfo": {},
+        "firstPublicationDate": "2018-02-01",
+        "license": "cc by",
+        "authorString": "Wang A, Invented B",
+        "journalTitle": "iScience",
+        "abstractText": "Invented abstract: a token changes its bin under a toy condition."
+      },
+      {
+        "source": "MED",
+        "id": "99040002",
+        "pmid": "99040002",
+        "title": "Another invented reference token",
+        "pubYear": "2018",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.0000/synthetic-ambiguous",
+        "journalInfo": {},
+        "firstPublicationDate": "2018-02-01",
+        "license": "cc by",
+        "authorString": "Wang A, Invented B",
+        "journalTitle": "iScience",
+        "abstractText": "Invented abstract: a token changes its bin under a toy condition."
+      }
+    ]
+  }
+}

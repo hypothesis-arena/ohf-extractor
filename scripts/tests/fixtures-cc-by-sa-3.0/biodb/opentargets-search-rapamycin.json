@@ -1,0 +1,33 @@
+{
+ "data": {
+  "search": {
+   "hits": [
+    {
+     "id": "CHEMBL413",
+     "name": "SIROLIMUS",
+     "entity": "drug"
+    },
+    {
+     "id": "CHEMBL1908360",
+     "name": "EVEROLIMUS",
+     "entity": "drug"
+    },
+    {
+     "id": "CHEMBL571209",
+     "name": "INDOXIMOD",
+     "entity": "drug"
+    },
+    {
+     "id": "CHEMBL592445",
+     "name": "GEDATOLISIB",
+     "entity": "drug"
+    },
+    {
+     "id": "CHEMBL1879463",
+     "name": "DACTOLISIB",
+     "entity": "drug"
+    }
+   ]
+  }
+ }
+}

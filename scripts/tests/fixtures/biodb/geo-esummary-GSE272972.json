@@ -1,0 +1,24 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "result": {
+    "uids": [
+      "200272972"
+    ],
+    "200272972": {
+      "uid": "200272972",
+      "accession": "GSE272972",
+      "title": "Invented series 0",
+      "summary": "SUMMARY: invented submitted text must be withheld",
+      "gpl": "18573",
+      "taxon": "Homo sapiens",
+      "gdstype": "synthetic study type",
+      "n_samples": 18,
+      "pubmedids": [
+        42685210
+      ],
+      "pdat": "2026-07-21",
+      "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/synthetic-test-token",
+      "bioproject": ""
+    }
+  }
+}

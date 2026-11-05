@@ -1,0 +1,37 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "messages": [
+    {
+      "status": "ok"
+    }
+  ],
+  "collection": [
+    {
+      "doi": "10.1101/2022.07.12.499088",
+      "title": "Invented preprint 1",
+      "date": "2022-07-12",
+      "version": "1",
+      "license": "cc_by_nc_nd",
+      "server": "biorxiv",
+      "jatsxml": "https://www.biorxiv.org/content/early/2022/07/12/2022.07.12.499088.source.xml"
+    },
+    {
+      "doi": "10.1101/2022.07.12.499088",
+      "title": "Invented preprint 2",
+      "date": "2023-01-01",
+      "version": "2",
+      "license": "cc_by_nc_nd",
+      "server": "biorxiv",
+      "jatsxml": "https://www.biorxiv.org/content/early/2023/01/01/2022.07.12.499088.source.xml"
+    },
+    {
+      "doi": "10.1101/2022.07.12.499088",
+      "title": "Invented preprint 3",
+      "date": "2024-07-24",
+      "version": "3",
+      "license": "cc_by_nc_nd",
+      "server": "biorxiv",
+      "jatsxml": "https://www.biorxiv.org/content/early/2024/07/24/2022.07.12.499088.source.xml"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 1,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "99070001",
+        "pmid": "99070001",
+        "title": "Invented citation token 99070001",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.0000/synthetic-text",
+        "journalInfo": {},
+        "firstPublicationDate": "2025-02-01",
+        "license": "cc by-nc-nd",
+        "pmcid": "PMC11726020",
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "synthetic",
+              "url": "https://example.org/synthetic-full-text",
+              "license": "cc by"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

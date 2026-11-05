@@ -1,0 +1,19 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "status": "ok",
+  "message": {
+    "DOI": "10.1038/s41586-021-04224-5",
+    "title": [
+      "Invented cross-reference token"
+    ],
+    "relation": {
+      "has-review": [
+        {
+          "id": "10.0000/synthetic-review",
+          "id-type": "doi"
+        }
+      ]
+    },
+    "type": "journal-article"
+  }
+}

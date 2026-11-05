@@ -1,0 +1,894 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ohf-extractor:question-context:1",
+  "title": "Standalone question-conditioned context input, not an OHF or native ENT schema",
+  "$ref": "#/$defs/request",
+  "$defs": {
+    "file": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "file",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "owner": {
+      "type": "object",
+      "properties": {
+        "card_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "card_version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "card_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "card_id",
+        "card_version",
+        "card_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "work": {
+      "type": "object",
+      "properties": {
+        "namespace": {
+          "enum": [
+            "pmcid",
+            "doi"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "namespace",
+        "value"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "work": {
+          "$ref": "#/$defs/work"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "state": {
+          "enum": [
+            "complete",
+            "partial",
+            "unknown",
+            "unavailable"
+          ]
+        },
+        "role": {
+          "enum": [
+            "main",
+            "evidence"
+          ]
+        },
+        "owner": {
+          "$ref": "#/$defs/owner"
+        }
+      },
+      "required": [
+        "key",
+        "file",
+        "sha256",
+        "work",
+        "retrieved_at",
+        "state",
+        "role",
+        "owner"
+      ],
+      "additionalProperties": false
+    },
+    "binding": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "work": {
+          "$ref": "#/$defs/work"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        }
+      },
+      "required": [
+        "key",
+        "work",
+        "sha256",
+        "retrieved_at"
+      ],
+      "additionalProperties": false
+    },
+    "target": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "scope_field",
+            "direction_field",
+            "indirectness_field"
+          ]
+        },
+        "owner": {
+          "$ref": "#/$defs/owner"
+        },
+        "pointer": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "value_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "native_checked_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "source": {
+          "$ref": "#/$defs/binding"
+        },
+        "line_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "kind",
+        "owner",
+        "pointer",
+        "value_sha256",
+        "native_checked_sha256",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "anchor": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "atom"
+        },
+        "owner": {
+          "$ref": "#/$defs/owner"
+        },
+        "pointer": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "value_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "source": {
+          "$ref": "#/$defs/binding"
+        }
+      },
+      "required": [
+        "kind",
+        "owner",
+        "pointer",
+        "id",
+        "value_sha256",
+        "source"
+      ],
+      "additionalProperties": false
+    },
+    "locator": {
+      "type": "object",
+      "properties": {
+        "paragraph": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sentences": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 0,
+          "maxItems": 512,
+          "uniqueItems": true
+        },
+        "paragraph_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "selection_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "paragraph",
+        "sentences",
+        "paragraph_sha256",
+        "selection_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "enum": [
+            "claim",
+            "property"
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/binding"
+        },
+        "native_source_ref": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "locator": {
+          "$ref": "#/$defs/locator"
+        },
+        "state": {
+          "enum": [
+            "complete",
+            "partial",
+            "unknown",
+            "unavailable",
+            "not_supplied"
+          ]
+        },
+        "read_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "role",
+        "source",
+        "native_source_ref",
+        "locator",
+        "state",
+        "read_at",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "supplied": {
+      "type": "object",
+      "properties": {
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 128,
+          "uniqueItems": true
+        },
+        "entities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 128,
+          "uniqueItems": true
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 128,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "claims",
+        "entities",
+        "limits"
+      ],
+      "additionalProperties": false
+    },
+    "question": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "type": {
+          "enum": [
+            "scope",
+            "direction",
+            "indirectness"
+          ]
+        },
+        "state": {
+          "enum": [
+            "ready",
+            "unknown",
+            "unavailable",
+            "partial",
+            "not_supplied"
+          ]
+        },
+        "target_ref": {
+          "$ref": "#/$defs/target"
+        },
+        "anchor_ref": {
+          "$ref": "#/$defs/anchor"
+        },
+        "context": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/context"
+          },
+          "minItems": 0,
+          "maxItems": 128,
+          "uniqueItems": true
+        },
+        "supplied": {
+          "$ref": "#/$defs/supplied"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "state",
+        "supplied"
+      ],
+      "additionalProperties": false
+    },
+    "request": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "ohf-question-context/1"
+        },
+        "made_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "card": {
+          "$ref": "#/$defs/file"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          },
+          "minItems": 1,
+          "maxItems": 32,
+          "uniqueItems": true
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/question"
+          },
+          "minItems": 1,
+          "maxItems": 128,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema",
+        "made_at",
+        "card",
+        "sources",
+        "questions"
+      ],
+      "additionalProperties": false
+    },
+    "issue": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "detail": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "detail"
+      ],
+      "additionalProperties": false
+    },
+    "packet_locator": {
+      "type": "object",
+      "properties": {
+        "native": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "paragraph": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sentences": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 0,
+          "maxItems": 512,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "native",
+        "paragraph",
+        "sentences"
+      ],
+      "additionalProperties": false
+    },
+    "packet_context": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "enum": [
+            "claim",
+            "property"
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/binding"
+        },
+        "native_source_ref": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "locator": {
+          "$ref": "#/$defs/packet_locator"
+        },
+        "paragraph_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "selection_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "read_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "selection_reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "role",
+        "source",
+        "native_source_ref",
+        "locator",
+        "paragraph_sha256",
+        "selection_sha256",
+        "text",
+        "read_at",
+        "selection_reason"
+      ],
+      "additionalProperties": false
+    },
+    "indirectness": {
+      "type": "object",
+      "properties": {
+        "system": {
+          "enum": [
+            "none",
+            "some",
+            "serious",
+            "very_serious",
+            "unknown",
+            "not_assessed"
+          ]
+        },
+        "endpoint": {
+          "enum": [
+            "none",
+            "some",
+            "serious",
+            "very_serious",
+            "unknown",
+            "not_assessed"
+          ]
+        },
+        "intervention": {
+          "enum": [
+            "none",
+            "some",
+            "serious",
+            "very_serious",
+            "unknown",
+            "not_assessed"
+          ]
+        },
+        "comparison": {
+          "enum": [
+            "none",
+            "some",
+            "serious",
+            "very_serious",
+            "unknown",
+            "not_assessed"
+          ]
+        }
+      },
+      "required": [
+        "system",
+        "endpoint",
+        "intervention",
+        "comparison"
+      ],
+      "additionalProperties": false
+    },
+    "native_checked": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "direction": {
+              "enum": [
+                "supports",
+                "disputes",
+                "neutral"
+              ]
+            },
+            "target_statement": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 4096,
+              "pattern": "\\S"
+            },
+            "line_quote": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 4096,
+              "pattern": "\\S"
+            }
+          },
+          "required": [
+            "direction",
+            "target_statement",
+            "line_quote"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "indirectness": {
+              "$ref": "#/$defs/indirectness"
+            },
+            "target_statement": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 4096,
+              "pattern": "\\S"
+            },
+            "line_quote": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 4096,
+              "pattern": "\\S"
+            }
+          },
+          "required": [
+            "indirectness",
+            "target_statement",
+            "line_quote"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "packet": {
+      "type": "object",
+      "properties": {
+        "question_type": {
+          "enum": [
+            "scope",
+            "direction",
+            "indirectness"
+          ]
+        },
+        "instruction": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "target_ref": {
+          "$ref": "#/$defs/target"
+        },
+        "anchor_ref": {
+          "$ref": "#/$defs/anchor"
+        },
+        "native_checked_value": {
+          "$ref": "#/$defs/native_checked"
+        },
+        "target_claim": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "supplied_unverified": {
+          "$ref": "#/$defs/supplied"
+        },
+        "context": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/packet_context"
+          },
+          "minItems": 2,
+          "maxItems": 128,
+          "uniqueItems": true
+        },
+        "scientific_adequacy_verified": {
+          "const": false
+        },
+        "entailment_verdict": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "question_type",
+        "instruction",
+        "target_ref",
+        "anchor_ref",
+        "native_checked_value",
+        "target_claim",
+        "supplied_unverified",
+        "context",
+        "scientific_adequacy_verified",
+        "entailment_verdict"
+      ],
+      "additionalProperties": false
+    },
+    "result": {
+      "type": "object",
+      "properties": {
+        "request_pointer": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "status": {
+          "enum": [
+            "cannot_assess",
+            "grounded_input_contract_only"
+          ]
+        },
+        "basis_state": {
+          "enum": [
+            "invalid_binding",
+            "unknown",
+            "unavailable",
+            "partial",
+            "not_supplied",
+            "grounded_input_contract_only"
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue"
+          },
+          "minItems": 0,
+          "maxItems": 128,
+          "uniqueItems": true
+        },
+        "packet": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/packet"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "request_pointer",
+        "id",
+        "type",
+        "status",
+        "basis_state",
+        "issues",
+        "packet"
+      ],
+      "additionalProperties": false
+    },
+    "diagnostic": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "ohf-question-context-diagnostic/1"
+        },
+        "status": {
+          "enum": [
+            "cannot_assess",
+            "grounded_input_contract_only"
+          ]
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/result"
+          },
+          "minItems": 0,
+          "maxItems": 128,
+          "uniqueItems": true
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/issue"
+          },
+          "minItems": 0,
+          "maxItems": 128,
+          "uniqueItems": true
+        },
+        "input_pins": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          }
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096,
+            "pattern": "\\S"
+          },
+          "minItems": 1,
+          "maxItems": 128,
+          "uniqueItems": true
+        },
+        "contract_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "schema",
+        "status",
+        "questions",
+        "issues",
+        "input_pins",
+        "limits",
+        "contract_sha256"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

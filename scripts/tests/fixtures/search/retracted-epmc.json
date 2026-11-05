@@ -1,0 +1,40 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 1,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "9500320",
+        "pmid": "9500320",
+        "title": "Invented citation token 9500320",
+        "pubYear": "1998",
+        "pubTypeList": {
+          "pubType": [
+            "Retracted Publication"
+          ]
+        },
+        "doi": "10.0000/synthetic-withdrawn",
+        "journalInfo": {},
+        "firstPublicationDate": "1998-02-01",
+        "license": "cc by",
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "99020001",
+              "type": "Retraction in",
+              "reference": "Invented retraction token"
+            },
+            {
+              "source": "MED",
+              "id": "99020002",
+              "type": "Expression of concern in",
+              "reference": "Invented concern token"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

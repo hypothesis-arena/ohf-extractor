@@ -1,0 +1,33 @@
+{
+ "data": {
+  "search": {
+   "hits": [
+    {
+     "id": "ENSG00000198793",
+     "name": "MTOR",
+     "entity": "target"
+    },
+    {
+     "id": "ENSG00000164327",
+     "name": "RICTOR",
+     "entity": "target"
+    },
+    {
+     "id": "ENSG00000141564",
+     "name": "RPTOR",
+     "entity": "target"
+    },
+    {
+     "id": "ENSG00000109270",
+     "name": "LAMTOR3",
+     "entity": "target"
+    },
+    {
+     "id": "ENSG00000274070",
+     "name": "CASTOR2",
+     "entity": "target"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="1" start="0" numFoundExact="true">
+  <doc>
+    <arr name="ccds_id">
+      <str>CCDS127</str>
+    </arr>
+    <str name="ensembl_gene_id">ENSG00000198793</str>
+    <arr name="gene_group">
+      <str>MTOR complex 1</str>
+      <str>MTOR complex 2</str>
+      <str>Armadillo like helical domain containing</str>
+      <str>Phosphatidylinositol 3-kinase-related kinase family</str>
+    </arr>
+    <arr name="ena">
+      <str>L34075</str>
+    </arr>
+    <arr name="mgd_id">
+      <str>MGI:1928394</str>
+    </arr>
+    <arr name="prev_symbol">
+      <str>FRAP</str>
+      <str>FRAP2</str>
+      <str>FRAP1</str>
+    </arr>
+    <date name="date_approved_reserved">1995-07-18T00:00:00Z</date>
+    <date name="date_name_changed">2017-08-04T00:00:00Z</date>
+    <str name="entrez_id">2475</str>
+    <str name="symbol">MTOR</str>
+    <str name="locus_group">protein-coding gene</str>
+    <int name="orphanet">431220</int>
+    <arr name="gene_group_id">
+      <int>1332</int>
+      <int>1333</int>
+      <int>1492</int>
+      <int>3631</int>
+    </arr>
+    <date name="date_symbol_changed">2009-05-29T00:00:00Z</date>
+    <str name="vega_id">OTTHUMG00000002001</str>
+    <str name="status">Approved</str>
+    <str name="iuphar">HGNC:3942</str>
+    <arr name="omim_id">
+      <str>601231</str>
+    </arr>
+    <str name="uuid">06626d30-5907-4cff-a33a-194a5b50b84a</str>
+    <arr name="lsdb">
+      <str>LRG_734|http://ftp.ebi.ac.uk/pub/databases/lrgex/LRG_734.xml</str>
+    </arr>
+    <str name="name">mechanistic target of rapamycin kinase</str>
+    <arr name="rgd_id">
+      <str>RGD:68371</str>
+    </arr>
+    <str name="ucsc_id">uc001asd.4</str>
+    <str name="location">1p36.22</str>
+    <str name="cosmic">MTOR</str>
+    <arr name="uniprot_ids">
+      <str>P42345</str>
+    </arr>
+    <arr name="prev_name">
+      <str>FK506 binding protein 12-rapamycin associated protein 1</str>
+      <str>mechanistic target of rapamycin (serine/threonine kinase)</str>
+      <str>mechanistic target of rapamycin</str>
+    </arr>
+    <str name="hgnc_id">HGNC:3942</str>
+    <str name="gencc">HGNC:3942</str>
+    <arr name="alias_symbol">
+      <str>mTOR</str>
+      <str>RAFT1</str>
+      <str>RAPT1</str>
+      <str>FLJ44809</str>
+    </arr>
+    <date name="date_modified">2026-02-11T00:00:00Z</date>
+    <arr name="alias_name">
+      <str>FK506 binding protein 12-rapamycin associated protein 2</str>
+      <str>rapamycin target protein</str>
+      <str>FKBP12-rapamycin complex-associated protein 1</str>
+      <str>FKBP-rapamycin associated protein</str>
+      <str>rapamycin associated protein FRAP2</str>
+      <str>dJ576K7.1 (FK506 binding protein 12-rapamycin associated protein 1)</str>
+      <str>rapamycin and FKBP12 target 1</str>
+      <str>mammalian target of rapamycin</str>
+    </arr>
+    <str name="locus_type">gene with protein product</str>
+    <arr name="pubmed_id">
+      <long>8008069</long>
+      <long>8660990</long>
+      <long>34032352</long>
+    </arr>
+    <arr name="mane_select">
+      <str>ENST00000361445.9</str>
+      <str>NM_004958.4</str>
+    </arr>
+    <arr name="refseq_accession">
+      <str>NM_004958</str>
+    </arr>
+    <str name="agr">HGNC:3942</str></doc>
+</result>
+</response>

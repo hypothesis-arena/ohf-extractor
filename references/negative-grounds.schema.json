@@ -1,0 +1,761 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ohf-extractor:negative-grounds:1",
+  "title": "Isolated negative-claim grounds sidecar (not an OHF card schema)",
+  "$ref": "#/$defs/request",
+  "$defs": {
+    "artifact": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "file",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "source_id": {
+      "type": "object",
+      "properties": {
+        "namespace": {
+          "enum": [
+            "pmcid",
+            "doi"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "namespace",
+        "value"
+      ],
+      "additionalProperties": false
+    },
+    "work_id": {
+      "type": "object",
+      "properties": {
+        "namespace": {
+          "enum": [
+            "pmcid",
+            "doi",
+            "pmid"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "namespace",
+        "value"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "id": {
+          "$ref": "#/$defs/source_id"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "state": {
+          "enum": [
+            "complete",
+            "partial",
+            "unavailable",
+            "unknown"
+          ]
+        }
+      },
+      "required": [
+        "file",
+        "sha256",
+        "id",
+        "retrieved_at",
+        "state"
+      ],
+      "additionalProperties": false
+    },
+    "owner": {
+      "type": "object",
+      "properties": {
+        "card_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "card_version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "card_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "source_id": {
+          "$ref": "#/$defs/source_id"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "source_retrieved_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "source_state": {
+          "const": "complete"
+        }
+      },
+      "required": [
+        "card_id",
+        "card_version",
+        "card_sha256",
+        "source_id",
+        "source_sha256",
+        "source_retrieved_at",
+        "source_state"
+      ],
+      "additionalProperties": false
+    },
+    "search": {
+      "type": "object",
+      "properties": {
+        "log": {
+          "$ref": "#/$defs/artifact"
+        },
+        "step": {
+          "$ref": "#/$defs/artifact"
+        },
+        "runs": {
+          "$ref": "#/$defs/artifact"
+        },
+        "required_run_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^run:[A-Za-z0-9_.-]+$"
+          },
+          "minItems": 1,
+          "maxItems": 4096,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "log",
+        "step",
+        "runs",
+        "required_run_ids"
+      ],
+      "additionalProperties": false
+    },
+    "article": {
+      "type": "object",
+      "properties": {
+        "inventory": {
+          "$ref": "#/$defs/artifact"
+        },
+        "coverage": {
+          "$ref": "#/$defs/artifact"
+        }
+      },
+      "required": [
+        "inventory",
+        "coverage"
+      ],
+      "additionalProperties": false
+    },
+    "claim": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "kind": {
+          "enum": [
+            "not_found_by_agent",
+            "absent_from_the_article",
+            "absent_from_the_literature"
+          ]
+        },
+        "epistemic_state": {
+          "enum": [
+            "not_found",
+            "claimed_absent",
+            "unknown",
+            "unavailable",
+            "not_searched",
+            "partial"
+          ]
+        },
+        "card_pointer": {
+          "type": "string",
+          "pattern": "^(?:/(?:[^~/]|~[01])*)+$"
+        },
+        "proposition": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "search": {
+          "$ref": "#/$defs/search"
+        },
+        "article": {
+          "$ref": "#/$defs/article"
+        }
+      },
+      "required": [
+        "id",
+        "kind",
+        "epistemic_state",
+        "card_pointer",
+        "proposition",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "request": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "ohf-negative-grounds/1"
+        },
+        "made_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "card": {
+          "$ref": "#/$defs/artifact"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/claim"
+          },
+          "minItems": 1,
+          "maxItems": 4096,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema",
+        "made_at",
+        "card",
+        "source",
+        "claims"
+      ],
+      "additionalProperties": false
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "service": {
+          "enum": [
+            "europepmc",
+            "pubmed"
+          ]
+        },
+        "as_of": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      },
+      "required": [
+        "query",
+        "service",
+        "as_of"
+      ],
+      "additionalProperties": false
+    },
+    "judgement": {
+      "type": "object",
+      "properties": {
+        "call_id": {
+          "type": "string",
+          "pattern": "^call:[A-Za-z0-9_.-]+$"
+        },
+        "work_id": {
+          "$ref": "#/$defs/work_id"
+        },
+        "decision": {
+          "const": "not_matching"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "assessed_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        }
+      },
+      "required": [
+        "call_id",
+        "work_id",
+        "decision",
+        "reason",
+        "assessed_at"
+      ],
+      "additionalProperties": false
+    },
+    "run": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^run:[A-Za-z0-9_.-]+$"
+        },
+        "owner": {
+          "$ref": "#/$defs/owner"
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "state": {
+          "enum": [
+            "completed",
+            "partial",
+            "failed",
+            "unavailable",
+            "unknown",
+            "not_searched"
+          ]
+        },
+        "started_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "finished_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "stop": {
+          "type": "object",
+          "properties": {
+            "reason": {
+              "enum": [
+                "exhausted",
+                "capped",
+                "failed",
+                "unavailable",
+                "unknown",
+                "not_searched"
+              ]
+            },
+            "at": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+            }
+          },
+          "required": [
+            "reason",
+            "at"
+          ],
+          "additionalProperties": false
+        },
+        "call_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^call:[A-Za-z0-9_.-]+$"
+          },
+          "minItems": 1,
+          "maxItems": 4096,
+          "uniqueItems": true
+        },
+        "conclusion": {
+          "enum": [
+            "not_found",
+            "unknown",
+            "unavailable",
+            "partial",
+            "not_searched"
+          ]
+        },
+        "assessed_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "judgements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/judgement"
+          },
+          "minItems": 0,
+          "maxItems": 4096,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "owner",
+        "scope",
+        "state",
+        "started_at",
+        "finished_at",
+        "stop",
+        "call_ids",
+        "conclusion",
+        "assessed_at",
+        "judgements"
+      ],
+      "additionalProperties": false
+    },
+    "call_binding": {
+      "type": "object",
+      "properties": {
+        "call_id": {
+          "type": "string",
+          "pattern": "^call:[A-Za-z0-9_.-]+$"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^run:[A-Za-z0-9_.-]+$"
+        },
+        "owner": {
+          "$ref": "#/$defs/owner"
+        }
+      },
+      "required": [
+        "call_id",
+        "run_id",
+        "owner"
+      ],
+      "additionalProperties": false
+    },
+    "runs": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "ohf-negative-runs/1"
+        },
+        "recorded_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "owner": {
+          "$ref": "#/$defs/owner"
+        },
+        "log_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "proposition_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "runs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/run"
+          },
+          "minItems": 1,
+          "maxItems": 4096,
+          "uniqueItems": true
+        },
+        "call_bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/call_binding"
+          },
+          "minItems": 1,
+          "maxItems": 4096,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema",
+        "recorded_at",
+        "owner",
+        "log_sha256",
+        "scope",
+        "proposition_sha256",
+        "runs",
+        "call_bindings"
+      ],
+      "additionalProperties": false
+    },
+    "paragraph": {
+      "type": "object",
+      "properties": {
+        "paragraph": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "read_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "inventory_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 4096,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 4096,
+          "uniqueItems": true
+        },
+        "disposition": {
+          "enum": [
+            "items_recorded",
+            "inspected_no_inventory_item"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "paragraph",
+        "sha256",
+        "read_at",
+        "inventory_ids",
+        "disposition",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "schema": {
+          "const": "ohf-negative-article-coverage/1"
+        },
+        "recorded_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "owner": {
+          "$ref": "#/$defs/owner"
+        },
+        "inventory_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "proposition_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "state": {
+          "enum": [
+            "complete",
+            "partial",
+            "unavailable",
+            "unknown"
+          ]
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/paragraph"
+          },
+          "minItems": 1,
+          "maxItems": 4096,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema",
+        "recorded_at",
+        "owner",
+        "inventory_sha256",
+        "scope",
+        "proposition_sha256",
+        "state",
+        "paragraphs"
+      ],
+      "additionalProperties": false
+    },
+    "item": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "type": {
+          "enum": [
+            "claim",
+            "scope",
+            "condition",
+            "hedge",
+            "prediction",
+            "evidence_for",
+            "evidence_against",
+            "alternative",
+            "limitation",
+            "open_question"
+          ]
+        },
+        "paragraph": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 4096,
+          "pattern": "\\S"
+        },
+        "hedge": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "also_in": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 0,
+          "maxItems": 4096,
+          "uniqueItems": true
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "paragraph",
+        "text",
+        "quote",
+        "hedge"
+      ],
+      "additionalProperties": false
+    },
+    "inventory": {
+      "type": "object",
+      "properties": {
+        "article": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 4096,
+              "pattern": "\\S"
+            },
+            "source_text_sha256": {
+              "type": "string",
+              "pattern": "^sha256:[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "id",
+            "source_text_sha256"
+          ],
+          "additionalProperties": false
+        },
+        "read_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d{1,6})?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item"
+          },
+          "minItems": 1,
+          "maxItems": 4096,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "article",
+        "read_at",
+        "items"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

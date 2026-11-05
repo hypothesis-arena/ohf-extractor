@@ -1,0 +1,260 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 18,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "19587680",
+        "pmid": "19587680",
+        "title": "Invented citation token 19587680",
+        "pubYear": "2009",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2009-07-01"
+      },
+      {
+        "source": "MED",
+        "id": "20074526",
+        "pmid": "20074526",
+        "title": "Invented citation token 20074526",
+        "pubYear": "2010",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2010-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "20974732",
+        "pmid": "20974732",
+        "title": "Invented citation token 20974732",
+        "pubYear": "2010",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2010-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "22107964",
+        "pmid": "22107964",
+        "title": "Invented citation token 22107964",
+        "pubYear": "2010",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2010-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "22560223",
+        "pmid": "22560223",
+        "title": "Invented citation token 22560223",
+        "pubYear": "2010",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2010-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "23698443",
+        "pmid": "23698443",
+        "title": "Invented citation token 23698443",
+        "pubYear": "2010",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2010-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "24332851",
+        "pmid": "24332851",
+        "title": "Invented citation token 24332851",
+        "pubYear": "2010",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2010-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "24341993",
+        "pmid": "24341993",
+        "title": "Invented citation token 24341993",
+        "pubYear": "2010",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2010-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "24409289",
+        "pmid": "24409289",
+        "title": "Invented citation token 24409289",
+        "pubYear": "2010",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2010-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "26676933",
+        "pmid": "26676933",
+        "title": "Invented citation token 26676933",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "27091134",
+        "pmid": "27091134",
+        "title": "Invented citation token 27091134",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "27549339",
+        "pmid": "27549339",
+        "title": "Invented citation token 27549339",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "28025308",
+        "pmid": "28025308",
+        "title": "Invented citation token 28025308",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "29874838",
+        "pmid": "29874838",
+        "title": "Invented citation token 29874838",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "30269951",
+        "pmid": "30269951",
+        "title": "Invented citation token 30269951",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "30970250",
+        "pmid": "30970250",
+        "title": "Invented citation token 30970250",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "33008901",
+        "pmid": "33008901",
+        "title": "Invented citation token 33008901",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      },
+      {
+        "source": "MED",
+        "id": "33145977",
+        "pmid": "33145977",
+        "title": "Invented citation token 33145977",
+        "pubYear": "2020",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2020-01-01"
+      }
+    ]
+  }
+}

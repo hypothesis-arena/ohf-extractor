@@ -1,0 +1,45 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "result": {
+    "uids": [
+      "42693106",
+      "42264491"
+    ],
+    "42693106": {
+      "uid": "42693106",
+      "title": "Invented PubMed token 42693106",
+      "pubdate": "2026 Jan 01",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "value": "42693106"
+        },
+        {
+          "idtype": "doi",
+          "value": "10.0000/synthetic-42693106"
+        }
+      ]
+    },
+    "42264491": {
+      "uid": "42264491",
+      "title": "Invented PubMed token 42264491",
+      "pubdate": "2026 Jan 01",
+      "pubtype": [
+        "Journal Article"
+      ],
+      "articleids": [
+        {
+          "idtype": "pubmed",
+          "value": "42264491"
+        },
+        {
+          "idtype": "doi",
+          "value": "10.0000/synthetic-42264491"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 91,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "99080001",
+        "pmid": "99080001",
+        "title": "Invented broad-search token one",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.0000/synthetic-fallback-first",
+        "journalInfo": {},
+        "firstPublicationDate": "2025-02-01",
+        "license": "cc by",
+        "pmcid": "PMC13664863"
+      },
+      {
+        "source": "MED",
+        "id": "41991987",
+        "pmid": "41991987",
+        "title": "Invented broad-search token two",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.0000/synthetic-fallback-second",
+        "journalInfo": {},
+        "firstPublicationDate": "2025-02-01",
+        "license": "cc by",
+        "pmcid": "PMC13243600"
+      },
+      {
+        "source": "MED",
+        "id": "99080003",
+        "pmid": "99080003",
+        "title": "Invented citation token 99080003",
+        "pubYear": "2025",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2025-02-01",
+        "license": "cc by"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+Third-party source attribution and rights
+
+Article: Louis A, Mergen C, Rietveld MH, Gendronneau G, Andre N,
+Ben Khalifa Y, Bouwstra JA, Rissmann R, Halkoum R, El Ghalbzouri A.
+Fibroblast-derived matrix human skin equivalents reveal distinct roles for
+papillary and reticular fibroblasts in human skin barrier integrity and aging.
+Scientific Reports 16, 17668 (2026). DOI: 10.1038/s41598-026-48648-3.
+PMCID: PMC13243600; PMID: 41991987.
+Copyright: The Author(s) 2026.
+
+The article's own JATS permissions state Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0):
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+No article passage, figure or full text is distributed in this fixture. Only
+bibliographic metadata and source/locator/hash provenance are retained. The
+recorded Europe PMC JSON is a bibliographic search response, with no abstract
+or article body. Its service hit count is not a count of relevant papers.
+
+The repository MIT licence covers the added code. It does not relicense this
+article or waive its NC/ND restrictions. The kit's conversion refusal for
+NC/ND works remains unchanged; this fixture does not convert the article.
+
+Current test input: epmc-broad.json is now project-authored synthetic metadata under the project MIT licence. The article/recorded-response notice above is retained historical provenance and does not describe the replacement as a live response. No article excerpt is retained.

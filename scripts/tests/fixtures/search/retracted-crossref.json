@@ -1,0 +1,41 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "status": "ok",
+  "message": {
+    "DOI": "10.0000/synthetic-withdrawn",
+    "title": [
+      "Invented withdrawn token"
+    ],
+    "type": "journal-article",
+    "updated-by": [
+      {
+        "type": "correction",
+        "source": "retraction-watch",
+        "DOI": "10.1016/s0140-6736(04)15715-2",
+        "updated": {
+          "date-parts": [
+            [
+              2004,
+              3,
+              6
+            ]
+          ]
+        }
+      },
+      {
+        "type": "retraction",
+        "source": "retraction-watch",
+        "DOI": "10.1016/s0140-6736(10)60175-4",
+        "updated": {
+          "date-parts": [
+            [
+              2010,
+              2,
+              6
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

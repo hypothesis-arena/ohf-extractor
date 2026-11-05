@@ -1,0 +1,27 @@
+{
+ "header": {
+  "type": "esearch",
+  "version": "0.3"
+ },
+ "esearchresult": {
+  "count": "0",
+  "retmax": "0",
+  "retstart": "0",
+  "idlist": [],
+  "translationset": [],
+  "querytranslation": "(NOTATERMXYZ[All Fields])",
+  "errorlist": {
+   "phrasesnotfound": [
+    "NOTATERMXYZ"
+   ],
+   "fieldsnotfound": []
+  },
+  "warninglist": {
+   "phrasesignored": [],
+   "quotedphrasesnotfound": [],
+   "outputmessages": [
+    "No items found."
+   ]
+  }
+ }
+}

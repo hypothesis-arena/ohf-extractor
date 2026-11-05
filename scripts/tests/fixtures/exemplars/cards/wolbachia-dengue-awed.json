@@ -1,0 +1,2775 @@
+{
+  "schema": "ohf:hypothesis@1",
+  "id": "h_wolbachia-dengue-awed",
+  "version": 1,
+  "standard_version": "1.0",
+  "vocabularies": {
+    "heuristics": {
+      "id": "ohf:heuristics@1",
+      "sha256": "sha256:ef18bd7539c4cf06878be8720cbab9e541d5d41f0c0e369a0274bd1b07e7f5ef"
+    },
+    "profiles": {
+      "id": "ohf:profiles@1",
+      "sha256": "sha256:5c7f2b59712a38c9c03ecfed9ceebe782b0c43b6ac60485ab44396b6e1e681cc"
+    }
+  },
+  "identity": {
+    "proposition_id": "h_wolbachia-dengue-awed",
+    "version": 1,
+    "supersedes": [],
+    "retractions": [],
+    "duplicate_cluster_ref": null,
+    "representative_ref": null,
+    "lifecycle": "example"
+  },
+  "author": {
+    "source": {
+      "kind": "paper",
+      "citation": "Anders KL, Indriani C, Ahmad RA, Tantowijoyo W, Arguni E, Andari B, Jewell NP, Rances E, O'Neill SL, Simmons CP, Utarini A. The AWED trial (Applying Wolbachia to Eliminate Dengue) to assess the efficacy of Wolbachia-infected mosquito deployments to reduce dengue incidence in Yogyakarta, Indonesia: study protocol for a cluster randomised controlled trial. Trials. 2018;19:302",
+      "doi": "10.1186/s13063-018-2670-z",
+      "url": "https://doi.org/10.1186/s13063-018-2670-z",
+      "license": "CC-BY-4.0",
+      "rights_basis": "license",
+      "retrieved_at": "2026-10-20T18:14:36Z",
+      "source_text_sha256": "sha256:9ae6fa5160c1c560b658bc45d4289c86dc05f7a6585e515f925dec4e66171a27",
+      "language": "en"
+    },
+    "generator": {
+      "kind": "human",
+      "system": null,
+      "system_version": null,
+      "model": null
+    },
+    "generation": {
+      "run_id": null,
+      "generated": null,
+      "submitted": null,
+      "submits_all": null
+    },
+    "submitted_at": "2026-10-20T18:14:36Z",
+    "layers": {
+      "core": {
+        "statement": {
+          "value": "If Wolbachia has a protective effect against DENV transmission, we would expect the RR for virologically confirmed dengue in Wolbachia-treated areas compared to untreated areas to be below one.",
+          "locator": "XML .//p[16] (1-based document order)"
+        },
+        "explanandum": {
+          "value": "The null hypothesis is that the relative incidence of virologically confirmed dengue in Wolbachia-treated and untreated areas is one.",
+          "locator": "XML .//p[16] (1-based document order)"
+        }
+      },
+      "mechanism": {
+        "summary": {
+          "value": "Thus, the critical and signature effect of Wolbachia as a public health intervention is to severely reduce the vectorial capacity of mosquito populations to transmit arboviral infections between humans.",
+          "locator": "XML .//p[11] (1-based document order)"
+        }
+      },
+      "predictions": [],
+      "evidence": {},
+      "provenance": {},
+      "profile": {},
+      "appendix": {}
+    }
+  },
+  "added": {
+    "by": {
+      "converter": "ohf-extractor",
+      "converter_version": "0.2.1",
+      "converter_hash": "sha256:cc5042ad07f88e967fdf3d57f3c7d1c9d46093d3707e6cb640cb63bbf74995eb",
+      "model": "claude-opus-5-5"
+    },
+    "at": "2026-10-20T20:51:08Z",
+    "cutoff_date": "2021-06-10",
+    "layers": {
+      "core": {
+        "kind": {
+          "value": "intervention_effect",
+          "src": "p_tnd"
+        },
+        "scope": {
+          "value": "Large-scale deployment of Wolbachia-infected Ae. aegypti mosquitoes in a single site in Yogyakarta, Indonesia: a 26 km2 area subdivided into 24 contiguous clusters, allocated randomly 1:1 to Wolbachia deployments or no intervention, with routine vector control only in both arms. The effect concerns symptomatic, virologically confirmed dengue virus infection of any severity in treated versus untreated areas, measured among febrile patients presenting to a network of primary care clinics.",
+          "src": "p_abstract_methods"
+        },
+        "atoms": [
+          {
+            "id": "a_vector_resistance",
+            "statement": {
+              "value": "The presence of Wolbachia in Ae. aegypti mosquitoes makes them more resistant to disseminated infection with arboviruses, including dengue, Zika, chikungunya and yellow fever viruses.",
+              "src": "p_wolbachia"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "p_wolbachia"
+            },
+            "role": {
+              "value": "background_established",
+              "src": "p_wolbachia"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "p_wolbachia",
+              "basis_quote": "The presence of Wolbachia in Ae. aegypti mosquitoes renders them more resistant to disseminated arbovirus infection, including dengue, Zika, chikungunya and yellow fever viruses"
+            }
+          },
+          {
+            "id": "a_vectorial_capacity",
+            "statement": {
+              "value": "Wolbachia, as a public health intervention, severely reduces the vectorial capacity of mosquito populations to transmit arboviral infections between humans.",
+              "src": "p_wolbachia"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "p_wolbachia"
+            },
+            "role": {
+              "value": "core",
+              "src": "p_wolbachia"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "p_wolbachia",
+              "basis_quote": "Thus, the critical and signature effect of Wolbachia as a public health intervention is to severely reduce the vectorial capacity of mosquito populations to transmit arboviral infections between humans."
+            }
+          },
+          {
+            "id": "a_establishment",
+            "statement": {
+              "value": "Fortnightly releases of relatively small numbers of Wolbachia-infected mosquitoes over 2–3 months seed wild Ae. aegypti populations; over the following 3–6 months, through cytoplasmic incompatibility, Wolbachia prevalence rises until virtually all mosquitoes in the area carry it, and once established it sustains itself for years.",
+              "src": "p_wolbachia"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "p_wolbachia"
+            },
+            "role": {
+              "value": "auxiliary",
+              "src": "p_wolbachia"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "p_wolbachia",
+              "basis_quote": "Once established, Wolbachia sustains itself in the mosquito population for years."
+            }
+          },
+          {
+            "id": "a_dengue_incidence",
+            "statement": {
+              "value": "Wolbachia deployments protect against dengue virus transmission, so that the relative incidence (risk or rate ratio) of virologically confirmed dengue in Wolbachia-treated versus untreated areas is below one.",
+              "src": "p_tnd"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "p_tnd"
+            },
+            "role": {
+              "value": "core",
+              "src": "p_tnd"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p_tnd",
+              "basis_quote": "If Wolbachia has a protective effect against DENV transmission, we would expect the RR for virologically confirmed dengue in Wolbachia-treated areas compared to untreated areas to be below one."
+            }
+          },
+          {
+            "id": "a_mosquito_infection",
+            "statement": {
+              "value": "Hypothesis to be tested: Wolbachia deployments will reduce the prevalence of arbovirus-infected Ae. aegypti mosquitoes.",
+              "src": "p_mosquito"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "p_mosquito"
+            },
+            "role": {
+              "value": "core",
+              "src": "p_mosquito"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p_mosquito",
+              "basis_quote": "We will test the hypothesis that Wolbachia deployments will reduce the prevalence of arbovirus-infected Ae. aegypti mosquitoes."
+            }
+          }
+        ],
+        "alternative_explanations": {
+          "value": [
+            {
+              "claim_or_ref": {
+                "kind": "literal",
+                "text": "Spatial clustering of a non-arboviral febrile illness results in a differential distribution of test-negative controls between the study arms."
+              },
+              "unresolved_reason": "The protocol cannot exclude it; it will check the odds of Wolbachia exposure among enrolled test-negative controls, which should approximate one if there is no association."
+            },
+            {
+              "claim_or_ref": {
+                "kind": "literal",
+                "text": "In the non-blinded deployment, belief that Wolbachia protects may make residents of treated areas less likely to seek care for a febrile illness."
+              }
+            }
+          ],
+          "src": "p_controls"
+        },
+        "uncertainties": {
+          "value": [
+            {
+              "id": "u_entomology",
+              "kind": "scope",
+              "question": "Whether Wolbachia mosquitoes establish and sustain elsewhere depends on the local entomological context, so the deployment approach may need to be tailored to local contexts."
+            },
+            {
+              "id": "u_serotype",
+              "kind": "scope",
+              "question": "The dengue-blocking phenotype of Wolbachia is partly serotype specific, so the local distribution of circulating serotypes, and differences in transmission intensity, may theoretically change the disease impact observed in other settings."
+            },
+            {
+              "id": "u_mechanism",
+              "kind": "mechanism",
+              "target_ref": {
+                "kind": "card",
+                "pointer": "/added/layers/core/atoms/1"
+              },
+              "question": "Several mechanisms have been proposed for the virus-resistant state that wMel imparts, including Wolbachia-induced triggering of innate immune effectors and changes in intracellular cholesterol transport."
+            },
+            {
+              "id": "u_resistance",
+              "kind": "scope",
+              "question": "DENV could plausibly evolve resistance to wMel, although the alternating infection of human and mosquito hosts, together with an apparently complex mode of action, could constrain it."
+            }
+          ],
+          "src": "p_generalisability"
+        },
+        "testability": {
+          "value": {
+            "in_principle": "testable",
+            "in_practice": "feasible_now",
+            "justification": "The efficacy endpoint is measured by a cluster-randomised test-negative design, which samples dengue cases and non-dengue controls concurrently by outcome. The authors say it has the potential to be more efficient, cost effective and logistically simpler than traditional cluster-randomised designs with prospective cohorts. Literature on test-negative designs in non-randomised influenza vaccine studies shows valid effect estimates provided certain assumptions are met, primarily that the distribution of test-negative illness is not associated with intervention status."
+          },
+          "src": "p_crtnd",
+          "assessment": {
+            "assessor": "ohf-extractor 0.2.1",
+            "assessed_at": "2026-10-20T20:51:08Z",
+            "evidence_ref": {
+              "kind": "artifact",
+              "sha256": "sha256:9ae6fa5160c1c560b658bc45d4289c86dc05f7a6585e515f925dec4e66171a27"
+            }
+          }
+        },
+        "first_proposed": {
+          "value": {
+            "source_ref": {
+              "kind": "external",
+              "uri": "https://doi.org/10.1126/scitranslmed.3010370",
+              "limitation": "Ferguson et al. 2015, cited by the protocol as reference 19."
+            },
+            "date": "2015",
+            "precision": "year",
+            "basis": "author_statement",
+            "note": "The protocol does not present the idea as new. It credits the approach to the World Mosquito Program (reference 14, a website without a date) and the prediction that established Wolbachia reduces R0 by 66–75% and would eliminate local dengue transmission in most settings to Ferguson et al. 2015 (reference 19, paragraph 11). The date is the year of that reference; it is not shown to be the first proposal of Wolbachia for dengue control. Paragraph 11 also cites references 15–18 (2011–2016) for the mosquitoes' resistance to arboviruses and for the spread of Wolbachia by cytoplasmic incompatibility, not for the claim that deployment reduces dengue. The trial prediction itself was registered on 14 February 2017 (NCT03055585) and published in this protocol on 31 May 2018."
+          },
+          "src": "ref19"
+        }
+      },
+      "mechanism": {},
+      "predictions": [
+        {
+          "id": "p_dengue",
+          "role": {
+            "value": "primary",
+            "src": "p_aim"
+          },
+          "system": {
+            "kind": {
+              "value": "population",
+              "src": "p_abstract_methods"
+            },
+            "site": {
+              "value": "Yogyakarta City and the adjacent part of Bantul District, Yogyakarta Special Region, Indonesia",
+              "src": "p_site"
+            },
+            "spatial_scale": {
+              "value": "a continuous urban area of 26 km2 with about 350,000 people",
+              "src": "p_site",
+              "paraphrase": true,
+              "basis_quote": "The study site area is of 26 km2, including 24 km2 within Yogyakarta City and extending into 2 km2 of the adjacent administrative area, Bantul District, to the south of Yogyakarta City (Fig. 1). The study site is a continuous urban area, with a total population of approximately 350,000"
+            }
+          },
+          "population": {
+            "value": "Patients aged 3–45 years presenting to any of the 19 participating primary care clinics with undifferentiated fever of 1–4 days duration who meet the eligibility criteria and give written informed consent",
+            "src": "p_enrolment"
+          },
+          "experimental_unit": {
+            "value": "geographic cluster: 24 contiguous clusters of roughly equal area and population size, 12 per arm",
+            "src": "p_design"
+          },
+          "intervention": {
+            "agent": {
+              "value": "Wolbachia-infected Ae. aegypti mosquitoes",
+              "src": "p_releases"
+            },
+            "formulation": {
+              "value": "mosquito release containers: a small plastic tub containing Ae. aegypti eggs, Tetramin food and water",
+              "src": "p_releases"
+            },
+            "route": {
+              "value": "release containers set in outdoor areas of residential and non-residential properties throughout the intervention clusters, from which adults emerge about 7–12 days later",
+              "src": "p_releases"
+            },
+            "dose": {
+              "value": "30,000–150,000 adult mosquitoes per km2 in each release week (expected)",
+              "src": "p_releases",
+              "paraphrase": true,
+              "basis_quote": "we expect to release 30,000–150,000 adults per km2 during each release week"
+            },
+            "regimen": {
+              "value": "rolling releases across intervention clusters; releases stop in a cluster once Wolbachia prevalence in trapped Ae. aegypti reaches 60–80%, with no further releases if prevalence later drops below 60%",
+              "src": "p_rollout"
+            },
+            "duration": {
+              "value": "a 6–9 month release period, aiming at high Wolbachia prevalence within at most 12 months from the start of release",
+              "src": "p_rollout"
+            }
+          },
+          "comparator": {
+            "value": "clusters randomly allocated to no intervention (untreated arm)",
+            "src": "p_design"
+          },
+          "endpoint": {
+            "value": "symptomatic, virologically confirmed DENV infection of any severity",
+            "src": "p_aim"
+          },
+          "summary_measure": {
+            "contrast": {
+              "value": "aggregate odds ratio of exposure (residence in a Wolbachia-treated cluster) among test-positive cases versus test-negative controls, which estimates the relative risk provided that the key assumptions of the test-negative design hold",
+              "src": "p_itt"
+            }
+          },
+          "direction": {
+            "value": "decrease: relative risk of virologically confirmed dengue in Wolbachia-treated versus untreated areas below one",
+            "src": "p_tnd"
+          },
+          "threshold": {
+            "value": "two-sided p < 0.004, the minimum threshold at which statistical significance can be evaluated with the 494 distinct randomisations of this design",
+            "src": "p_itt",
+            "paraphrase": true,
+            "basis_quote": "since the constrained permutation distribution used for statistical inference contains only the 247 potential allocations (494 distinct randomisations) that meet all balancing criteria, the most extreme odds ratio in the distribution would carry a two-sided p value of approximately 0.004 (2/494). Therefore p < 0.004 is the minimum threshold at which statistical significance can be evaluated in this design."
+          },
+          "horizon": {
+            "value": "enrolment for 2 years from January 2018, or longer if required to reach the minimum sample size",
+            "src": "p_timeline",
+            "paraphrase": true,
+            "basis_quote": "with enrolment into the intention-to-treat dataset commencing in January 2018. The study timeline is depicted in Fig. 4. Participant enrolment will continue for 2 years, or longer if required to attain the minimum sample size for intention-to-treat analysis."
+          },
+          "test_plan_ref": {
+            "value": {
+              "kind": "external",
+              "uri": "https://clinicaltrials.gov/study/NCT03055585",
+              "limitation": "Trial registration named by the protocol: ClinicalTrials.gov NCT03055585, registered on 14 February 2017."
+            },
+            "src": "p_registration"
+          },
+          "form": {
+            "value": "directional_contrast",
+            "src": "p_tnd"
+          },
+          "epistemic_status": {
+            "value": "novel",
+            "src": "p_status"
+          },
+          "derives_from_atom_refs": {
+            "value": [
+              "a_dengue_incidence"
+            ],
+            "src": "p_tnd"
+          },
+          "resolution": {
+            "value": {
+              "criterion": "The prediction holds if the relative risk of virologically confirmed dengue in Wolbachia-treated versus untreated areas is below one; the null hypothesis is a relative incidence of one. The threshold \"p < 0.004\" cannot be met strictly: about 0.004 (2/494) is the smallest two-sided p value the 494 distinct randomisations allow (protocol paragraph 52), so a reported P = 0.004 with a 95% confidence interval that excludes one counts as meeting it.",
+              "check_where": {
+                "kind": "external",
+                "uri": "https://doi.org/10.1056/NEJMoa2030243",
+                "limitation": "The Europe PMC copy (PMC8103655) is the Author Final Manuscript, the version after peer review and before publication; the version of record is at the NEJM."
+              },
+              "outcome": {
+                "status": "confirmed",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a"
+                },
+                "recorded_at": "2026-10-20T20:51:08Z",
+                "recorded_by": "ohf-extractor 0.2.1 (claude-opus-5-5)"
+              }
+            },
+            "src": "p_tnd",
+            "component_sources": {
+              "/outcome": "o_results",
+              "/check_where": "o_version"
+            }
+          }
+        },
+        {
+          "id": "p_mosquito",
+          "role": {
+            "value": "secondary",
+            "src": "p_aim"
+          },
+          "system": {
+            "taxon": {
+              "value": "Aedes aegypti",
+              "src": "p_mosquito"
+            },
+            "kind": {
+              "value": "population",
+              "src": "p_mosquito"
+            }
+          },
+          "population": {
+            "value": "all Ae. aegypti mosquitoes caught in the network of BG-Sentinel traps in the study area",
+            "src": "p_mosquito"
+          },
+          "comparator": {
+            "value": "untreated clusters",
+            "src": "p_mosquito"
+          },
+          "endpoint": {
+            "value": "prevalence of DENV infection in trapped Ae. aegypti, detected by PCR",
+            "src": "p_mosquito",
+            "paraphrase": true,
+            "basis_quote": "all Ae. aegypti mosquitoes caught in the network of BG-Sentinel traps in the study area will be tested by PCR for the presence of DENV, CHIKV and Zika virus"
+          },
+          "direction": {
+            "value": "decrease in treated clusters",
+            "src": "p_mosquito"
+          },
+          "form": {
+            "value": "directional_contrast",
+            "src": "p_mosquito"
+          },
+          "epistemic_status": {
+            "value": "novel",
+            "src": "p_status"
+          },
+          "derives_from_atom_refs": {
+            "value": [
+              "a_mosquito_infection"
+            ],
+            "src": "p_mosquito"
+          }
+        }
+      ],
+      "evidence": {
+        "lines": [
+          {
+            "id": "e_lab_transmission",
+            "target_ref": "a_vectorial_capacity",
+            "direction": {
+              "value": "supports",
+              "src": "p_abstract_bg"
+            },
+            "quote": "Ae. aegypti stably transfected with Wolbachia bacterium, with a significantly reduced ability to transmit dengue, Zika and chikungunya in laboratory experiments",
+            "study_type": {
+              "value": "laboratory experiments",
+              "src": "p_abstract_bg"
+            },
+            "study_system": {
+              "value": "Ae. aegypti stably transfected with Wolbachia bacterium",
+              "src": "p_abstract_bg"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC5984439.xml",
+                  "sha256": "sha256:9ae6fa5160c1c560b658bc45d4289c86dc05f7a6585e515f925dec4e66171a27",
+                  "locator": "XML .//p[2] (1-based document order)"
+                },
+                "src": "p_abstract_bg"
+              }
+            ],
+            "src": "p_abstract_bg",
+            "argument_kind": {
+              "value": "empirical",
+              "src": "p_abstract_bg"
+            },
+            "indirectness": {
+              "value": {
+                "system": "some",
+                "endpoint": "some",
+                "intervention": "some",
+                "comparison": "none"
+              },
+              "src": "p_abstract_bg",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:08Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:9ae6fa5160c1c560b658bc45d4289c86dc05f7a6585e515f925dec4e66171a27"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_model_r0",
+            "target_ref": "a_dengue_incidence",
+            "direction": {
+              "value": "supports",
+              "src": "p_wolbachia"
+            },
+            "quote": "Of note, when Wolbachia is stably established in mosquito populations, there is predicted to be a 66–75% reduction in the basic reproduction number R0 for dengue viruses (DENV)-1 to -4 [19]. Reductions of this magnitude are predicted to result in local elimination of DENV transmission in most epidemiological circumstances [19].",
+            "study_type": {
+              "value": "prediction from a cited work (reference 19)",
+              "src": "p_wolbachia"
+            },
+            "study_system": {
+              "value": "mosquito populations in which Wolbachia is stably established, and dengue viruses DENV-1 to -4",
+              "src": "p_wolbachia"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC5984439.xml",
+                  "sha256": "sha256:9ae6fa5160c1c560b658bc45d4289c86dc05f7a6585e515f925dec4e66171a27",
+                  "locator": "XML .//p[11] (1-based document order)"
+                },
+                "src": "p_wolbachia"
+              }
+            ],
+            "src": "p_wolbachia",
+            "argument_kind": {
+              "value": "simulation",
+              "src": "p_abstract_bg"
+            },
+            "indirectness": {
+              "value": {
+                "system": "some",
+                "endpoint": "some",
+                "intervention": "some",
+                "comparison": "none"
+              },
+              "src": "p_wolbachia",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:08Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:9ae6fa5160c1c560b658bc45d4289c86dc05f7a6585e515f925dec4e66171a27"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_awed_itt",
+            "target_ref": "p_dengue",
+            "direction": {
+              "value": "supports",
+              "src": "o_results"
+            },
+            "quote": "The incidence of VCD cases was significantly lower in the wMel-treated arm (67 VCDs amongst 2905 participants (2.3%)) than in the untreated arm (318/3401 (9.4%)) (OR 0.23, 95% CI, 0.15 to 0.35; P=0.004). This represented a protective efficacy of 77.1% (95% CI, 65.3 to 84.9) (Figure 4).",
+            "study_type": {
+              "value": "cluster randomised trial of wMel deployments, with a test-negative design to measure efficacy",
+              "src": "o_abstract_methods"
+            },
+            "study_system": {
+              "value": "persons 3–45 years old attending primary care clinics in Yogyakarta City, Indonesia, with acute undifferentiated fever",
+              "src": "o_abstract_methods"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC8103655.xml",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a",
+                  "locator": "XML .//p[29] (1-based document order)"
+                },
+                "src": "o_results"
+              }
+            ],
+            "src": "o_results",
+            "result_estimate": {
+              "value": "OR 0.23 for virologically confirmed dengue, wMel-treated versus untreated arm; protective efficacy 77.1%",
+              "src": "o_results"
+            },
+            "confidence_interval": {
+              "value": {
+                "level": "95%",
+                "lower": 65.3,
+                "upper": 84.9,
+                "contrast": "protective efficacy of wMel deployments, wMel-treated versus untreated arm",
+                "scale": "percent"
+              },
+              "src": "o_results"
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "o_results"
+            },
+            "independence_group": {
+              "value": "g_wmp_yogyakarta",
+              "src": "o_results"
+            },
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "o_results",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:08Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_awed_cluster",
+            "target_ref": "p_dengue",
+            "direction": {
+              "value": "supports",
+              "src": "o_cluster"
+            },
+            "quote": "In all but one of the wMel-treated clusters the VCD proportion was lower than untreated clusters, yielding a relative risk of 0.23 (95% CI, 0.06 to 0.47; P=0.004) (Figure 5).",
+            "study_type": {
+              "value": "prespecified intention-to-treat analysis comparing virologically confirmed dengue cases as a proportion of all participants in each cluster between study arms",
+              "src": "o_cluster"
+            },
+            "study_system": {
+              "value": "wMel-treated and untreated clusters",
+              "src": "o_cluster"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC8103655.xml",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a",
+                  "locator": "XML .//p[30] (1-based document order)"
+                },
+                "src": "o_cluster"
+              }
+            ],
+            "src": "o_cluster",
+            "confidence_interval": {
+              "value": {
+                "level": "95%",
+                "lower": 0.06,
+                "upper": 0.47,
+                "contrast": "relative risk of virologically confirmed dengue, wMel-treated versus untreated clusters",
+                "scale": "ratio"
+              },
+              "src": "o_cluster"
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "o_cluster"
+            },
+            "independence_group": {
+              "value": "g_wmp_yogyakarta",
+              "src": "o_cluster"
+            },
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "o_cluster",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:08Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_awed_hospitalised",
+            "target_ref": "a_dengue_incidence",
+            "direction": {
+              "value": "supports",
+              "src": "o_results"
+            },
+            "quote": "There were 13 hospitalisations for VCD amongst 2905 participants (0.4%) from the wMel treated arm compared to 102 hospitalisations for VCD amongst 3401 participants (3%) from the untreated arm, for a protective efficacy of 86.2% (95% CI, 66.2 to 94.3) (Figure 4 and Table S5).",
+            "study_type": {
+              "value": "predefined exploratory analysis of the efficacy of the intervention in preventing hospitalised virologically confirmed dengue",
+              "src": "o_analysis"
+            },
+            "study_system": {
+              "value": "participants from the wMel-treated arm (2905) and from the untreated arm (3401)",
+              "src": "o_results"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC8103655.xml",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a",
+                  "locator": "XML .//p[29] (1-based document order)"
+                },
+                "src": "o_results"
+              }
+            ],
+            "src": "o_results",
+            "argument_kind": {
+              "value": "empirical",
+              "src": "o_results"
+            },
+            "independence_group": {
+              "value": "g_wmp_yogyakarta",
+              "src": "o_results"
+            },
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "o_results",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:08Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_awed_exposure",
+            "target_ref": "a_dengue_incidence",
+            "direction": {
+              "value": "supports",
+              "src": "o_per_protocol"
+            },
+            "quote": "Protective efficacy against VCD increased with incremental increases in participants’ Wolbachia exposure index when cluster of residence and recent travel history were considered (Figure S9A). When only the wMel frequency in the cluster of residence was considered a threshold effect was observed in that only cluster-level wMel frequencies >80% were protective (Figure S9B).",
+            "study_type": {
+              "value": "per-protocol analyses by Wolbachia exposure index",
+              "src": "o_per_protocol"
+            },
+            "study_system": {
+              "value": "participants, each assigned a Wolbachia exposure index from the wMel frequency in their cluster of residence, alone or together with wMel frequencies and time spent in other locations",
+              "src": "o_per_protocol"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC8103655.xml",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a",
+                  "locator": "XML .//p[31] (1-based document order)"
+                },
+                "src": "o_per_protocol"
+              }
+            ],
+            "src": "o_per_protocol",
+            "argument_kind": {
+              "value": "empirical",
+              "src": "o_per_protocol"
+            },
+            "independence_group": {
+              "value": "g_wmp_yogyakarta",
+              "src": "o_per_protocol"
+            },
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "some",
+                "comparison": "some"
+              },
+              "src": "o_per_protocol",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:08Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_awed_contamination",
+            "target_ref": "p_dengue",
+            "direction": {
+              "value": "neutral",
+              "src": "o_contamination"
+            },
+            "quote": "wMel-infected mosquito populations were not static and spatially heterogenous wMel contamination was measured at the edges of untreated clusters in year two of the trial. Nonetheless the efficacy estimates from per protocol analyses, which accounted for individual participants’ recent exposure to wMel via changes in cluster-level wMel frequencies and/or human movement, did not exceed that measured in the ITT analysis.",
+            "study_type": {
+              "value": "measurement of wMel contamination of untreated clusters, set against per-protocol efficacy estimates",
+              "src": "o_contamination"
+            },
+            "study_system": {
+              "value": "wMel-infected mosquito populations at the edges of untreated clusters, in year two of the trial",
+              "src": "o_contamination"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC8103655.xml",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a",
+                  "locator": "XML .//p[34] (1-based document order)"
+                },
+                "src": "o_contamination"
+              }
+            ],
+            "src": "o_contamination",
+            "argument_kind": {
+              "value": "empirical",
+              "src": "o_contamination"
+            },
+            "independence_group": {
+              "value": "g_wmp_yogyakarta",
+              "src": "o_contamination"
+            },
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "some"
+              },
+              "src": "o_contamination",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:08Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_quasi_yogyakarta",
+            "target_ref": "a_dengue_incidence",
+            "direction": {
+              "value": "supports",
+              "src": "o_prior"
+            },
+            "quote": "A quasi-experimental study of Wolbachia deployments in seven urban villages on the northwestern border of Yogyakarta, compared to three untreated control villages on the southeastern border of the city, reported a 76% reduction in the incidence of hospitalised dengue hemorrhagic fever during 30 months post-deployment.",
+            "study_type": {
+              "value": "quasi-experimental study",
+              "src": "o_prior"
+            },
+            "study_system": {
+              "value": "Wolbachia deployments in seven urban villages on the northwestern border of Yogyakarta, compared with three untreated control villages on the southeastern border of the city",
+              "src": "o_prior"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC8103655.xml",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a",
+                  "locator": "XML .//p[35] (1-based document order)"
+                },
+                "src": "o_prior"
+              }
+            ],
+            "src": "o_prior",
+            "argument_kind": {
+              "value": "empirical",
+              "src": "o_prior"
+            },
+            "independence_group": {
+              "value": "g_wmp_yogyakarta",
+              "src": "o_strain"
+            },
+            "indirectness": {
+              "value": {
+                "system": "some",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "some"
+              },
+              "src": "o_prior",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:08Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:2cd98aa1acff82ea74331e872f5720d90a65bd1b39785d7a44b16093f9aa8c4a"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "provenance": {
+        "claim_author": {
+          "value": "Katherine L Anders, Citra Indriani, Riris Andono Ahmad, Warsito Tantowijoyo, Eggi Arguni, Bekti Andari, Nicholas P Jewell, Edwige Rances, Scott L O’Neill, Cameron P Simmons, Adi Utarini",
+          "src": "meta"
+        },
+        "author_type": {
+          "value": "human",
+          "src": "meta"
+        },
+        "licence": {
+          "value": "CC-BY-4.0",
+          "src": "meta"
+        },
+        "original_artifact": {
+          "value": "PMC5984439.xml",
+          "src": "meta"
+        },
+        "origin_method": {
+          "value": "published_restatement",
+          "src": "meta"
+        },
+        "foreknowledge": {
+          "value": "At submission, Wolbachia releases had finished and recruitment had commenced; recruitment into the intention-to-treat dataset was expected to be completed by December 2019, so the trial result was not known.",
+          "src": "p_status",
+          "paraphrase": true,
+          "basis_quote": "At the time of submission, Wolbachia releases in intervention clusters have finished and participant recruitment in the clinical study has commenced."
+        }
+      },
+      "profile": {
+        "domain": "ohf:intervention-pharmacology@1",
+        "harm": {
+          "value": "Safety endpoint: the proportion of enrolled participants in each arm hospitalised or dying within 14–21 days of enrolment, to show that the deployment is not associated with any excess of a severe adverse outcome.",
+          "src": "p_safety"
+        },
+        "dose_response": {
+          "x_axis": {
+            "value": "Wolbachia exposure index, 0 to 1: cluster-level Wolbachia prevalence at each location visited in the 3–10 days before illness onset, weighted by the time spent there, analysed in strata",
+            "src": "p_per_protocol"
+          },
+          "endpoint_ref": {
+            "value": {
+              "kind": "card",
+              "pointer": "/added/layers/predictions/0"
+            },
+            "src": "p_per_protocol"
+          }
+        }
+      },
+      "appendix": {}
+    },
+    "gaps": [
+      {
+        "path": "core.falsification_condition",
+        "disposition": "not_supplied",
+        "reason": "The protocol states the null hypothesis (relative incidence of one) and the expected direction, but not what result would count against the claim.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "core.explains[]",
+        "disposition": "not_supplied",
+        "reason": "The protocol names no observation that the hypothesis would explain and that other accounts leave unexplained or contested; it tests a prospective intervention effect.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "core.reinterprets[]",
+        "disposition": "not_supplied",
+        "reason": "The protocol does not propose a new reading of an existing finding.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "core.opens[]",
+        "disposition": "not_supplied",
+        "reason": "The protocol names no new question the hypothesis opens. The outcome article calls for surveys of arbovirus populations for Wolbachia-associated selection and for trials against other viruses (paragraphs 36 and 37), but does not say why these could not be asked before.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].discrimination",
+        "disposition": "not_supplied",
+        "reason": "The protocol names biases that could distort the estimate (paragraphs 80 and 83) but does not say whether they would produce the same outcome; the converter does not rate discrimination without such grounds.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].also_expected_under[]",
+        "disposition": "not_supplied",
+        "reason": "The protocol does not say that any alternative it names would also expect a relative risk below one.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].predictive_uncertainty",
+        "disposition": "not_supplied",
+        "reason": "The protocol states power (80% to detect a 50% reduction, paragraph 46) but no predictive interval or probability for the effect itself.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intervention.nominal_concentration",
+        "disposition": "not_supplied",
+        "reason": "The protocol gives release numbers per km2, not a concentration; it states none.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intervention.measured_concentration",
+        "disposition": "not_supplied",
+        "reason": "The protocol states no measured concentration; it monitors Wolbachia prevalence in trapped mosquitoes instead (paragraphs 27 to 29).",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intervention.intake",
+        "disposition": "not_supplied",
+        "reason": "The protocol states no intake; the intervention is released into the environment, not taken by participants.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intervention.systemic_exposure",
+        "disposition": "not_supplied",
+        "reason": "The protocol states no systemic exposure; individual exposure is defined by residence and by the Wolbachia exposure index (paragraphs 52 and 55).",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intercurrent_events[]",
+        "disposition": "not_supplied",
+        "reason": "The protocol names no intercurrent events with an estimand strategy; it treats human movement between arms as exposure misclassification handled by a per-protocol analysis (paragraph 84).",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "profile.dose_response.shape",
+        "disposition": "not_supplied",
+        "reason": "The protocol plans to examine a dose response across exposure-index strata without assuming linearity, and states no expected shape (paragraph 55). The outcome article reports an observed threshold effect, only cluster-level wMel frequencies above 80% being protective (outcome paragraph 31); that is a result, not the claimed shape.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "profile.dose_response.range",
+        "disposition": "not_supplied",
+        "reason": "The protocol gives example strata of the exposure index (0–0.2 to 0.8–1) but states no range over which a shape is claimed.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "profile.combination.components[]",
+        "disposition": "not_applicable_scope",
+        "reason": "The claim concerns a single intervention, Wolbachia deployments versus no intervention, with routine dengue prevention and vector control left unchanged in both arms (protocol paragraph 19).",
+        "query_ids": [],
+        "inspected_artifacts": [],
+        "scope_ref": {
+          "kind": "card",
+          "pointer": "/added/layers/core/scope"
+        }
+      },
+      {
+        "path": "profile.combination.reference_model",
+        "disposition": "not_applicable_scope",
+        "reason": "The claim concerns a single intervention, not a combination.",
+        "query_ids": [],
+        "inspected_artifacts": [],
+        "scope_ref": {
+          "kind": "card",
+          "pointer": "/added/layers/core/scope"
+        }
+      },
+      {
+        "path": "profile.combination.effect",
+        "disposition": "not_applicable_scope",
+        "reason": "The claim concerns a single intervention, not a combination.",
+        "query_ids": [],
+        "inspected_artifacts": [],
+        "scope_ref": {
+          "kind": "card",
+          "pointer": "/added/layers/core/scope"
+        }
+      },
+      {
+        "path": "predictions[1].threshold",
+        "disposition": "not_supplied",
+        "reason": "The protocol states power for this endpoint (80% to detect a 60% reduction) but no decision threshold.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].discrimination",
+        "disposition": "not_supplied",
+        "reason": "The protocol gives no grounds to rate how well this endpoint separates the hypothesis from alternatives.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].also_expected_under[]",
+        "disposition": "not_supplied",
+        "reason": "The protocol names no alternative that would also expect fewer infected mosquitoes.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].resolution",
+        "disposition": "not_supplied",
+        "reason": "The outcome article does not report arbovirus prevalence in trapped mosquitoes; the converter did not search for another report of it.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      }
+    ],
+    "completeness": {
+      "level": "comparable",
+      "layers_present": [
+        "core",
+        "mechanism",
+        "predictions",
+        "evidence",
+        "provenance",
+        "profile"
+      ],
+      "missing_for_next": [
+        "A typed mechanism step: subject_ref, relation and object_ref.",
+        "Evidence on both sides: a supporting and a disputing evidence line, or a recorded search for disputing evidence."
+      ]
+    },
+    "sources": {
+      "p_abstract_bg": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[2] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_abstract_methods": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[3] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_registration": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[5] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_wolbachia": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[11] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_aim": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[14] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_design": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[15] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_tnd": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[16] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_site": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[17] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_releases": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[26] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_rollout": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[27] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_enrolment": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[31] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_timeline": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[44] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_itt": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[52] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_per_protocol": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[55] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_mosquito": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[62] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_safety": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[63] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_crtnd": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[79] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_controls": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[80] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_generalisability": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[87] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "p_status": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//p[88] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_version": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[3] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_abstract_methods": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[5] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_strain": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[16] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_analysis": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[23] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_results": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[29] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_cluster": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[30] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_per_protocol": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[31] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_contamination": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[34] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "o_prior": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8103655/fullTextXML",
+        "locator": "XML .//p[35] (1-based document order)",
+        "accessed_at": "2026-10-20T18:14:41Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "meta": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//article-meta/contrib-group and .//permissions/license",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ref19": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+        "locator": "XML .//ref[@id='CR19'] (reference 19, cited in paragraph 11)",
+        "accessed_at": "2026-10-20T18:14:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      }
+    },
+    "budget": {
+      "model_calls": 1,
+      "http_requests": 23,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "produced_by": {
+      "kind": "example_converter",
+      "pipeline": {
+        "name": "ohf-extractor",
+        "version": "0.2.1"
+      }
+    },
+    "source_verification": {
+      "status": "refetched_match",
+      "fetched_from": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5984439/fullTextXML",
+      "fetched_at": "2026-10-20T20:51:08Z",
+      "sha256": "sha256:9ae6fa5160c1c560b658bc45d4289c86dc05f7a6585e515f925dec4e66171a27",
+      "metadata_check": {
+        "registry": "Crossref REST API",
+        "record_url": "https://api.crossref.org/works/10.1186/s13063-018-2670-z",
+        "checked_at": "2026-10-20T20:51:08Z",
+        "doi_match": true,
+        "title_match": true,
+        "retracted": false
+      }
+    },
+    "integrity": {
+      "entailment": [
+        {
+          "pointer": "/added/layers/core/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/scope",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z",
+          "note": "The passage does not say that both arms received routine vector control only."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/statement",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z",
+          "note": "The passage states the protective effect only conditionally (\"If Wolbachia has a protective effect ... we would expect\"), while the value asserts it as fact."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/role",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z",
+          "note": "The passage presents this as a hypothesis the study will test but gives no grounds that it is a core rather than secondary claim."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/core/alternative_explanations",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z",
+          "note": "The passage supports the spatial-clustering alternative but says nothing about belief in protection reducing care-seeking in a non-blinded deployment."
+        },
+        {
+          "pointer": "/added/layers/core/uncertainties",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z",
+          "note": "The passage supports the entomological-context and serotype uncertainties but not the proposed wMel mechanisms (innate immunity, cholesterol transport) or DENV evolving resistance."
+        },
+        {
+          "pointer": "/added/layers/core/testability",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/site",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/spatial_scale",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/spatial_scale",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/population",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/experimental_unit",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/agent",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/formulation",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/route",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/dose",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/dose",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/regimen",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/duration",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/comparator",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/endpoint",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/summary_measure/contrast",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/threshold",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/threshold",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/horizon",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/horizon",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/test_plan_ref",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/form",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/epistemic_status",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/derives_from_atom_refs",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/resolution",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z",
+          "note": "The passage supports only the RR-below-one criterion and the null of one, not the p-threshold reasoning, the NEJM/Europe PMC check location, or the confirmed outcome."
+        },
+        {
+          "pointer": "/added/layers/predictions/1/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/system/taxon",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/system/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/population",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/comparator",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/endpoint",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/endpoint",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/form",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/epistemic_status",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/derives_from_atom_refs",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/result_estimate",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/confidence_interval",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/confidence_interval",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z",
+          "note": "The passage links the trial mosquitoes to a colony described in reference 14 but does not identify that work as the Yogyakarta quasi-experimental study or name a shared WMP Yogyakarta group."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/profile/harm",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/profile/dose_response/x_axis",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        },
+        {
+          "pointer": "/added/layers/profile/dose_response/endpoint_ref",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:06Z"
+        }
+      ]
+    }
+  },
+  "facets": {
+    "topic": [
+      "microbiology",
+      "vector biology",
+      "dengue"
+    ],
+    "source_class": "external_published",
+    "intervention_type": "biological vector control: release of Wolbachia-infected Aedes aegypti mosquitoes"
+  },
+  "content_hash": "sha256:a9ec5151cbfa07cc237c77f419ffcce3ed41615314e4311795e248da7b4fd25a"
+}

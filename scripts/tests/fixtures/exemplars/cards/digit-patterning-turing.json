@@ -1,0 +1,2466 @@
+{
+  "schema": "ohf:hypothesis@1",
+  "id": "h_synthetic-switch-bins",
+  "version": 1,
+  "standard_version": "1.0",
+  "vocabularies": {
+    "heuristics": {
+      "id": "ohf:heuristics@1",
+      "sha256": "sha256:ef18bd7539c4cf06878be8720cbab9e541d5d41f0c0e369a0274bd1b07e7f5ef"
+    },
+    "profiles": {
+      "id": "ohf:profiles@1",
+      "sha256": "sha256:5c7f2b59712a38c9c03ecfed9ceebe782b0c43b6ac60485ab44396b6e1e681cc"
+    }
+  },
+  "identity": {
+    "proposition_id": "h_synthetic-switch-bins",
+    "version": 1,
+    "supersedes": [],
+    "retractions": [],
+    "duplicate_cluster_ref": null,
+    "representative_ref": null,
+    "lifecycle": "example"
+  },
+  "author": {
+    "source": {
+      "kind": "synthetic_fixture",
+      "citation": "Invented switch-and-bin example; project-authored mechanical fixture, no published article.",
+      "doi": "synthetic:no-doi",
+      "url": "https://example.org/synthetic/switch-bins",
+      "license": "MIT",
+      "rights_basis": "own_synthetic_fixture",
+      "retrieved_at": "2026-11-03T19:00:00Z",
+      "source_text_sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385",
+      "language": "en"
+    },
+    "generator": {
+      "kind": "human",
+      "system": null,
+      "system_version": null,
+      "model": null
+    },
+    "generation": {
+      "run_id": null,
+      "generated": null,
+      "submitted": null,
+      "submits_all": null
+    },
+    "submitted_at": "2026-11-03T19:00:00Z",
+    "layers": {
+      "core": {
+        "statement": {
+          "value": "Synthetic switch-and-bin statement: token labelpjdwrhstc moves between bin labelsdmkgyhop and switch labelryzaoejaf via route labeljhdyazlyi and shelf labelkfeodvrqk to queue labelsgidvsahy in this invented example.",
+          "locator": "Submitted text paragraph 3"
+        },
+        "explanandum": {
+          "value": "Synthetic switch-and-bin statement: token labelnltkfnxaz moves between bin labelflgxezpfx and switch labeloclxhbdms via route labeldbxuwpltg and shelf labelxamqooumt to queue labeldvxkvlsrr in this invented example.",
+          "locator": "Submitted text paragraph 5"
+        }
+      },
+      "mechanism": {
+        "summary": {
+          "value": "Synthetic switch-and-bin statement: token labelbbjtkjwiz moves between bin labelqrrljpgim and switch labelnzfmesupn via route labelyvfzlsnim and shelf labelkjaxsmuxl to queue labelgvesugzyq in this invented example.",
+          "locator": "Submitted text paragraph 4"
+        }
+      },
+      "predictions": [],
+      "evidence": {},
+      "provenance": {},
+      "profile": {},
+      "appendix": {}
+    }
+  },
+  "added": {
+    "by": {
+      "converter": "synthetic-fixture-not-a-model",
+      "converter_version": "0.0.0",
+      "converter_hash": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385",
+      "model": "synthetic-fixture-not-a-model"
+    },
+    "at": "2026-11-03T19:00:00Z",
+    "cutoff_date": "2026-11-03",
+    "layers": {
+      "core": {
+        "kind": {
+          "value": "mechanism",
+          "src": "p8"
+        },
+        "scope": {
+          "value": "Synthetic switch-and-bin statement: token labeldoyrrkwpn moves between bin labellcuoiriir and switch labelzobsjurzr via route labeljmsfvyitm and shelf labelxosbigwie to queue labelcsiidozjg in this invented example.",
+          "src": "p9"
+        },
+        "atoms": [
+          {
+            "id": "toy_3",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelybmytzopg moves between bin labelhriwyuakc and switch labelicmrjuwuv via route labelfyeevefoc and shelf labelwkqeswlmn to queue labelshryhrhoa in this invented example.",
+              "src": "p5"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "p5"
+            },
+            "role": {
+              "value": "core",
+              "src": "p5"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "p5",
+              "basis_quote": "Synthetic switch-and-bin statement: token labelwfppabxae moves between bin labelhvtqcjpsn and switch labelmxkevplze via route labeltmsfwkkut and shelf labelcqlqpahzj to queue labelgthdqnbhm in this invented example."
+            }
+          },
+          {
+            "id": "toy_4",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelpllvnrlck moves between bin labeluugqwxjmd and switch labelghlktqmcn via route labelnhdankgvz and shelf labelncyajkjnv to queue labelhdozuimxu in this invented example.",
+              "src": "p8"
+            },
+            "claim_type": {
+              "value": "development",
+              "src": "p8"
+            },
+            "role": {
+              "value": "core",
+              "src": "p8"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p8",
+              "basis_quote": "Synthetic switch-and-bin statement: token labelxlsqrqtet moves between bin labelzwwilofsg and switch labelqezppsbnk via route labelgozxdstdn and shelf labelfshjtvoaz to queue labelcvvnbfngx in this invented example."
+            }
+          },
+          {
+            "id": "toy_5",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelwqcpwcizr moves between bin labelinceresit and switch labelrlzvdnajd via route labelsptnujbct and shelf labellfjnqcoop to queue labelhjlvybezb in this invented example.",
+              "src": "p8"
+            },
+            "claim_type": {
+              "value": "development",
+              "src": "p8"
+            },
+            "role": {
+              "value": "core",
+              "src": "p8"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p8",
+              "basis_quote": "Synthetic switch-and-bin statement: token labelkayyykxir moves between bin labelubrsdqbsu and switch labelfuervwuaa via route labelyvjalgtmd and shelf labelrsoumadho to queue labeliireznyhw in this invented example."
+            }
+          },
+          {
+            "id": "toy_6",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelqlxexlbfl moves between bin labelymbxljxnj and switch labelnybtecotj via route labelarlofyowb and shelf labelumzwuakxz to queue labeleahriwzzn in this invented example.",
+              "src": "p8"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "p8"
+            },
+            "role": {
+              "value": "auxiliary",
+              "src": "p8"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p8",
+              "basis_quote": "Synthetic switch-and-bin statement: token labelhcwejzmuw moves between bin labelzfwcrojhu and switch labelmdxsljtxo via route labelprsxedmpn and shelf labelzpjmgrybr to queue labelojjhpfivw in this invented example."
+            }
+          },
+          {
+            "id": "toy_7",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelwqbmpvdxh moves between bin labelrbmosdwdq and switch labeljudajvqbd via route labelakiojbirf and shelf labelwjrftpruy to queue labelbtuhregrg in this invented example.",
+              "src": "p9"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "p9"
+            },
+            "role": {
+              "value": "core",
+              "src": "p9"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p9",
+              "basis_quote": "Synthetic switch-and-bin statement: token labellgabbeiaw moves between bin labelicxbyljuh and switch labelmqxdggvqf via route labelmjxsvmpfe and shelf labelozimuzazu to queue labelgzcyzfzuo in this invented example."
+            }
+          },
+          {
+            "id": "toy_8",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelhmcuyegto moves between bin labelnukmftnki and switch labelgatzbisxo via route labeluznvegsuf and shelf labelybmriyfod to queue labelsrrwzoomv in this invented example.",
+              "src": "p9"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "p9"
+            },
+            "role": {
+              "value": "auxiliary",
+              "src": "p9"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p9",
+              "basis_quote": "Synthetic switch-and-bin statement: token labelrhijtjqub moves between bin labeldnvrzlsrl and switch labelmxnbauvpr via route labelgqzellbdb and shelf labelywgzgtnmc to queue labelevhiuivor in this invented example."
+            }
+          },
+          {
+            "id": "toy_9",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelearqecueb moves between bin labelmibvvrhza and switch labelkcezoexfh via route labelsxqlmjgas and shelf labelyhqvjplyf to queue labelettdznzyj in this invented example.",
+              "src": "p8"
+            },
+            "claim_type": {
+              "value": "model_sufficiency",
+              "src": "p8"
+            },
+            "role": {
+              "value": "core",
+              "src": "p8"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p9",
+              "basis_quote": "Synthetic switch-and-bin statement: token labelcihshlezz moves between bin labeljlmlidllj and switch labeldoewzjqsu via route labelnhgsrjtnv and shelf labelknnkoffhs to queue labeljywsezytd in this invented example."
+            }
+          },
+          {
+            "id": "toy_10",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelqbqwggbmo moves between bin labeljhcdslchq and switch labeljvxxcqgku via route labelozcrbrjia and shelf labeljgickmwrv to queue labelwgmxdeuxg in this invented example.",
+              "src": "p7"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "p7"
+            },
+            "role": {
+              "value": "core",
+              "src": "p7"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "p7",
+              "basis_quote": "Synthetic switch-and-bin statement: token labelecpeddmtg moves between bin labelckciqrvka and switch labelzmyueslke via route labeldclsrriuz and shelf labelmofuvguht to queue labelbytssxvpt in this invented example."
+            }
+          },
+          {
+            "id": "toy_11",
+            "statement": {
+              "value": "Synthetic switch-and-bin statement: token labelabivipawr moves between bin labelrbycvnazi and switch labelzopynvuwv via route labelqqgxplusb and shelf labelodurddikh to queue labeltxmwbbzrh in this invented example.",
+              "src": "p8"
+            },
+            "claim_type": {
+              "value": "development",
+              "src": "p8"
+            },
+            "role": {
+              "value": "core",
+              "src": "p8"
+            },
+            "modality": {
+              "value": "proposed",
+              "src": "p8",
+              "basis_quote": "Synthetic switch-and-bin statement: token labelemlcijdgb moves between bin labelbhmciawkb and switch labeluwsjgaoez via route labelifzqwhtht and shelf labelgbpyjvngr to queue labelbwnbrclzj in this invented example."
+            }
+          }
+        ],
+        "alternative_explanations": {
+          "value": [
+            {
+              "claim_or_ref": {
+                "kind": "literal",
+                "text": "Synthetic switch-and-bin statement: token labeljadjupvbp moves between bin labelqwzcwfqze and switch labelrnisesppb via route labeldybvenehv and shelf labelqpmyayuik to queue labelmqalxwfme in this invented example."
+              },
+              "unresolved_reason": "Synthetic switch-and-bin statement: token labelawieztogp moves between bin labelqapzewzku and switch labelohgaygijv via route labelrpnajbfbz and shelf labellgggiovfb to queue labelikvcecsrn in this invented example."
+            }
+          ],
+          "src": "p7"
+        },
+        "uncertainties": {
+          "value": [
+            {
+              "id": "toy_12",
+              "question": "Synthetic switch-and-bin statement: token labelykbdbesja moves between bin labelflhmgqwdr and switch labelmwoqqqhzd via route labelxuinrblxr and shelf labeliqxrkgqfx to queue labelcdifxvvfj in this invented example.",
+              "kind": "scope"
+            },
+            {
+              "id": "toy_13",
+              "question": "Synthetic switch-and-bin statement: token labelljvwrdast moves between bin labeljztmkqqxs and switch labellaxzflgah via route labelbjxlakjst and shelf labelcfnuojsge to queue labelkrfbnmvdj in this invented example.",
+              "kind": "evidence"
+            },
+            {
+              "id": "toy_14",
+              "question": "Synthetic switch-and-bin statement: token labeleykdpjhut moves between bin labeljigklsqsq and switch labeldkljaukwe via route labelrrhkxsymq and shelf labelbybublxew to queue labelojeqnkgqx in this invented example.",
+              "kind": "mechanism"
+            }
+          ],
+          "src": "p9"
+        },
+        "explains": {
+          "value": [
+            {
+              "id": "toy_15",
+              "observation": "Synthetic switch-and-bin statement: token labelyvddgnmrk moves between bin labelqlezrhemu and switch labeljmicunamb via route labelukywrwurb and shelf labelttqobnzud to queue labelcpgojildb in this invented example.",
+              "status": "contested",
+              "mode": "direct",
+              "atom_refs": [
+                "toy_10",
+                "toy_3"
+              ]
+            }
+          ],
+          "src": "p6"
+        },
+        "reinterprets": {
+          "value": [
+            {
+              "id": "toy_16",
+              "finding": "Synthetic switch-and-bin statement: token labelbkgvrloxr moves between bin labelogsajdnwf and switch labelqrvbdbgrv via route labellkzuehacw and shelf labelkkqeqdeiw to queue labelqvgvriznn in this invented example.",
+              "finding_ref": {
+                "kind": "card",
+                "pointer": "/added/layers/evidence/lines/4"
+              },
+              "current_interpretation": "Synthetic switch-and-bin statement: token labelnstoopqxt moves between bin labelbfjvdcywf and switch labelltkzqqalg via route labeldfoofhnyn and shelf labelgoxjnccqb to queue labeljvovpivkj in this invented example.",
+              "proposed_interpretation": "Synthetic switch-and-bin statement: token labelmuorocogm moves between bin labelpbfjsksrj and switch labelyzcfnffek via route labelszptzwjpm and shelf labeliuoltvktf to queue labelzcsjdavzn in this invented example.",
+              "atom_refs": [
+                "toy_4",
+                "toy_5",
+                "toy_7"
+              ]
+            }
+          ],
+          "src": "p7"
+        },
+        "opens": {
+          "value": [
+            {
+              "id": "toy_17",
+              "new_question": "Synthetic switch-and-bin statement: token labeljmmtsbfgf moves between bin labeliuifaonkd and switch labeljfxnufkvy via route labelghnmaxxjx and shelf labelyzyriupvc to queue labelnwvkabafi in this invented example.",
+              "why_not_askable_today": "Synthetic switch-and-bin statement: token labelfttfesswi moves between bin labellehijzboj and switch labelljiewtwjj via route labelidltdunjt and shelf labelgbamkhssd to queue labelxgzyjsvke in this invented example.",
+              "atom_refs": [
+                "toy_5",
+                "toy_6"
+              ]
+            },
+            {
+              "id": "toy_18",
+              "new_question": "Synthetic switch-and-bin statement: token labelroyayxjja moves between bin labelatxiycevq and switch labeltbrltdjda via route labelymlufxqkk and shelf labelmgwngvdue to queue labeletjqpicdc in this invented example.",
+              "why_not_askable_today": "Synthetic switch-and-bin statement: token labeldnhidxfks moves between bin labeluqwlnxqdb and switch labelicaftnaid via route labellouehsssu and shelf labelycblepfpb to queue labelpskcqqbfm in this invented example.",
+              "atom_refs": [
+                "toy_4",
+                "toy_5"
+              ]
+            }
+          ],
+          "src": "p8"
+        },
+        "testability": {
+          "value": {
+            "in_principle": "testable",
+            "in_practice": "feasible_now",
+            "justification": "Synthetic switch-and-bin statement: token labelzpebmqrvg moves between bin labelabpnptkuz and switch labeleawnqhbqt via route labelapvnsufjt and shelf labelkpzprlqhp to queue labelsjwcnwxdx in this invented example."
+          },
+          "src": "p9",
+          "assessment": {
+            "assessor": "synthetic-fixture-not-a-model",
+            "assessed_at": "2026-11-03T19:00:00Z",
+            "evidence_ref": {
+              "kind": "artifact",
+              "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+            }
+          }
+        },
+        "first_proposed": {
+          "value": {
+            "source_ref": {
+              "kind": "external",
+              "uri": "https://example.org/synthetic/switch-bins",
+              "limitation": "Synthetic switch-and-bin statement: token labelhevbdilec moves between bin labelrpqphdmwz and switch labeljlgdmkntg via route labeldtbfydxip and shelf labeltxesyumss to queue labelrupnlaerq in this invented example."
+            },
+            "date": "2026",
+            "precision": "year",
+            "basis": "author_statement",
+            "note": "Synthetic switch-and-bin statement: token labelkzxijbxtf moves between bin labelyruowfbgs and switch labelijmpliglr via route labelpmgyonhtr and shelf labelivjrcaurs to queue labelmhtrgtenx in this invented example."
+          },
+          "src": "pubdate"
+        }
+      },
+      "mechanism": {
+        "summary": {
+          "value": "Synthetic switch-and-bin statement: token labeljnwmrikns moves between bin labelqqoqdjqss and switch labeldpcvjnvxw via route labelzladxcljv and shelf labelxgxnufhxd to queue labelippnmmrif in this invented example.",
+          "src": "p8"
+        }
+      },
+      "predictions": [
+        {
+          "id": "toy_19",
+          "system": {
+            "taxon": {
+              "value": "Synthetic switch-and-bin statement: token labelajtxqhgdj moves between bin labelyakvhdpkk and switch labelciutezobb via route labeltsoofgyrp and shelf labelapzafkenu to queue labelmwxkckijy in this invented example.",
+              "src": "p8"
+            },
+            "kind": {
+              "value": "organism",
+              "src": "p8"
+            }
+          },
+          "population": {
+            "value": "Synthetic switch-and-bin statement: token labeliqruutbaf moves between bin labelvttsqrkwy and switch labelpxanuzwty via route labelrtiubioqm and shelf labelokhvyojfj to queue labeloispcgdry in this invented example.",
+            "src": "p8"
+          },
+          "endpoint": {
+            "value": "Synthetic switch-and-bin statement: token labelcmcoflbyg moves between bin labeltjfyiigto and switch labelvdsmgxyqi via route labelhogmysbjh and shelf labelkzoyumeqq to queue labelkkpeztxok in this invented example.",
+            "src": "p8",
+            "paraphrase": true,
+            "basis_quote": "Synthetic switch-and-bin statement: token labelaemayjeac moves between bin labelobbuptcls and switch labelivlehfpdo via route labelbabsfujrf and shelf labelkzgwihnnr to queue labelfjqnuetmn in this invented example."
+          },
+          "form": {
+            "value": "pattern",
+            "src": "p8"
+          },
+          "epistemic_status": {
+            "value": "retrodicted",
+            "src": "p8"
+          },
+          "known_result_ref": {
+            "value": {
+              "kind": "card",
+              "pointer": "/added/layers/evidence/lines/2"
+            },
+            "src": "p8"
+          },
+          "derives_from_atom_refs": {
+            "value": [
+              "toy_9",
+              "toy_11",
+              "toy_7"
+            ],
+            "src": "p8"
+          },
+          "resolution": {
+            "value": {
+              "criterion": "Synthetic switch-and-bin statement: token labelmygwfniiy moves between bin labelvfdyntfku and switch labelrkgcxisxa via route labelxyihcsixf and shelf labeluzxasuske to queue labeltuexbfijg in this invented example.",
+              "outcome": {
+                "status": "pending"
+              },
+              "outcome_candidates": [
+                {
+                  "status": "confirmed",
+                  "evidence_ref": {
+                    "kind": "artifact",
+                    "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                  },
+                  "found_at": "2026-11-03T19:00:00Z",
+                  "basis": "Synthetic switch-and-bin statement: token labellmjldgskd moves between bin labelgsfqplpja and switch labelfgpddcdry via route labelhoqtsnhjw and shelf labelwzbnccmab to queue labelurvidcaml in this invented example."
+                }
+              ]
+            },
+            "src": "p8"
+          }
+        },
+        {
+          "id": "toy_20",
+          "system": {
+            "kind": {
+              "value": "tissue",
+              "src": "p8"
+            }
+          },
+          "endpoint": {
+            "value": "Synthetic switch-and-bin statement: token labelrsdjlkiaw moves between bin labelkeihjqacc and switch labeltzhrvnpjg via route labelajmadrywf and shelf labeledhwtzeyt to queue labelidbxyqxii in this invented example.",
+            "src": "p8",
+            "paraphrase": true,
+            "basis_quote": "Synthetic switch-and-bin statement: token labelhwncwplao moves between bin labelbbvklraib and switch labelfjlafvaoa via route labelyifvktyjn and shelf labeliwcghhjst to queue labeltphgikafg in this invented example."
+          },
+          "direction": {
+            "value": "Synthetic switch-and-bin statement: token labeltohceqoeh moves between bin labeliezioctoj and switch labelfxdokvsyu via route labeldkeicrgcn and shelf labelmfphzufzs to queue labelszsnlgzqy in this invented example.",
+            "src": "p8"
+          },
+          "form": {
+            "value": "directional_contrast",
+            "src": "p8"
+          },
+          "epistemic_status": {
+            "value": "novel",
+            "src": "p8"
+          },
+          "derives_from_atom_refs": {
+            "value": [
+              "toy_6",
+              "toy_5"
+            ],
+            "src": "p8"
+          }
+        }
+      ],
+      "evidence": {
+        "lines": [
+          {
+            "id": "toy_21",
+            "target_ref": "toy_10",
+            "direction": {
+              "value": "supports",
+              "src": "p7"
+            },
+            "quote": "Synthetic switch-and-bin statement: token labelmeagklccd moves between bin labeltxucnnlkw and switch labelqyklnmizj via route labelgeqsuicbr and shelf labelzwvucavwj to queue labelqehugcaeg in this invented example.",
+            "study_type": {
+              "value": "Synthetic switch-and-bin statement: token labelvdcylssuc moves between bin labelrpjtsiywy and switch labelcqvheyydf via route labelgdqawzwoh and shelf labelswsdanyav to queue labeldysakppot in this invented example.",
+              "src": "p7"
+            },
+            "study_system": {
+              "value": "Synthetic switch-and-bin statement: token labelowbbnjwso moves between bin labelsiiwywmrp and switch labeltfkvgbhuu via route labeldpaxhrwgk and shelf labelarjyrenqc to queue labelxqcvoozyy in this invented example.",
+              "src": "p7"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "synthetic-switch-bins.txt",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385",
+                  "locator": "Submitted text paragraph 2"
+                },
+                "src": "p7"
+              }
+            ],
+            "src": "p7",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "not_applicable",
+                "comparison": "not_applicable"
+              },
+              "src": "p7",
+              "assessment": {
+                "assessor": "synthetic-fixture-not-a-model",
+                "assessed_at": "2026-11-03T19:00:00Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "p7"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "not_assessed",
+                "note": "Synthetic switch-and-bin statement: token labeldetgbbzan moves between bin labelvlkvboltq and switch labelrgvssgers via route labelqgqvxljqx and shelf labelxlubxtqod to queue labelumuoxuxll in this invented example."
+              },
+              "src": "p10",
+              "assessment": {
+                "assessor": "synthetic-fixture-not-a-model",
+                "assessed_at": "2026-11-03T19:00:00Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                }
+              }
+            },
+            "independence_group": {
+              "value": "toy_group_1",
+              "src": "p10"
+            }
+          },
+          {
+            "id": "toy_22",
+            "target_ref": "toy_7",
+            "direction": {
+              "value": "supports",
+              "src": "p9"
+            },
+            "quote": "Synthetic switch-and-bin statement: token labelzbomtaveg moves between bin labelibslorxod and switch labelclcbvaexv via route labelwobyodwhi and shelf labellhgvpnyjj to queue labelazpxhedvs in this invented example.",
+            "study_type": {
+              "value": "Synthetic switch-and-bin statement: token labelsbzmvyrni moves between bin labellsffqryqa and switch labelerjljavra via route labelemcjdjztb and shelf labeljtyufytwn to queue labelpfzjtmtpa in this invented example.",
+              "src": "p9"
+            },
+            "study_system": {
+              "value": "Synthetic switch-and-bin statement: token labelambowtsgq moves between bin labelcswagoszj and switch labelcfrwbsfao via route labelsjqkozjvp and shelf labelmnnhlhcsl to queue labelpzrqivdrw in this invented example.",
+              "src": "p9"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "synthetic-switch-bins.txt",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385",
+                  "locator": "Submitted text paragraph 3"
+                },
+                "src": "p9"
+              }
+            ],
+            "src": "p9",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "not_applicable",
+                "comparison": "not_applicable"
+              },
+              "src": "p9",
+              "assessment": {
+                "assessor": "synthetic-fixture-not-a-model",
+                "assessed_at": "2026-11-03T19:00:00Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "p9"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "not_assessed",
+                "note": "Synthetic switch-and-bin statement: token labeltdxmphaoe moves between bin labelbhqwlkcbg and switch labelsiyfijcvs via route labelmkghoqvqt and shelf labelcghvlrtba to queue labelwcojdbpyp in this invented example."
+              },
+              "src": "p10",
+              "assessment": {
+                "assessor": "synthetic-fixture-not-a-model",
+                "assessed_at": "2026-11-03T19:00:00Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                }
+              }
+            },
+            "independence_group": {
+              "value": "toy_group_1",
+              "src": "p10"
+            }
+          },
+          {
+            "id": "toy_23",
+            "target_ref": "toy_19",
+            "direction": {
+              "value": "supports",
+              "src": "p8"
+            },
+            "quote": "Synthetic switch-and-bin statement: token labelbnxknaakb moves between bin labelrzpzkkkxu and switch labelhkuxppgew via route labelidchblmpk and shelf labelryofpxcsu to queue labelufvogibpt in this invented example.",
+            "study_type": {
+              "value": "Synthetic switch-and-bin statement: token labelngfdafllp moves between bin labelhdhixubkb and switch labelriaodeadv via route labelgbilukyko and shelf labelnjrrchzde to queue labelkpadspavy in this invented example.",
+              "src": "p8"
+            },
+            "study_system": {
+              "value": "Synthetic switch-and-bin statement: token labelydxbzdxtt moves between bin labelxcfoboutc and switch labelbpffnqufm via route labelxibbmgnjg and shelf labelumrldtybk to queue labelkmtjqvrqx in this invented example.",
+              "src": "p8"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "synthetic-switch-bins.txt",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385",
+                  "locator": "Submitted text paragraph 4"
+                },
+                "src": "p8"
+              }
+            ],
+            "src": "p8",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "not_applicable",
+                "comparison": "not_applicable"
+              },
+              "src": "p8",
+              "assessment": {
+                "assessor": "synthetic-fixture-not-a-model",
+                "assessed_at": "2026-11-03T19:00:00Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "p8"
+            }
+          },
+          {
+            "id": "toy_24",
+            "target_ref": "toy_8",
+            "direction": {
+              "value": "supports",
+              "src": "p9"
+            },
+            "quote": "Synthetic switch-and-bin statement: token labelgqcybixhh moves between bin labeladzhqjcrp and switch labeltmvmyxpwa via route labelbgmjindhc and shelf labeldanlvpfdh to queue labelgutxrrsql in this invented example.",
+            "study_type": {
+              "value": "Synthetic switch-and-bin statement: token labelfhlwwkdnv moves between bin labeluyyejpbuh and switch labelspzdywavv via route labeluyhynspdt and shelf labelqjgadagxa to queue labelaribhahnw in this invented example.",
+              "src": "p9"
+            },
+            "study_system": {
+              "value": "Synthetic switch-and-bin statement: token labelkhmfsrfci moves between bin labelmkazlncqg and switch labelwyveiykro via route labelgomftmgix and shelf labelivggomlss to queue labeloaoftadpl in this invented example.",
+              "src": "p9"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "synthetic-switch-bins.txt",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385",
+                  "locator": "Submitted text paragraph 5"
+                },
+                "src": "p9"
+              }
+            ],
+            "src": "p9",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "not_applicable",
+                "comparison": "not_applicable"
+              },
+              "src": "p9",
+              "assessment": {
+                "assessor": "synthetic-fixture-not-a-model",
+                "assessed_at": "2026-11-03T19:00:00Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "p9"
+            }
+          },
+          {
+            "id": "toy_25",
+            "target_ref": "toy_4",
+            "direction": {
+              "value": "disputes",
+              "src": "p6"
+            },
+            "quote": "Synthetic switch-and-bin statement: token labelfoswkuagg moves between bin labelehzvtqgvv and switch labelqoqbtyawd via route labelgmgibrnno and shelf labelkkzvlbxec to queue labeljvfvfsxqg in this invented example.",
+            "study_type": {
+              "value": "Synthetic switch-and-bin statement: token labelzfxhojsbz moves between bin labelsyhfxhxda and switch labelcxypgfeni via route labelfpqmorwsw and shelf labelyyfajessx to queue labelvlblinmnk in this invented example.",
+              "src": "p6"
+            },
+            "study_system": {
+              "value": "Synthetic switch-and-bin statement: token labelgvtupntqs moves between bin labelfhnawxogy and switch labelpcpkcdxdv via route labelswwqjjrbl and shelf labeljvswfsefj to queue labelsfgnorgse in this invented example.",
+              "src": "p6"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "synthetic-switch-bins.txt",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385",
+                  "locator": "Submitted text paragraph 6"
+                },
+                "src": "p6"
+              }
+            ],
+            "src": "p6",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "not_applicable",
+                "comparison": "not_applicable"
+              },
+              "src": "p6",
+              "assessment": {
+                "assessor": "synthetic-fixture-not-a-model",
+                "assessed_at": "2026-11-03T19:00:00Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "p6"
+            },
+            "independence_group": {
+              "value": "toy_group_3",
+              "src": "p6"
+            }
+          },
+          {
+            "id": "toy_26",
+            "target_ref": "toy_10",
+            "direction": {
+              "value": "disputes",
+              "src": "p3"
+            },
+            "quote": "Synthetic switch-and-bin statement: token labelltprhvgks moves between bin labelynpwezkvu and switch labelxyqhhxiow via route labelnwioeemvn and shelf labelnqpzmdlte to queue labelpxqsivzwu in this invented example.",
+            "study_type": {
+              "value": "Synthetic switch-and-bin statement: token labelcqmmnmkmg moves between bin labelicajnlulq and switch labellqvrtzkvq via route labelkkuostazf and shelf labelfvhqnyocv to queue labelnvnmrlpkz in this invented example.",
+              "src": "p3"
+            },
+            "study_system": {
+              "value": "Synthetic switch-and-bin statement: token labelaetkckvhx moves between bin labelupkigidhd and switch labelsmapparuo via route labelqteksntew and shelf labeltxuqfgcqk to queue labelxykuacbps in this invented example.",
+              "src": "p3"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "synthetic-switch-bins.txt",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385",
+                  "locator": "Submitted text paragraph 7"
+                },
+                "src": "p3"
+              }
+            ],
+            "src": "p3",
+            "indirectness": {
+              "value": {
+                "system": "serious",
+                "endpoint": "some",
+                "intervention": "not_applicable",
+                "comparison": "not_applicable"
+              },
+              "src": "p3",
+              "assessment": {
+                "assessor": "synthetic-fixture-not-a-model",
+                "assessed_at": "2026-11-03T19:00:00Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:c267aa1268beff6f86f3da8b61519001604efd020e0874374a0d1aba86a27385"
+                }
+              }
+            },
+            "independence_group": {
+              "value": "toy_group_0",
+              "src": "p3"
+            }
+          }
+        ],
+        "references": [
+          {
+            "identifier": {
+              "value": "Synthetic switch-and-bin statement: token labelguyuscykd moves between bin labelguyrlkdhh and switch labelysvwtnwij via route labelntlnmpyix and shelf labeljdqglgett to queue labelgbevrpwby in this invented example.",
+              "src": "p10"
+            },
+            "citation_relation": {
+              "value": "citesAsEvidence",
+              "src": "p7"
+            }
+          },
+          {
+            "identifier": {
+              "value": "Synthetic switch-and-bin statement: token labelfaoqydhtz moves between bin labelrujifbsri and switch labelvupolbjju via route labelrubqkourm and shelf labelqnfcgiqkr to queue labelofjafpcpb in this invented example.",
+              "src": "p10"
+            },
+            "citation_relation": {
+              "value": "citesAsEvidence",
+              "src": "p9"
+            }
+          }
+        ]
+      },
+      "provenance": {
+        "claim_author": {
+          "value": "Synthetic switch-and-bin statement: token labellyjfwrbgb moves between bin labelejhhoikjp and switch labelkptikuitk via route labelyduzrkozz and shelf labelxncrwhqxe to queue labelvplmceexy in this invented example.",
+          "src": "meta"
+        },
+        "author_type": {
+          "value": "human",
+          "src": "meta"
+        },
+        "licence": {
+          "value": "MIT",
+          "src": "meta"
+        },
+        "original_artifact": {
+          "value": "Synthetic switch-and-bin statement: token labelnkfqkodha moves between bin labelbvhkqckjz and switch labelrfssuaqlc via route labelymatuagsd and shelf labelmvvoufgep to queue labelxgwfstrkz in this invented example.",
+          "src": "meta"
+        },
+        "origin_method": {
+          "value": "published_restatement",
+          "src": "meta"
+        },
+        "inspiration_refs": [
+          {
+            "value": {
+              "kind": "external",
+              "uri": "https://example.org/synthetic/switch-bins",
+              "limitation": "Synthetic switch-and-bin statement: token labelshkmrjxld moves between bin labeleectsifcj and switch labelwhjfcjpde via route labeluumksgbum and shelf labelkntekhalx to queue labelxgtmprfka in this invented example."
+            },
+            "src": "p2"
+          },
+          {
+            "value": {
+              "kind": "external",
+              "uri": "https://example.org/synthetic/switch-bins",
+              "limitation": "Synthetic switch-and-bin statement: token labelpvkcozdmk moves between bin labelzafhahjsk and switch labelxjfrlvwbs via route labelirwemqdsu and shelf labelodnzuqydi to queue labelsqetawdgx in this invented example."
+            },
+            "src": "p2"
+          }
+        ]
+      },
+      "profile": {
+        "domain": "none"
+      },
+      "appendix": {}
+    },
+    "gaps": [
+      {
+        "path": "core.falsification_condition",
+        "disposition": "not_supplied",
+        "reason": "Synthetic switch-and-bin statement: token labelsrdxhncbv moves between bin labelhkvpwdudd and switch labelilkijogzt via route labelhvvrmntdb and shelf labelgxrmljnpm to queue labelfidlpawlq in this invented example.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].discrimination",
+        "disposition": "not_supplied",
+        "reason": "Synthetic switch-and-bin statement: token labelhqunyjczi moves between bin labelfbswyeion and switch labelnjhukcato via route labeltmnsfcxnp and shelf labelmxvwdoypm to queue labelwjrovnecn in this invented example.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].also_expected_under[]",
+        "disposition": "not_supplied",
+        "reason": "Synthetic switch-and-bin statement: token labeljyrhjzdcs moves between bin labelsqfutvnhy and switch labelfstyrtumf via route labelitqjqrchq and shelf labelhmrkxqtrt to queue labeljxresehaj in this invented example.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].discrimination",
+        "disposition": "not_supplied",
+        "reason": "Synthetic switch-and-bin statement: token labeldvlakzfxy moves between bin labeljnxfunayu and switch labelmidxogfma via route labelwtlpacroy and shelf labeldlfqfghsa to queue labelyzvjndvxf in this invented example.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].also_expected_under[]",
+        "disposition": "not_supplied",
+        "reason": "Synthetic switch-and-bin statement: token labelbizkjngqw moves between bin labelgnuhdmohn and switch labelnkpzjbqnz via route labelyerxpxnpo and shelf labelxqsdrvukt to queue labelaaobrfhej in this invented example.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "evidence.lines[5].argument_kind",
+        "disposition": "not_supplied",
+        "reason": "Synthetic switch-and-bin statement: token labelxjwcmmejl moves between bin labelxtvlwqwqr and switch labelzizbogaxj via route labeltaupwtgdj and shelf labelehrjjznjm to queue labelvvvyatdar in this invented example.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      }
+    ],
+    "completeness": {
+      "level": "comparable",
+      "layers_present": [
+        "core",
+        "mechanism",
+        "predictions",
+        "evidence",
+        "provenance",
+        "profile"
+      ],
+      "missing_for_next": [
+        "Synthetic switch-and-bin statement: token labelesytixyuj moves between bin labelvxmlpahsf and switch labelkjsddelop via route labelaolkdiczy and shelf labelhyrpzmgki to queue labelfnrickcpu in this invented example."
+      ]
+    },
+    "sources": {
+      "p2": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 1",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "p3": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 2",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "p4": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 3",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "p5": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 4",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "p6": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 5",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "p7": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 6",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "p8": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 7",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "p9": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 8",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "p10": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 9",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "meta": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 10",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "pubdate": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 11",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      },
+      "rights": {
+        "source": "https://example.org/synthetic/switch-bins",
+        "locator": "Submitted text paragraph 12",
+        "accessed_at": "2026-11-03T19:00:00Z",
+        "tool": "project-authored synthetic fixture, no transport"
+      }
+    },
+    "budget": {
+      "model_calls": 0,
+      "http_requests": 0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "produced_by": {
+      "kind": "example_converter",
+      "pipeline": {
+        "name": "synthetic-fixture-not-a-model",
+        "version": "0.0.0"
+      }
+    },
+    "source_verification": {
+      "status": "not_refetchable",
+      "reason": "Invented local fixture; no source fetch, registry query, model pass or scientific verification occurred."
+    },
+    "integrity": {
+      "entailment": [
+        {
+          "pointer": "/added/layers/core/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/scope",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/alternative_explanations",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/uncertainties",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/explains",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/reinterprets",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/opens",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/core/testability",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/mechanism/summary",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/taxon",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/population",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/endpoint",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/endpoint",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/form",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/epistemic_status",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/known_result_ref",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/derives_from_atom_refs",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/0/resolution",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/1/system/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/1/endpoint",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/1/endpoint",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/1/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/1/form",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/1/epistemic_status",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/predictions/1/derives_from_atom_refs",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/items/0",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/indirectness",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/references/0/identifier",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/references/0/citation_relation",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/references/1/identifier",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        },
+        {
+          "pointer": "/added/layers/evidence/references/1/citation_relation",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "synthetic-fixture-not-a-model",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:223e5d3e6554b049f5ad837d72ed55aeb04adbe75cd39865af899cc53dc5fed6"
+          },
+          "checked_at": "2026-11-03T19:00:00Z",
+          "note": "Invented mechanical support label; not a model verdict or scientific acceptance."
+        }
+      ]
+    }
+  },
+  "facets": {
+    "topic": [
+      "synthetic fixture",
+      "token bins",
+      "toy switch"
+    ],
+    "source_class": "synthetic_fixture"
+  },
+  "content_hash": "sha256:18631d37ffc62959a1aa93e6039ecaf4e236cdc8353e8961cdf4b589b0798947"
+}

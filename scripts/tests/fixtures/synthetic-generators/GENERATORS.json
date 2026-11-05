@@ -1,0 +1,15 @@
+{
+  "generators": [
+    {
+      "path": "scripts/tests/fixtures/synthetic-generators/build_biodb.py",
+      "sha256": "6b54a59342a80989572ec53629d561b23dc2d5799312467f16864594f6a073af"
+    },
+    {
+      "path": "scripts/tests/fixtures/synthetic-generators/build_search.py",
+      "sha256": "902bdc4c916d4e6e96df3b2cc47fbace17d349e9b23e2b55453c4e1732b34e7e"
+    }
+  ],
+  "biodb_command": "python scripts/tests/fixtures/synthetic-generators/build_biodb.py --licensed-inputs scripts/tests/fixtures/biodb --out /path/to/new-output",
+  "search_command": "python scripts/tests/fixtures/synthetic-generators/build_search.py --out /path/to/new-output",
+  "inputs": "Only included licensed reference IDs/cohort cardinalities, plus explicit own constructors. No recorded EXCLUDE response is an input. The toy card is a separately authored fixed fixture."
+}

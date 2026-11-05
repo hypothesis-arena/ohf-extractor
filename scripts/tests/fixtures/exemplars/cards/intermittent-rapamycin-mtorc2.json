@@ -1,0 +1,5098 @@
+{
+  "schema": "ohf:hypothesis@1",
+  "id": "h_intermittent-rapamycin-mtorc2",
+  "version": 1,
+  "standard_version": "1.0",
+  "vocabularies": {
+    "heuristics": {
+      "id": "ohf:heuristics@1",
+      "sha256": "sha256:ef18bd7539c4cf06878be8720cbab9e541d5d41f0c0e369a0274bd1b07e7f5ef"
+    },
+    "profiles": {
+      "id": "ohf:profiles@1",
+      "sha256": "sha256:5c7f2b59712a38c9c03ecfed9ceebe782b0c43b6ac60485ab44396b6e1e681cc"
+    }
+  },
+  "identity": {
+    "proposition_id": "h_intermittent-rapamycin-mtorc2",
+    "version": 1,
+    "supersedes": [],
+    "retractions": [],
+    "duplicate_cluster_ref": null,
+    "representative_ref": null,
+    "lifecycle": "example"
+  },
+  "author": {
+    "source": {
+      "kind": "paper",
+      "citation": "Lamming DW. Bench to bedside: is rapamycin headed for the docTOR? GeroScience. 2026;48(3):4547-4570",
+      "doi": "10.1007/s11357-026-02306-8",
+      "url": "https://doi.org/10.1007/s11357-026-02306-8",
+      "license": "CC-BY-4.0",
+      "rights_basis": "license",
+      "retrieved_at": "2026-10-20T18:20:01Z",
+      "source_text_sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+      "language": "en"
+    },
+    "generator": {
+      "kind": "human",
+      "system": null,
+      "system_version": null,
+      "model": null
+    },
+    "generation": {
+      "run_id": null,
+      "generated": null,
+      "submitted": null,
+      "submits_all": null
+    },
+    "submitted_at": "2026-10-20T18:20:01Z",
+    "layers": {
+      "core": {
+        "statement": {
+          "value": "Thus, we hypothesized that treatments that expose subjects to rapamycin intermittently, especially at low doses, are likely to inhibit mTORC1 while largely not inhibiting mTORC2, and have reduced side effects while still extending lifespan, and we have shown that this is true in mice [34, 68].",
+          "locator": "XML .//p[24] (1-based document order)"
+        },
+        "explanandum": {
+          "value": "In humans, the side effects of rapamycin include immunosuppression, hyperlipidemia, and hyperglycemia [44–47].",
+          "locator": "XML .//p[20] (1-based document order)"
+        }
+      },
+      "mechanism": {
+        "summary": {
+          "value": "Thus, while rapamycin does not acutely inhibit mTORC2, when high doses of rapamycin treatment are continued for a prolonged period of time, mTORC2 activity is decreased, most likely due to rapamycin sequestering free mTOR and hindering the formation of new mTORC2 [56].",
+          "locator": "XML .//p[21] (1-based document order)"
+        }
+      },
+      "predictions": [],
+      "evidence": {},
+      "provenance": {},
+      "profile": {},
+      "appendix": {}
+    }
+  },
+  "added": {
+    "by": {
+      "converter": "ohf-extractor",
+      "converter_version": "0.2.1",
+      "converter_hash": "sha256:cc5042ad07f88e967fdf3d57f3c7d1c9d46093d3707e6cb640cb63bbf74995eb",
+      "model": "claude-opus-5-5"
+    },
+    "at": "2026-10-20T20:55:21Z",
+    "cutoff_date": "2026-05-13",
+    "layers": {
+      "core": {
+        "kind": {
+          "value": "intervention_effect",
+          "src": "hypothesis"
+        },
+        "scope": {
+          "value": "Treatments that expose subjects to rapamycin intermittently, especially at low doses, compared with daily treatment. The author states that the reduced side effects with continued lifespan extension have been shown in mice. Because intermittent treatment also inhibits mTORC1 less, it could be less efficacious in promoting healthy aging.",
+          "src": "hypothesis"
+        },
+        "atoms": [
+          {
+            "id": "a_acute_chronic",
+            "statement": {
+              "value": "Rapamycin acutely inhibits mTORC1 but not mTORC2; when high doses are continued for a prolonged time, mTORC2 activity also falls, most likely because rapamycin sequesters free mTOR and hinders the formation of new mTORC2. This is seen in most mouse tissues and in human cells in culture.",
+              "src": "frb"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "frb"
+            },
+            "role": {
+              "value": "background_established",
+              "src": "frb"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "frb",
+              "basis_quote": "This can be seen in most mouse tissues as well as in human cells in culture"
+            }
+          },
+          {
+            "id": "a_side_mtorc2",
+            "statement": {
+              "value": "The metabolic side effects of rapamycin are mediated not by inhibition of mTORC1 but by off-target inhibition of mTORC2; the hepatic insulin resistance and glucose intolerance caused by rapamycin result from inhibition of mTORC2 in the liver.",
+              "src": "side_mtorc2"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "side_mtorc2"
+            },
+            "role": {
+              "value": "core",
+              "src": "side_mtorc2"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "side_mtorc2",
+              "basis_quote": "Interestingly, the metabolic side effects of rapamycin are mediated not by inhibition of mTORC1, but through off-target inhibition of mTORC2."
+            }
+          },
+          {
+            "id": "a_mtorc1_sufficient",
+            "statement": {
+              "value": "Inhibition of mTORC1, or of signaling downstream of mTORC1, is sufficient to extend lifespan in worms, flies and mice, while mTORC2 inhibition seems to be largely negative for lifespan, healthspan and metabolism.",
+              "src": "hypothesis"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "hypothesis"
+            },
+            "role": {
+              "value": "auxiliary",
+              "src": "hypothesis"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "hypothesis",
+              "basis_quote": "has been shown to be sufficient to extend lifespan in worms, flies, and mice"
+            }
+          },
+          {
+            "id": "a_intermittent_selective",
+            "statement": {
+              "value": "In mice, treatment that exposes the animals to rapamycin intermittently, especially at low doses, inhibits mTORC1 while largely not inhibiting mTORC2.",
+              "src": "hypothesis"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "hypothesis"
+            },
+            "role": {
+              "value": "core",
+              "src": "hypothesis"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "hypothesis",
+              "basis_quote": "we have shown that this is true in mice"
+            }
+          },
+          {
+            "id": "a_fewer_side_effects",
+            "statement": {
+              "value": "In mice, intermittent rapamycin treatment, especially at low doses, has reduced side effects.",
+              "src": "hypothesis"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "hypothesis"
+            },
+            "role": {
+              "value": "core",
+              "src": "hypothesis"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "hypothesis",
+              "basis_quote": "we have shown that this is true in mice"
+            }
+          },
+          {
+            "id": "a_less_immunosuppressive",
+            "statement": {
+              "value": "Intermittent rapamycin treatment may be less immunosuppressive, due to reduced inhibition of mTORC2.",
+              "src": "immune"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "immune"
+            },
+            "role": {
+              "value": "consequence",
+              "src": "immune"
+            },
+            "modality": {
+              "value": "speculative",
+              "src": "immune",
+              "basis_quote": "intermittent rapamycin treatment may be less immunosuppressive due to reduced inhibition of mTORC2"
+            }
+          },
+          {
+            "id": "a_humans_few_adverse",
+            "statement": {
+              "value": "In humans, initial short-term studies suggest that rapamycin dosed intermittently at low doses may be used under medical supervision with few adverse events, with the caveat that not all the information is yet in.",
+              "src": "conclusion"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "conclusion"
+            },
+            "role": {
+              "value": "consequence",
+              "src": "conclusion"
+            },
+            "modality": {
+              "value": "speculative",
+              "src": "conclusion",
+              "basis_quote": "initial short-term studies suggest that when dosed intermittently at low doses, rapamycin may be utilized under medical supervision with few adverse events"
+            }
+          },
+          {
+            "id": "a_lifespan_intermittent",
+            "statement": {
+              "value": "In mice, intermittent rapamycin treatment, especially at low doses, still extends lifespan.",
+              "src": "hypothesis"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "hypothesis"
+            },
+            "role": {
+              "value": "core",
+              "src": "hypothesis"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "hypothesis",
+              "basis_quote": "we have shown that this is true in mice"
+            }
+          },
+          {
+            "id": "a_still_immunosuppressive",
+            "statement": {
+              "value": "Rapamycin is an immunosuppressant even when given at low doses or intermittently.",
+              "src": "immune"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "immune"
+            },
+            "role": {
+              "value": "auxiliary",
+              "src": "immune"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "immune",
+              "basis_quote": "rapamycin, even when given at low doses or intermittently, is an immunosuppressant"
+            }
+          },
+          {
+            "id": "a_general",
+            "statement": {
+              "value": "Treatments that expose subjects to rapamycin intermittently, especially at low doses, are likely to inhibit mTORC1 while largely not inhibiting mTORC2, and to have reduced side effects while still extending lifespan.",
+              "src": "hypothesis"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "hypothesis"
+            },
+            "role": {
+              "value": "core",
+              "src": "hypothesis"
+            },
+            "modality": {
+              "value": "likely",
+              "src": "hypothesis",
+              "basis_quote": "are likely to"
+            }
+          }
+        ],
+        "alternative_explanations": {
+          "value": [
+            {
+              "claim_or_ref": {
+                "kind": "literal",
+                "text": "The impact on T cells that remains under intermittent rapamycin may be primarily the result of mTORC1 inhibition, or may also reflect residual inhibition of mTORC2, because mTORC2 in T cells may be extremely sensitive to rapamycin."
+              },
+              "unresolved_reason": "The authors of the mouse study say it is not clear which of the two it is."
+            }
+          ],
+          "src": "ac_tcell"
+        },
+        "uncertainties": {
+          "value": [
+            {
+              "id": "u_long_term_safety",
+              "kind": "safety",
+              "question": "What is the longer-term safety of such rapamycin regimens?"
+            },
+            {
+              "id": "u_efficacy_dose",
+              "kind": "efficacy",
+              "question": "How efficacious are such regimens, given that studies in mice generally suggest higher doses of rapamycin are more efficacious than lower doses?"
+            },
+            {
+              "id": "u_osteoarthritis",
+              "kind": "safety",
+              "question": "Does rapamycin worsen osteoarthritis in longer-term treatment, as studies in rodents and marmosets suggest it may?"
+            }
+          ],
+          "src": "questions"
+        },
+        "explains": {
+          "value": [
+            {
+              "id": "x_tcell_residual",
+              "observation": "Intermittent rapamycin still has a reduced but significant impact on T cells.",
+              "status": "unexplained",
+              "mode": "direct",
+              "atom_refs": [
+                "a_less_immunosuppressive",
+                "a_still_immunosuppressive"
+              ],
+              "observation_ref": {
+                "kind": "card",
+                "pointer": "/added/layers/evidence/lines/4"
+              }
+            }
+          ],
+          "src": "ac_tcell"
+        },
+        "opens": {
+          "value": [
+            {
+              "id": "o_tissue_sites",
+              "new_question": "In which tissues does rapamycin act on mTORC2 to cause its glycemic effects, and do chronic and intermittent rapamycin impair mTORC2 in different sets of tissues?",
+              "why_not_askable_today": "Rictor was deleted throughout the body in the mouse model used, so the site of rapamycin action on mTORC2 that mediates these effects is not clear.",
+              "enabling_method": "Development of additional mouse models.",
+              "atom_refs": [
+                "a_side_mtorc2",
+                "a_intermittent_selective"
+              ]
+            }
+          ],
+          "src": "ac_tissues"
+        },
+        "testability": {
+          "value": {
+            "in_principle": "testable",
+            "in_practice": "feasible_now",
+            "justification": "In mice, intermittent and daily rapamycin schedules can be compared directly on glucose and pyruvate tolerance, beta-cell function and T-cell populations, as was done for one intermittent schedule.",
+            "cheapest_test": {
+              "kind": "literal",
+              "text": "Treat mice with rapamycin daily or on an intermittent schedule and compare glucose tolerance, pyruvate tolerance, beta-cell function and T-cell populations between the groups."
+            }
+          },
+          "src": "ac_design",
+          "assessment": {
+            "assessor": "ohf-extractor 0.2.1",
+            "assessed_at": "2026-10-20T20:55:16Z",
+            "evidence_ref": {
+              "kind": "artifact",
+              "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+            }
+          }
+        },
+        "first_proposed": {
+          "value": {
+            "source_ref": {
+              "kind": "external",
+              "uri": "https://doi.org/10.1111/acel.12405",
+              "limitation": "Cited work (Arriola Apelo et al. 2016, Aging Cell), read as Europe PMC XML PMC4717280; the XML is kept in the conversion work directory (not the repository), sha256 listed in the evidence items that cite it."
+            },
+            "date": "2015-10-13",
+            "precision": "day",
+            "basis": "author_statement",
+            "note": "The article (paragraph 24) says the author hypothesized the claim and shows it with refs. 34 and 68. Ref. 68 (Aging Cell) states the hypothesis that different dosing schedules might expand the therapeutic window by more specifically targeting mTORC1 (paragraph 3); the date is its electronic publication date. Ref. 34 (J Gerontol A 2016, the lifespan study) was not read; the converter did not search for an earlier statement."
+          },
+          "src": "ac_pubdate"
+        }
+      },
+      "mechanism": {
+        "summary": {
+          "value": "Rapamycin binds FKBP12, and the complex binds the FRB domain of mTOR. The FRB domain is on the surface of mTORC1 but buried in mTORC2 by mTORC2-specific proteins such as Rictor, so rapamycin does not acutely inhibit mTORC2. When high doses are continued for a prolonged time, mTORC2 activity falls, most likely because rapamycin sequesters free mTOR and hinders the formation of new mTORC2; acute treatment inhibits mTORC1, chronic treatment both complexes.",
+          "src": "frb"
+        },
+        "molecular_targets": {
+          "value": [
+            {
+              "label": "mTOR complex 1 (mTORC1)",
+              "id": "GO:0031931",
+              "id_scheme": "GO",
+              "role": "primary"
+            },
+            {
+              "label": "mTOR complex 2 (mTORC2)",
+              "id": "GO:0031932",
+              "id_scheme": "GO",
+              "role": "off_target"
+            }
+          ],
+          "src": "side_mtorc2"
+        }
+      },
+      "predictions": [
+        {
+          "id": "p_side_effects_mouse",
+          "system": {
+            "taxon": {
+              "value": "Mus musculus",
+              "src": "ac_glucose"
+            },
+            "strain_or_line": {
+              "value": "C57BL/6J",
+              "src": "ac_glucose"
+            },
+            "sex": {
+              "value": "male",
+              "src": "ac_glucose"
+            },
+            "age_at_start": {
+              "value": "9 weeks of age",
+              "src": "ac_glucose"
+            },
+            "kind": {
+              "value": "organism",
+              "src": "ac_glucose"
+            }
+          },
+          "intervention": {
+            "agent": {
+              "value": "rapamycin (sirolimus)",
+              "src": "ac_injection"
+            },
+            "dose": {
+              "value": "2 mg/kg",
+              "src": "ac_glucose"
+            },
+            "regimen": {
+              "value": "once every 5 days (1×/5 days)",
+              "src": "ac_glucose"
+            },
+            "route": {
+              "value": "intraperitoneal injection",
+              "src": "ac_injection"
+            },
+            "formulation": {
+              "value": "dissolved in ethanol and diluted in vehicle (5% Tween-80, 5% PEG-40)",
+              "src": "ac_injection"
+            },
+            "duration": {
+              "value": "2, 3, 5 or 8 weeks of treatment, depending on the test",
+              "src": "ac_durations"
+            }
+          },
+          "comparator": {
+            "value": "vehicle, and rapamycin 2 mg/kg dosed daily (1×/day)",
+            "src": "ac_glucose"
+          },
+          "endpoint": {
+            "value": "glucose tolerance (fasting glucose tolerance test)",
+            "src": "ac_glucose"
+          },
+          "direction": {
+            "value": "not impaired by intermittent rapamycin, whereas daily rapamycin causes a robust decrease",
+            "src": "ac_glucose"
+          },
+          "form": {
+            "value": "directional_contrast",
+            "src": "ac_glucose"
+          },
+          "epistemic_status": {
+            "value": "accommodated",
+            "src": "ac_pilot"
+          },
+          "known_result_ref": {
+            "value": {
+              "kind": "external",
+              "uri": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+              "limitation": "Aging Cell paragraph 15 (XML .//p[15]): the pilot in which the once-every-5-days schedule was selected because it had the smallest impact on glucose tolerance."
+            },
+            "src": "ac_pilot"
+          },
+          "derives_from_atom_refs": {
+            "value": [
+              "a_fewer_side_effects"
+            ],
+            "src": "hypothesis"
+          },
+          "resolution": {
+            "value": {
+              "criterion": "Holds if, in the new cohort tested after 3 weeks, intermittent rapamycin does not impair glucose tolerance while daily rapamycin does.",
+              "outcome": {
+                "status": "confirmed",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+                },
+                "recorded_at": "2026-10-20T20:55:16Z",
+                "recorded_by": "ohf-extractor 0.2.1"
+              }
+            },
+            "src": "ac_glucose"
+          }
+        },
+        {
+          "id": "p_lifespan_female_mouse",
+          "system": {
+            "taxon": {
+              "value": "Mus musculus",
+              "src": "table1"
+            },
+            "strain_or_line": {
+              "value": "C57BL/6J.Nia",
+              "src": "table1"
+            },
+            "sex": {
+              "value": "female",
+              "src": "table1"
+            },
+            "age_at_start": {
+              "value": "20 months",
+              "src": "table1"
+            },
+            "kind": {
+              "value": "organism",
+              "src": "table1"
+            }
+          },
+          "intervention": {
+            "agent": {
+              "value": "rapamycin",
+              "src": "table1"
+            },
+            "dose": {
+              "value": "2 mg/kg",
+              "src": "table1"
+            },
+            "regimen": {
+              "value": "intraperitoneal injection once every 5 days (IP 1x/5 days)",
+              "src": "table1"
+            },
+            "route": {
+              "value": "intraperitoneal (IP)",
+              "src": "table1"
+            }
+          },
+          "comparator": {
+            "value": "control group",
+            "src": "table1"
+          },
+          "endpoint": {
+            "value": "median lifespan",
+            "src": "table1"
+          },
+          "direction": {
+            "value": "longer in rapamycin-treated females than in controls",
+            "src": "table1"
+          },
+          "form": {
+            "value": "directional_contrast",
+            "src": "table1"
+          },
+          "epistemic_status": {
+            "value": "retrodicted",
+            "src": "hypothesis"
+          },
+          "known_result_ref": {
+            "value": {
+              "kind": "card",
+              "pointer": "/added/layers/evidence/lines/6"
+            },
+            "src": "hypothesis"
+          },
+          "derives_from_atom_refs": {
+            "value": [
+              "a_lifespan_intermittent"
+            ],
+            "src": "hypothesis"
+          },
+          "resolution": {
+            "value": {
+              "criterion": "Holds if, in the Table 1 row \"Arriola Apelo et al. 2016a, b [34]\" (C57BL/6 J.Nia females from 20 months, rapamycin 2 mg/kg IP 1x/5 days, control median lifespan 897 days), the change in median lifespan is positive and not marked NS; that row gives +7%.",
+              "outcome": {
+                "status": "confirmed",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                },
+                "recorded_at": "2026-10-20T20:55:16Z",
+                "recorded_by": "ohf-extractor 0.2.1"
+              }
+            },
+            "src": "table1"
+          }
+        },
+        {
+          "id": "p_intermittent_vs_daily",
+          "system": {
+            "kind": {
+              "value": "organism",
+              "src": "hypothesis"
+            }
+          },
+          "intervention": {
+            "agent": {
+              "value": "rapamycin",
+              "src": "hypothesis"
+            },
+            "regimen": {
+              "value": "intermittent exposure, especially at low doses",
+              "src": "hypothesis"
+            }
+          },
+          "comparator": {
+            "value": "daily rapamycin treatment",
+            "src": "hypothesis"
+          },
+          "endpoint": {
+            "value": "safety, and efficacy in promoting healthy aging",
+            "src": "hypothesis",
+            "paraphrase": true,
+            "basis_quote": "While intermittent therapy seems likely to be safer than daily treatment, it also leads to less mTORC1 inhibition, and thus potentially could be less efficacious in its ability to promote healthy aging."
+          },
+          "direction": {
+            "value": "seems likely to be safer than daily treatment, but potentially less efficacious, because intermittent treatment inhibits mTORC1 less",
+            "src": "hypothesis"
+          },
+          "form": {
+            "value": "directional_contrast",
+            "src": "hypothesis"
+          },
+          "epistemic_status": {
+            "value": "novel",
+            "src": "hypothesis"
+          },
+          "derives_from_atom_refs": {
+            "value": [
+              "a_general"
+            ],
+            "src": "hypothesis"
+          }
+        },
+        {
+          "id": "p_other_side_effects_mouse",
+          "system": {
+            "taxon": {
+              "value": "Mus musculus",
+              "src": "ac_glucose"
+            },
+            "strain_or_line": {
+              "value": "C57BL/6J",
+              "src": "ac_glucose"
+            },
+            "sex": {
+              "value": "male",
+              "src": "ac_glucose"
+            },
+            "age_at_start": {
+              "value": "9 weeks of age",
+              "src": "ac_glucose"
+            },
+            "kind": {
+              "value": "organism",
+              "src": "ac_glucose"
+            }
+          },
+          "intervention": {
+            "agent": {
+              "value": "rapamycin (sirolimus)",
+              "src": "ac_injection"
+            },
+            "dose": {
+              "value": "2 mg/kg",
+              "src": "ac_glucose"
+            },
+            "regimen": {
+              "value": "once every 5 days (1×/5 days)",
+              "src": "ac_glucose"
+            },
+            "route": {
+              "value": "intraperitoneal injection",
+              "src": "ac_injection"
+            },
+            "formulation": {
+              "value": "dissolved in ethanol and diluted in vehicle (5% Tween-80, 5% PEG-40)",
+              "src": "ac_injection"
+            },
+            "duration": {
+              "value": "2, 3, 5 or 8 weeks of treatment, depending on the test",
+              "src": "ac_durations"
+            }
+          },
+          "comparator": {
+            "value": "vehicle, and rapamycin 2 mg/kg dosed daily (1×/day)",
+            "src": "ac_glucose"
+          },
+          "endpoint": {
+            "value": "impact on pyruvate tolerance, fasting glucose and insulin, beta-cell function and the immune system",
+            "src": "ac_abstract",
+            "paraphrase": true,
+            "basis_quote": "this schedule has a reduced impact on pyruvate tolerance, fasting glucose and insulin levels, beta cell function, and the immune system compared to daily rapamycin treatment"
+          },
+          "direction": {
+            "value": "smaller negative impact with intermittent than with daily rapamycin, while mTORC1 signaling is still inhibited",
+            "src": "ac_conclusion"
+          },
+          "form": {
+            "value": "directional_contrast",
+            "src": "ac_conclusion"
+          },
+          "epistemic_status": {
+            "value": "retrodicted",
+            "src": "hypothesis"
+          },
+          "known_result_ref": {
+            "value": {
+              "kind": "external",
+              "uri": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+              "limitation": "Aging Cell paragraph 41 (XML .//p[41]): intermittent rapamycin inhibited mTORC1 signaling with reduced negative side effects compared to daily administration."
+            },
+            "src": "ac_conclusion"
+          },
+          "derives_from_atom_refs": {
+            "value": [
+              "a_intermittent_selective",
+              "a_fewer_side_effects"
+            ],
+            "src": "hypothesis"
+          },
+          "resolution": {
+            "value": {
+              "criterion": "Holds if, for the side effects examined (glucose homeostasis and immune cell populations), intermittent rapamycin has a smaller negative impact than daily rapamycin while still inhibiting mTORC1 signaling.",
+              "outcome": {
+                "status": "confirmed",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+                },
+                "recorded_at": "2026-10-20T20:55:16Z",
+                "recorded_by": "ohf-extractor 0.2.1"
+              }
+            },
+            "src": "ac_conclusion"
+          }
+        }
+      ],
+      "evidence": {
+        "lines": [
+          {
+            "id": "e_ac_glucose",
+            "target_ref": "a_fewer_side_effects",
+            "direction": {
+              "value": "supports",
+              "src": "ac_glucose"
+            },
+            "quote": "We observed no effect of intermittent rapamycin on glucose tolerance, while daily rapamycin treatment caused a robust decrease in glucose tolerance (Fig. 2A).",
+            "study_type": {
+              "value": "controlled experiment in mice",
+              "src": "ac_glucose"
+            },
+            "study_system": {
+              "value": "male C57BL/6J mice given 2 mg/kg rapamycin once every 5 days or daily",
+              "src": "ac_glucose"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC4717280.xml",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282",
+                  "locator": "XML .//p[16] (1-based document order)"
+                },
+                "src": "ac_glucose"
+              }
+            ],
+            "src": "ac_glucose",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "ac_glucose",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "ac_glucose"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "hypothesis"
+            }
+          },
+          {
+            "id": "e_ac_mtorc2_sparing",
+            "target_ref": "a_intermittent_selective",
+            "direction": {
+              "value": "supports",
+              "src": "ac_weekly_signal"
+            },
+            "quote": "However, AKT S473 phosphorylation in muscle was only inhibited in mice treated daily with rapamycin (Fig. 1C).",
+            "study_type": {
+              "value": "controlled experiment in mice: phosphorylation of S6 (mTORC1 readout) and AKT S473 (mTORC2 substrate) in muscle",
+              "src": "ac_weekly_signal"
+            },
+            "study_system": {
+              "value": "mice treated with vehicle, daily rapamycin or weekly rapamycin for 2 months",
+              "src": "ac_weekly_signal"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC4717280.xml",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282",
+                  "locator": "XML .//p[14] (1-based document order)"
+                },
+                "src": "ac_weekly_signal"
+              }
+            ],
+            "src": "ac_weekly_signal",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "some",
+                "comparison": "none"
+              },
+              "src": "ac_weekly_signal",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "ac_weekly_signal"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "hypothesis"
+            }
+          },
+          {
+            "id": "e_ac_not_continuous",
+            "target_ref": "a_intermittent_selective",
+            "direction": {
+              "value": "neutral",
+              "src": "ac_not_continuous"
+            },
+            "quote": "As we anticipated following our preliminary experiments, our intermittent rapamycin regimen does not continuously inhibit mTORC1 throughout the 5‐day period in mouse tissues (Fig. 3).",
+            "study_type": {
+              "value": "experiment in mice",
+              "src": "ac_not_continuous"
+            },
+            "study_system": {
+              "value": "mouse tissues under the 5-day intermittent regimen",
+              "src": "ac_not_continuous"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC4717280.xml",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282",
+                  "locator": "XML .//p[37] (1-based document order)"
+                },
+                "src": "ac_not_continuous"
+              }
+            ],
+            "src": "ac_not_continuous",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "not_applicable"
+              },
+              "src": "ac_not_continuous",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "ac_not_continuous"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "hypothesis"
+            }
+          },
+          {
+            "id": "e_ac_pyruvate",
+            "target_ref": "a_fewer_side_effects",
+            "direction": {
+              "value": "supports",
+              "src": "ac_glucose"
+            },
+            "quote": "Mice treated intermittently with rapamycin were also pyruvate intolerant, although the increase in the AUC induced by daily rapamycin treatment was twice that observed in the AUC of mice treated intermittently (Fig. 2B).",
+            "study_type": {
+              "value": "controlled experiment in mice, pyruvate tolerance test",
+              "src": "ac_glucose"
+            },
+            "study_system": {
+              "value": "male C57BL/6J mice given 2 mg/kg rapamycin once every 5 days or daily",
+              "src": "ac_glucose"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC4717280.xml",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282",
+                  "locator": "XML .//p[16] (1-based document order)"
+                },
+                "src": "ac_glucose"
+              }
+            ],
+            "src": "ac_glucose",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "ac_glucose",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "ac_glucose"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "hypothesis"
+            }
+          },
+          {
+            "id": "e_ac_tcells",
+            "target_ref": "a_still_immunosuppressive",
+            "direction": {
+              "value": "supports",
+              "src": "ac_tcell"
+            },
+            "quote": "A reduced but still significant impact of intermittent rapamycin on T cells was also observed (Fig. 4).",
+            "study_type": {
+              "value": "experiment in mice",
+              "src": "ac_tcell"
+            },
+            "study_system": {
+              "value": "mice given rapamycin once every 5 days or daily",
+              "src": "ac_tcell"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC4717280.xml",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282",
+                  "locator": "XML .//p[33] (1-based document order)"
+                },
+                "src": "ac_tcell"
+              }
+            ],
+            "src": "ac_tcell",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "ac_tcell",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "ac_tcell"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "hypothesis"
+            }
+          },
+          {
+            "id": "e_ac_testes",
+            "target_ref": "a_fewer_side_effects",
+            "direction": {
+              "value": "neutral",
+              "src": "ac_testes"
+            },
+            "quote": "While there is a clear difference between the effects of the two rapamycin dosing schedules on testes weight, these dramatic results demonstrate the sustained biological impact of intermittent rapamycin.",
+            "study_type": {
+              "value": "experiment comparing two dosing schedules, testes weight",
+              "src": "ac_testes"
+            },
+            "study_system": {
+              "value": "animals given intermittent or daily rapamycin",
+              "src": "ac_testes"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC4717280.xml",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282",
+                  "locator": "XML .//p[38] (1-based document order)"
+                },
+                "src": "ac_testes"
+              }
+            ],
+            "src": "ac_testes",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "ac_testes",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a149dbe461c45d8395d4abee46c58eef164b023c8e24d8b28df6cf18dd995282"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "ac_testes"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "hypothesis"
+            }
+          },
+          {
+            "id": "e_lifespan",
+            "target_ref": "a_lifespan_intermittent",
+            "direction": {
+              "value": "supports",
+              "src": "hypothesis"
+            },
+            "quote": "and we have shown that this is true in mice [34, 68]",
+            "study_type": {
+              "value": "lifespan and side-effect studies by the author's group (refs. 34 and 68), as summarized by the article",
+              "src": "hypothesis"
+            },
+            "study_system": {
+              "value": "mice",
+              "src": "hypothesis"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13355979.xml",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+                  "locator": "XML .//p[24] (1-based document order)"
+                },
+                "src": "hypothesis"
+              },
+              {
+                "value": {
+                  "artifact": "PMC13355979.xml",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+                  "locator": "XML .//table-wrap[@id='Tab1'] (Table 1)"
+                },
+                "src": "table1"
+              }
+            ],
+            "src": "hypothesis",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "hypothesis",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "hypothesis"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "hypothesis"
+            }
+          },
+          {
+            "id": "e_liver_mtorc2",
+            "target_ref": "a_side_mtorc2",
+            "direction": {
+              "value": "supports",
+              "src": "side_mtorc2"
+            },
+            "quote": "the negative impact of rapamycin on hepatic insulin resistance, leading to glucose intolerance, is the result of inhibition of mTORC2 in the liver [19]",
+            "study_type": {
+              "value": "mouse studies as summarized by the article (ref. 19)",
+              "src": "side_mtorc2"
+            },
+            "study_system": {
+              "value": "mice",
+              "src": "side_mtorc2"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13355979.xml",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+                  "locator": "XML .//p[23] (1-based document order)"
+                },
+                "src": "side_mtorc2"
+              }
+            ],
+            "src": "side_mtorc2",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "some",
+                "comparison": "not_applicable"
+              },
+              "src": "side_mtorc2",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "side_mtorc2"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "ac_mtorc2_history"
+            }
+          },
+          {
+            "id": "e_dl001",
+            "target_ref": "a_side_mtorc2",
+            "direction": {
+              "value": "supports",
+              "src": "dl001"
+            },
+            "quote": "mice treated with this compound had substantially reduced glucose intolerance, dyslipidemia, and immune disruption as compared to mice treated in parallel with rapamycin [60]",
+            "study_type": {
+              "value": "controlled comparison in mice reported by the author's group (ref. 60), as summarized by the article",
+              "src": "dl001"
+            },
+            "study_system": {
+              "value": "mice treated with DL001, a compound with greater selectivity for mTORC1 than rapamycin, or with rapamycin in parallel",
+              "src": "dl001"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13355979.xml",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+                  "locator": "XML .//p[93] (1-based document order)"
+                },
+                "src": "dl001"
+              }
+            ],
+            "src": "dl001",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "serious",
+                "comparison": "some"
+              },
+              "src": "dl001",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "dl001"
+            },
+            "independence_group": {
+              "value": "g_lamming_lab",
+              "src": "dl001"
+            }
+          },
+          {
+            "id": "e_diets",
+            "target_ref": "a_mtorc1_sufficient",
+            "direction": {
+              "value": "supports",
+              "src": "diets"
+            },
+            "quote": "have been shown to reduce mTORC1 activity and extend lifespan in mice [165–171]",
+            "study_type": {
+              "value": "mouse diet studies as summarized by the article (refs. 165-171)",
+              "src": "diets"
+            },
+            "study_system": {
+              "value": "mice fed ketogenic, protein-restricted or amino-acid-restricted diets",
+              "src": "diets"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13355979.xml",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+                  "locator": "XML .//p[88] (1-based document order)"
+                },
+                "src": "diets"
+              }
+            ],
+            "src": "diets",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "some",
+                "comparison": "not_applicable"
+              },
+              "src": "diets",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "diets"
+            },
+            "independence_group": {
+              "value": "g_diet_studies",
+              "src": "diets"
+            }
+          },
+          {
+            "id": "e_offlabel_infections",
+            "target_ref": "a_less_immunosuppressive",
+            "direction": {
+              "value": "disputes",
+              "src": "infections"
+            },
+            "quote": "self-reported infections of many different types among individuals self-administering rapamycin for geroprotection trended higher [99], and a physician prescribing rapamycin for geroprotection informed his patients that they were at an increased risk of bacterial infections [100]",
+            "study_type": {
+              "value": "survey of off-label users and a physician's report, as summarized by the article (refs. 99, 100)",
+              "src": "infections"
+            },
+            "study_system": {
+              "value": "people self-administering rapamycin for geroprotection",
+              "src": "infections"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13355979.xml",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+                  "locator": "XML .//p[31] (1-based document order)"
+                },
+                "src": "infections"
+              }
+            ],
+            "src": "infections",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "some",
+                "comparison": "serious"
+              },
+              "src": "infections",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "infections"
+            },
+            "independence_group": {
+              "value": "g_offlabel_agelessrx",
+              "src": "pl_own_survey"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "high",
+                "note": "The article describes the survey population as self-selected (people with serious side effects likely stopped taking rapamycin and did not participate), unblinded, assessed at one time point and without clinical laboratory results."
+              },
+              "src": "self_selected",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_queiroz_immune",
+            "target_ref": "a_still_immunosuppressive",
+            "direction": {
+              "value": "supports",
+              "src": "qz_immune"
+            },
+            "quote": "Our findings suggest that intermittent RAPA, despite its mitochondrial benefits, may accentuate some of these age-associated immune limitations.",
+            "study_type": {
+              "value": "experimental study, its own observations",
+              "src": "qz_immune"
+            },
+            "study_system": {
+              "value": "thymus and T-cell populations under intermittent rapamycin",
+              "src": "qz_immune"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC12598397.xml",
+                  "sha256": "sha256:4b5c8fd46a7b1b822435cab81ed6900cdaeb673c6115ab226604a5fb14ee15de",
+                  "locator": "XML .//p[47] (1-based document order)"
+                },
+                "src": "qz_immune"
+              }
+            ],
+            "src": "qz_immune",
+            "indirectness": {
+              "value": {
+                "system": "some",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "not_applicable"
+              },
+              "src": "qz_immune",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:4b5c8fd46a7b1b822435cab81ed6900cdaeb673c6115ab226604a5fb14ee15de"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "qz_immune"
+            },
+            "independence_group": {
+              "value": "g_queiroz_2025",
+              "src": "qz_immune"
+            }
+          },
+          {
+            "id": "e_queiroz_glucose",
+            "target_ref": "a_fewer_side_effects",
+            "direction": {
+              "value": "supports",
+              "src": "qz_glucose"
+            },
+            "quote": "Indeed, in our results, no difference in glucose metabolism was observed following RAPA treatment, except for reduced glucose uptake in the bladder of SAMP8 RAPA animals.",
+            "study_type": {
+              "value": "experiment in mice using the every-five-days regimen of Arriola Apelo et al. (2016)",
+              "src": "qz_glucose"
+            },
+            "study_system": {
+              "value": "SAMP8 mice given rapamycin every five days",
+              "src": "qz_glucose"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC12598397.xml",
+                  "sha256": "sha256:4b5c8fd46a7b1b822435cab81ed6900cdaeb673c6115ab226604a5fb14ee15de",
+                  "locator": "XML .//p[49] (1-based document order)"
+                },
+                "src": "qz_glucose"
+              }
+            ],
+            "src": "qz_glucose",
+            "indirectness": {
+              "value": {
+                "system": "some",
+                "endpoint": "some",
+                "intervention": "none",
+                "comparison": "serious"
+              },
+              "src": "qz_glucose",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:4b5c8fd46a7b1b822435cab81ed6900cdaeb673c6115ab226604a5fb14ee15de"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "qz_glucose"
+            },
+            "independence_group": {
+              "value": "g_queiroz_2025",
+              "src": "qz_glucose"
+            }
+          },
+          {
+            "id": "e_rapaex_adverse",
+            "target_ref": "a_humans_few_adverse",
+            "direction": {
+              "value": "disputes",
+              "src": "rx_safety"
+            },
+            "quote": "The treatment arm experienced a 57% higher incidence rate of AEs, driven by minor infections and constitutional symptoms.",
+            "study_type": {
+              "value": "trial of weekly sirolimus, as its authors discuss it",
+              "src": "rx_safety"
+            },
+            "study_system": {
+              "value": "active older adults taking weekly sirolimus",
+              "src": "rx_safety"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13082878.xml",
+                  "sha256": "sha256:9d139b7a222fa364d43cd14bf3dc05e77d5e908646ee830a553b721a60c8cebb",
+                  "locator": "XML .//p[60] (1-based document order)"
+                },
+                "src": "rx_safety"
+              }
+            ],
+            "src": "rx_safety",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "rx_safety",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:9d139b7a222fa364d43cd14bf3dc05e77d5e908646ee830a553b721a60c8cebb"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "rx_safety"
+            },
+            "independence_group": {
+              "value": "g_rapa_ex_01",
+              "src": "rx_safety"
+            }
+          },
+          {
+            "id": "e_pearl_safety",
+            "target_ref": "a_humans_few_adverse",
+            "direction": {
+              "value": "supports",
+              "src": "pl_safety"
+            },
+            "quote": "Overall, reports of adverse events (AEs) were relatively consistent across all groups.",
+            "study_type": {
+              "value": "study of the relative safety of low-dose rapamycin over 48 weeks, with a placebo group",
+              "src": "pl_safety"
+            },
+            "study_system": {
+              "value": "rapamycin users and placebo users",
+              "src": "pl_safety"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC12074816.xml",
+                  "sha256": "sha256:432ee5707d2ceca63e65ae119397b8a7dc3739c592930fca2c877e71288b444b",
+                  "locator": "XML .//p[29] (1-based document order)"
+                },
+                "src": "pl_safety"
+              }
+            ],
+            "src": "pl_safety",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "some"
+              },
+              "src": "pl_safety",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:432ee5707d2ceca63e65ae119397b8a7dc3739c592930fca2c877e71288b444b"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "pl_safety"
+            },
+            "independence_group": {
+              "value": "g_offlabel_agelessrx",
+              "src": "pl_own_survey"
+            }
+          },
+          {
+            "id": "e_johnson",
+            "target_ref": "a_humans_few_adverse",
+            "direction": {
+              "value": "disputes",
+              "src": "johnson"
+            },
+            "quote": "he experienced intermittent skin/soft tissue infections, lipid abnormalities, glucose elevations, and an increase in his resting heart rate [158]",
+            "study_type": {
+              "value": "self-report by one person, as summarized by the article (ref. 158)",
+              "src": "johnson"
+            },
+            "study_system": {
+              "value": "one person taking rapamycin on once weekly or alternating weekly schedules",
+              "src": "johnson"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13355979.xml",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+                  "locator": "XML .//p[52] (1-based document order)"
+                },
+                "src": "johnson"
+              }
+            ],
+            "src": "johnson",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "some",
+                "comparison": "not_applicable"
+              },
+              "src": "johnson",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "johnson"
+            },
+            "independence_group": {
+              "value": "g_johnson",
+              "src": "johnson"
+            }
+          },
+          {
+            "id": "e_offlabel_few_adverse",
+            "target_ref": "a_humans_few_adverse",
+            "direction": {
+              "value": "supports",
+              "src": "self_selected"
+            },
+            "quote": "users did not report many adverse events; mouth ulceration was the only self-reported adverse event that was greater in rapamycin vs. non-rapamycin users [99]",
+            "study_type": {
+              "value": "survey of rapamycin users and non-users, as summarized by the article (ref. 99)",
+              "src": "self_selected"
+            },
+            "study_system": {
+              "value": "rapamycin users, most following a once a week dosing schedule, and non-rapamycin users as controls",
+              "src": "self_selected"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13355979.xml",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+                  "locator": "XML .//p[51] (1-based document order)"
+                },
+                "src": "self_selected"
+              }
+            ],
+            "src": "self_selected",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "some",
+                "comparison": "none"
+              },
+              "src": "self_selected",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "self_selected"
+            },
+            "independence_group": {
+              "value": "g_offlabel_agelessrx",
+              "src": "pl_own_survey"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "high",
+                "note": "The article describes the population as self-selected (people with serious side effects likely stopped taking rapamycin and did not participate), unblinded, assessed at one time point and without clinical laboratory results."
+              },
+              "src": "self_selected",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:55:16Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "provenance": {
+        "claim_author": {
+          "value": "Dudley W. Lamming",
+          "src": "meta"
+        },
+        "author_type": {
+          "value": "human",
+          "src": "meta"
+        },
+        "licence": {
+          "value": "CC-BY-4.0",
+          "src": "meta"
+        },
+        "original_artifact": {
+          "value": "PMC13355979.xml",
+          "src": "meta"
+        },
+        "origin_method": {
+          "value": "published_restatement",
+          "src": "meta"
+        }
+      },
+      "profile": {
+        "domain": "ohf:intervention-pharmacology@1",
+        "dose_response": {
+          "shape": {
+            "value": "higher doses more efficacious than lower doses, as studies in mice generally suggest",
+            "src": "questions",
+            "paraphrase": true,
+            "basis_quote": "studies in mice generally suggest higher doses of rapamycin are more efficacious than lower doses"
+          },
+          "x_axis": {
+            "value": "rapamycin dose",
+            "src": "questions"
+          }
+        },
+        "harm": {
+          "value": "Rapamycin is an immunosuppressant even when given at low doses or intermittently, though intermittent treatment may be less immunosuppressive.",
+          "src": "immune"
+        }
+      },
+      "appendix": {}
+    },
+    "gaps": [
+      {
+        "path": "core.falsification_condition",
+        "disposition": "not_supplied",
+        "reason": "The article states no result that would count against the claim.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intervention.nominal_concentration",
+        "disposition": "not_supplied",
+        "reason": "The Aging Cell study does not state it for the once-every-5-days group.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intervention.measured_concentration",
+        "disposition": "not_supplied",
+        "reason": "The Aging Cell study does not state it for the once-every-5-days group.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intervention.intake",
+        "disposition": "not_supplied",
+        "reason": "The Aging Cell study does not state it for the once-every-5-days group.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intervention.systemic_exposure",
+        "disposition": "not_supplied",
+        "reason": "The Aging Cell study does not state it for the once-every-5-days group.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].intercurrent_events[]",
+        "disposition": "not_supplied",
+        "reason": "No intercurrent events or estimand strategy are stated.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].discrimination",
+        "disposition": "not_supplied",
+        "reason": "The sources name no rival account that would expect a different outcome; the converter does not rate discrimination without such grounds.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[0].also_expected_under[]",
+        "disposition": "not_supplied",
+        "reason": "The sources name no other account that expects this outcome.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].intervention.duration",
+        "disposition": "not_supplied",
+        "reason": "Table 1 of the article does not give it, and the lifespan study (ref. 34) is not open and was not read.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].intervention.formulation",
+        "disposition": "not_supplied",
+        "reason": "Table 1 of the article does not give it, and the lifespan study (ref. 34) is not open and was not read.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].intervention.nominal_concentration",
+        "disposition": "not_supplied",
+        "reason": "Table 1 of the article does not give it, and the lifespan study (ref. 34) is not open and was not read.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].intervention.measured_concentration",
+        "disposition": "not_supplied",
+        "reason": "Table 1 of the article does not give it, and the lifespan study (ref. 34) is not open and was not read.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].intervention.intake",
+        "disposition": "not_supplied",
+        "reason": "Table 1 of the article does not give it, and the lifespan study (ref. 34) is not open and was not read.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].intervention.systemic_exposure",
+        "disposition": "not_supplied",
+        "reason": "Table 1 of the article does not give it, and the lifespan study (ref. 34) is not open and was not read.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].intercurrent_events[]",
+        "disposition": "not_supplied",
+        "reason": "No intercurrent events or estimand strategy are stated.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].discrimination",
+        "disposition": "not_supplied",
+        "reason": "The sources name no rival account that would expect a different outcome; the converter does not rate discrimination without such grounds.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[1].also_expected_under[]",
+        "disposition": "not_supplied",
+        "reason": "The sources name no other account that expects this outcome.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intervention.dose",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for intermittent dosing in general, without this detail.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intervention.duration",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for intermittent dosing in general, without this detail.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intervention.route",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for intermittent dosing in general, without this detail.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intervention.formulation",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for intermittent dosing in general, without this detail.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intervention.nominal_concentration",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for intermittent dosing in general, without this detail.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intervention.measured_concentration",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for intermittent dosing in general, without this detail.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intervention.intake",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for intermittent dosing in general, without this detail.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intervention.systemic_exposure",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for intermittent dosing in general, without this detail.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].intercurrent_events[]",
+        "disposition": "not_supplied",
+        "reason": "No intercurrent events or estimand strategy are stated.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].discrimination",
+        "disposition": "not_supplied",
+        "reason": "The sources name no rival account that would expect a different outcome; the converter does not rate discrimination without such grounds.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].also_expected_under[]",
+        "disposition": "not_supplied",
+        "reason": "The sources name no other account that expects this outcome.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[3].intervention.nominal_concentration",
+        "disposition": "not_supplied",
+        "reason": "The Aging Cell study does not state it for the once-every-5-days group.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[3].intervention.measured_concentration",
+        "disposition": "not_supplied",
+        "reason": "The Aging Cell study does not state it for the once-every-5-days group.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[3].intervention.intake",
+        "disposition": "not_supplied",
+        "reason": "The Aging Cell study does not state it for the once-every-5-days group.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[3].intervention.systemic_exposure",
+        "disposition": "not_supplied",
+        "reason": "The Aging Cell study does not state it for the once-every-5-days group.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[3].intercurrent_events[]",
+        "disposition": "not_supplied",
+        "reason": "No intercurrent events or estimand strategy are stated.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[3].discrimination",
+        "disposition": "not_supplied",
+        "reason": "The sources name no rival account that would expect a different outcome; the converter does not rate discrimination without such grounds.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[3].also_expected_under[]",
+        "disposition": "not_supplied",
+        "reason": "The sources name no other account that expects this outcome.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].system.taxon",
+        "disposition": "not_supplied",
+        "reason": "The author states the prediction for treated subjects in general, without naming a species.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[2].resolution",
+        "disposition": "not_supplied",
+        "reason": "The article names ongoing trials of daily and intermittent regimens (RESTOR, NCT06658093) but no published result and no resolution criterion.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "profile.dose_response.endpoint_ref",
+        "disposition": "not_supplied",
+        "reason": "The article does not say which endpoint the dose comparison concerns.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "profile.dose_response.range",
+        "disposition": "not_supplied",
+        "reason": "The article gives no dose range for the dose comparison.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "profile.combination.components[]",
+        "disposition": "not_applicable_scope",
+        "reason": "The claim concerns rapamycin given alone; no combination is part of it.",
+        "query_ids": [],
+        "inspected_artifacts": [],
+        "scope_ref": {
+          "kind": "card",
+          "pointer": "/added/layers/core/scope"
+        }
+      },
+      {
+        "path": "profile.combination.reference_model",
+        "disposition": "not_applicable_scope",
+        "reason": "The claim concerns rapamycin given alone; no combination is part of it.",
+        "query_ids": [],
+        "inspected_artifacts": [],
+        "scope_ref": {
+          "kind": "card",
+          "pointer": "/added/layers/core/scope"
+        }
+      },
+      {
+        "path": "profile.combination.effect",
+        "disposition": "not_applicable_scope",
+        "reason": "The claim concerns rapamycin given alone; no combination is part of it.",
+        "query_ids": [],
+        "inspected_artifacts": [],
+        "scope_ref": {
+          "kind": "card",
+          "pointer": "/added/layers/core/scope"
+        }
+      }
+    ],
+    "completeness": {
+      "level": "comparable",
+      "layers_present": [
+        "core",
+        "mechanism",
+        "predictions",
+        "evidence",
+        "provenance",
+        "profile"
+      ],
+      "missing_for_next": [
+        "A typed mechanism step: subject_ref, relation and object_ref."
+      ]
+    },
+    "sources": {
+      "side_effects": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[20] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "frb": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[21] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "side_mtorc2": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[23] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "hypothesis": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[24] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "immune": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[30] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "infections": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[31] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "self_selected": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[51] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "johnson": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[52] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "diets": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[88] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "dl001": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[93] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "conclusion": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[94] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "questions": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//p[96] (1-based document order)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "table1": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//table-wrap[@id='Tab1'] (Table 1, effect of rapamycin on the lifespan of wild-type mice)",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "meta": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+        "locator": "XML .//article-meta/contrib-group and .//permissions/license",
+        "accessed_at": "2026-10-20T18:20:01Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_abstract": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[3] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_mtorc2_history": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[7] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_design": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[9] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_weekly_signal": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[14] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_pilot": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[15] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_glucose": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[16] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_durations": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[17] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_signal_d5": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[20] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_tcell": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[33] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_tissues": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[35] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_not_continuous": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[37] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_testes": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[38] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_conclusion": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[41] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_injection": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//p[45] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "ac_pubdate": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4717280/fullTextXML",
+        "locator": "XML .//article-meta/pub-date",
+        "accessed_at": "2026-10-20T18:21:32Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "rx_safety": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13082878/fullTextXML",
+        "locator": "XML .//p[60] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:33Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "qz_immune": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12598397/fullTextXML",
+        "locator": "XML .//p[47] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:34Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "qz_glucose": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12598397/fullTextXML",
+        "locator": "XML .//p[49] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:34Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "pl_safety": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12074816/fullTextXML",
+        "locator": "XML .//p[29] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:35Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "pl_own_survey": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12074816/fullTextXML",
+        "locator": "XML .//p[12] (1-based document order)",
+        "accessed_at": "2026-10-20T18:21:35Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      }
+    },
+    "budget": {
+      "model_calls": 1,
+      "http_requests": 18,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "produced_by": {
+      "kind": "example_converter",
+      "pipeline": {
+        "name": "ohf-extractor",
+        "version": "0.2.1"
+      }
+    },
+    "source_verification": {
+      "status": "refetched_match",
+      "fetched_from": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13355979/fullTextXML",
+      "fetched_at": "2026-10-20T20:55:16Z",
+      "sha256": "sha256:a839cc772f42ad22517fbcc60e73c7c88361d3a8fbf0dae417f9791c4bb148b1",
+      "metadata_check": {
+        "registry": "Crossref REST API",
+        "record_url": "https://api.crossref.org/works/10.1007/s11357-026-02306-8",
+        "checked_at": "2026-10-20T20:55:21Z",
+        "doi_match": true,
+        "title_match": true,
+        "retracted": false
+      }
+    },
+    "integrity": {
+      "entailment": [
+        {
+          "pointer": "/added/layers/core/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/scope",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/modality",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage says only that mTORC2 inhibition \"seems\" to be largely negative, so a claimed_shown modality drops that hedge for half of the atom."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/6/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/7/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/8/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/9/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/9/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/9/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/9/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/9/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/alternative_explanations",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/uncertainties",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/explains",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/opens",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/core/testability",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/mechanism/summary",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/mechanism/molecular_targets",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/taxon",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/strain_or_line",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/sex",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/age_at_start",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/system/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/agent",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/dose",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/regimen",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/route",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/formulation",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/intervention/duration",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/comparator",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/endpoint",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/form",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/epistemic_status",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/known_result_ref",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/derives_from_atom_refs",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/0/resolution",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/system/taxon",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/system/strain_or_line",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/system/sex",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/system/age_at_start",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/system/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/intervention/agent",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/intervention/dose",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/intervention/regimen",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/intervention/route",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/comparator",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/endpoint",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/form",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/epistemic_status",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/known_result_ref",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/derives_from_atom_refs",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/1/resolution",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/system/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/intervention/agent",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/intervention/regimen",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/comparator",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/endpoint",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/endpoint",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/form",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/epistemic_status",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/2/derives_from_atom_refs",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/system/taxon",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/system/strain_or_line",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/system/sex",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/system/age_at_start",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/system/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/intervention/agent",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/intervention/dose",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/intervention/regimen",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/intervention/route",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/intervention/formulation",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/intervention/duration",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/comparator",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/endpoint",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/endpoint",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/form",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/epistemic_status",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/known_result_ref",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/derives_from_atom_refs",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/predictions/3/resolution",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage refers to the authors' own group ('we have shown') but never names Lamming, so the lab identity in the identifier is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage refers to the authors' own group ('we have shown') but never names Lamming, so the lab identity in the identifier is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage refers to the authors' own group ('we have shown') but never names Lamming, so the lab identity in the identifier is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage refers to the authors' own group ('we have shown') but never names Lamming, so the lab identity in the identifier is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage refers to the authors' own group ('we have shown') but never names Lamming, so the lab identity in the identifier is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage refers to the authors' own group ('we have shown') but never names Lamming, so the lab identity in the identifier is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/items/1",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage refers to the authors' own group ('we have shown') but never names Lamming, so the lab identity in the identifier is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/study_type",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage cites ref. 19 for the hepatic mTORC2 finding without saying it is a mouse study; mice are named only for refs. 58-62."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/study_system",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage does not state the organism for the ref. 19 hepatic finding; mice are named only for the other mTORC2 results (refs. 58-62)."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage reports the authors' own DL001 work ('We reported in 2019') but never names Lamming, so the lab identity is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/direction",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage covers only mouse diets that reduce mTORC1 and extend lifespan; it does not address worms or flies, sufficiency of mTORC1 inhibition, or harms of mTORC2 inhibition."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage describes the authors' own study of 333 low-dose rapamycin users but does not name AgelessRx."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/11/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/11/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/11/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/11/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/11/indirectness",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z",
+          "note": "The passage never names the organism, species or model studied, so it gives no grounds for the \"system\": \"some\" grade, though it does support the endpoint, intervention and comparison grades."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/11/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/11/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage does not name the authors, year or group, so the 'queiroz_2025' identity is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/12/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/12/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/12/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/12/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/12/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/12/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/12/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage does not name the authors, year or group, so the 'queiroz_2025' identity is not supported."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/13/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/13/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/13/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/13/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/13/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/13/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/13/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage describes a weekly sirolimus trial in active older adults but does not name the study the 'rapa_ex_01' identifier refers to."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/14/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/14/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/14/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/14/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/14/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/14/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/14/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage describes the authors' own study of 333 low-dose rapamycin users but does not name AgelessRx."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/15/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/15/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/15/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/15/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/15/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/15/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/15/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/16/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/16/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/16/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/16/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/16/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/16/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/16/independence_group",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z",
+          "note": "The passage describes the authors' own study of 333 low-dose rapamycin users but does not name AgelessRx."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/16/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:57:24Z"
+        },
+        {
+          "pointer": "/added/layers/profile/dose_response/shape",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/profile/dose_response/shape",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/profile/dose_response/x_axis",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        },
+        {
+          "pointer": "/added/layers/profile/harm",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:28Z"
+        }
+      ]
+    }
+  },
+  "facets": {
+    "topic": [
+      "aging",
+      "pharmacology",
+      "nutrient signaling"
+    ],
+    "source_class": "external_published",
+    "intervention_type": "small-molecule drug"
+  },
+  "content_hash": "sha256:b118698dc0a68c8d9bc9da77f9c710801ff61484002aba38f7694658ef1ece89"
+}

@@ -1,0 +1,52 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "status": "ok",
+  "message": {
+    "items": [
+      {
+        "DOI": "10.1037/0003-066X.42.2.119",
+        "title": [
+          "A Pavlovian analysis of goal-directed behavior."
+        ],
+        "author": [
+          {
+            "family": "Rescorla",
+            "given": "RA",
+            "sequence": "first"
+          }
+        ],
+        "container-title": [
+          "American Psychologist"
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              1987,
+              2,
+              1
+            ]
+          ]
+        },
+        "type": "journal-article"
+      },
+      {
+        "DOI": "10.0000/synthetic-other",
+        "title": [
+          "Invented unrelated token"
+        ],
+        "author": [
+          {
+            "family": "Other"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              1987
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

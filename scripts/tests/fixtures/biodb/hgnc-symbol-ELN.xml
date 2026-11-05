@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="1" start="0" numFoundExact="true">
+  <doc>
+    <str name="locus_type">gene with protein product</str>
+    <arr name="alias_name">
+      <str>tropoelastin</str>
+      <str>supravalvular aortic stenosis</str>
+      <str>Williams-Beuren syndrome</str>
+    </arr>
+    <date name="date_modified">2026-04-17T00:00:00Z</date>
+    <str name="agr">HGNC:3327</str>
+    <arr name="refseq_accession">
+      <str>NM_000501</str>
+    </arr>
+    <arr name="mane_select">
+      <str>ENST00000252034.12</str>
+      <str>NM_000501.4</str>
+    </arr>
+    <arr name="pubmed_id">
+      <long>40158781</long>
+      <long>38501287</long>
+      <long>8096434</long>
+    </arr>
+    <str name="name">elastin</str>
+    <str name="uuid">819da014-f277-4ff2-a491-b2805b4b2f3b</str>
+    <arr name="omim_id">
+      <str>130160</str>
+    </arr>
+    <str name="status">Approved</str>
+    <arr name="alias_symbol">
+      <str>WBS</str>
+      <str>WS</str>
+      <str>SVAS</str>
+    </arr>
+    <str name="gencc">HGNC:3327</str>
+    <str name="hgnc_id">HGNC:3327</str>
+    <arr name="uniprot_ids">
+      <str>P15502</str>
+    </arr>
+    <str name="location">7q11.23</str>
+    <str name="ucsc_id">uc003tzn.5</str>
+    <arr name="rgd_id">
+      <str>RGD:67394</str>
+    </arr>
+    <int name="orphanet">121517</int>
+    <str name="locus_group">protein-coding gene</str>
+    <str name="symbol">ELN</str>
+    <str name="vega_id">OTTHUMG00000150229</str>
+    <arr name="mgd_id">
+      <str>MGI:95317</str>
+    </arr>
+    <str name="ensembl_gene_id">ENSG00000049540</str>
+    <arr name="ccds_id">
+      <str>CCDS43598</str>
+      <str>CCDS43599</str>
+      <str>CCDS47611</str>
+      <str>CCDS47612</str>
+      <str>CCDS5562</str>
+      <str>CCDS64673</str>
+      <str>CCDS64674</str>
+      <str>CCDS64675</str>
+      <str>CCDS64676</str>
+      <str>CCDS64677</str>
+      <str>CCDS64678</str>
+      <str>CCDS75616</str>
+      <str>CCDS75617</str>
+    </arr>
+    <str name="entrez_id">2006</str>
+    <date name="date_name_changed">2008-08-01T00:00:00Z</date>
+    <date name="date_approved_reserved">1986-01-01T00:00:00Z</date></doc>
+</result>
+</response>

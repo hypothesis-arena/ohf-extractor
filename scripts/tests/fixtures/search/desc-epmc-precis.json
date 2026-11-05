@@ -1,0 +1,24 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 1,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "99050001",
+        "pmid": "99050001",
+        "title": "Precis of an invented commentary token",
+        "pubYear": "2004",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "journalInfo": {},
+        "firstPublicationDate": "2004-02-01",
+        "license": "cc by",
+        "authorString": "Wegner DM"
+      }
+    ]
+  }
+}

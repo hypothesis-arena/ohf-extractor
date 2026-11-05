@@ -1,0 +1,21 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "linksets": [
+    {
+      "dbfrom": "pubmed",
+      "ids": [
+        "34937938"
+      ],
+      "linksetdbs": [
+        {
+          "links": [
+            "40324092",
+            "99010003",
+            "40324086",
+            "99999999"
+          ]
+        }
+      ]
+    }
+  ]
+}

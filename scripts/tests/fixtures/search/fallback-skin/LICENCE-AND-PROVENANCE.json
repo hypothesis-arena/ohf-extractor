@@ -1,0 +1,42 @@
+{
+  "article": {
+    "pmcid": "PMC13243600",
+    "pmid": "41991987",
+    "doi": "10.1038/s41598-026-48648-3",
+    "title": "Fibroblast-derived matrix human skin equivalents reveal distinct roles for papillary and reticular fibroblasts in human skin barrier integrity and aging.",
+    "authors": "Louis A, Mergen C, Rietveld MH, Gendronneau G, Andre N, Ben Khalifa Y, Bouwstra JA, Rissmann R, Halkoum R, El Ghalbzouri A.",
+    "copyright": "\u00a9 The Author(s) 2026"
+  },
+  "licence": {
+    "id": "CC-BY-NC-ND-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "measured_from": "Original article front/article-meta/permissions/license/license-p and its ext-link, before excerpt selection",
+    "statement_name": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License",
+    "kit_conversion": "restriction_marker: NC/ND; no author-zone conversion or schema licence waiver"
+  },
+  "provenance": {
+    "original_xml_sha256": "58671becb257fc272a69038d2938cee4ef59a8b14b7b08ebae5e456d8bfa3c29",
+    "response_sha256": "475d4a4dcbf6fdbab4ccbc2dcc6ad636a727cacdac4ee31ea7d08d9ade2f2ebc",
+    "response_query": "ELOVL1 AND CERS3",
+    "response_recorded_at": "Not recorded: own synthetic input. Previous recording timestamp applies to the historical response only.",
+    "response_page_size": 3,
+    "service_hit_count": 91,
+    "notice": "91 hits are not 91 relevant papers; this fixture tests candidate retention only.",
+    "primary_zero": "Synthetic empty response for a narrower invented query, not a recorded live zero.",
+    "other_responses": "Synthetic empty no_reviews response; not represented as the recorded broad response.",
+    "historical_recorded_response_sha256": "4b6c283a432fde82d6bfcb357f0b9f40f591a7db7ccfe9ce7b3849d59eb7f2cb",
+    "response_origin": "Own synthetic response; identifiers are regression tokens, not live retrieval evidence."
+  },
+  "excerpt": {
+    "sha256": "bc7d0befbf7bfa1fcd973354754ba97f57d78959e0ae82f5afceb12202d64068",
+    "source_locator": "21st p element in JATS document order (all p elements), one sentence",
+    "source_paragraph_text_sha256": "d19a6e9ec66a02701d314da86778b4224d2c6b100d1279c5e4946171b059b367",
+    "characters": 120,
+    "transformation": "One displayed-text sentence was selected and hashed from XML itertext after licence inspection; sentence bytes are not distributed with this fixture.",
+    "use": "Only metadata, locators and hashes retained. Retrieval test does not need article text; no source verification, scientific efficacy or author-zone content.",
+    "licence_notice": "Excerpt remains subject to the article licence above; not relicensed as code.",
+    "retained": false,
+    "sha256_basis": "Unretained UTF-8 displayed-text sentence plus one LF",
+    "sentence_utf8_sha256": "f71ebb8ed3c194673e0881ddb1563576ec1e9f1b941d13fa6fb2e169f8a5f283"
+  }
+}

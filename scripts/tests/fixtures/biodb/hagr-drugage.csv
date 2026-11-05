@@ -1,0 +1,41 @@
+compound_name,species,strain,dosage,age_at_initiation,treatment_duration,avg_lifespan_change_percent,avg_lifespan_significance,max_lifespan_change_percent,max_lifespan_significance,gender,weight_change_percent,weight_change_significance,ITP,pubmed_id
+Rapamycin,Mus musculus,UM-HET3,14 ppm food (2.24 ppm/day bodyweight),20 months,until death,13,S,14,S,Female,,NA,Yes,19587680
+Rapamycin,Mus musculus,UM-HET3,14 ppm food (2.24 ppm/day bodyweight),20 months,until death,9,S,9,S,Male,,NA,Yes,19587680
+Rapamycin,Drosophila melanogaster,white Dahomey,200 µM,,,13,S,,NA,Female,,NA,No,20074526
+Rapamycin,Mus musculus,UM-HET3,14 ppm food (2.24 ppm/day bodyweight),9 months,until death,18,S,13,S,Female,-6,S,Yes,20974732
+Rapamycin,Mus musculus,UM-HET3,14 ppm food (2.24 ppm/day bodyweight),9 months,until death,10,S,16,S,Male,-10,S,Yes,20974732
+Rapamycin,Mus musculus,129/Sv,1.5 ppm bodyweight subcutaneous injection 3 times a week for 2 weeks followed by a 2-week break,2 months,until death,10,NS,8,S,Female,-8,S,No,22107964
+Rapamycin,Caenorhabditis elegans,N2,100 µM,,,19,S,,NA,Unknown,,NA,No,22560223
+Rapamycin,Caenorhabditis elegans,N2,1 nM,,,16.2,S,,NA,Unknown,,NA,No,23698443
+Rapamycin,Caenorhabditis elegans,N2,1 nM,,,20.6,S,,NA,Unknown,,NA,No,23698443
+Rapamycin,Caenorhabditis elegans,N2,100 µM,,,26,S,34.84,NA,Unknown,,NA,No,24332851
+Rapamycin,Mus musculus,UM-HET3,42 ppm food,9 months,until death,26,S,11,S,Female,-20,NA,Yes,24341993
+Rapamycin,Mus musculus,UM-HET3,42 ppm food,9 months,until death,23,S,8,S,Male,-19,NA,Yes,24341993
+Rapamycin,Mus musculus,UM-HET3,14 ppm food,9 months,until death,21,S,11,S,Female,-4,NA,Yes,24341993
+Rapamycin,Mus musculus,UM-HET3,14 ppm food,9 months,until death,13,S,8,S,Male,-11,NA,Yes,24341993
+Rapamycin,Mus musculus,UM-HET3,4.7 ppm food,9 months,until death,16,S,5,S,Female,-4,NA,Yes,24341993
+Rapamycin,Mus musculus,UM-HET3,4.7 ppm food,9 months,until death,3,NS,6,NS,Male,-6,NA,Yes,24341993
+Rapamycin,Mus musculus,C57BL/6J,14 ppm food,4 months,until death,7,S,19,S,Female,-15,S,No,24409289
+Rapamycin,Mus musculus,C57BL/6J,14 ppm food,4 months,until death,14,NS,8,NS,Male,-11,S,No,24409289
+Rapamycin,Caenorhabditis elegans,N2,10 µM,,,18.9,S,,NA,Unknown,,NA,No,26676933
+Rapamycin,Mus musculus,C57BL/6J.Nia,2 ppm bodyweight intraperitoneal injection every 5 days,20 months,3 months,7,S,18,S,Female,-7,NS,No,27091134
+Rapamycin,Mus musculus,C57BL/6JNia,128 ppm food,20 months,3 months,9,S,,NA,Female,7,S,No,27549339
+Rapamycin,Mus musculus,C57BL/6JNia,128 ppm food,20 months,3 months,14,S,,NA,Male,-3,NS,No,27549339
+Rapamycin,Mus musculus,C57BL/6JNia,8 ppm/day bodyweight intraperitoneal injection,20 months,3 months,0,NS,,NA,Female,-13,S,No,27549339
+Rapamycin,Mus musculus,C57BL/6JNia,8 ppm/day bodyweight intraperitoneal injection,20 months,3 months,14,S,,NA,Male,-13,S,No,27549339
+Rapamycin,Drosophila melanogaster,Dahomey,10 µM,,,12.98,S,-2.89,NA,Unknown,,NA,No,28025308
+Rapamycin,Drosophila melanogaster,Dahomey,5 µM,,,16.35,S,-2.89,NA,Unknown,,NA,No,28025308
+Rapamycin,Caenorhabditis elegans,N2,100 µM,,,21.3,S,,NA,Unknown,,NA,No,29874838
+Rapamycin,Drosophila melanogaster,Oregon-R,100 µM,,,38.4,S,50,NA,Male,,NA,No,30269951
+Rapamycin,Caenorhabditis elegans,N2,100 µM,,,25.9,S,16.38,NA,Unknown,,NA,No,30269951
+Rapamycin,Caenorhabditis elegans,N2,50 µM,,,14.14,S,,NA,Unknown,,NA,No,30970250
+Rapamycin,Drosophila melanogaster,Canton-S,20 μM,,,4.29,NS,,NA,Female,,NA,No,33008901
+Rapamycin,Mus musculus,UM-HET3,42 ppm food,20 months,3 months,4,NS,4,NS,Female,-11,S,Yes,33145977
+Rapamycin,Mus musculus,UM-HET3,42 ppm food,20 months,3 months,11,S,5,NS,Male,-9,S,Yes,33145977
+Rapamycin,Mus musculus,UM-HET3,42 ppm food every other month,20 months,unti death,8,S,10,S,Female,-8,S,Yes,33145977
+Rapamycin,Mus musculus,UM-HET3,42 ppm food every other month,20 months,unti death,9,S,9,S,Male,-10,S,Yes,33145977
+Rapamycin,Mus musculus,UM-HET3,42 ppm food,20 months,unti death,15,S,12,S,Female,-13,S,Yes,33145977
+Rapamycin,Mus musculus,UM-HET3,42 ppm food,20 months,unti death,11,S,9,S,Male,-12,S,Yes,33145977
+Metformin,Mus musculus,SHR,100 ppm water,3 months,until death,38,S,21,S,Female,0,NS,No,18728386
+Metformin,Caenorhabditis elegans,N2,50 mM,,,40,S,0,NA,Unknown,,NA,No,20090912
+Metformin,Rattus norvegicus,Fischer 344,300 mg/kg/day,,,2.3,NS,2.1,NA,Unknown,,NA,No,20304770

@@ -1,0 +1,9 @@
+# ChEMBL-derived test fixtures
+
+The files listed in SA-FILES.json are distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported licence (CC BY-SA 3.0). The full licence text is in LICENSE.CC-BY-SA-3.0.txt.
+
+Source: ChEMBL, EMBL-EBI. Terms: https://chembl.gitbook.io/chembl-interface-documentation/about . The mixed Open Targets fixtures include ChEMBL-derived data; their source licence is identified at https://platform-docs.opentargets.org/licence .
+
+These are retained response fixtures, including the source selections and trimming recorded in the path manifest. The export relocates the files without changing their contents. The manifest records the original capture date where known, exact byte hash and export location for each file.
+
+This directory is separate from the MIT-licensed software. Preserve this licence and notice when redistributing these data or adaptations.

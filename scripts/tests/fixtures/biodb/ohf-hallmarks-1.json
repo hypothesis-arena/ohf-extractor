@@ -1,0 +1,21 @@
+{
+  "schema": "ohf:hallmarks@1",
+  "source": {
+    "citation": "López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G. Hallmarks of aging: an expanding universe. Cell. 2023;186(2):243-278.",
+    "doi": "10.1016/j.cell.2022.11.001"
+  },
+  "terms": [
+    {"id": "genomic_instability", "label": "Genomic instability"},
+    {"id": "telomere_attrition", "label": "Telomere attrition"},
+    {"id": "epigenetic_alterations", "label": "Epigenetic alterations"},
+    {"id": "loss_of_proteostasis", "label": "Loss of proteostasis"},
+    {"id": "disabled_macroautophagy", "label": "Disabled macroautophagy"},
+    {"id": "deregulated_nutrient_sensing", "label": "Deregulated nutrient-sensing"},
+    {"id": "mitochondrial_dysfunction", "label": "Mitochondrial dysfunction"},
+    {"id": "cellular_senescence", "label": "Cellular senescence"},
+    {"id": "stem_cell_exhaustion", "label": "Stem cell exhaustion"},
+    {"id": "altered_intercellular_communication", "label": "Altered intercellular communication"},
+    {"id": "chronic_inflammation", "label": "Chronic inflammation"},
+    {"id": "dysbiosis", "label": "Dysbiosis"}
+  ]
+}

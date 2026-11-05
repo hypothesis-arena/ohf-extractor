@@ -1,0 +1,294 @@
+{
+ "schema": "ohf-extractor:hallmarks-map@1",
+ "about": "Which hallmark of ageing a database term suggests: a hint for the converter, never a hallmark of a card. A term not in a row suggests none.",
+ "vocabulary": {
+  "id": "ohf:hallmarks@1",
+  "from": "the OHF standard, vocabularies/hallmarks-1.json",
+  "sha256": "sha256:798eddf6505f312ba3cdb900c7a935f9a2aca92d6f0226d961998e1ede1e79f9",
+  "review": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+  "hallmarks": [
+   "genomic_instability",
+   "telomere_attrition",
+   "epigenetic_alterations",
+   "loss_of_proteostasis",
+   "disabled_macroautophagy",
+   "deregulated_nutrient_sensing",
+   "mitochondrial_dysfunction",
+   "cellular_senescence",
+   "stem_cell_exhaustion",
+   "altered_intercellular_communication",
+   "chronic_inflammation",
+   "dysbiosis"
+  ]
+ },
+ "opengenes": {
+  "terms": "Open Genes ageing mechanisms (https://open-genes.com/api/aging-mechanisms), by id",
+  "rows": [
+   {
+    "from": "opengenes:75",
+    "label": "nuclear DNA instability",
+    "hallmark": "genomic_instability",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "damage to nuclear DNA is genomic instability"
+   },
+   {
+    "from": "opengenes:74",
+    "label": "mitochondrial DNA instability",
+    "hallmark": "genomic_instability",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the review places mitochondrial DNA damage under genomic instability, beside nuclear DNA; Open Genes names it as the pair of nuclear DNA instability"
+   },
+   {
+    "from": "opengenes:76",
+    "label": "nuclear architecture impairment",
+    "hallmark": "genomic_instability",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the review places defects of the nuclear lamina under genomic instability"
+   },
+   {
+    "from": "opengenes:77",
+    "label": "telomere attrition",
+    "hallmark": "telomere_attrition",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the same hallmark by name"
+   },
+   {
+    "from": "opengenes:81",
+    "label": "alterations in DNA methylation",
+    "hallmark": "epigenetic_alterations",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "DNA methylation is one of the epigenetic alterations of the review"
+   },
+   {
+    "from": "opengenes:78",
+    "label": "alterations in histone modifications",
+    "hallmark": "epigenetic_alterations",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "histone modification is one of the epigenetic alterations of the review"
+   },
+   {
+    "from": "opengenes:79",
+    "label": "chromatin remodeling",
+    "hallmark": "epigenetic_alterations",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "chromatin remodelling is one of the epigenetic alterations of the review"
+   },
+   {
+    "from": "opengenes:80",
+    "label": "transcriptional alterations",
+    "hallmark": "epigenetic_alterations",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the review treats age-related transcriptional alterations with the epigenetic ones"
+   },
+   {
+    "from": "opengenes:82",
+    "label": "impairment of proteins folding and stability",
+    "hallmark": "loss_of_proteostasis",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "protein folding and stability are proteostasis"
+   },
+   {
+    "from": "opengenes:83",
+    "label": "degradation of proteolytic systems",
+    "hallmark": "loss_of_proteostasis",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the proteolytic systems (proteasome, lysosome) maintain proteostasis; macroautophagy has its own row"
+   },
+   {
+    "from": "opengenes:95",
+    "label": "disabled macroautophagy",
+    "hallmark": "disabled_macroautophagy",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the same hallmark by name"
+   },
+   {
+    "from": "opengenes:86",
+    "label": "INS/IGF-1 pathway dysregulation",
+    "hallmark": "deregulated_nutrient_sensing",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "insulin and IGF-1 signalling is a nutrient-sensing pathway of the review"
+   },
+   {
+    "from": "opengenes:84",
+    "label": "TOR pathway dysregulation",
+    "hallmark": "deregulated_nutrient_sensing",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "mTOR is a nutrient-sensing pathway of the review"
+   },
+   {
+    "from": "opengenes:85",
+    "label": "AMPK pathway dysregulation",
+    "hallmark": "deregulated_nutrient_sensing",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "AMPK is a nutrient-sensing pathway of the review"
+   },
+   {
+    "from": "opengenes:96",
+    "label": "SIRT pathway dysregulation",
+    "hallmark": "deregulated_nutrient_sensing",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "sirtuins are nutrient sensors in the review"
+   },
+   {
+    "from": "opengenes:87",
+    "label": "impairment of the mitochondrial integrity and biogenesis",
+    "hallmark": "mitochondrial_dysfunction",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "mitochondrial integrity and biogenesis are mitochondrial function"
+   },
+   {
+    "from": "opengenes:88",
+    "label": "accumulation of reactive oxygen species",
+    "hallmark": "mitochondrial_dysfunction",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the review treats mitochondrial reactive oxygen species under mitochondrial dysfunction"
+   },
+   {
+    "from": "opengenes:89",
+    "label": "senescent cells accumulation",
+    "hallmark": "cellular_senescence",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the same hallmark: senescent cells accumulating"
+   },
+   {
+    "from": "opengenes:90",
+    "label": "stem cell exhaustion",
+    "hallmark": "stem_cell_exhaustion",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the same hallmark by name"
+   },
+   {
+    "from": "opengenes:93",
+    "label": "intercellular communication impairment",
+    "hallmark": "altered_intercellular_communication",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the same hallmark by name"
+   },
+   {
+    "from": "opengenes:92",
+    "label": "sterile inflammation",
+    "hallmark": "chronic_inflammation",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "sterile, chronic low-grade inflammation (inflammaging) is the hallmark chronic inflammation"
+   }
+  ],
+  "not_mapped": [
+   {
+    "from": "opengenes:91",
+    "label": "transposon activity",
+    "why": "the review names transposable elements with more than one hallmark (genomic instability, epigenetic alterations, inflammation): no one hallmark"
+   },
+   {
+    "from": "opengenes:94",
+    "label": "changes in the extracellular matrix structure",
+    "why": "the review names no one hallmark for the extracellular matrix"
+   }
+  ]
+ },
+ "go": {
+  "terms": "Gene Ontology biological process terms, release 2026-09-27; a gene counts under a row when QuickGO maps its annotations to the term (goUsage=slim: is_a, part_of, occurs_in, regulates)",
+  "rows": [
+   {
+    "from": "GO:0006281",
+    "label": "DNA repair",
+    "hallmark": "genomic_instability",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process DNA repair is the process the hallmark genomic instability describes"
+   },
+   {
+    "from": "GO:0000723",
+    "label": "telomere maintenance",
+    "hallmark": "telomere_attrition",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process telomere maintenance is the process the hallmark telomere attrition describes"
+   },
+   {
+    "from": "GO:0040029",
+    "label": "epigenetic regulation of gene expression",
+    "hallmark": "epigenetic_alterations",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process epigenetic regulation of gene expression is the process the hallmark epigenetic alterations describes"
+   },
+   {
+    "from": "GO:0006338",
+    "label": "chromatin remodeling",
+    "hallmark": "epigenetic_alterations",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process chromatin remodeling is the process the hallmark epigenetic alterations describes"
+   },
+   {
+    "from": "GO:0006457",
+    "label": "protein folding",
+    "hallmark": "loss_of_proteostasis",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process protein folding is the process the hallmark loss of proteostasis describes"
+   },
+   {
+    "from": "GO:0010498",
+    "label": "proteasomal protein catabolic process",
+    "hallmark": "loss_of_proteostasis",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process proteasomal protein catabolic process is the process the hallmark loss of proteostasis describes"
+   },
+   {
+    "from": "GO:0016236",
+    "label": "macroautophagy",
+    "hallmark": "disabled_macroautophagy",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process macroautophagy is the process the hallmark disabled macroautophagy describes"
+   },
+   {
+    "from": "GO:0031929",
+    "label": "TOR signaling",
+    "hallmark": "deregulated_nutrient_sensing",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process TOR signaling is the process the hallmark deregulated nutrient sensing describes"
+   },
+   {
+    "from": "GO:0008286",
+    "label": "insulin receptor signaling pathway",
+    "hallmark": "deregulated_nutrient_sensing",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process insulin receptor signaling pathway is the process the hallmark deregulated nutrient sensing describes"
+   },
+   {
+    "from": "GO:0007005",
+    "label": "mitochondrion organization",
+    "hallmark": "mitochondrial_dysfunction",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process mitochondrion organization is the process the hallmark mitochondrial dysfunction describes"
+   },
+   {
+    "from": "GO:0090398",
+    "label": "cellular senescence",
+    "hallmark": "cellular_senescence",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process cellular senescence is the process the hallmark cellular senescence describes"
+   },
+   {
+    "from": "GO:0019827",
+    "label": "stem cell population maintenance",
+    "hallmark": "stem_cell_exhaustion",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process stem cell population maintenance is the process the hallmark stem cell exhaustion describes"
+   },
+   {
+    "from": "GO:0007267",
+    "label": "cell-cell signaling",
+    "hallmark": "altered_intercellular_communication",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process cell-cell signaling is the process the hallmark altered intercellular communication describes"
+   },
+   {
+    "from": "GO:0006954",
+    "label": "inflammatory response",
+    "hallmark": "chronic_inflammation",
+    "source": "López-Otín C, et al. Hallmarks of aging: An expanding universe. Cell 186(2):243-278 (2023), doi:10.1016/j.cell.2022.11.001",
+    "basis": "the GO process inflammatory response is the process the hallmark chronic inflammation describes"
+   }
+  ],
+  "none_for": {
+   "dysbiosis": "a hallmark of the microbiome, not a process of a human gene product"
+  }
+ }
+}

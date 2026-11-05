@@ -1,0 +1,8 @@
+{
+  "licence_text_sha256": "8bf5de08cdf5c344b86a90a5b2d26149477de7ce94273e9eba2e5ed431e31394",
+  "licence_text_source": "Retained Debian common-licences CC-BY-SA-3.0 legal text; unchanged bytes",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+  "terms_url": "https://chembl.gitbook.io/chembl-interface-documentation/about",
+  "data_source": "ChEMBL, EMBL-EBI; mixed Open Targets response fixtures include ChEMBL-derived data",
+  "transport": "No new request made by the export transformer"
+}

@@ -1,0 +1,32 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 6,
+  "citationList": {
+    "citation": [
+      {
+        "source": "MED",
+        "id": "39993196"
+      },
+      {
+        "source": "MED",
+        "id": "40163737"
+      },
+      {
+        "source": "MED",
+        "id": "99010003"
+      },
+      {
+        "source": "MED",
+        "id": "40324092"
+      },
+      {
+        "source": "MED",
+        "id": "40324086"
+      },
+      {
+        "source": "MED",
+        "id": "35102282"
+      }
+    ]
+  }
+}

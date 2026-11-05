@@ -1,0 +1,2467 @@
+{
+  "schema": "ohf:hypothesis@1",
+  "id": "h_sleep-brain-clearance",
+  "version": 1,
+  "standard_version": "1.0",
+  "vocabularies": {
+    "heuristics": {
+      "id": "ohf:heuristics@1",
+      "sha256": "sha256:ef18bd7539c4cf06878be8720cbab9e541d5d41f0c0e369a0274bd1b07e7f5ef"
+    },
+    "profiles": {
+      "id": "ohf:profiles@1",
+      "sha256": "sha256:5c7f2b59712a38c9c03ecfed9ceebe782b0c43b6ac60485ab44396b6e1e681cc"
+    }
+  },
+  "identity": {
+    "proposition_id": "h_sleep-brain-clearance",
+    "version": 1,
+    "supersedes": [],
+    "retractions": [],
+    "duplicate_cluster_ref": null,
+    "representative_ref": null,
+    "lifecycle": "example"
+  },
+  "author": {
+    "source": {
+      "kind": "paper",
+      "citation": "Miao A, Luo T, Hsieh B, Edge CJ, Gridley M, Wong RTC, Constandinou TG, Wisden W, Franks NP. Brain clearance is reduced during sleep and anesthesia. Nat Neurosci. 2024;27(6):1046",
+      "doi": "10.1038/s41593-024-01638-y",
+      "url": "https://doi.org/10.1038/s41593-024-01638-y",
+      "license": "CC-BY-4.0",
+      "rights_basis": "license",
+      "retrieved_at": "2026-10-20T18:19:27Z",
+      "source_text_sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898",
+      "language": "en"
+    },
+    "generator": {
+      "kind": "human",
+      "system": null,
+      "system_version": null,
+      "model": null
+    },
+    "generation": {
+      "run_id": null,
+      "generated": null,
+      "submitted": null,
+      "submits_all": null
+    },
+    "submitted_at": "2026-10-20T18:19:27Z",
+    "layers": {
+      "core": {
+        "statement": {
+          "value": "Moreover, we show that brain clearance is markedly reduced, not increased, during sleep and anesthesia.",
+          "locator": "XML .//p[3] (1-based document order)"
+        },
+        "explanandum": {
+          "value": "However, whether sleep does enhance clearance by increased bulk flow is unresolved, with findings both supporting3,4,12,14–16 and challenging10,11,17–19 the idea.",
+          "locator": "XML .//p[8] (1-based document order)"
+        }
+      },
+      "mechanism": {},
+      "predictions": [],
+      "evidence": {},
+      "provenance": {},
+      "profile": {},
+      "appendix": {}
+    }
+  },
+  "added": {
+    "by": {
+      "converter": "ohf-extractor",
+      "converter_version": "0.2.1",
+      "converter_hash": "sha256:cc5042ad07f88e967fdf3d57f3c7d1c9d46093d3707e6cb640cb63bbf74995eb",
+      "model": "claude-opus-5-5"
+    },
+    "at": "2026-10-20T20:51:12Z",
+    "cutoff_date": "2026-03-18",
+    "layers": {
+      "core": {
+        "kind": {
+          "value": "association",
+          "src": "abstract"
+        },
+        "scope": {
+          "value": "Clearance and movement of fluorescent molecules measured in the brains of male mice, during sleep and wake or anesthesia. Sleep was recovery sleep after 5 h of sleep deprivation, compared with recordings made during the deprivation.",
+          "src": "abstract"
+        },
+        "atoms": [
+          {
+            "id": "a_clear_sleep",
+            "statement": {
+              "value": "Clearance of the injected dye from the brain is reduced in mice that are sleeping, compared with mice that are kept awake: the sleep recordings were made during recovery sleep after 5 h of sleep deprivation, and the wake recordings during the deprivation, in the same animals.",
+              "src": "sleep_method"
+            },
+            "claim_type": {
+              "value": "association",
+              "src": "photometry"
+            },
+            "role": {
+              "value": "core",
+              "src": "photometry"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "abstract",
+              "basis_quote": "Moreover, we show that brain clearance is markedly reduced, not increased, during sleep and anesthesia."
+            }
+          },
+          {
+            "id": "a_clear_anesth",
+            "statement": {
+              "value": "In the presence of the anesthetics dexmedetomidine, ketamine-xylazine or pentobarbital, clearance of the injected dye from the brain is substantially reduced compared with saline-injected controls.",
+              "src": "photometry"
+            },
+            "claim_type": {
+              "value": "causal_effect",
+              "src": "photometry"
+            },
+            "role": {
+              "value": "core",
+              "src": "photometry"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "abstract",
+              "basis_quote": "Moreover, we show that brain clearance is markedly reduced, not increased, during sleep and anesthesia."
+            }
+          },
+          {
+            "id": "a_no_state_change",
+            "statement": {
+              "value": "The diffusion coefficient of 4 kDa FITC-dextran in the cortex does not change significantly with vigilance state, with dexmedetomidine sedation or over the day-night cycle. The authors estimate that they could have detected a change in bulk flow between vigilance states of more than 0.5 μm s−1, but pairwise flows in opposite directions over small distances, which might average out, cannot be ruled out.",
+              "src": "diffusion"
+            },
+            "claim_type": {
+              "value": "association",
+              "src": "diffusion"
+            },
+            "role": {
+              "value": "core",
+              "src": "diffusion"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "diffusion",
+              "basis_quote": "Notably, these results show that diffusion kinetics do not change during sleep or anesthesia."
+            }
+          },
+          {
+            "id": "a_diffusive",
+            "statement": {
+              "value": "The results suggest that the movement of 4 kDa FITC-dextran in the cortex is predominantly by diffusion.",
+              "src": "diffusion"
+            },
+            "claim_type": {
+              "value": "mechanism",
+              "src": "diffusion"
+            },
+            "role": {
+              "value": "auxiliary",
+              "src": "diffusion"
+            },
+            "modality": {
+              "value": "likely",
+              "src": "diffusion",
+              "basis_quote": "suggests that the movement of 4 kDa FITC-dextran in the cortex is predominantly by diffusion"
+            }
+          },
+          {
+            "id": "a_depth",
+            "statement": {
+              "value": "Peak clearance shows a weak negative correlation with EEG delta (0.5-4 Hz) power, implying that the deeper the sleep, the lower the clearance.",
+              "src": "photometry"
+            },
+            "claim_type": {
+              "value": "association",
+              "src": "photometry"
+            },
+            "role": {
+              "value": "auxiliary",
+              "src": "photometry"
+            },
+            "modality": {
+              "value": "likely",
+              "src": "photometry",
+              "basis_quote": "implying that the deeper the sleep, the lower the clearance"
+            }
+          },
+          {
+            "id": "a_function",
+            "statement": {
+              "value": "The results challenge the idea that the core function of sleep is to clear toxins from the brain.",
+              "src": "limits"
+            },
+            "claim_type": {
+              "value": "functional_attribution",
+              "src": "limits"
+            },
+            "role": {
+              "value": "consequence",
+              "src": "limits"
+            },
+            "modality": {
+              "value": "claimed_shown",
+              "src": "limits",
+              "basis_quote": "Whatever the mechanism, however, our results challenge the idea that the core function of sleep is to clear toxins from the brain."
+            }
+          }
+        ],
+        "alternative_explanations": {
+          "value": [
+            {
+              "claim_or_ref": {
+                "kind": "literal",
+                "text": "The glymphatic hypothesis: during NREM sleep, bulk flow of fluid, rather than just diffusion, actively clears solutes from the brain parenchyma, driven by hydrostatic pressure gradients established by arterial pulsations; anesthetics at sedative doses were also reported to increase clearance."
+              },
+              "unresolved_reason": "The article says that whether sleep enhances clearance by increased bulk flow is unresolved, with findings both supporting and challenging the idea."
+            }
+          ],
+          "src": "intro"
+        },
+        "uncertainties": {
+          "value": [
+            {
+              "id": "u_molecule_size",
+              "question": "The clearance data are for a small dye that moves freely in extracellular space; molecules of larger molecular weight may behave differently.",
+              "kind": "scope"
+            },
+            {
+              "id": "u_mechanism",
+              "question": "Exactly how anesthetics and sleep inhibit brain clearance is unclear; CSF outflow from the brain is markedly reduced by anesthetics.",
+              "kind": "mechanism"
+            },
+            {
+              "id": "u_location",
+              "question": "Clearance might vary with anatomical location, although the variation appears small.",
+              "kind": "scope"
+            }
+          ],
+          "src": "limits"
+        },
+        "explains": {
+          "value": [
+            {
+              "id": "x_csf_dye_penetration",
+              "observation": "Fluorescent dyes injected into the CSF via the cisterna magna penetrate further into the cortex during sleep and anesthesia.",
+              "observation_ref": {
+                "kind": "card",
+                "pointer": "/added/layers/evidence/lines/5"
+              },
+              "status": "explained_by_rival",
+              "mode": "consequence",
+              "rival_ref": {
+                "kind": "external",
+                "uri": "https://doi.org/10.1126/science.1241224",
+                "limitation": "Xie et al. 2013 (ref. 3 of the article); no licensed full text, known here only as the article reports it (paragraph 39)."
+              },
+              "atom_refs": [
+                "a_clear_sleep",
+                "a_clear_anesth"
+              ]
+            }
+          ],
+          "src": "xie"
+        },
+        "reinterprets": {
+          "value": [
+            {
+              "id": "r_csf_dye_penetration",
+              "finding": "Fluorescent dyes injected into the CSF via the cisterna magna penetrated further into the cortex during sleep and anesthesia.",
+              "finding_ref": {
+                "kind": "card",
+                "pointer": "/added/layers/evidence/lines/5"
+              },
+              "current_interpretation": "Molecular movement into the cortex is faster during sleep and anesthesia.",
+              "proposed_interpretation": "The concentration of dye in a brain region is the difference between its rate of arrival and its rate of departure, so the increased penetration can be equally well explained by a reduced rate of clearance rather than an increased rate of entry.",
+              "atom_refs": [
+                "a_clear_sleep",
+                "a_clear_anesth"
+              ]
+            }
+          ],
+          "src": "xie"
+        },
+        "testability": {
+          "value": {
+            "in_principle": "testable",
+            "in_practice": "feasible_now",
+            "justification": "Clearance is inferred from photometry: for the saline controls, the observed peak dye concentrations were much lower than predicted for spread without clearance (equation 2) and were accounted for by assuming clearance (equations 8 and 9). This clearance was then compared in the presence of anesthetics, and between sleeping mice and mice kept awake.",
+            "cheapest_test": {
+              "kind": "literal",
+              "text": "Repeat the photometry measurement of dye clearance in sleeping mice and in mice kept awake."
+            }
+          },
+          "src": "photometry",
+          "assessment": {
+            "assessor": "ohf-extractor 0.2.1",
+            "assessed_at": "2026-10-20T20:51:11Z",
+            "evidence_ref": {
+              "kind": "artifact",
+              "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+            }
+          }
+        },
+        "first_proposed": {
+          "value": {
+            "source_ref": {
+              "kind": "external",
+              "uri": "https://doi.org/10.1038/s41593-024-01638-y",
+              "limitation": "The article itself, cited by DOI; its full-text XML (PMC11156584) was read from Europe PMC and is identified by author.source.source_text_sha256, but is not stored with the card."
+            },
+            "date": "2024-05-13",
+            "precision": "day",
+            "basis": "author_statement",
+            "note": "The claim that clearance is reduced during sleep and anesthesia is made in this article (paragraph 3); the date is its publication date in the article metadata. The rival claim that sleep enhances clearance is credited to ref. 3, Xie et al. 2013 (paragraphs 8 and 39)."
+          },
+          "src": "pubdate"
+        }
+      },
+      "mechanism": {},
+      "predictions": [],
+      "evidence": {
+        "lines": [
+          {
+            "id": "e_photometry_anesth",
+            "target_ref": "a_clear_anesth",
+            "direction": {
+              "value": "supports",
+              "src": "photometry"
+            },
+            "quote": "Notably, in the presence of anesthetics, this clearance was substantially reduced. This was true for dexmedetomidine (Fig. 2d,h), ketamine-xylazine (Fig. 2e,i) and pentobarbital (Fig. 2f,j).",
+            "study_type": {
+              "value": "photometry of dye clearance in mice injected with saline or an anesthetic",
+              "src": "photometry"
+            },
+            "study_system": {
+              "value": "mice injected (i.p.) with saline or with dexmedetomidine, ketamine-xylazine or pentobarbital",
+              "src": "photometry"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC11156584.xml",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898",
+                  "locator": "XML .//p[29] (1-based document order)"
+                },
+                "src": "photometry"
+              }
+            ],
+            "src": "photometry",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "photometry",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "photometry"
+            },
+            "independence_group": {
+              "value": "g_miao_experiments",
+              "src": "contrib"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "some",
+                "note": "Data collection and analysis were generally not performed blind to the conditions (the automatic sleep scoring was blind); no statistical method was used to predetermine sample sizes."
+              },
+              "src": "stats",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_photometry_sleep",
+            "target_ref": "a_clear_sleep",
+            "direction": {
+              "value": "supports",
+              "src": "photometry"
+            },
+            "quote": "Reduced clearance was also observed in mice that were sleeping, compared with mice that were kept awake",
+            "study_type": {
+              "value": "photometry of dye clearance in sleeping mice compared with mice kept awake",
+              "src": "photometry"
+            },
+            "study_system": {
+              "value": "mice that were sleeping and mice that were kept awake",
+              "src": "photometry"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC11156584.xml",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898",
+                  "locator": "XML .//p[29] (1-based document order)"
+                },
+                "src": "photometry"
+              }
+            ],
+            "src": "photometry",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "photometry",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "photometry"
+            },
+            "independence_group": {
+              "value": "g_miao_experiments",
+              "src": "contrib"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "some",
+                "note": "Data collection and analysis were generally not performed blind to the conditions (the automatic sleep scoring was blind); no statistical method was used to predetermine sample sizes."
+              },
+              "src": "stats",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_histology",
+            "target_ref": "a_clear_sleep",
+            "direction": {
+              "value": "supports",
+              "src": "histology"
+            },
+            "quote": "These data show that redistribution of the AF488 dye is essentially by diffusion alone and confirm that sleep and ketamine-xylazine anesthesia inhibit clearance.",
+            "study_type": {
+              "value": "histology of dye concentration at 3 h and 5 h after dye injection",
+              "src": "histology"
+            },
+            "study_system": {
+              "value": "brain sections during sleep and ketamine-xylazine anesthesia",
+              "src": "histology"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC11156584.xml",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898",
+                  "locator": "XML .//p[36] (1-based document order)"
+                },
+                "src": "histology"
+              }
+            ],
+            "src": "histology",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "histology",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "histology"
+            },
+            "independence_group": {
+              "value": "g_miao_experiments",
+              "src": "contrib"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "some",
+                "note": "Data collection and analysis were generally not performed blind to the conditions (the automatic sleep scoring was blind); no statistical method was used to predetermine sample sizes."
+              },
+              "src": "stats",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_diffusion",
+            "target_ref": "a_no_state_change",
+            "direction": {
+              "value": "supports",
+              "src": "diffusion"
+            },
+            "quote": "We observed no significant change in the diffusion coefficient of 4 kDa FITC-dextran with either vigilance state or dexmedetomidine (200 μg kg−1; intraperitoneal (i.p.) sedation (Fig. 1d) or during the day–night cycle (Fig. 1e)).",
+            "study_type": {
+              "value": "measurement of the diffusion coefficient of 4 kDa FITC-dextran",
+              "src": "diffusion"
+            },
+            "study_system": {
+              "value": "cortex, across vigilance states, dexmedetomidine sedation and the day-night cycle",
+              "src": "diffusion"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC11156584.xml",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898",
+                  "locator": "XML .//p[22] (1-based document order)"
+                },
+                "src": "diffusion"
+              }
+            ],
+            "src": "diffusion",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "diffusion",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "diffusion"
+            },
+            "independence_group": {
+              "value": "g_miao_experiments",
+              "src": "contrib"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "some",
+                "note": "Data collection and analysis were generally not performed blind to the conditions (the automatic sleep scoring was blind); no statistical method was used to predetermine sample sizes."
+              },
+              "src": "stats",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_delta",
+            "target_ref": "a_depth",
+            "direction": {
+              "value": "supports",
+              "src": "delta"
+            },
+            "quote": "There was a weak negative correlation (Pearson’s correlation coefficient −0.58) between delta (0.5–4.0 Hz) power and peak clearance",
+            "study_type": {
+              "value": "correlation of EEG delta power with peak clearance",
+              "src": "delta"
+            },
+            "study_system": {
+              "value": "mice under pentobarbital, dexmedetomidine or ketamine-xylazine anesthesia, and during recovery sleep",
+              "src": "delta"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC11156584.xml",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898",
+                  "locator": "XML .//p[34] (1-based document order)"
+                },
+                "src": "delta"
+              }
+            ],
+            "src": "delta",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "none",
+                "intervention": "some",
+                "comparison": "none"
+              },
+              "src": "delta",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "delta"
+            },
+            "independence_group": {
+              "value": "g_miao_experiments",
+              "src": "contrib"
+            },
+            "risk_of_bias": {
+              "value": {
+                "level": "some",
+                "note": "Data collection and analysis were generally not performed blind to the conditions (the automatic sleep scoring was blind); no statistical method was used to predetermine sample sizes."
+              },
+              "src": "stats",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            }
+          },
+          {
+            "id": "e_csf_tracer",
+            "target_ref": "a_clear_sleep",
+            "direction": {
+              "value": "neutral",
+              "src": "xie"
+            },
+            "quote": "Those authors observed that fluorescent dyes injected into the cerebrospinal fluid (CSF) via the cisterna magna penetrated further into the cortex during sleep and anesthesia.",
+            "study_type": {
+              "value": "CSF tracer experiments of ref. 3, as reported by the article",
+              "src": "xie"
+            },
+            "study_system": {
+              "value": "dyes injected into the CSF via the cisterna magna, during sleep and anesthesia",
+              "src": "xie"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC11156584.xml",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898",
+                  "locator": "XML .//p[39] (1-based document order)"
+                },
+                "src": "xie"
+              }
+            ],
+            "src": "xie",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "serious",
+                "intervention": "none",
+                "comparison": "none"
+              },
+              "src": "xie",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "xie"
+            }
+          },
+          {
+            "id": "e_ne_clearance",
+            "target_ref": "a_clear_sleep",
+            "direction": {
+              "value": "disputes",
+              "src": "vay_ne"
+            },
+            "quote": "The descending phase of NE activity also correlates with the occurrence of sleep spindles and enhanced glymphatic clearance of tracers (2, 5, 21).",
+            "study_type": {
+              "value": "invasive animal experiments (refs. 2, 5 and 21), as summarized by the article",
+              "src": "vay_ne"
+            },
+            "study_system": {
+              "value": "animals; the descending phase of NE activity, which correlates with the occurrence of sleep spindles",
+              "src": "vay_ne"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13012097.xml",
+                  "sha256": "sha256:6f7194fa0ef01a650b1530a3c5baa74a616100c3d8b64b399df38327d4f31260",
+                  "locator": "XML .//p[32] (1-based document order)"
+                },
+                "src": "vay_ne"
+              }
+            ],
+            "src": "vay_ne",
+            "indirectness": {
+              "value": {
+                "system": "some",
+                "endpoint": "serious",
+                "intervention": "not_applicable",
+                "comparison": "serious"
+              },
+              "src": "vay_ne",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:6f7194fa0ef01a650b1530a3c5baa74a616100c3d8b64b399df38327d4f31260"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "vay_ne"
+            }
+          },
+          {
+            "id": "e_smith_diffusive",
+            "target_ref": "a_diffusive",
+            "direction": {
+              "value": "supports",
+              "src": "smith_abstract"
+            },
+            "quote": "transport of fluorescent dextrans in brain parenchyma depended on dextran size in a manner consistent with diffusive rather than convective transport",
+            "study_type": {
+              "value": "measurements of solute movement after intracisternal or intraparenchymal solute injection",
+              "src": "smith_abstract"
+            },
+            "study_system": {
+              "value": "mouse brain parenchyma, fluorescent dextrans of different sizes",
+              "src": "smith_abstract"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC5578736.xml",
+                  "sha256": "sha256:8096b6ec0066a440c8e043e2530269690d8d3c807ba9e2cef3557d2615a41047",
+                  "locator": "XML .//p[2] (1-based document order)"
+                },
+                "src": "smith_abstract"
+              }
+            ],
+            "src": "smith_abstract",
+            "indirectness": {
+              "value": {
+                "system": "none",
+                "endpoint": "some",
+                "intervention": "not_applicable",
+                "comparison": "some"
+              },
+              "src": "smith_abstract",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:8096b6ec0066a440c8e043e2530269690d8d3c807ba9e2cef3557d2615a41047"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "smith_abstract"
+            }
+          },
+          {
+            "id": "e_mestre_bulk",
+            "target_ref": "a_diffusive",
+            "direction": {
+              "value": "disputes",
+              "src": "mestre_flow"
+            },
+            "quote": "conservation of mass - as expressed by the continuity equation - demands that this volumetric flow must continue through other parts of the glymphatic system – that is, in the neuropil and the perivenous spaces",
+            "study_type": {
+              "value": "argument from conservation of mass and the bulk flow along periarterial spaces",
+              "src": "mestre_flow"
+            },
+            "study_system": {
+              "value": "brain neuropil and perivenous spaces",
+              "src": "mestre_flow"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC6307855.xml",
+                  "sha256": "sha256:a137b9f53c30e5ee14575d07a9c92bf8b6b9800cc5ffdb1de9771f6775a858e7",
+                  "locator": "XML .//p[38] (1-based document order)"
+                },
+                "src": "mestre_flow"
+              }
+            ],
+            "src": "mestre_flow",
+            "indirectness": {
+              "value": {
+                "system": "some",
+                "endpoint": "serious",
+                "intervention": "not_applicable",
+                "comparison": "some"
+              },
+              "src": "mestre_flow",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:a137b9f53c30e5ee14575d07a9c92bf8b6b9800cc5ffdb1de9771f6775a858e7"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "derivation",
+              "src": "mestre_flow"
+            }
+          },
+          {
+            "id": "e_vay_flow",
+            "target_ref": "a_no_state_change",
+            "direction": {
+              "value": "disputes",
+              "src": "vay_flow"
+            },
+            "quote": "Our results suggest that brain water increasingly flows during sleep under the drive of infraslow electrical oscillations (26).",
+            "study_type": {
+              "value": "human MREG imaging of infraslow BOLD oscillation power and propagation speed",
+              "src": "vay_flow"
+            },
+            "study_system": {
+              "value": "human brain, during sleep",
+              "src": "vay_flow"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13012097.xml",
+                  "sha256": "sha256:6f7194fa0ef01a650b1530a3c5baa74a616100c3d8b64b399df38327d4f31260",
+                  "locator": "XML .//p[31] (1-based document order)"
+                },
+                "src": "vay_flow"
+              }
+            ],
+            "src": "vay_flow",
+            "indirectness": {
+              "value": {
+                "system": "serious",
+                "endpoint": "serious",
+                "intervention": "not_applicable",
+                "comparison": "some"
+              },
+              "src": "vay_flow",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:6f7194fa0ef01a650b1530a3c5baa74a616100c3d8b64b399df38327d4f31260"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "vay_flow"
+            },
+            "independence_group": {
+              "value": "g_vayrynen_dataset",
+              "src": "vay_setup"
+            }
+          },
+          {
+            "id": "e_vay_nirs",
+            "target_ref": "a_no_state_change",
+            "direction": {
+              "value": "neutral",
+              "src": "vay_nirs"
+            },
+            "quote": "Contrary to our expectations, the infraslow CSF oscillations measured by our H2ONIRS setup did not increase during sleep.",
+            "study_type": {
+              "value": "fNIRS measurement of infraslow CSF oscillations",
+              "src": "vay_nirs"
+            },
+            "study_system": {
+              "value": "frontal brain regions, during sleep",
+              "src": "vay_nirs"
+            },
+            "items": [
+              {
+                "value": {
+                  "artifact": "PMC13012097.xml",
+                  "sha256": "sha256:6f7194fa0ef01a650b1530a3c5baa74a616100c3d8b64b399df38327d4f31260",
+                  "locator": "XML .//p[34] (1-based document order)"
+                },
+                "src": "vay_nirs"
+              }
+            ],
+            "src": "vay_nirs",
+            "indirectness": {
+              "value": {
+                "system": "serious",
+                "endpoint": "serious",
+                "intervention": "not_applicable",
+                "comparison": "some"
+              },
+              "src": "vay_nirs",
+              "assessment": {
+                "assessor": "ohf-extractor 0.2.1",
+                "assessed_at": "2026-10-20T20:51:11Z",
+                "evidence_ref": {
+                  "kind": "artifact",
+                  "sha256": "sha256:6f7194fa0ef01a650b1530a3c5baa74a616100c3d8b64b399df38327d4f31260"
+                }
+              }
+            },
+            "argument_kind": {
+              "value": "empirical",
+              "src": "vay_nirs"
+            },
+            "independence_group": {
+              "value": "g_vayrynen_dataset",
+              "src": "vay_setup"
+            }
+          }
+        ]
+      },
+      "provenance": {
+        "claim_author": {
+          "value": "Andawei Miao, Tianyuan Luo, Bryan Hsieh, Christopher J Edge, Morgan Gridley, Ryan Tak Chun Wong, Timothy G Constandinou, William Wisden, Nicholas P Franks",
+          "src": "meta"
+        },
+        "author_type": {
+          "value": "human",
+          "src": "meta"
+        },
+        "licence": {
+          "value": "CC-BY-4.0",
+          "src": "meta"
+        },
+        "original_artifact": {
+          "value": "PMC11156584.xml",
+          "src": "meta"
+        },
+        "origin_method": {
+          "value": "published_restatement",
+          "src": "meta"
+        }
+      },
+      "profile": {
+        "domain": "none"
+      },
+      "appendix": {}
+    },
+    "gaps": [
+      {
+        "path": "core.falsification_condition",
+        "disposition": "not_supplied",
+        "reason": "The article does not state what result would count against the claim.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "mechanism.summary",
+        "disposition": "not_supplied",
+        "reason": "The authors state that exactly how anesthetics and sleep inhibit brain clearance is unclear; they give no mechanism (paragraph 40).",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "predictions[].endpoint",
+        "disposition": "not_supplied",
+        "reason": "The article states no prediction of its own beyond the results it reports.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      },
+      {
+        "path": "core.opens[]",
+        "disposition": "not_supplied",
+        "reason": "The article names open questions (uncertainties) but does not say why they cannot be asked today or which method would allow it.",
+        "query_ids": [],
+        "inspected_artifacts": []
+      }
+    ],
+    "completeness": {
+      "level": "accepted",
+      "layers_present": [
+        "core",
+        "evidence",
+        "provenance",
+        "profile"
+      ],
+      "missing_for_next": [
+        "A comparable prediction: system, endpoint, form and epistemic status, and a direction for a directional contrast."
+      ]
+    },
+    "sources": {
+      "abstract": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[3] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "intro": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[8] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "diffusion": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[22] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "photometry": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[29] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "delta": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[34] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "histology": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[36] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "xie": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[39] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "limits": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[40] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "sleep_method": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[63] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "stats": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[70] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "contrib": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//p[87] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "vay_setup": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13012097/fullTextXML",
+        "locator": "XML .//p[36] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:30Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "meta": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//article-meta/contrib-group and .//permissions/license",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "pubdate": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+        "locator": "XML .//article-meta/pub-date",
+        "accessed_at": "2026-10-20T18:19:27Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "smith_abstract": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5578736/fullTextXML",
+        "locator": "XML .//p[2] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:31Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "mestre_flow": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6307855/fullTextXML",
+        "locator": "XML .//p[38] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:36Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "vay_flow": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13012097/fullTextXML",
+        "locator": "XML .//p[31] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:30Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "vay_ne": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13012097/fullTextXML",
+        "locator": "XML .//p[32] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:30Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      },
+      "vay_nirs": {
+        "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13012097/fullTextXML",
+        "locator": "XML .//p[34] (1-based document order)",
+        "accessed_at": "2026-10-20T18:19:30Z",
+        "tool": "reading of the Europe PMC full-text XML"
+      }
+    },
+    "budget": {
+      "model_calls": 0,
+      "http_requests": 0,
+      "input_tokens": null,
+      "output_tokens": null
+    },
+    "produced_by": {
+      "kind": "example_converter",
+      "pipeline": {
+        "name": "ohf-extractor",
+        "version": "0.2.1"
+      }
+    },
+    "source_verification": {
+      "status": "refetched_match",
+      "fetched_from": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11156584/fullTextXML",
+      "fetched_at": "2026-10-20T20:51:11Z",
+      "sha256": "sha256:99e98d6dd35507b0014474b5403b5da749c79e196159dd288fac3145fd28d898",
+      "metadata_check": {
+        "registry": "Crossref REST API",
+        "record_url": "https://api.crossref.org/works/10.1038/s41593-024-01638-y",
+        "checked_at": "2026-10-20T20:51:11Z",
+        "doi_match": true,
+        "title_match": true,
+        "retracted": false
+      }
+    },
+    "integrity": {
+      "entailment": [
+        {
+          "pointer": "/added/layers/core/kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/scope",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z",
+          "note": "The passage does not say that sleep was recovery sleep after 5 h of sleep deprivation or that it was compared with recordings made during the deprivation."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/statement",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z",
+          "note": "The passage describes only the experimental design and does not state that dye clearance is reduced in sleeping mice compared with mice kept awake."
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/0/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/1/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/2/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/3/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/4/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/statement",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/claim_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/role",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/modality",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/atoms/5/modality",
+          "basis": "basis_quote",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/alternative_explanations",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/uncertainties",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/explains",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z",
+          "note": "The passage says the dye-penetration observation is equally well explained by reduced clearance (the card's own claim), so it does not support the 'explained_by_rival' status, and it gives none of the rival reference's DOI or full-text limitation."
+        },
+        {
+          "pointer": "/added/layers/core/reinterprets",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/core/testability",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/0/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/direction",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z",
+          "note": "The passage supports reduced clearance in sleeping versus awake mice, but the passage does not mention the target statement's design details (recovery sleep after 5 h of sleep deprivation, wake recordings during the deprivation, same animals)."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/1/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/direction",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z",
+          "note": "The passage supports sleep inhibiting clearance, but the passage does not mention the target statement's design details (recovery sleep after 5 h of sleep deprivation, wake recordings during the deprivation, same animals)."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/2/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/3/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/direction",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z",
+          "note": "The passage reports the weak negative correlation between delta power and peak clearance but does not state the target's implication that deeper sleep means lower clearance."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/4/risk_of_bias",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/direction",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z",
+          "note": "The passage supports treating the CSF-dye observation as neutral, but the passage does not mention the target statement's design details (recovery sleep after 5 h of sleep deprivation, wake recordings during the deprivation, same animals)."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/5/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/direction",
+          "basis": "src",
+          "verdict": "partial",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z",
+          "note": "The passage links enhanced glymphatic tracer clearance to the descending phase of NE activity and sleep spindles, not directly to sleep versus wake, and the passage does not mention the target statement's design details (recovery sleep after 5 h of sleep deprivation, wake recordings during the deprivation, same animals)."
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/6/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/7/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/8/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/9/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/direction",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/study_type",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/study_system",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/items/0",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/indirectness",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/argument_kind",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        },
+        {
+          "pointer": "/added/layers/evidence/lines/10/independence_group",
+          "basis": "src",
+          "verdict": "entails",
+          "checker": {
+            "name": "ohf-entailment-check",
+            "version": "1.0.0",
+            "prompt_sha256": "sha256:46716d7b4fc070b952d7ace5ae597c64b9414e63b15e38a94e719a2eb4fae146"
+          },
+          "checked_at": "2026-10-20T20:54:13Z"
+        }
+      ]
+    }
+  },
+  "facets": {
+    "topic": [
+      "physiology",
+      "neuroscience",
+      "sleep"
+    ],
+    "source_class": "external_published"
+  },
+  "content_hash": "sha256:d5c244301662b17d8b7dd78269ed87099f192fd9e832def5e41e99d1a99fd831"
+}

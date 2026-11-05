@@ -1,0 +1,10 @@
+Hypothesis Arena
+Copyright 2026 Hypothesis Arena contributors
+
+The source-language checker in tools/check_language.py adapts logic from
+Hypothesis Arena tools/check_language.py (source commit
+81bbcc59fae5330153a59ffcd639748abd0a9fee), under Apache License 2.0.
+It is modified for standalone use with exact-count line allowances, a closed
+extractor policy and tracked-text checks. No cross-repository imports are used.
+The Apache license for this checker is reproduced in this directory; the
+extractor's other code retains its existing licensing.

@@ -1,0 +1,12 @@
+compound_name,species,strain,dosage,age_at_initiation,treatment_duration,avg_lifespan_change_percent,avg_lifespan_significance,max_lifespan_change_percent,max_lifespan_significance,gender,weight_change_percent,weight_change_significance,ITP,pubmed_id
+Promethazine hydrochloride,Drosophila melanogaster,Canton S,62.5 mg/100 mL of medium,,,-1,NS,0,NA,Male,,NA,No,4397875
+Zinc acetate,Drosophila melanogaster,Oregon-R,0.1 mM,,,-6,S,,NA,Male,,NA,No,6409707
+Zinc acetate,Drosophila melanogaster,Oregon-R,1 mM,,,-4,NS,,NA,Male,,NA,No,6409707
+Zinc acetate,Drosophila melanogaster,Oregon-R,10 mM,,,-12,S,,NA,Male,,NA,No,6409707
+Promethazine hydrochloride,Caenorhabditis elegans,,176 µM,,,32,S,,NA,Unknown,,NA,No,24134630
+Promethazine hydrochloride,Drosophila melanogaster,Canton-S,20 μM,,,10.91,S,,NA,Female,,NA,No,33008901
+Promethazine,Drosophila melanogaster,Canton-S,20 μM,,,-1.63,NS,,NA,Female,,NA,No,33008901
+Promethazine,Drosophila melanogaster,Canton-S,200 μM,,,9.98,NS,,NA,Male,,NA,No,33008901
+Rapamycin,Mus musculus,UM-HET3,14 ppm food (2.24 ppm/day bodyweight),20 months,until death,13,S,14,S,Female,,NA,Yes,19587680
+Rapamycin,Mus musculus,UM-HET3,14 ppm food (2.24 ppm/day bodyweight),20 months,until death,9,S,9,S,Male,,NA,Yes,19587680
+Rapamycin,Drosophila melanogaster,white Dahomey,200 µM,,,13,S,,NA,Female,,NA,No,20074526

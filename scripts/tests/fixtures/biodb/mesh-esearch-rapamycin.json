@@ -1,0 +1,63 @@
+{
+ "header": {
+  "type": "esearch",
+  "version": "0.3"
+ },
+ "esearchresult": {
+  "count": "29",
+  "retmax": "20",
+  "retstart": "0",
+  "idlist": [
+   "68058570",
+   "68022061",
+   "68022021",
+   "68020123",
+   "68020104",
+   "68019893",
+   "67571017",
+   "67551355",
+   "67546845",
+   "67546843",
+   "67546842",
+   "67525637",
+   "67523461",
+   "67518022",
+   "67512171",
+   "67500749",
+   "67492571",
+   "67488301",
+   "67463659",
+   "67416303"
+  ],
+  "translationset": [
+   {
+    "from": "rapamycin",
+    "to": "\"sirolimus\"[All Fields] OR \"sirolimus\"[MeSH Terms] OR rapamycin[Text Word]"
+   }
+  ],
+  "translationstack": [
+   {
+    "term": "\"sirolimus\"[All Fields]",
+    "field": "All Fields",
+    "count": "10",
+    "explode": "N"
+   },
+   {
+    "term": "\"sirolimus\"[MeSH Terms]",
+    "field": "MeSH Terms",
+    "count": "1",
+    "explode": "N"
+   },
+   "OR",
+   {
+    "term": "rapamycin[Text Word]",
+    "field": "Text Word",
+    "count": "26",
+    "explode": "N"
+   },
+   "OR",
+   "GROUP"
+  ],
+  "querytranslation": "\"sirolimus\"[All Fields] OR \"sirolimus\"[MeSH Terms] OR rapamycin[Text Word]"
+ }
+}

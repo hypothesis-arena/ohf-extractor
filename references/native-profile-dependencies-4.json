@@ -1,0 +1,30 @@
+{
+  "format": "ohf-native-profile-dependencies/1",
+  "standard_commit": "bf1f582f977c2ac65e5537ebd9f1b1b19ae328d3",
+  "files": {
+    "VERSION": "sha256:b99b4c7cdf236f59bc9f65d963deaecae3b16a7dad87939cacb9057f7664daee",
+    "CHANGELOG.md": "sha256:6df5ccc9c6ab50a9cccd0255ec099d2c0324cf1b355b3ec891b204cc073adc1a",
+    "requirements.txt": "sha256:02f81f6e5efad2f600d34f1d7d5713279af533b94f9a722ddd1f59679bbac35e",
+    "schema/hypothesis-1.schema.json": "sha256:ae1769a44c19bb575d2e4c7c903e756386b1831945b3bd788028c71f36c5c951",
+    "schema/native-renderer-selector-1.schema.json": "sha256:4ab7d39f8e9647d44ade4f2f63582951de43c48a674728db97a96398145095e0",
+    "spec/renderer-profiles/native-relational-4.json": "sha256:80b8c026c959b415758c1b0d3ccb2d26a62ba78a50888cd8fb25b90e0202cd46",
+    "spec/field-catalogue.json": "sha256:8b88dad50daf24a7f17e35e5d24147a7d0b9a68ab7f4134564179cc790138ca1",
+    "spec/gap-path-policy.json": "sha256:d9a30d04c9999de3434b35f41b93809bbcf30f16d69cd01c53025d68bf4aab11",
+    "spec/mapping.json": "sha256:8503fe385db0aea8af2f4993658e01d2950a4a820a14941f4adeda42948c1eba",
+    "tools/validate.py": "sha256:28537b1db90aad1fe8c5d37dbf853e3a7e53419f07124d96f31b87528fb66194",
+    "tools/strict_dates.py": "sha256:a91b4513e3ec302403f00abbd2b15359af4f22c835defd33eb855a54fbb0531c",
+    "tools/strict_json.py": "sha256:c5cf7dfac5aabf599ec1614610a59a8fea426168e4b254f5a2f6adbe1611ed9e",
+    "tools/content_hash.py": "sha256:5e6b2924afba21fcb4200e0e347c930d5c5b7f855475e20fa27b4db862efe91c",
+    "tools/check_ledger.py": "sha256:add24440e8c0782ec22e23b5f89c590e0c0208f9964ee45a3069cf6e4dc11720",
+    "tools/check_gaps.py": "sha256:92a2a4dda2c1a727d1fa9ff486a0680fc93fab0883e3aa9c6aef1d3df211f027",
+    "tools/check_completeness.py": "sha256:45abf67dfe0db86275694f4625403a6a40ebf0b2f07e67e3dd537049d747c4a9",
+    "tools/check_refs.py": "sha256:045f071fb88a7b4a0e2b42e852ad01bf19ee267983e892ba3e2b117233525c82",
+    "vocabularies/hallmarks-1.json": "sha256:798eddf6505f312ba3cdb900c7a935f9a2aca92d6f0226d961998e1ede1e79f9",
+    "vocabularies/heuristics-1.json": "sha256:ef18bd7539c4cf06878be8720cbab9e541d5d41f0c0e369a0274bd1b07e7f5ef",
+    "vocabularies/licence-refs-1.json": "sha256:6f2fa6a9082e505fca4235709c16d76ec98d5efe4aa00b6ae4334c22960e0e99",
+    "vocabularies/predicates-1.json": "sha256:1f4ea70f6f0ed53e79ee08b0e1ad6f8a1f13016ad7df0a7b75d43acd10b7c22a",
+    "vocabularies/profiles-1.json": "sha256:5c7f2b59712a38c9c03ecfed9ceebe782b0c43b6ac60485ab44396b6e1e681cc",
+    "vocabularies/profiles-2.json": "sha256:e40ba488b995447a111acb8ac1c010f07cb16f8130f169d65f69b8d7d34ffd0c",
+    "vocabularies/terms-1.json": "sha256:ae1fa7117cfe453baabbb4d6e646d47f4b7b9e533b5f0186a4e02c2b0a487dab"
+  }
+}

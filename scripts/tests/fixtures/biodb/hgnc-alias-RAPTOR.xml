@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">0</int>
+</lst>
+<result name="response" numFound="1" start="0" numFoundExact="true">
+  <doc>
+    <str name="symbol">RPTOR</str>
+    <int name="orphanet">471010</int>
+    <arr name="gene_group_id">
+      <int>362</int>
+      <int>1332</int>
+      <int>1492</int>
+    </arr>
+    <str name="locus_group">protein-coding gene</str>
+    <str name="vega_id">OTTHUMG00000177622</str>
+    <arr name="ccds_id">
+      <str>CCDS11773</str>
+      <str>CCDS54175</str>
+    </arr>
+    <str name="ensembl_gene_id">ENSG00000141564</str>
+    <arr name="mgd_id">
+      <str>MGI:1921620</str>
+    </arr>
+    <arr name="gene_group">
+      <str>WD repeat domain containing</str>
+      <str>MTOR complex 1</str>
+      <str>Armadillo like helical domain containing</str>
+    </arr>
+    <date name="date_name_changed">2016-04-01T00:00:00Z</date>
+    <str name="entrez_id">57521</str>
+    <date name="date_approved_reserved">2009-05-29T00:00:00Z</date>
+    <str name="locus_type">gene with protein product</str>
+    <date name="date_modified">2023-01-20T00:00:00Z</date>
+    <arr name="alias_name">
+      <str>regulatory associated protein of mTOR</str>
+    </arr>
+    <arr name="refseq_accession">
+      <str>NM_020761</str>
+    </arr>
+    <arr name="mane_select">
+      <str>ENST00000306801.8</str>
+      <str>NM_020761.3</str>
+    </arr>
+    <str name="agr">HGNC:30287</str>
+    <arr name="pubmed_id">
+      <long>10718198</long>
+      <long>12150926</long>
+    </arr>
+    <str name="status">Approved</str>
+    <str name="name">regulatory associated protein of MTOR complex 1</str>
+    <arr name="omim_id">
+      <str>607130</str>
+    </arr>
+    <str name="uuid">0e05da09-e7f1-40e8-8808-cce4effebc32</str>
+    <str name="location">17q25.3</str>
+    <arr name="uniprot_ids">
+      <str>Q8N122</str>
+    </arr>
+    <arr name="prev_name">
+      <str>regulatory associated protein of MTOR, complex 1</str>
+    </arr>
+    <arr name="rgd_id">
+      <str>RGD:1311784</str>
+    </arr>
+    <str name="ucsc_id">uc002jyt.2</str>
+    <arr name="alias_symbol">
+      <str>KOG1</str>
+      <str>Mip1</str>
+      <str>KIAA1303</str>
+      <str>raptor</str>
+    </arr>
+    <str name="hgnc_id">HGNC:30287</str></doc>
+</result>
+</response>

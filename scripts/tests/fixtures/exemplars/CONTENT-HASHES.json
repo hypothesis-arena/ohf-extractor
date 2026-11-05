@@ -1,0 +1,42 @@
+{
+  "about": "Content hashes of ten retained article-derived exemplars and one separate invented mechanical fixture. The synthetic fixture is not an accepted article or scientific result.",
+  "source": "Article-derived hashes and acts are retained verbatim; the synthetic switch-and-bin fixture is project-authored.",
+  "cards": {
+    "alpha-gal-metformin-oit": "sha256:3e605d8aa00a09cff5f776bee73c8ffeed9cf82265dfb8aad52a0eb3253917ed",
+    "cancer-body-size-vertebrates": "sha256:3a4b12d3edb7c0121e5ce211c4a67ca14dd5fdf4ba5f758ba3bd977cecd8bd52",
+    "inside-out-eukaryogenesis": "sha256:c96b142912275ddde3b19cd00443cba026f61ab647605443086c1b90c03e9882",
+    "intermittent-rapamycin-mtorc2": "sha256:b118698dc0a68c8d9bc9da77f9c710801ff61484002aba38f7694658ef1ece89",
+    "peto-paradox-mammals": "sha256:4be01ad03ac4503fdc99caaac87fe268970935329a79119dc441f98c898e66e4",
+    "sleep-brain-clearance": "sha256:d5c244301662b17d8b7dd78269ed87099f192fd9e832def5e41e99d1a99fd831",
+    "wolbachia-dengue-awed": "sha256:a9ec5151cbfa07cc237c77f419ffcce3ed41615314e4311795e248da7b4fd25a",
+    "imprinting-maternal-offspring-coadaptation": "sha256:fd709d4eeadff7a4b8fa31395d77fd3fe3858d55dd958f16a6d8e9a01da7647d",
+    "imprinting-maternal-offspring-coadaptation-v2": "sha256:4823a3c628742e5e5fb8df33d771f989dd1564e109ce499b5057950980588239",
+    "imprinting-maternal-offspring-coadaptation-v3": "sha256:7af69904f7311003780e2314cbcb47ab9c308a7b53415ef5926261a60cc3e914"
+  },
+  "acts": {
+    "imprinting-maternal-offspring-coadaptation": {
+      "act": "ACCEPTANCE-IMPRINTING-20261023.md",
+      "act_sha256": "sha256:274d90344daf7c1c5abcf1ff6efee2157a2ee0cb15b5ecb4821f72cb3a021d18",
+      "version": 1,
+      "note": "The bytes accepted by that act, version 1, now superseded. Version 2 is beside it as `imprinting-maternal-offspring-coadaptation-v2`: both are in the set on purpose, because the guard exists so that an accepted version number is not reused over other content, and that is as true of a superseded version as of the live one."
+    },
+    "imprinting-maternal-offspring-coadaptation-v2": {
+      "act": "ACCEPTANCE-IMPRINTING-V2-20261023.md",
+      "act_sha256": "sha256:8fd850d12743467362ddcbd2e2ee14ab15dc7dd890f01cbb119afd6146e41e85",
+      "version": 2,
+      "note": "Accepted and superseded. All three accepted versions of this card are in the set: the guard exists so that an accepted version number is not reused over other content, and that holds for every version an act accepted, not only the live one."
+    },
+    "imprinting-maternal-offspring-coadaptation-v3": {
+      "act": "ACCEPTANCE-IMPRINTING-V3-20261023.md",
+      "act_sha256": "sha256:985375b2e7259f7be71330a955fa47598e1d8ffcdff59efd1744af6a6632babe",
+      "version": 3,
+      "note": "The live card, and the first built with a released kit: version 3 is version 2 rebuilt on ohf-extractor 0.9.0, with the kit pin, the version members and the stamps as the only fields that moved. One content this set must never hold is sha256:1e0f7a82d9ad9b86f259025344aae14259d3c4e3593520133cee0fbb7ea86a1c: no act accepted it, and a later reader must not find it pinned here as though one had."
+    }
+  },
+  "synthetic": {
+    "digit-patterning-turing": "sha256:18631d37ffc62959a1aa93e6039ecaf4e236cdc8353e8961cdf4b589b0798947"
+  },
+  "retired_article_fixture_hashes": {
+    "digit-patterning-turing": "sha256:ddd0a0e16a8b29090fec9ae696c343a34831dd5b4e6c8c3312316d9b5d9bf295"
+  }
+}

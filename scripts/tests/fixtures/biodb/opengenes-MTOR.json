@@ -1,0 +1,2061 @@
+{
+ "id": 220,
+ "homologueTaxon": "Eukaryota",
+ "symbol": "MTOR",
+ "chromosome": null,
+ "name": "mechanistic target of rapamycin (serine/threonine kinase)",
+ "ncbiId": 2475,
+ "uniprot": "MTOR_HUMAN",
+ "timestamp": {
+  "created": null,
+  "changed": 1655319393
+ },
+ "ensembl": "ENSG00000198793",
+ "aliases": [
+  "FRAP",
+  "FRAP1",
+  "FRAP2",
+  "RAFT1",
+  "RAPT1",
+  "SKS"
+ ],
+ "expressionChange": 3,
+ "confidenceLevel": {
+  "id": 2,
+  "name": "high"
+ },
+ "origin": null,
+ "familyOrigin": {
+  "id": 2,
+  "phylum": "Eukaryota",
+  "age": "1000–1900",
+  "order": 2
+ },
+ "diseaseCategories": [],
+ "diseases": [
+  {
+   "id": 243,
+   "icdCode": "XVII",
+   "name": "Smith-kingsmore syndrome",
+   "icdName": "Congenital malformations, deformations and chromosomal abnormalities"
+  }
+ ],
+ "commentCause": [
+  {
+   "id": 6,
+   "name": "Changes in gene activity extend mammalian lifespan"
+  },
+  {
+   "id": 10,
+   "name": "Regulation of genes associated with aging"
+  },
+  {
+   "id": 13,
+   "name": "Changes in gene activity protect against age-related impairment"
+  },
+  {
+   "id": 8,
+   "name": "Age-related changes in gene expression, methylation or protein activity"
+  },
+  {
+   "id": 5,
+   "name": "Changes in gene activity extend non-mammalian lifespan"
+  },
+  {
+   "id": 17,
+   "name": "Changes in gene activity enhance age-related deterioration"
+  },
+  {
+   "id": 9,
+   "name": "Age-related changes in gene expression, methylation or protein activity in humans"
+  }
+ ],
+ "proteinClasses": [
+  {
+   "id": 102,
+   "name": "Cancer-related"
+  },
+  {
+   "id": 118,
+   "name": "Disease related genes"
+  },
+  {
+   "id": 1,
+   "name": "Enzymes"
+  },
+  {
+   "id": 119,
+   "name": "FDA approved drug targets"
+  },
+  {
+   "id": 87,
+   "name": "Plasma proteins"
+  },
+  {
+   "id": 85,
+   "name": "Predicted intracellular proteins"
+  }
+ ],
+ "agingMechanisms": [
+  {
+   "id": 75,
+   "name": "nuclear DNA instability",
+   "uuid": null
+  },
+  {
+   "id": 84,
+   "name": "TOR pathway dysregulation",
+   "uuid": null
+  },
+  {
+   "id": 92,
+   "name": "sterile inflammation",
+   "uuid": null
+  },
+  {
+   "id": 93,
+   "name": "intercellular communication impairment",
+   "uuid": null
+  }
+ ],
+ "functionalClusters": [
+  {
+   "id": 10,
+   "name": "immune function"
+  },
+  {
+   "id": 11,
+   "name": "mitochondrial function"
+  },
+  {
+   "id": 19,
+   "name": "senescence"
+  },
+  {
+   "id": 31,
+   "name": "nervous system"
+  },
+  {
+   "id": 3,
+   "name": "transcription regulation"
+  },
+  {
+   "id": 4,
+   "name": "stress response"
+  },
+  {
+   "id": 5,
+   "name": "cell cycle"
+  },
+  {
+   "id": 8,
+   "name": "glucose metabolism"
+  },
+  {
+   "id": 12,
+   "name": "cytoskeleton organization"
+  },
+  {
+   "id": 13,
+   "name": "proteostasis"
+  },
+  {
+   "id": 21,
+   "name": "insulin sensitivity"
+  },
+  {
+   "id": 30,
+   "name": "cardiovascular system"
+  },
+  {
+   "id": 55,
+   "name": "tissue regeneration"
+  },
+  {
+   "id": 58,
+   "name": "cognitive function"
+  },
+  {
+   "id": 59,
+   "name": "reproductive function"
+  },
+  {
+   "id": 61,
+   "name": "protein modification"
+  }
+ ],
+ "researches": {
+  "increaseLifespan": [
+   {
+    "id": 89,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "sex": "all",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": "standard chow",
+    "expressionChangeTissue": "liver",
+    "lifespanTimeUnit": "months",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": "protein",
+    "controlCohortSize": 34,
+    "experimentCohortSize": 43,
+    "expressionChangePercent": -75.0,
+    "lifespanMinControl": 15.0,
+    "lifespanMeanControl": null,
+    "lifespanMedianControl": 26.2,
+    "lifespanMaxControl": 33.6,
+    "lifespanMinExperiment": 19.8,
+    "lifespanMeanExperiment": null,
+    "lifespanMedianExperiment": 30.3,
+    "lifespanMaxExperiment": 36.0,
+    "lifespanMinChangePercent": 32.0,
+    "lifespanMeanChangePercent": null,
+    "lifespanMedianChangePercent": 15.6,
+    "lifespanMaxChangePercent": 7.1,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": null,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "populationDensity": 5,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 89,
+       "gene": 220,
+       "interventionMethod": "gene modification to reduce gene expression",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "-/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 13,
+      "name": "immune function"
+     },
+     {
+      "id": 33,
+      "name": "autophagy"
+     },
+     {
+      "id": 35,
+      "name": "bone"
+     },
+     {
+      "id": 36,
+      "name": "muscle"
+     },
+     {
+      "id": 39,
+      "name": "body composition"
+     },
+     {
+      "id": 46,
+      "name": "cognitive function"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 197,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6J",
+    "sex": "female",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": null,
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 20,
+    "experimentCohortSize": 14,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 670.0,
+    "lifespanMeanControl": 860.0,
+    "lifespanMedianControl": 897.0,
+    "lifespanMaxControl": 954.8,
+    "lifespanMinExperiment": 750.0,
+    "lifespanMeanExperiment": 939.4,
+    "lifespanMedianExperiment": 930.0,
+    "lifespanMaxExperiment": 1122.5,
+    "lifespanMinChangePercent": 11.9,
+    "lifespanMeanChangePercent": 9.2,
+    "lifespanMedianChangePercent": 3.7,
+    "lifespanMaxChangePercent": 17.5,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": true,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1093/gerona/glw064",
+    "pmid": "",
+    "comment": "Rapamycin-administred mice exhibited a longer lifespan, however, several developed severe dermatitis and were euthanized. Treatment didn't affect glucose and insulin tolerance. ​Treated mice had less weight and body fat, which might be realized with an elevated respiratory exchange ratio.",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 197,
+       "gene": 220,
+       "interventionMethod": "treatment with a gene product inhibitor",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 20.0,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "Female mice were administered rapamycin (2mg/kg) or vehicle once every 5 days. ",
+       "startTimeUnit": "months",
+       "endTimeUnit": null,
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": "rapamycin",
+       "startStageOfDevelopment": "after birth",
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": "from a certain period until death [natural or artificial]",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 24,
+      "name": "lipid metabolism"
+     },
+     {
+      "id": 39,
+      "name": "body composition"
+     }
+    ],
+    "interventionDeteriorates": [
+     {
+      "id": 34,
+      "name": "skin"
+     }
+    ]
+   },
+   {
+    "id": 734,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "sex": "female",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": "standard chow",
+    "expressionChangeTissue": "liver",
+    "lifespanTimeUnit": "months",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": "protein",
+    "controlCohortSize": 24,
+    "experimentCohortSize": 26,
+    "expressionChangePercent": -75.0,
+    "lifespanMinControl": 13.0,
+    "lifespanMeanControl": null,
+    "lifespanMedianControl": 26.5,
+    "lifespanMaxControl": 34.0,
+    "lifespanMinExperiment": 20.4,
+    "lifespanMeanExperiment": null,
+    "lifespanMedianExperiment": 31.5,
+    "lifespanMaxExperiment": 36.8,
+    "lifespanMinChangePercent": 56.9,
+    "lifespanMeanChangePercent": null,
+    "lifespanMedianChangePercent": 19.0,
+    "lifespanMaxChangePercent": 8.2,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": null,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "populationDensity": 5,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 749,
+       "gene": 220,
+       "interventionMethod": "gene modification to reduce gene expression",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "-/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 13,
+      "name": "immune function"
+     },
+     {
+      "id": 33,
+      "name": "autophagy"
+     },
+     {
+      "id": 35,
+      "name": "bone"
+     },
+     {
+      "id": 36,
+      "name": "muscle"
+     },
+     {
+      "id": 39,
+      "name": "body composition"
+     },
+     {
+      "id": 46,
+      "name": "cognitive function"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 735,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "sex": "male",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": "standard chow",
+    "expressionChangeTissue": "liver",
+    "lifespanTimeUnit": "months",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": "protein",
+    "controlCohortSize": 10,
+    "experimentCohortSize": 17,
+    "expressionChangePercent": -75.0,
+    "lifespanMinControl": 12.0,
+    "lifespanMeanControl": null,
+    "lifespanMedianControl": 22.9,
+    "lifespanMaxControl": 26.5,
+    "lifespanMinExperiment": 16.0,
+    "lifespanMeanExperiment": null,
+    "lifespanMedianExperiment": 28.0,
+    "lifespanMaxExperiment": 32.0,
+    "lifespanMinChangePercent": 25.0,
+    "lifespanMeanChangePercent": null,
+    "lifespanMedianChangePercent": 22.0,
+    "lifespanMaxChangePercent": 20.8,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": null,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "populationDensity": 5,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 750,
+       "gene": 220,
+       "interventionMethod": "gene modification to reduce gene expression",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "-/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 13,
+      "name": "immune function"
+     },
+     {
+      "id": 33,
+      "name": "autophagy"
+     },
+     {
+      "id": 35,
+      "name": "bone"
+     },
+     {
+      "id": 36,
+      "name": "muscle"
+     },
+     {
+      "id": 39,
+      "name": "body composition"
+     },
+     {
+      "id": 46,
+      "name": "cognitive function"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 832,
+    "modelOrganism": "mouse",
+    "organismLine": null,
+    "sex": "female",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": "standard chow",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 28,
+    "experimentCohortSize": 30,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 260.0,
+    "lifespanMeanControl": 296.0,
+    "lifespanMedianControl": 288.0,
+    "lifespanMaxControl": 356.0,
+    "lifespanMinExperiment": 200.0,
+    "lifespanMeanExperiment": 308.0,
+    "lifespanMedianExperiment": 327.0,
+    "lifespanMaxExperiment": 395.0,
+    "lifespanMinChangePercent": -23.1,
+    "lifespanMeanChangePercent": 4.1,
+    "lifespanMedianChangePercent": 13.6,
+    "lifespanMaxChangePercent": 11.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": false,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": true,
+    "doi": "10.2353/ajpath.2010.091050",
+    "pmid": "",
+    "comment": "The rapamycin treatment of the cancer-prone HER2 -/- mice prevented age-related weight gain and increased mean and maximal lifespan. Rapamycin administration slowed down the tumor formation and decreased the number of tumors in mice.",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 863,
+       "gene": 220,
+       "interventionMethod": "treatment with a gene product inhibitor",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 2.0,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "1.5 mg/kg rapamycin subcutaneously 3 times a week for a period of 2 weeks, followed by 2-week intervals without rapamycin.",
+       "startTimeUnit": "months",
+       "endTimeUnit": null,
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": "rapamycin",
+       "startStageOfDevelopment": "after birth",
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": "multiple times within a certain period",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      },
+      {
+       "id": 873,
+       "gene": 41,
+       "interventionMethod": "gene knockout",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "-/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 39,
+      "name": "body composition"
+     },
+     {
+      "id": 42,
+      "name": "carcinogenesis"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 834,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6NIA",
+    "sex": "male",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": "PicoLab Rodent Diet 20",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "months",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 18,
+    "experimentCohortSize": 17,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 25.5,
+    "lifespanMeanControl": 31.3,
+    "lifespanMedianControl": 30.8,
+    "lifespanMaxControl": 38.0,
+    "lifespanMinExperiment": 27.5,
+    "lifespanMeanExperiment": 35.4,
+    "lifespanMedianExperiment": 36.0,
+    "lifespanMaxExperiment": 42.8,
+    "lifespanMinChangePercent": 7.8,
+    "lifespanMeanChangePercent": 13.1,
+    "lifespanMedianChangePercent": 16.9,
+    "lifespanMaxChangePercent": 12.6,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": true,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.7554/eLife.16351",
+    "pmid": "",
+    "comment": "Male mice, treated daily with 8 mg/kg rapamycin for 90 days exhibited decreased body weight and longer lifespan.",
+    "populationDensity": 5,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 865,
+       "gene": 220,
+       "interventionMethod": "treatment with a gene product inhibitor",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 20.0,
+       "treatmentEnd": 23.0,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "8 mg/kg rapamycin daily for 90 days",
+       "startTimeUnit": "months",
+       "endTimeUnit": "months",
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": "rapamycin",
+       "startStageOfDevelopment": "after birth",
+       "endStageOfDevelopment": "after birth",
+       "treatmentPeriod": "multiple times within a certain period",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 39,
+      "name": "body composition"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 835,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6NIA",
+    "sex": "female",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": "PicoLab Rodent Diet 20",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "months",
+    "interventionResultForLifespan": "no change",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 20,
+    "experimentCohortSize": 20,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 28.1,
+    "lifespanMeanControl": 28.6,
+    "lifespanMedianControl": 28.2,
+    "lifespanMaxControl": 32.8,
+    "lifespanMinExperiment": 28.8,
+    "lifespanMeanExperiment": 28.4,
+    "lifespanMedianExperiment": 28.5,
+    "lifespanMaxExperiment": 31.8,
+    "lifespanMinChangePercent": 2.5,
+    "lifespanMeanChangePercent": 0.7,
+    "lifespanMedianChangePercent": 1.0,
+    "lifespanMaxChangePercent": 3.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": false,
+    "lMedianChangeStatSignificance": false,
+    "lMaxChangeStatSignificance": false,
+    "doi": "10.7554/eLife.16351",
+    "pmid": "",
+    "comment": "Female mice, treated daily with 8 mg/kg rapamycin for 90 days, didn't show the difference in lifespan expectancy. Treatment caused an increased rate of hematopoietic tumors and their infiltration to organs.",
+    "populationDensity": 5,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 866,
+       "gene": 220,
+       "interventionMethod": "treatment with a gene product inhibitor",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 20.0,
+       "treatmentEnd": 23.0,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "8 mg/kg rapamycin daily for 90 days",
+       "startTimeUnit": "months",
+       "endTimeUnit": "months",
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": "rapamycin",
+       "startStageOfDevelopment": "after birth",
+       "endStageOfDevelopment": "after birth",
+       "treatmentPeriod": "multiple times within a certain period",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [],
+    "interventionDeteriorates": [
+     {
+      "id": 42,
+      "name": "carcinogenesis"
+     }
+    ]
+   },
+   {
+    "id": 842,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6NIA",
+    "sex": "all",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": "PicoLab Rodent Diet 20",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 38,
+    "experimentCohortSize": 37,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 744.0,
+    "lifespanMeanControl": 899.0,
+    "lifespanMedianControl": 885.0,
+    "lifespanMaxControl": 1023.0,
+    "lifespanMinExperiment": 771.0,
+    "lifespanMeanExperiment": 968.0,
+    "lifespanMedianExperiment": 996.0,
+    "lifespanMaxExperiment": 1074.0,
+    "lifespanMinChangePercent": 3.6,
+    "lifespanMeanChangePercent": 8.0,
+    "lifespanMedianChangePercent": 13.0,
+    "lifespanMaxChangePercent": 5.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": true,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.7554/eLife.16351",
+    "pmid": "",
+    "comment": "The addition of rapamycin to the rodent chow at the concentration of 128 ppm for 90 days led to a longer life expectancy for male and female mice.",
+    "populationDensity": 5,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 875,
+       "gene": 220,
+       "interventionMethod": "treatment with a gene product inhibitor",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 20.0,
+       "treatmentEnd": 23.0,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "The addition of rapamycin to the rodent chow at the concentration of 128 ppm for 90 days",
+       "startTimeUnit": "months",
+       "endTimeUnit": "months",
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": "rapamycin",
+       "startStageOfDevelopment": "after birth",
+       "endStageOfDevelopment": "after birth",
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 36,
+      "name": "muscle"
+     },
+     {
+      "id": 65,
+      "name": "locomotor function"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 1148,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6J",
+    "sex": "all",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": null,
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan in animals with decreased lifespans",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 58,
+    "experimentCohortSize": 38,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 35.6,
+    "lifespanMeanControl": null,
+    "lifespanMedianControl": 90.0,
+    "lifespanMaxControl": 146.0,
+    "lifespanMinExperiment": 66.9,
+    "lifespanMeanExperiment": null,
+    "lifespanMedianExperiment": 119.5,
+    "lifespanMaxExperiment": 185.0,
+    "lifespanMinChangePercent": 46.8,
+    "lifespanMeanChangePercent": null,
+    "lifespanMedianChangePercent": 32.8,
+    "lifespanMaxChangePercent": 26.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": null,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": true,
+    "doi": "10.1096/fj.201903048RR",
+    "pmid": "",
+    "comment": "mTOR overactivation contributes to impaired autophagy, and that inhibition of mTOR partially recovers autophagy and S6K1 activity in Zmpste24−/− mice. Zmpste24−/−mTOR△/+ mice with genetic reduction of mTOR grow to a larger size than their Zmpste24−/− littermates. The median onset of abnormal grip strength of Zmpste24−/− mTOR△/+ mice was delayed to 95 days, compared to 59 days for Zmpste24−/− mTOR+/+ mice, an extension of 61%. mTOR△/+ mice are born at normal Mendelian’ ratio. In the Zmpste24−/− background, 79.5% of mTOR△/+ mice fail to develop normally in utero.",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [
+      {
+       "id": 1351,
+       "gene": 232,
+       "interventionMethod": "gene knockout",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 0.0,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": "days",
+       "endTimeUnit": null,
+       "genotype": "-/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": "after birth",
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ],
+     "experiment": [
+      {
+       "id": 1253,
+       "gene": 220,
+       "interventionMethod": "gene modification",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "n/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 33,
+      "name": "autophagy"
+     },
+     {
+      "id": 36,
+      "name": "muscle"
+     },
+     {
+      "id": 39,
+      "name": "body composition"
+     }
+    ],
+    "interventionDeteriorates": [
+     {
+      "id": 48,
+      "name": "reproductive function"
+     }
+    ]
+   },
+   {
+    "id": 1149,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6J",
+    "sex": "female",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": null,
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan in animals with decreased lifespans",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 31,
+    "experimentCohortSize": 21,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 39.5,
+    "lifespanMeanControl": null,
+    "lifespanMedianControl": 87.0,
+    "lifespanMaxControl": 142.0,
+    "lifespanMinExperiment": 76.8,
+    "lifespanMeanExperiment": null,
+    "lifespanMedianExperiment": 118.0,
+    "lifespanMaxExperiment": 185.0,
+    "lifespanMinChangePercent": 94.0,
+    "lifespanMeanChangePercent": null,
+    "lifespanMedianChangePercent": 35.6,
+    "lifespanMaxChangePercent": 28.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": null,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1096/fj.201903048RR",
+    "pmid": "",
+    "comment": "mTOR knockdown remarkably increased the bodyweight of male Zmpste24−/− mice, it did not have the same effect in female cohorts.",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [
+      {
+       "id": 1352,
+       "gene": 232,
+       "interventionMethod": "gene knockout",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "-/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ],
+     "experiment": [
+      {
+       "id": 1256,
+       "gene": 220,
+       "interventionMethod": "gene modification",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "n/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 33,
+      "name": "autophagy"
+     },
+     {
+      "id": 36,
+      "name": "muscle"
+     }
+    ],
+    "interventionDeteriorates": [
+     {
+      "id": 48,
+      "name": "reproductive function"
+     }
+    ]
+   },
+   {
+    "id": 1150,
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6J",
+    "sex": "male",
+    "temperatureFrom": null,
+    "temperatureTo": null,
+    "diet": null,
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan in animals with decreased lifespans",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 27,
+    "experimentCohortSize": 17,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 32.0,
+    "lifespanMeanControl": null,
+    "lifespanMedianControl": 100.0,
+    "lifespanMaxControl": 146.0,
+    "lifespanMinExperiment": 67.0,
+    "lifespanMeanExperiment": null,
+    "lifespanMedianExperiment": 125.0,
+    "lifespanMaxExperiment": 185.0,
+    "lifespanMinChangePercent": 109.0,
+    "lifespanMeanChangePercent": null,
+    "lifespanMedianChangePercent": 25.0,
+    "lifespanMaxChangePercent": 27.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": null,
+    "lMedianChangeStatSignificance": true,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1096/fj.201903048RR",
+    "pmid": "",
+    "comment": "mTOR knockdown remarkably increased the bodyweight of male Zmpste24−/− mice, it did not have the same effect in female cohorts.",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [
+      {
+       "id": 1353,
+       "gene": 232,
+       "interventionMethod": "gene knockout",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "-/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ],
+     "experiment": [
+      {
+       "id": 1261,
+       "gene": 220,
+       "interventionMethod": "gene modification",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 0.0,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "n/-",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [
+     {
+      "id": 33,
+      "name": "autophagy"
+     },
+     {
+      "id": 36,
+      "name": "muscle"
+     },
+     {
+      "id": 39,
+      "name": "body composition"
+     }
+    ],
+    "interventionDeteriorates": [
+     {
+      "id": 48,
+      "name": "reproductive function"
+     }
+    ]
+   },
+   {
+    "id": 1313,
+    "modelOrganism": "roundworm Caenorhabditis elegans",
+    "organismLine": "N2",
+    "sex": "hermaphrodites",
+    "temperatureFrom": 20.0,
+    "temperatureTo": 20.0,
+    "diet": "E. coli HT115 L4440, NGM",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": null,
+    "expressionMeasurementType": null,
+    "controlCohortSize": 194,
+    "experimentCohortSize": 186,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 17.7,
+    "lifespanMeanControl": 26.4,
+    "lifespanMedianControl": 25.6,
+    "lifespanMaxControl": 33.7,
+    "lifespanMinExperiment": 17.7,
+    "lifespanMeanExperiment": 26.57,
+    "lifespanMedianExperiment": 25.6,
+    "lifespanMaxExperiment": 33.7,
+    "lifespanMinChangePercent": 0.0,
+    "lifespanMeanChangePercent": 0.6,
+    "lifespanMedianChangePercent": 0.0,
+    "lifespanMaxChangePercent": 0.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": false,
+    "lMedianChangeStatSignificance": null,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1016/j.redox.2020.101448",
+    "pmid": "",
+    "comment": "",
+    "populationDensity": 50,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 1480,
+       "gene": 59,
+       "interventionMethod": "RNA interferention",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": "interfering RNA expressing bacteries",
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": "from a certain period until death [natural or artificial]",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 1314,
+    "modelOrganism": "roundworm Caenorhabditis elegans",
+    "organismLine": "N2",
+    "sex": "hermaphrodites",
+    "temperatureFrom": 20.0,
+    "temperatureTo": 20.0,
+    "diet": "E. coli HT115 L4440, NGM",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 198,
+    "experimentCohortSize": 186,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 16.5,
+    "lifespanMeanControl": 21.54,
+    "lifespanMedianControl": 19.9,
+    "lifespanMaxControl": 25.9,
+    "lifespanMinExperiment": 17.7,
+    "lifespanMeanExperiment": 26.57,
+    "lifespanMedianExperiment": 25.6,
+    "lifespanMaxExperiment": 33.7,
+    "lifespanMinChangePercent": 7.3,
+    "lifespanMeanChangePercent": 23.4,
+    "lifespanMedianChangePercent": 28.6,
+    "lifespanMaxChangePercent": 30.1,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": null,
+    "lMedianChangeStatSignificance": null,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1016/j.redox.2020.101448",
+    "pmid": "",
+    "comment": "",
+    "populationDensity": 50,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 1481,
+       "gene": 59,
+       "interventionMethod": "RNA interferention",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": "interfering RNA expressing bacteries",
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": "from a certain period until death [natural or artificial]",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      },
+      {
+       "id": 1483,
+       "gene": 220,
+       "interventionMethod": "RNA interferention",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 0.0,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": "days",
+       "endTimeUnit": null,
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": "interfering RNA expressing bacteries",
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": "from a certain period until death [natural or artificial]",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 1989,
+    "modelOrganism": "fly Drosophila melanogaster",
+    "organismLine": "w1118",
+    "sex": "male",
+    "temperatureFrom": 29.0,
+    "temperatureTo": 29.0,
+    "diet": "0.45% agar, 5% dextrose, 2.5% sucrose, 8.3% cornmeal, 1.5% dried yeast, 0.06% phosphoric acid, and 0.4% propionic acid",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 92,
+    "experimentCohortSize": 126,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 16.0,
+    "lifespanMeanControl": 26.0,
+    "lifespanMedianControl": 24.0,
+    "lifespanMaxControl": 31.0,
+    "lifespanMinExperiment": 20.0,
+    "lifespanMeanExperiment": 30.0,
+    "lifespanMedianExperiment": 30.0,
+    "lifespanMaxExperiment": 36.0,
+    "lifespanMinChangePercent": 25.0,
+    "lifespanMeanChangePercent": 15.4,
+    "lifespanMedianChangePercent": 25.0,
+    "lifespanMaxChangePercent": 16.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": true,
+    "lMedianChangeStatSignificance": null,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1016/j.cub.2004.03.059",
+    "pmid": "15186745",
+    "comment": "dTORFRB is a dominant negative form of TOR. It carries TED (toxic effector domain), containing the 754 amino acid central region, which inhibits cell growth and arrests cells in G1 when overexpressed in yeast. Ubiquitous overexpression with the da-GAL4 driver of UAS-dTORFRB led to a mean life-span increase at 29°C of 24%.\r\nOverexpression of UAS-dTORWT (full-length wild-type TOR gene) or UAS-dTORTED (another dominant-negative form) prevented eclosion to adulthood (data not shown).",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 2314,
+       "gene": 220,
+       "interventionMethod": "addition to the genome of a dominant-negative gene variant that reduces the activity of an endogenous protein",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "da-GAL4",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "dTORFRB",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 1990,
+    "modelOrganism": "fly Drosophila melanogaster",
+    "organismLine": "w1118",
+    "sex": "male",
+    "temperatureFrom": 25.0,
+    "temperatureTo": 25.0,
+    "diet": "0.45% agar, 5% dextrose, 2.5% sucrose, 8.3% cornmeal, 1.5% dried yeast, 0.06% phosphoric acid, and 0.4% propionic acid",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 113,
+    "experimentCohortSize": 112,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 32.0,
+    "lifespanMeanControl": 58.0,
+    "lifespanMedianControl": 60.0,
+    "lifespanMaxControl": 69.0,
+    "lifespanMinExperiment": 51.0,
+    "lifespanMeanExperiment": 72.0,
+    "lifespanMedianExperiment": 74.0,
+    "lifespanMaxExperiment": 82.0,
+    "lifespanMinChangePercent": 59.0,
+    "lifespanMeanChangePercent": 24.1,
+    "lifespanMedianChangePercent": 23.3,
+    "lifespanMaxChangePercent": 18.8,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": true,
+    "lMedianChangeStatSignificance": null,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1016/j.cub.2004.03.059",
+    "pmid": "15186745",
+    "comment": "dTORFRB is a dominant negative form of TOR. It carries TED (toxic effector domain), containing the 754 amino acid central region, which inhibits cell growth and arrests cells in G1 when overexpressed in yeast. Ubiquitous overexpression with the da-GAL4 driver of UAS-dTORFRB led to a mean life-span increase at 29°C of 24%.\r\n\r\nOverexpression of UAS -dTORWT (full-length wild-type TOR gene) or UAS-dTORTED (another dominant-negative form) prevented eclosion to adulthood (data not shown).",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 2315,
+       "gene": 220,
+       "interventionMethod": "addition to the genome of a dominant-negative gene variant that reduces the activity of an endogenous protein",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "da-GAL4",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "dTORFRB",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 1995,
+    "modelOrganism": "fly Drosophila melanogaster",
+    "organismLine": "w1118",
+    "sex": "male",
+    "temperatureFrom": 25.0,
+    "temperatureTo": 25.0,
+    "diet": "0.45% agar, 5% dextrose, 2.5% sucrose, 8.3% cornmeal, 1.5% dried yeast, 0.06% phosphoric acid, and 0.4% propionic acid",
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": 120,
+    "experimentCohortSize": 107,
+    "expressionChangePercent": null,
+    "lifespanMinControl": 17.0,
+    "lifespanMeanControl": 25.0,
+    "lifespanMedianControl": 23.0,
+    "lifespanMaxControl": 31.0,
+    "lifespanMinExperiment": 22.0,
+    "lifespanMeanExperiment": 31.0,
+    "lifespanMedianExperiment": 30.0,
+    "lifespanMaxExperiment": 35.0,
+    "lifespanMinChangePercent": 29.0,
+    "lifespanMeanChangePercent": 24.0,
+    "lifespanMedianChangePercent": 30.0,
+    "lifespanMaxChangePercent": 13.0,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": true,
+    "lMedianChangeStatSignificance": null,
+    "lMaxChangeStatSignificance": null,
+    "doi": "",
+    "pmid": "15186745",
+    "comment": "dTORFRB is a dominant negative form of TOR. It carries TED (toxic effector domain), containing the 754 amino acid central region, which inhibits cell growth and arrests cells in G1 when overexpressed in yeast. Ubiquitous overexpression with the da-GAL4 driver of UAS-dTORFRB led to a mean life-span increase at 29°C of 24%.\r\n\r\nOverexpression of UAS -dTORWT (full-length wild-type TOR gene) or UAS-dTORTED (another dominant-negative form) prevented eclosion to adulthood (data not shown).",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 2320,
+       "gene": 220,
+       "interventionMethod": "addition to the genome of a dominant-negative gene variant that reduces the activity of an endogenous protein",
+       "interventionWay": "germline-modified animals",
+       "tissueSpecific": true,
+       "tissueSpecificPromoter": "DJ634-GAL4",
+       "treatmentStart": null,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": null,
+       "endTimeUnit": null,
+       "genotype": "dTORFRB",
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": null,
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": null,
+       "experimentMainEffect": "loss of function",
+       "tissues": [
+        {
+         "id": 1,
+         "name": "adipose tissue"
+        }
+       ]
+      }
+     ]
+    },
+    "interventionImproves": [],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 2137,
+    "modelOrganism": "roundworm Caenorhabditis elegans",
+    "organismLine": null,
+    "sex": "hermaphrodites",
+    "temperatureFrom": 25.5,
+    "temperatureTo": 25.5,
+    "diet": null,
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": null,
+    "experimentCohortSize": null,
+    "expressionChangePercent": null,
+    "lifespanMinControl": null,
+    "lifespanMeanControl": 10.0,
+    "lifespanMedianControl": 9.0,
+    "lifespanMaxControl": null,
+    "lifespanMinExperiment": null,
+    "lifespanMeanExperiment": 25.0,
+    "lifespanMedianExperiment": 19.0,
+    "lifespanMaxExperiment": null,
+    "lifespanMinChangePercent": null,
+    "lifespanMeanChangePercent": 150.0,
+    "lifespanMedianChangePercent": 111.0,
+    "lifespanMaxChangePercent": null,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": true,
+    "lMedianChangeStatSignificance": null,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1038/426620a",
+    "pmid": "14668850",
+    "comment": "",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 2466,
+       "gene": 220,
+       "interventionMethod": "RNA interferention",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 1.0,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": "days",
+       "endTimeUnit": null,
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": "after hatching",
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": "multiple times within a certain period",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": 2138,
+    "modelOrganism": "roundworm Caenorhabditis elegans",
+    "organismLine": null,
+    "sex": "hermaphrodites",
+    "temperatureFrom": 25.5,
+    "temperatureTo": 25.5,
+    "diet": null,
+    "expressionChangeTissue": null,
+    "lifespanTimeUnit": "days",
+    "interventionResultForLifespan": "increases lifespan",
+    "expressionMeasurementType": null,
+    "controlCohortSize": null,
+    "experimentCohortSize": null,
+    "expressionChangePercent": null,
+    "lifespanMinControl": null,
+    "lifespanMeanControl": null,
+    "lifespanMedianControl": 9.0,
+    "lifespanMaxControl": null,
+    "lifespanMinExperiment": null,
+    "lifespanMeanExperiment": null,
+    "lifespanMedianExperiment": 17.0,
+    "lifespanMaxExperiment": null,
+    "lifespanMinChangePercent": null,
+    "lifespanMeanChangePercent": null,
+    "lifespanMedianChangePercent": 90.0,
+    "lifespanMaxChangePercent": null,
+    "lMinChangeStatSignificance": null,
+    "lMeanChangeStatSignificance": null,
+    "lMedianChangeStatSignificance": null,
+    "lMaxChangeStatSignificance": null,
+    "doi": "10.1038/426620a",
+    "pmid": "14668850",
+    "comment": "",
+    "populationDensity": null,
+    "interventions": {
+     "controlAndExperiment": [],
+     "experiment": [
+      {
+       "id": 2467,
+       "gene": 220,
+       "interventionMethod": "RNA interferention",
+       "interventionWay": "therapy (genetic vectors/RNAi/selective drug)",
+       "tissueSpecific": false,
+       "tissueSpecificPromoter": "",
+       "treatmentStart": 1.0,
+       "treatmentEnd": null,
+       "inductionByDrugWithdrawal": 0,
+       "treatmentDescription": "",
+       "startTimeUnit": "days",
+       "endTimeUnit": null,
+       "genotype": null,
+       "drugDeliveryWay": null,
+       "drug": null,
+       "startStageOfDevelopment": "adulthood",
+       "endStageOfDevelopment": null,
+       "treatmentPeriod": "multiple times within a certain period",
+       "experimentMainEffect": "loss of function",
+       "tissues": []
+      }
+     ]
+    },
+    "interventionImproves": [],
+    "interventionDeteriorates": []
+   }
+  ],
+  "geneAssociatedWithProgeriaSyndromes": [],
+  "geneAssociatedWithLongevityEffects": [],
+  "ageRelatedChangesOfGene": [
+   {
+    "changeType": "decreased level of activated protein",
+    "sample": "hippocampus",
+    "modelOrganism": "gerbil",
+    "organismLine": "wild type",
+    "value": "32.0%",
+    "pValue": null,
+    "measurementMethod": null,
+    "doi": "10.3892/mmr.2016.4835",
+    "pmid": "",
+    "meanAgeOfControls": 3.0,
+    "meanAgeOfExperiment": 6.0,
+    "minAgeOfControls": null,
+    "maxAgeOfControls": null,
+    "minAgeOfExperiment": null,
+    "maxAgeOfExperiment": null,
+    "ageUnit": "months",
+    "expressionEvaluationBy": "protein",
+    "statisticalMethod": null,
+    "controlCohortSize": null,
+    "experimentCohortSize": null,
+    "sex": "male",
+    "comment": "Without modification no significant differences were identified in the levels of mTOR among the experimental groups.\r\nThe expression level of phosphorylated mTOR decreases with age: compared to 3 months in the adult 1 group (6 months) a decrease of 32% was revealed."
+   },
+   {
+    "changeType": "decreased level of activated protein",
+    "sample": "hippocampus",
+    "modelOrganism": "gerbil",
+    "organismLine": "wild type",
+    "value": "41.0%",
+    "pValue": null,
+    "measurementMethod": null,
+    "doi": "10.3892/mmr.2016.4835",
+    "pmid": "",
+    "meanAgeOfControls": 3.0,
+    "meanAgeOfExperiment": 12.0,
+    "minAgeOfControls": null,
+    "maxAgeOfControls": null,
+    "minAgeOfExperiment": null,
+    "maxAgeOfExperiment": null,
+    "ageUnit": "months",
+    "expressionEvaluationBy": "protein",
+    "statisticalMethod": null,
+    "controlCohortSize": null,
+    "experimentCohortSize": null,
+    "sex": "male",
+    "comment": "Compared to 3 months in the adult group 2 (12 months) a 41% decrease in phosphorylated mTOR was revealed."
+   },
+   {
+    "changeType": "decreased level of activated protein",
+    "sample": "hippocampus",
+    "modelOrganism": "gerbil",
+    "organismLine": "wild type",
+    "value": "56.0%",
+    "pValue": null,
+    "measurementMethod": null,
+    "doi": "10.3892/mmr.2016.4835",
+    "pmid": "",
+    "meanAgeOfControls": 3.0,
+    "meanAgeOfExperiment": 24.0,
+    "minAgeOfControls": null,
+    "maxAgeOfControls": null,
+    "minAgeOfExperiment": null,
+    "maxAgeOfExperiment": null,
+    "ageUnit": "months",
+    "expressionEvaluationBy": "protein",
+    "statisticalMethod": null,
+    "controlCohortSize": null,
+    "experimentCohortSize": null,
+    "sex": "male",
+    "comment": "Compared with 3 months, a 56% decrease in phosphorylated mTOR was detected in the group of old animals (24 months)."
+   },
+   {
+    "changeType": "decreased gene expression",
+    "sample": "frontal cortex",
+    "modelOrganism": "human",
+    "organismLine": null,
+    "value": "-48.4536%",
+    "pValue": "<0,01",
+    "measurementMethod": "microarray",
+    "doi": "10.1038/nature02661",
+    "pmid": null,
+    "meanAgeOfControls": null,
+    "meanAgeOfExperiment": null,
+    "minAgeOfControls": null,
+    "maxAgeOfControls": null,
+    "minAgeOfExperiment": 26.0,
+    "maxAgeOfExperiment": 106.0,
+    "ageUnit": "years",
+    "expressionEvaluationBy": "mRNA",
+    "statisticalMethod": "Spearman rank correlation",
+    "controlCohortSize": null,
+    "experimentCohortSize": 30.0,
+    "sex": "all",
+    "comment": null
+   }
+  ],
+  "interventionToGeneImprovesVitalProcesses": [
+   {
+    "id": "1426",
+    "geneIntervention": "treatment with a gene product inhibitor",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "body composition",
+    "vitalProcessId": "39",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6NIA",
+    "age": "20 months",
+    "genotype": null,
+    "sex": "male",
+    "doi": "10.7554/eLife.16351",
+    "pmid": "",
+    "comment": "Male mice, treated daily with 8 mg/kg rapamycin for 90 days exhibited decreased body weight and longer lifespan.",
+    "interventionImproves": [
+     {
+      "id": "39",
+      "name": "body composition"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1425",
+    "geneIntervention": "treatment with a gene product inhibitor",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "body composition",
+    "vitalProcessId": "39",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6J",
+    "age": "20 months",
+    "genotype": null,
+    "sex": "female",
+    "doi": "10.1093/gerona/glw064",
+    "pmid": "",
+    "comment": "Rapamycin-administred mice exhibited a longer lifespan, however, several developed severe dermatitis and were euthanized. Treatment didn't affect glucose and insulin tolerance. ​Treated mice had less weight and body fat, which might be realized with an elevated respiratory exchange ratio.",
+    "interventionImproves": [
+     {
+      "id": "39",
+      "name": "body composition"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1425",
+    "geneIntervention": "treatment with a gene product inhibitor",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "lipid metabolism",
+    "vitalProcessId": "24",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6J",
+    "age": "20 months",
+    "genotype": null,
+    "sex": "female",
+    "doi": "10.1093/gerona/glw064",
+    "pmid": "",
+    "comment": "Rapamycin-administred mice exhibited a longer lifespan, however, several developed severe dermatitis and were euthanized. Treatment didn't affect glucose and insulin tolerance. ​Treated mice had less weight and body fat, which might be realized with an elevated respiratory exchange ratio.",
+    "interventionImproves": [
+     {
+      "id": "24",
+      "name": "lipid metabolism"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1424",
+    "geneIntervention": "gene modification to reduce gene expression",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "cognitive function",
+    "vitalProcessId": "46",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "age": "0 days",
+    "genotype": null,
+    "sex": "all",
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "interventionImproves": [
+     {
+      "id": "46",
+      "name": "cognitive function"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1424",
+    "geneIntervention": "gene modification to reduce gene expression",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "body composition",
+    "vitalProcessId": "39",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "age": "0 days",
+    "genotype": null,
+    "sex": "all",
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "interventionImproves": [
+     {
+      "id": "39",
+      "name": "body composition"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1424",
+    "geneIntervention": "gene modification to reduce gene expression",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "muscle",
+    "vitalProcessId": "36",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "age": "0 days",
+    "genotype": null,
+    "sex": "all",
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "interventionImproves": [
+     {
+      "id": "36",
+      "name": "muscle"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1424",
+    "geneIntervention": "gene modification to reduce gene expression",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "bone",
+    "vitalProcessId": "35",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "age": "0 days",
+    "genotype": null,
+    "sex": "all",
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "interventionImproves": [
+     {
+      "id": "35",
+      "name": "bone"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1424",
+    "geneIntervention": "gene modification to reduce gene expression",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "autophagy",
+    "vitalProcessId": "33",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "age": "0 days",
+    "genotype": null,
+    "sex": "all",
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "interventionImproves": [
+     {
+      "id": "33",
+      "name": "autophagy"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1424",
+    "geneIntervention": "gene modification to reduce gene expression",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "immune function",
+    "vitalProcessId": "13",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6 x 129",
+    "age": "0 days",
+    "genotype": null,
+    "sex": "all",
+    "doi": "10.1016/j.celrep.2013.07.030",
+    "pmid": "",
+    "comment": "Mice with reduced levels of mTOR (25% of control) had a longer lifespan compared with control. Molecular markers of aging were lower in these mice. Organ and tissue aging were slower in mice with reduced mTOR.",
+    "interventionImproves": [
+     {
+      "id": "13",
+      "name": "immune function"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "325",
+    "geneIntervention": "treatment with a gene product inhibitor",
+    "result": "improvement",
+    "resultCode": 1,
+    "vitalProcess": "immune function",
+    "vitalProcessId": "13",
+    "modelOrganism": "human",
+    "organismLine": null,
+    "age": "65 years",
+    "genotype": null,
+    "sex": "all",
+    "doi": "10.1126/scitranslmed.3009892",
+    "pmid": "",
+    "comment": "The effect of mTOR inhibition by RAD001 on immunosenescence (the decline in immune function during aging) was studied.\r\nThe investigation included 218 elderly volunteers (≥65 years old, without unstable medical conditions) who took placebo or RAD001 orally for 6 weeks according to one of three protocols: 0.5 mg per day, 5 mg per week or 20 mg per week. After a 2-week interval without medication, the patients received a vaccine against the 2012 seasonal flu.\r\nRAD001 increased the response to the flu vaccine by about 20%, and also reduced the percentage of CD4 and CD8 T-lymphocytes expressing the PD-1 receptor.",
+    "interventionImproves": [
+     {
+      "id": "13",
+      "name": "immune function"
+     }
+    ],
+    "interventionDeteriorates": []
+   },
+   {
+    "id": "1427",
+    "geneIntervention": "treatment with a gene product inhibitor",
+    "result": "deterioration",
+    "resultCode": 2,
+    "vitalProcess": "carcinogenesis",
+    "vitalProcessId": "42",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6NIA",
+    "age": "20 months",
+    "genotype": null,
+    "sex": "female",
+    "doi": "10.7554/eLife.16351",
+    "pmid": "",
+    "comment": "Female mice, treated daily with 8 mg/kg rapamycin for 90 days, didn't show the difference in lifespan expectancy. Treatment caused an increased rate of hematopoietic tumors and their infiltration to organs.",
+    "interventionImproves": [],
+    "interventionDeteriorates": [
+     {
+      "id": "42",
+      "name": "carcinogenesis"
+     }
+    ]
+   },
+   {
+    "id": "1425",
+    "geneIntervention": "treatment with a gene product inhibitor",
+    "result": "deterioration",
+    "resultCode": 2,
+    "vitalProcess": "skin",
+    "vitalProcessId": "34",
+    "modelOrganism": "mouse",
+    "organismLine": "C57BL/6J",
+    "age": "20 months",
+    "genotype": null,
+    "sex": "female",
+    "doi": "10.1093/gerona/glw064",
+    "pmid": "",
+    "comment": "Rapamycin-administred mice exhibited a longer lifespan, however, several developed severe dermatitis and were euthanized. Treatment didn't affect glucose and insulin tolerance. ​Treated mice had less weight and body fat, which might be realized with an elevated respiratory exchange ratio.",
+    "interventionImproves": [],
+    "interventionDeteriorates": [
+     {
+      "id": "34",
+      "name": "skin"
+     }
+    ]
+   }
+  ],
+  "proteinRegulatesOtherGenes": [
+   {
+    "proteinActivity": "upregulates, mechanism not established",
+    "regulationType": "protein activity",
+    "doi": "10.1074/jbc.M611782200",
+    "pmid": "",
+    "comment": "Activation of mTOR by Ras homologue enriched in brain (Rheb) overexpression potently enhances the activity of HIF1alpha and vascular endothelial growth factor VEGF-A secretion during hypoxia, the effect is reversed with rapamycin. ",
+    "regulatedGene": {
+     "id": 65,
+     "symbol": "HIF1A",
+     "name": "hypoxia inducible factor 1, alpha subunit (basic helix-loop-helix transcription factor)",
+     "ncbiId": 3091
+    }
+   },
+   {
+    "proteinActivity": "upregulates, mechanism not established",
+    "regulationType": "secretion",
+    "doi": "10.1074/jbc.M611782200",
+    "pmid": "",
+    "comment": "Activation of mTOR by Ras homologue enriched in brain (Rheb) overexpression potently enhances the activity of HIF1alpha and vascular endothelial growth factor VEGF-A secretion during hypoxia, the effect is reversed with rapamycin. ",
+    "regulatedGene": {
+     "id": 77,
+     "symbol": "VEGFA",
+     "name": "vascular endothelial growth factor A",
+     "ncbiId": 7422
+    }
+   }
+  ],
+  "additionalEvidences": []
+ },
+ "commentEvolution": "mTOR is a gene encoding a serine-threonine specificity protein kinase (also called the \"mammalian target of rapamycin\"). The gene, as well as the entire TOR signaling pathway, is highly conserved. Targets of rapamycin (mTOR orthologs) and the TOR signaling pathway are present in all animals, as well as in yeast (in yeast, 2 genes encode the TOR signaling pathway) [10.1038/onc.2012.567]. Presumably, the gene originated during the early evolution of eukaryotes [10.1126/scisignal. 2000803].",
+ "proteinDescriptionUniProt": "THIRD-PARTY TEXT, removed from the fixture",
+ "descriptionNCBI": "THIRD-PARTY TEXT, removed from the fixture",
+ "proteinDescriptionOpenGenes": "",
+ "humanProteinAtlas": "THIRD-PARTY TEXT, removed from the fixture",
+ "source": [
+  "GeneAge"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q8N122",
+  "uniProtkbId": "RPTOR_HUMAN",
+  "entryAudit": {
+    "entryVersion": 9,
+    "firstPublicDate": "2004-04-26",
+    "lastAnnotationUpdateDate": "2026-09-02"
+  },
+  "organism": {
+    "taxonId": 9606
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "RPTOR"
+      }
+    }
+  ],
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Invented protein label"
+      }
+    }
+  },
+  "comments": [
+    {
+      "commentType": "FUNCTION",
+      "texts": [
+        {
+          "value": "Invented function for a parsing exercise.",
+          "evidences": [
+            {
+              "source": "PubMed",
+              "id": "99000001"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "SUBUNIT",
+      "texts": [
+        {
+          "value": "Invented mTORC1 component relation, a test token only.",
+          "evidences": [
+            {
+              "source": "PubMed",
+              "id": "99000002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "UNSELECTED COMMENT",
+      "texts": [
+        {
+          "value": "Invented comment outside the permitted kinds.",
+          "evidences": [
+            {
+              "source": "PubMed",
+              "id": "99000003"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "name": "synthetic fixture"
+    }
+  ]
+}

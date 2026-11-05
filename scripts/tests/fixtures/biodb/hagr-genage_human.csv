@@ -1,0 +1,4 @@
+GenAge ID,symbol,name,entrez gene id,uniprot,why
+6,TP53,tumor protein p53,7157,P53_HUMAN,"mammal,model,cell"
+221,MTOR,mechanistic target of rapamycin (serine/threonine kinase),2475,MTOR_HUMAN,"mammal,model,cell"
+303,RICTOR,"RPTOR independent companion of MTOR, complex 2",253260,RICTR_HUMAN,"functional,putative"

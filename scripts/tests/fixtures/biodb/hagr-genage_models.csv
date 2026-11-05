@@ -1,0 +1,5 @@
+GenAge ID,symbol,name,organism,entrez gene id,avg lifespan change (max obsv),lifespan effect,longevity influence
+32,let-363,LEThal,Caenorhabditis elegans,172167,150,Increase,Anti-Longevity
+678,Tor,Target of rapamycin,Drosophila melanogaster,47396,,Increase,Anti-Longevity
+1809,Mtor,mechanistic target of rapamycin (serine/threonine kinase),Mus musculus,56717,20,Increase,Anti-Longevity
+1852,Rictor,"RPTOR independent companion of MTOR, complex 2",Mus musculus,78757,40,Decrease,Pro-Longevity

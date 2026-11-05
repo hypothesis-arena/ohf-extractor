@@ -1,0 +1,1 @@
+{"activities": [{"molecule_chembl_id": "CHEMBL436696"}], "page_meta": {"limit": 1, "next": "/chembl/api/data/activity.json?limit=1&offset=1&molecule_chembl_id=CHEMBL436696&only=molecule_chembl_id", "offset": 0, "previous": null, "total_count": 11}}

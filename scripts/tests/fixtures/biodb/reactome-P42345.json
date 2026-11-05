@@ -1,0 +1,292 @@
+[
+ {
+  "dbId": 1257604,
+  "displayName": "PIP3 activates AKT signaling",
+  "stId": "R-HSA-1257604",
+  "stIdVersion": "R-HSA-1257604.14",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 5,
+  "name": [
+   "PIP3 activates AKT signaling",
+   "PI3K/AKT Signaling"
+  ],
+  "releaseDate": "2011-06-14",
+  "releaseStatus": "UPDATED",
+  "speciesName": "Homo sapiens",
+  "doi": "10.3180/R-HSA-1257604.14",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-06-07",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 1632852,
+  "displayName": "Macroautophagy",
+  "stId": "R-HSA-1632852",
+  "stIdVersion": "R-HSA-1632852.12",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 5,
+  "name": [
+   "Macroautophagy"
+  ],
+  "releaseDate": "2015-06-17",
+  "speciesName": "Homo sapiens",
+  "doi": "10.3180/R-HSA-1632852.11",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-12-07",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 165159,
+  "displayName": "MTOR signalling",
+  "stId": "R-HSA-165159",
+  "stIdVersion": "R-HSA-165159.10",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "MTOR signalling"
+  ],
+  "releaseDate": "2005-04-11",
+  "speciesName": "Homo sapiens",
+  "doi": "10.3180/R-HSA-165159.9",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 166208,
+  "displayName": "mTORC1-mediated signalling",
+  "stId": "R-HSA-166208",
+  "stIdVersion": "R-HSA-166208.5",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "mTORC1-mediated signalling"
+  ],
+  "releaseDate": "2005-04-11",
+  "speciesName": "Homo sapiens",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2023-03-29",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 3371571,
+  "displayName": "HSF1-dependent transactivation",
+  "stId": "R-HSA-3371571",
+  "stIdVersion": "R-HSA-3371571.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 3,
+  "name": [
+   "HSF1-dependent transactivation"
+  ],
+  "releaseDate": "2014-03-12",
+  "speciesName": "Homo sapiens",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2014-10-08",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 380972,
+  "displayName": "Energy dependent regulation of mTOR by LKB1-AMPK",
+  "stId": "R-HSA-380972",
+  "stIdVersion": "R-HSA-380972.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Energy dependent regulation of mTOR by LKB1-AMPK"
+  ],
+  "releaseDate": "2010-03-16",
+  "speciesName": "Homo sapiens",
+  "doi": "10.3180/REACT_21387.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2016-03-24",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 389357,
+  "displayName": "CD28 dependent PI3K/Akt signaling",
+  "stId": "R-HSA-389357",
+  "stIdVersion": "R-HSA-389357.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "CD28 dependent PI3K/Akt signaling"
+  ],
+  "releaseDate": "2009-09-30",
+  "speciesName": "Homo sapiens",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-04-07",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 5218920,
+  "displayName": "VEGFR2 mediated vascular permeability",
+  "stId": "R-HSA-5218920",
+  "stIdVersion": "R-HSA-5218920.4",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "VEGFR2 mediated vascular permeability"
+  ],
+  "releaseDate": "2014-06-10",
+  "speciesName": "Homo sapiens",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-04-07",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 5628897,
+  "displayName": "TP53 Regulates Metabolic Genes",
+  "stId": "R-HSA-5628897",
+  "stIdVersion": "R-HSA-5628897.6",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "TP53 Regulates Metabolic Genes"
+  ],
+  "releaseDate": "2015-03-19",
+  "speciesName": "Homo sapiens",
+  "doi": "10.3180/react_355328.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-12-07",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 5674400,
+  "displayName": "Constitutive Signaling by AKT1 E17K in Cancer",
+  "stId": "R-HSA-5674400",
+  "stIdVersion": "R-HSA-5674400.3",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Constitutive Signaling by AKT1 E17K in Cancer"
+  ],
+  "releaseDate": "2012-09-18",
+  "speciesName": "Homo sapiens",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2022-04-07",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 6804757,
+  "displayName": "Regulation of TP53 Degradation",
+  "stId": "R-HSA-6804757",
+  "stIdVersion": "R-HSA-6804757.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Regulation of TP53 Degradation"
+  ],
+  "releaseDate": "2016-03-23",
+  "speciesName": "Homo sapiens",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "lastUpdatedDate": "2019-06-12",
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 8943724,
+  "displayName": "Regulation of PTEN gene transcription",
+  "stId": "R-HSA-8943724",
+  "stIdVersion": "R-HSA-8943724.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Regulation of PTEN gene transcription"
+  ],
+  "releaseDate": "2017-06-12",
+  "speciesName": "Homo sapiens",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 9639288,
+  "displayName": "Amino acids regulate mTORC1",
+  "stId": "R-HSA-9639288",
+  "stIdVersion": "R-HSA-9639288.3",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Amino acids regulate mTORC1"
+  ],
+  "releaseDate": "2019-09-10",
+  "speciesName": "Homo sapiens",
+  "doi": "10.3180/R-HSA-9639288.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 9856530,
+  "displayName": "High laminar flow shear stress activates signaling by PIEZO1 and PECAM1:CDH5:KDR in endothelial cells",
+  "stId": "R-HSA-9856530",
+  "stIdVersion": "R-HSA-9856530.2",
+  "isInDisease": false,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "High laminar flow shear stress activates signaling by PIEZO1 and PECAM1:CDH5:KDR in endothelial cells"
+  ],
+  "releaseDate": "2024-09-11",
+  "speciesName": "Homo sapiens",
+  "doi": "10.3180/R-HSA-9856530.1",
+  "hasDiagram": true,
+  "hasEHLD": false,
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ },
+ {
+  "dbId": 9920951,
+  "displayName": "Dengue virus modulates apoptosis",
+  "stId": "R-HSA-9920951",
+  "stIdVersion": "R-HSA-9920951.1",
+  "isInDisease": true,
+  "isInferred": false,
+  "maxDepth": 2,
+  "name": [
+   "Dengue virus modulates apoptosis"
+  ],
+  "releaseDate": "2025-12-08",
+  "speciesName": "Homo sapiens",
+  "hasDiagram": false,
+  "hasEHLD": false,
+  "schemaClass": "Pathway",
+  "className": "Pathway"
+ }
+]

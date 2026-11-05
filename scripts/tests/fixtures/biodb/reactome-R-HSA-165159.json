@@ -1,0 +1,797 @@
+{
+ "dbId": 165159,
+ "displayName": "MTOR signalling",
+ "stId": "R-HSA-165159",
+ "stIdVersion": "R-HSA-165159.10",
+ "isInDisease": false,
+ "isInferred": false,
+ "maxDepth": 3,
+ "name": [
+  "MTOR signalling"
+ ],
+ "releaseDate": "2005-04-11",
+ "speciesName": "Homo sapiens",
+ "literatureReference": [
+  {
+   "dbId": 5655429,
+   "displayName": "mTOR: from growth signal integration to cancer, diabetes and ageing",
+   "title": "mTOR: from growth signal integration to cancer, diabetes and ageing",
+   "journal": "Nat. Rev. Mol. Cell Biol.",
+   "pages": "21-35",
+   "pubMedIdentifier": 21157483,
+   "volume": 12,
+   "year": 2011,
+   "url": "http://www.ncbi.nlm.nih.gov/pubmed/21157483",
+   "className": "LiteratureReference",
+   "schemaClass": "LiteratureReference"
+  },
+  {
+   "dbId": 9982836,
+   "displayName": "Diverse signaling mechanisms of mTOR complexes: mTORC1 and mTORC2 in forming a formidable relationship",
+   "title": "Diverse signaling mechanisms of mTOR complexes: mTORC1 and mTORC2 in forming a formidable relationship",
+   "journal": "Adv Biol Regul",
+   "pages": "51-62",
+   "pubMedIdentifier": 31010692,
+   "volume": 72,
+   "year": 2019,
+   "url": "http://www.ncbi.nlm.nih.gov/pubmed/31010692",
+   "className": "LiteratureReference",
+   "schemaClass": "LiteratureReference"
+  },
+  {
+   "dbId": 5655434,
+   "displayName": "mTOR signaling in growth control and disease",
+   "title": "mTOR signaling in growth control and disease",
+   "journal": "Cell",
+   "pages": "274-93",
+   "pubMedIdentifier": 22500797,
+   "volume": 149,
+   "year": 2012,
+   "url": "http://www.ncbi.nlm.nih.gov/pubmed/22500797",
+   "className": "LiteratureReference",
+   "schemaClass": "LiteratureReference"
+  },
+  {
+   "dbId": 9982840,
+   "displayName": "The central moTOR of metabolism",
+   "title": "The central moTOR of metabolism",
+   "journal": "Dev Cell",
+   "pages": "691-706",
+   "pubMedIdentifier": 35316619,
+   "volume": 57,
+   "year": 2022,
+   "url": "http://www.ncbi.nlm.nih.gov/pubmed/35316619",
+   "className": "LiteratureReference",
+   "schemaClass": "LiteratureReference"
+  }
+ ],
+ "orthologousEvent": [
+  {
+   "dbId": 10229002,
+   "displayName": "MTOR signalling",
+   "stId": "R-RNO-165159",
+   "stIdVersion": "R-RNO-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Rattus norvegicus",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 10105228,
+   "displayName": "MTOR signalling",
+   "stId": "R-MMU-165159",
+   "stIdVersion": "R-MMU-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Mus musculus",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 10655392,
+   "displayName": "MTOR signalling",
+   "stId": "R-DRE-165159",
+   "stIdVersion": "R-DRE-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Danio rerio",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 10563303,
+   "displayName": "MTOR signalling",
+   "stId": "R-SSC-165159",
+   "stIdVersion": "R-SSC-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Sus scrofa",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 11086854,
+   "displayName": "MTOR signalling",
+   "stId": "R-SPO-165159",
+   "stIdVersion": "R-SPO-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Schizosaccharomyces pombe",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 11057484,
+   "displayName": "MTOR signalling",
+   "stId": "R-DDI-165159",
+   "stIdVersion": "R-DDI-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Dictyostelium discoideum",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 10833522,
+   "displayName": "MTOR signalling",
+   "stId": "R-GGA-165159",
+   "stIdVersion": "R-GGA-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Gallus gallus",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 10919031,
+   "displayName": "MTOR signalling",
+   "stId": "R-DME-165159",
+   "stIdVersion": "R-DME-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Drosophila melanogaster",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 11115246,
+   "displayName": "MTOR signalling",
+   "stId": "R-SCE-165159",
+   "stIdVersion": "R-SCE-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Saccharomyces cerevisiae",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 11001957,
+   "displayName": "MTOR signalling",
+   "stId": "R-CEL-165159",
+   "stIdVersion": "R-CEL-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Caenorhabditis elegans",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 10736452,
+   "displayName": "MTOR signalling",
+   "stId": "R-XTR-165159",
+   "stIdVersion": "R-XTR-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Xenopus tropicalis",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 10450305,
+   "displayName": "MTOR signalling",
+   "stId": "R-BTA-165159",
+   "stIdVersion": "R-BTA-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Bos taurus",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 10335785,
+   "displayName": "MTOR signalling",
+   "stId": "R-CFA-165159",
+   "stIdVersion": "R-CFA-165159.1",
+   "isInDisease": false,
+   "isInferred": true,
+   "maxDepth": 3,
+   "name": [
+    "MTOR signalling"
+   ],
+   "releaseDate": "2026-06-17",
+   "speciesName": "Canis familiaris",
+   "inferredFrom": [
+    165159
+   ],
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  }
+ ],
+ "species": [
+  {
+   "dbId": 48887,
+   "displayName": "Homo sapiens",
+   "name": [
+    "Homo sapiens",
+    "H. sapiens",
+    "Hs",
+    "human",
+    "man"
+   ],
+   "taxId": "9606",
+   "abbreviation": "HSA",
+   "className": "Species",
+   "schemaClass": "Species"
+  }
+ ],
+ "summation": [
+  {
+   "dbId": 5655425,
+   "displayName": "Mammalian target of rapamycin (mTOR) is a highly conserved s...",
+   "text": "Mammalian target of rapamycin (mTOR) is a highly conserved serine/threonine kinase that regulates cell growth and division in response to energy levels, growth signals, and nutrients (Zoncu et al. 2011). Control of mTOR activity is critical for the cell since its dysregulation leads to cancer, metabolic disease, and diabetes (Laplante & Sabatini 2012). In cells, mTOR exists as two structurally distinct complexes termed mTOR complex 1 (mTORC1) and mTOR complex 2 (mTORC2), each one with specificity for different sets of effectors (reviewed in Jhanwar-Uniyal et al. 2019). mTORC1 couples energy and nutrient abundance to cell growth and proliferation by balancing anabolic (protein synthesis and nutrient storage) and catabolic (autophagy and utilization of energy stores) processes. mTORC2 is responsive to growth factor signaling (reviewed in Jhanwar-Uniyal et al. 2019). mTORC1 and mTORC2 cross-talk through AKT and S6K (reviewed in Jhanwar-Uniyal et al. 2019). Rapamycin, the inhibitor of mTOR, inhibits only mTORC1, as the RICTOR subunit of mTORC2 masks the rapamycin-interacting domain of MTOR in mTORC2 (reviewed in Simcox and Lamming 2023).",
+   "className": "Summation",
+   "schemaClass": "Summation"
+  }
+ ],
+ "reviewStatus": {
+  "dbId": 9821385,
+  "displayName": "four stars",
+  "definition": "structure upated after externally reviewed and then internally reviewed",
+  "name": [
+   "four stars"
+  ],
+  "className": "ReviewStatus",
+  "schemaClass": "ReviewStatus"
+ },
+ "previousReviewStatus": {
+  "dbId": 9821384,
+  "displayName": "two stars",
+  "definition": "structure updated after externally and internally reviewed",
+  "name": [
+   "two stars"
+  ],
+  "className": "ReviewStatus",
+  "schemaClass": "ReviewStatus"
+ },
+ "doi": "10.3180/R-HSA-165159.9",
+ "hasDiagram": true,
+ "hasEHLD": false,
+ "lastUpdatedDate": "2023-03-29",
+ "hasEvent": [
+  {
+   "dbId": 165181,
+   "displayName": "Inhibition of TSC complex formation by AKT (PKB)",
+   "stId": "R-HSA-165181",
+   "stIdVersion": "R-HSA-165181.5",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 2,
+   "name": [
+    "Inhibition of TSC complex formation by AKT (PKB)"
+   ],
+   "releaseDate": "2006-04-24",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "hasDiagram": false,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2015-07-02",
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 165195,
+   "displayName": "GTP loading by Rheb",
+   "stId": "R-HSA-165195",
+   "stIdVersion": "R-HSA-165195.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "GTP loading by Rheb"
+   ],
+   "releaseDate": "2006-04-24",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "category": "transition",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 5653957,
+   "displayName": "Rag dimer formation",
+   "stId": "R-HSA-5653957",
+   "stIdVersion": "R-HSA-5653957.2",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "Rag dimer formation"
+   ],
+   "releaseDate": "2015-06-17",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 5653936,
+   "displayName": "Formation of Ragulator complex",
+   "stId": "R-HSA-5653936",
+   "stIdVersion": "R-HSA-5653936.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "Formation of Ragulator complex"
+   ],
+   "releaseDate": "2015-06-17",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 5653974,
+   "displayName": "Ragulator binds Rag dimers",
+   "stId": "R-HSA-5653974",
+   "stIdVersion": "R-HSA-5653974.2",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "Ragulator binds Rag dimers"
+   ],
+   "releaseDate": "2015-06-17",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 8952716,
+   "displayName": "SLC38A9 binds Ragulator:Rag dimers",
+   "stId": "R-HSA-8952716",
+   "stIdVersion": "R-HSA-8952716.2",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "SLC38A9 binds Ragulator:Rag dimers"
+   ],
+   "releaseDate": "2017-03-27",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 8952726,
+   "displayName": "SLC38A9 transports L-Arg from lysosomal lumen to cytosol",
+   "stId": "R-HSA-8952726",
+   "stIdVersion": "R-HSA-8952726.2",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "SLC38A9 transports L-Arg from lysosomal lumen to cytosol"
+   ],
+   "releaseDate": "2017-03-27",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "transition",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 5653968,
+   "displayName": "Ragulator:Rag dimers:SLC38A9 bind mTORC1",
+   "stId": "R-HSA-5653968",
+   "stIdVersion": "R-HSA-5653968.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "Ragulator:Rag dimers:SLC38A9 bind mTORC1"
+   ],
+   "releaseDate": "2015-06-17",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 165680,
+   "displayName": "Formation of active mTORC1 complex",
+   "stId": "R-HSA-165680",
+   "stIdVersion": "R-HSA-165680.4",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "Formation of active mTORC1 complex"
+   ],
+   "releaseDate": "2005-06-13",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 9982545,
+   "displayName": "miR-142-3p RISC binds AKT1S1 mRNA",
+   "stId": "R-HSA-9982545",
+   "stIdVersion": "R-HSA-9982545.1",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "miR-142-3p RISC binds AKT1S1 mRNA"
+   ],
+   "releaseDate": "2026-03-25",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 9982562,
+   "displayName": "AKT1S1 mRNA translation is inhibited by miR-142-3p",
+   "stId": "R-HSA-9982562",
+   "stIdVersion": "R-HSA-9982562.1",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "AKT1S1 mRNA translation is inhibited by miR-142-3p"
+   ],
+   "releaseDate": "2026-03-25",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "omitted",
+   "className": "Reaction",
+   "schemaClass": "BlackBoxEvent"
+  },
+  {
+   "dbId": 9982605,
+   "displayName": "miR-142-3p expression is inhibited by mTORC1",
+   "stId": "R-HSA-9982605",
+   "stIdVersion": "R-HSA-9982605.1",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "miR-142-3p expression is inhibited by mTORC1"
+   ],
+   "releaseDate": "2026-03-25",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "uncertain",
+   "className": "Reaction",
+   "schemaClass": "BlackBoxEvent"
+  },
+  {
+   "dbId": 5672843,
+   "displayName": "AKT1S1 (PRAS40) binds mTORC1",
+   "stId": "R-HSA-5672843",
+   "stIdVersion": "R-HSA-5672843.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "AKT1S1 (PRAS40) binds mTORC1"
+   ],
+   "releaseDate": "2015-06-17",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 377186,
+   "displayName": "Activated AKT phosphorylates AKT1S1 (PRAS40)",
+   "stId": "R-HSA-377186",
+   "stIdVersion": "R-HSA-377186.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "Activated AKT phosphorylates AKT1S1 (PRAS40)"
+   ],
+   "releaseDate": "2015-06-17",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "category": "transition",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 5672824,
+   "displayName": "Phosphorylated AKT1S1 binds YWHAB",
+   "stId": "R-HSA-5672824",
+   "stIdVersion": "R-HSA-5672824.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "Phosphorylated AKT1S1 binds YWHAB"
+   ],
+   "releaseDate": "2015-06-17",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "binding",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 5672828,
+   "displayName": "mTORC1 phosphorylates AKT1S1",
+   "stId": "R-HSA-5672828",
+   "stIdVersion": "R-HSA-5672828.3",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "mTORC1 phosphorylates AKT1S1"
+   ],
+   "releaseDate": "2015-06-17",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "transition",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 9975250,
+   "displayName": "PGK1 phosphorylates AKT1S1",
+   "stId": "R-HSA-9975250",
+   "stIdVersion": "R-HSA-9975250.1",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 1,
+   "name": [
+    "PGK1 phosphorylates AKT1S1"
+   ],
+   "releaseDate": "2026-03-25",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "isChimeric": false,
+   "category": "transition",
+   "className": "Reaction",
+   "schemaClass": "Reaction"
+  },
+  {
+   "dbId": 166208,
+   "displayName": "mTORC1-mediated signalling",
+   "stId": "R-HSA-166208",
+   "stIdVersion": "R-HSA-166208.5",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 2,
+   "name": [
+    "mTORC1-mediated signalling"
+   ],
+   "releaseDate": "2005-04-11",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "hasDiagram": false,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2023-03-29",
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  },
+  {
+   "dbId": 380972,
+   "displayName": "Energy dependent regulation of mTOR by LKB1-AMPK",
+   "stId": "R-HSA-380972",
+   "stIdVersion": "R-HSA-380972.4",
+   "isInDisease": false,
+   "isInferred": false,
+   "maxDepth": 2,
+   "name": [
+    "Energy dependent regulation of mTOR by LKB1-AMPK"
+   ],
+   "releaseDate": "2010-03-16",
+   "speciesName": "Homo sapiens",
+   "eventOf": [
+    165159
+   ],
+   "doi": "10.3180/REACT_21387.1",
+   "hasDiagram": true,
+   "hasEHLD": false,
+   "lastUpdatedDate": "2016-03-24",
+   "schemaClass": "Pathway",
+   "className": "Pathway"
+  }
+ ],
+ "schemaClass": "Pathway",
+ "className": "Pathway"
+}

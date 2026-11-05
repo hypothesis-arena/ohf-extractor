@@ -1,0 +1,56 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "hitCount": 1,
+  "resultList": {
+    "result": [
+      {
+        "source": "MED",
+        "id": "34937938",
+        "pmid": "34937938",
+        "title": "Invented citation token 34937938",
+        "pubYear": "2022",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "doi": "10.1038/s41586-021-04224-5",
+        "journalInfo": {},
+        "firstPublicationDate": "2022-02-01",
+        "license": "cc by",
+        "pmcid": "PMC8755536",
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "35102282",
+              "type": "Comment in",
+              "reference": "Invented reply token"
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neoplasms"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Mammals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Size"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "synthetic term"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1008 @@
+{
+ "header": {
+  "type": "esummary",
+  "version": "0.3"
+ },
+ "result": {
+  "uids": [
+   "68058570",
+   "68022061",
+   "68022021",
+   "68020123",
+   "68020104",
+   "68019893",
+   "67571017",
+   "67551355",
+   "67546845",
+   "67546843",
+   "67546842",
+   "67525637",
+   "67523461",
+   "67518022",
+   "67512171",
+   "67500749",
+   "67492571",
+   "67488301",
+   "67463659",
+   "67416303"
+  ],
+  "68058570": {
+   "uid": "68058570",
+   "ds_yearintroduced": "2011",
+   "ds_scopenote": "A serine threonine kinase that controls a wide range of growth-related cellular processes. The protein is referred to as the target of RAPAMYCIN due to the discovery that SIROLIMUS (commonly known as rapamycin) forms an inhibitory complex with TACROLIMUS BINDING PROTEIN 1A that blocks the action of its enzymatic activity.",
+   "ds_registrynumber": "EC 2.7.11.1",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "TOR Serine-Threonine Kinases",
+    "Kinases, TOR Serine-Threonine",
+    "Serine-Threonine Kinases, TOR",
+    "TOR Serine Threonine Kinases",
+    "Mammalian Target of Rapamycin",
+    "TOR Kinase",
+    "Kinase, TOR",
+    "TOR Serine-Threonine Kinase",
+    "Kinase, TOR Serine-Threonine",
+    "Serine-Threonine Kinase, TOR",
+    "TOR Serine Threonine Kinase",
+    "Target of Rapamycin Protein",
+    "Protein Target, Rapamycin",
+    "Rapamycin Protein Target",
+    "mTOR Serine-Threonine Kinase",
+    "Kinase, mTOR Serine-Threonine",
+    "mTOR Serine Threonine Kinase",
+    "Serine-Threonine Kinase, mTOR",
+    "TOR Kinases",
+    "Target of Rapamycin Proteins",
+    "mTOR Serine-Threonine Kinases",
+    "Kinases, mTOR Serine-Threonine",
+    "mTOR Serine Threonine Kinases",
+    "Serine-Threonine Kinases, mTOR",
+    "Mechanistic Target of Rapamycin Protein",
+    "FK506 Binding Protein 12-Rapamycin Associated Protein 1",
+    "FK506 Binding Protein 12 Rapamycin Associated Protein 1",
+    "FKBP12-Rapamycin Associated Protein",
+    "FKBP12 Rapamycin Associated Protein",
+    "FKBP12-Rapamycin Complex-Associated Protein",
+    "FKBP12 Rapamycin Complex Associated Protein",
+    "RAFT-1 Protein",
+    "Protein, RAFT-1",
+    "RAFT 1 Protein",
+    "Rapamycin Target Protein",
+    "mTOR Protein",
+    "Protein, mTOR"
+   ],
+   "ds_subheading": [
+    "administration and dosage",
+    "adverse effects",
+    "analysis",
+    "antagonists and inhibitors",
+    "biosynthesis",
+    "blood",
+    "cerebrospinal fluid",
+    "chemical synthesis",
+    "chemistry",
+    "classification",
+    "deficiency",
+    "drug effects",
+    "economics",
+    "genetics",
+    "history",
+    "immunology",
+    "isolation and purification",
+    "metabolism",
+    "pharmacokinetics",
+    "pharmacology",
+    "physiology",
+    "poisoning",
+    "radiation effects",
+    "standards",
+    "supply and distribution",
+    "therapeutic use",
+    "toxicity",
+    "ultrastructure",
+    "urine"
+   ],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 68017346,
+     "treenum": "D08.811.913.696.620.682.700.931",
+     "children": [
+      "2023525",
+      "2023527"
+     ]
+    },
+    {
+     "parent": 68017346,
+     "treenum": "D12.776.476.563.931",
+     "children": [
+      "2023525",
+      "2023527"
+     ]
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [],
+   "ds_recordtype": "descriptor",
+   "ds_meshui": "D058570"
+  },
+  "68022061": {
+   "uid": "68022061",
+   "ds_yearintroduced": "2001",
+   "ds_scopenote": "A 12-KDa tacrolimus binding protein that is found associated with and may modulate the function of calcium release channels. It is a peptidyl-prolyl cis/trans isomerase which is inhibited by both tacrolimus (commonly called FK506) and SIROLIMUS.",
+   "ds_registrynumber": "EC 5.2.1.-",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "Tacrolimus Binding Protein 1A",
+    "FKBP-12",
+    "FKBP 12",
+    "FKBP12",
+    "Macrophilin-12",
+    "Macrophilin 12",
+    "FK506-Binding Protein 1A",
+    "FK506 Binding Protein 1A",
+    "FK506-Binding Protein 1",
+    "FK506 Binding Protein 1"
+   ],
+   "ds_subheading": [
+    "administration and dosage",
+    "adverse effects",
+    "analysis",
+    "antagonists and inhibitors",
+    "biosynthesis",
+    "blood",
+    "cerebrospinal fluid",
+    "chemical synthesis",
+    "chemistry",
+    "classification",
+    "deficiency",
+    "drug effects",
+    "economics",
+    "genetics",
+    "history",
+    "immunology",
+    "isolation and purification",
+    "metabolism",
+    "pharmacokinetics",
+    "pharmacology",
+    "physiology",
+    "poisoning",
+    "radiation effects",
+    "standards",
+    "supply and distribution",
+    "therapeutic use",
+    "toxicity",
+    "ultrastructure",
+    "urine"
+   ],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "Carrier Proteins (1991-1998)",
+    "DNA-Binding Proteins (1991-1998)",
+    "Heat-Shock Proteins (1991-1998)",
+    "Immunophilins (1999-2000)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 68022021,
+     "treenum": "D08.811.399.325.500.400.700.500",
+     "children": []
+    },
+    {
+     "parent": 68022021,
+     "treenum": "D12.776.543.750.705.400.700.500",
+     "children": []
+    },
+    {
+     "parent": 68022021,
+     "treenum": "D12.776.827.344.700.500",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [],
+   "ds_recordtype": "descriptor",
+   "ds_meshui": "D022061"
+  },
+  "68022021": {
+   "uid": "68022021",
+   "ds_yearintroduced": "2001 (2000)",
+   "ds_scopenote": "A family of immunophilin proteins that bind to the immunosuppressive drugs TACROLIMUS (also known as FK506) and SIROLIMUS.",
+   "ds_registrynumber": "EC 5.2.1.-",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "Tacrolimus Binding Proteins",
+    "Binding Proteins, Tacrolimus",
+    "Proteins, Tacrolimus Binding",
+    "FK-506-Binding Protein",
+    "FK 506 Binding Protein",
+    "Protein, FK-506-Binding",
+    "FK506 Binding Protein",
+    "FK506-Binding Protein",
+    "Protein, FK506-Binding",
+    "FKBP",
+    "FKBP Rotamase",
+    "Rotamase, FKBP",
+    "FK506 Binding Proteins",
+    "Rapamycin Binding Proteins",
+    "Binding Proteins, Rapamycin",
+    "Rapamycin-Binding Proteins",
+    "Proteins, Rapamycin-Binding"
+   ],
+   "ds_subheading": [
+    "administration and dosage",
+    "adverse effects",
+    "analysis",
+    "antagonists and inhibitors",
+    "biosynthesis",
+    "blood",
+    "cerebrospinal fluid",
+    "chemical synthesis",
+    "chemistry",
+    "classification",
+    "deficiency",
+    "drug effects",
+    "economics",
+    "genetics",
+    "history",
+    "immunology",
+    "isolation and purification",
+    "metabolism",
+    "pharmacokinetics",
+    "pharmacology",
+    "physiology",
+    "poisoning",
+    "radiation effects",
+    "standards",
+    "supply and distribution",
+    "therapeutic use",
+    "toxicity",
+    "ultrastructure",
+    "urine"
+   ],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "Tacrolimus Binding Proteins/chemistry/genetics/pharmacology (2000-2021)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 68020104,
+     "treenum": "D08.811.399.325.500.400.700",
+     "children": [
+      "68022061",
+      "2108952"
+     ]
+    },
+    {
+     "parent": 68020104,
+     "treenum": "D12.776.543.750.705.400.700",
+     "children": [
+      "68022061",
+      "2108952"
+     ]
+    },
+    {
+     "parent": 68020104,
+     "treenum": "D12.776.827.344.700",
+     "children": [
+      "68022061",
+      "2108952"
+     ]
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [],
+   "ds_recordtype": "descriptor",
+   "ds_meshui": "D022021"
+  },
+  "68020123": {
+   "uid": "68020123",
+   "ds_yearintroduced": "1999",
+   "ds_scopenote": "A macrolide compound obtained from Streptomyces hygroscopicus that acts by selectively blocking the transcriptional activation of cytokines thereby inhibiting cytokine production. It is bioactive only when bound to IMMUNOPHILINS. Sirolimus is a potent immunosuppressant and possesses both antifungal and antineoplastic properties.",
+   "ds_registrynumber": "W36ZG6FT64",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "Sirolimus",
+    "Rapamycin",
+    "Rapamune",
+    "AY 22-989",
+    "AY 22989",
+    "AY 22 989",
+    "I-2190A",
+    "I2190A",
+    "I 2190A"
+   ],
+   "ds_subheading": [
+    "administration and dosage",
+    "adverse effects",
+    "agonists",
+    "analogs and derivatives",
+    "analysis",
+    "antagonists and inhibitors",
+    "blood",
+    "cerebrospinal fluid",
+    "chemical synthesis",
+    "chemistry",
+    "classification",
+    "economics",
+    "history",
+    "immunology",
+    "isolation and purification",
+    "metabolism",
+    "pharmacokinetics",
+    "pharmacology",
+    "poisoning",
+    "radiation effects",
+    "standards",
+    "supply and distribution",
+    "therapeutic use",
+    "toxicity",
+    "urine"
+   ],
+   "ds_papx": [
+    "82000900",
+    "82000903",
+    "82000935",
+    "82007166"
+   ],
+   "ds_previousindexing": [
+    "Polyenes (1976-1998)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 68018942,
+     "treenum": "D02.540.505.760",
+     "children": [
+      "2009823"
+     ]
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [],
+   "ds_recordtype": "descriptor",
+   "ds_meshui": "D020123"
+  },
+  "68020104": {
+   "uid": "68020104",
+   "ds_yearintroduced": "2004(1999)",
+   "ds_scopenote": "Members of a family of highly conserved proteins which are all cis-trans peptidyl-prolyl isomerases (PEPTIDYLPROLYL ISOMERASE). They bind the immunosuppressant drugs CYCLOSPORINE; TACROLIMUS and SIROLIMUS. They possess rotamase activity, which is inhibited by the immunosuppressant drugs that bind to them.",
+   "ds_registrynumber": "EC 5.2.1.8",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "Immunophilins",
+    "Immunophilin",
+    "Neurophilins",
+    "Neurophilin"
+   ],
+   "ds_subheading": [
+    "administration and dosage",
+    "adverse effects",
+    "analysis",
+    "antagonists and inhibitors",
+    "biosynthesis",
+    "blood",
+    "cerebrospinal fluid",
+    "chemical synthesis",
+    "chemistry",
+    "classification",
+    "deficiency",
+    "drug effects",
+    "economics",
+    "genetics",
+    "history",
+    "immunology",
+    "isolation and purification",
+    "metabolism",
+    "pharmacokinetics",
+    "pharmacology",
+    "physiology",
+    "poisoning",
+    "radiation effects",
+    "standards",
+    "supply and distribution",
+    "therapeutic use",
+    "toxicity",
+    "ultrastructure",
+    "urine"
+   ],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "Immunosuppressive Agents (1990-1998)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 68019696,
+     "treenum": "D08.811.399.325.500.400",
+     "children": [
+      "68021983",
+      "68022021"
+     ]
+    },
+    {
+     "parent": 68011971,
+     "treenum": "D12.776.543.750.705.400",
+     "children": [
+      "68021983",
+      "68022021"
+     ]
+    },
+    {
+     "parent": 68011955,
+     "treenum": "D12.776.827.344",
+     "children": [
+      "68021983",
+      "68022021"
+     ]
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [],
+   "ds_recordtype": "descriptor",
+   "ds_meshui": "D020104"
+  },
+  "68019893": {
+   "uid": "68019893",
+   "ds_yearintroduced": "2003(1998)",
+   "ds_scopenote": "A family of protein serine/threonine kinases which act as intracellular signalling intermediates. Ribosomal protein S6 kinases are activated through phosphorylation in response to a variety of HORMONES and INTERCELLULAR SIGNALING PEPTIDES AND PROTEINS. Phosphorylation of RIBOSOMAL PROTEIN S6 by enzymes in this class results in increased expression of 5' top MRNAs. Although specific for RIBOSOMAL PROTEIN S6 members of this class of kinases can act on a number of substrates within the cell. The immunosuppressant SIROLIMUS inhibits the activation of ribosomal protein S6 kinases.",
+   "ds_registrynumber": "EC 2.7.11.1",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "Ribosomal Protein S6 Kinases",
+    "Ribosomal Protein S6 Kinase",
+    "S6 Kinase",
+    "S6-H4 Kinase",
+    "S6 H4 Kinase"
+   ],
+   "ds_subheading": [
+    "administration and dosage",
+    "adverse effects",
+    "analysis",
+    "antagonists and inhibitors",
+    "biosynthesis",
+    "blood",
+    "cerebrospinal fluid",
+    "chemical synthesis",
+    "chemistry",
+    "classification",
+    "deficiency",
+    "drug effects",
+    "economics",
+    "genetics",
+    "history",
+    "immunology",
+    "isolation and purification",
+    "metabolism",
+    "pharmacokinetics",
+    "pharmacology",
+    "physiology",
+    "poisoning",
+    "radiation effects",
+    "standards",
+    "supply and distribution",
+    "therapeutic use",
+    "toxicity",
+    "ultrastructure",
+    "urine"
+   ],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "Protein Kinases (1985-1992)",
+    "Protein-Serine-Threonine Kinases (1993-1997)"
+   ],
+   "ds_seerelated": [
+    "68038601",
+    "68038921"
+   ],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 68017346,
+     "treenum": "D08.811.913.696.620.682.700.862",
+     "children": [
+      "68038762",
+      "68038744"
+     ]
+    },
+    {
+     "parent": 68017346,
+     "treenum": "D12.776.476.563.862",
+     "children": [
+      "68038762",
+      "68038744"
+     ]
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [],
+   "ds_recordtype": "descriptor",
+   "ds_meshui": "D019893"
+  },
+  "67571017": {
+   "uid": "67571017",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "",
+   "ds_registrynumber": "",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "Torc1 protein complex, zebrafish",
+    "target-of-rapamycin complex 1 protein, zebrafish"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@206693",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68014157",
+    "68029961"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C571017"
+  },
+  "67551355": {
+   "uid": "67551355",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "involved in acidocalcisome biogenesis and animal infectivity",
+   "ds_registrynumber": "EC 2.7.-",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "target of rapamycin kinase 3, Leishmania major",
+    "TOR3 protein, Leishmania major"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@192684",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68011494",
+    "68015800"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C551355"
+  },
+  "67546845": {
+   "uid": "67546845",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "RefSeq NM_019906",
+   "ds_registrynumber": "EC 2.7.1.1",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "mTOR protein, rat",
+    "FK506 binding protein 12-rapamycin associated protein 1, rat",
+    "FKBP-rapamycin associated protein, rat",
+    "Frap1 protein, rat",
+    "RAFT1 protein, rat",
+    "rapamycin and FKBP12 target 1 protein, rat"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@188822",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68058570"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C546845"
+  },
+  "67546843": {
+   "uid": "67546843",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "RefSeq NM_020009",
+   "ds_registrynumber": "EC 2.7.1.1",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "mTOR protein, mouse",
+    "FK506 binding protein 12-rapamycin associated protein 1, mouse",
+    "FKBP-rapamycin associated protein, mouse",
+    "Frap1 protein, mouse",
+    "mammalian target of rapamycin protein, mouse",
+    "RAFT1 protein, mouse",
+    "rapamycin and FKBP12 target 1 protein, mouse",
+    "mechanistic target of rapamycin protein, mouse"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@188821",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68058570"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C546843"
+  },
+  "67546842": {
+   "uid": "67546842",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "RefSeq NM_004958",
+   "ds_registrynumber": "EC 2.7.1.1",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "MTOR protein, human",
+    "FK506 binding protein 12-rapamycin associated protein 1, human",
+    "FKBP-rapamycin associated protein, human",
+    "FRAP1 protein, human",
+    "RAFT1 protein, human",
+    "rapamycin and FKBP12 target 1 protein, human",
+    "RAPT1 protein, human"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@188820",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68058570"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C546842"
+  },
+  "67525637": {
+   "uid": "67525637",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "an mTORC2 subunit; GenBank AY540053; RefSeq NM_030168",
+   "ds_registrynumber": "",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "rictor protein, mouse",
+    "RPTOR independent companion of MTOR, complex 2, mouse",
+    "rapamycin-insensitive companion to mTOR protein, mouse"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "CARRIER PROTEINS (2008-2017)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@170645",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "2023528"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C525637"
+  },
+  "67523461": {
+   "uid": "67523461",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "has been sequenced",
+   "ds_registrynumber": "EC 2.7.1.-",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "Tor1 protein, S pombe",
+    "target of rapamycin 1 protein, S pombe"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@168600",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68011494",
+    "68029702"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C523461"
+  },
+  "67518022": {
+   "uid": "67518022",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "sirolimus derivative from a biodegradable polylactic acid polymer; possesses enhanced anti-inflammatory and antiproliferative activity with an improved pharmacokinetic profile; structure in first source",
+   "ds_registrynumber": "U36PGF65JH",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "umirolimus",
+    "rapamycin, 42-O-(2-ethoxyethyl)-",
+    "40-O-(2-ethoxyethyl)rapamycin",
+    "42-O-(2-ethoxyethyl) rapamycin",
+    "Biolimus A9",
+    "TRM-986"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [
+    "82000893",
+    "82007166"
+   ],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@163434",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68020123",
+    "81000031"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C518022"
+  },
+  "67512171": {
+   "uid": "67512171",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "",
+   "ds_registrynumber": "EC 2.7.1.137",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "TOR protein, Arabidopsis",
+    "At1g50030 protein, Arabidopsis",
+    "AtTOR kinase, Arabidopsis",
+    "TARGET OF RAPAMYCIN protein, Arabidopsis",
+    "TOR kinase, Arabidopsis"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "PROTEIN-SERINE-THREONINE KINASES (2006-2012)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@157959",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68019869",
+    "68029681"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C512171"
+  },
+  "67500749": {
+   "uid": "67500749",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "yeast eIF4E-associated protein Eap1p attenuates GCN4 translation upon TOR-inactivation",
+   "ds_registrynumber": "EC 2.7.11.1",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "target of rapamycin protein, S cerevisiae",
+    "TOR protein, S cerevisiae"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@147769",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68017346",
+    "68029701"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C500749"
+  },
+  "67492571": {
+   "uid": "67492571",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "RefSeq NM_152756",
+   "ds_registrynumber": "",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "RICTOR protein, human",
+    "rapamycin-insensitive companion of mTOR protein, human"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "CARRIER PROTEINS (2004-2017)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@141081",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "2023528"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C492571"
+  },
+  "67488301": {
+   "uid": "67488301",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "structure in first source",
+   "ds_registrynumber": "",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "pre-rapamycin"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@137417",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68020123",
+    "81000031"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C488301"
+  },
+  "67463659": {
+   "uid": "67463659",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "Gene ID: 57521",
+   "ds_registrynumber": "",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "RPTOR protein, human",
+    "raptor protein, human",
+    "regulatory associated protein of MTOR, complex 1 protein, human",
+    "p150 target of rapamycin (TOR)-scaffold protein, human",
+    "KOG1 protein, human"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "ADAPTOR PROTEINS, SIGNAL TRANSDUCING (2011-2017)",
+    "PROTEINS (2002-2010)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@123210",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "2023526"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C463659"
+  },
+  "67416303": {
+   "uid": "67416303",
+   "ds_yearintroduced": "",
+   "ds_scopenote": "RefSeq NM_080152",
+   "ds_registrynumber": "EC 2.7.1.-",
+   "ds_headingmappedto": "",
+   "ds_meshterms": [
+    "target of rapamycin protein, Drosophila",
+    "dTOR protein, Drosophila",
+    "Tor (target of rapamycin) protein, Drosophila",
+    "CG5092 protein, Drosophila"
+   ],
+   "ds_subheading": [],
+   "ds_papx": [],
+   "ds_previousindexing": [
+    "INSECT PROTEINS (2000-2003)",
+    "PROTEIN KINASES (2000-2012)"
+   ],
+   "ds_seerelated": [],
+   "ds_palist": [],
+   "ds_idxlinks": [
+    {
+     "parent": 1000048,
+     "treenum": "@109433",
+     "children": []
+    }
+   ],
+   "ds_entrydate": "1/01/01 00:00",
+   "ds_revisiondate": "1/01/01 00:00",
+   "ds_headingmappedtolist": [
+    "68029721",
+    "68058570"
+   ],
+   "ds_recordtype": "supplemental-record",
+   "ds_meshui": "C416303"
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "result": {
+    "uids": [
+      "57521"
+    ],
+    "57521": {
+      "uid": "57521",
+      "name": "RPTOR",
+      "description": "Invented gene label RPTOR",
+      "otheraliases": "KOG1, RPTOR",
+      "otherdesignations": "Invented designation",
+      "organism": {
+        "taxid": 9606,
+        "scientificname": "Homo sapiens"
+      },
+      "maplocation": "17q25.3",
+      "chromosome": "17",
+      "summary": "SUMMARY: invented text must be withheld"
+    }
+  }
+}

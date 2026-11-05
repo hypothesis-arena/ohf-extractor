@@ -1,0 +1,22 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "result": {
+    "uids": [
+      "78757"
+    ],
+    "78757": {
+      "uid": "78757",
+      "name": "Rictor",
+      "description": "Invented gene label Rictor",
+      "otheraliases": "KOG1, Rictor",
+      "otherdesignations": "Invented designation",
+      "organism": {
+        "taxid": 10090,
+        "scientificname": "Mus musculus"
+      },
+      "maplocation": "synthetic location",
+      "chromosome": "17",
+      "summary": "SUMMARY: invented text must be withheld"
+    }
+  }
+}

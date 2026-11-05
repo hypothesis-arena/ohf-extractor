@@ -1,0 +1,65 @@
+{
+  "_fixture_origin": "Project-authored synthetic transport input; no live service record or scientific assessment.",
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00000620",
+      "briefTitle": "Invented trial NCT00000620",
+      "nctIdAliases": []
+    },
+    "statusModule": {
+      "overallStatus": "COMPLETED",
+      "studyFirstPostDateStruct": {
+        "date": "1999-10-28"
+      },
+      "resultsFirstPostDateStruct": {
+        "date": "2014-09-15"
+      },
+      "lastUpdatePostDateStruct": {
+        "date": "2016-11-22"
+      },
+      "statusVerifiedDate": "2016-11",
+      "startDateStruct": {
+        "date": "2000-01-01",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2014-01-01",
+        "type": "ACTUAL"
+      }
+    },
+    "designModule": {
+      "phases": [
+        "PHASE3"
+      ],
+      "studyType": "INTERVENTIONAL",
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Invented condition"
+      ]
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Invented toy intervention",
+          "description": "Do not copy this synthetic description into output"
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "First Occurrence of a Major Cardiovascular Event: invented test counter",
+          "timeFrame": "synthetic time window",
+          "description": "Do not copy this synthetic description"
+        }
+      ]
+    }
+  },
+  "hasResults": true
+}
